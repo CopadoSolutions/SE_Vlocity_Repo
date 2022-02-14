@@ -1,0 +1,56 @@
+[
+    {
+        "%vlocity_namespace%__Abbreviation__c": "Dynamic Rate",
+        "%vlocity_namespace%__BooleanValue__c": false,
+        "%vlocity_namespace%__Code__c": "ATT_DYNAMIC",
+        "%vlocity_namespace%__DateTimeValue__c": "",
+        "%vlocity_namespace%__DateValue__c": "",
+        "%vlocity_namespace%__EffectiveFromDate__c": "2019-11-05",
+        "%vlocity_namespace%__EffectiveUntilDate__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "51f765f2-8233-2dfd-d151-74d8e45b3fd5",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__IsDefault__c": false,
+        "%vlocity_namespace%__NumberValue__c": "",
+        "%vlocity_namespace%__PicklistId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "f6f78c70-bbb6-1af8-cc9e-9b2790c46b8f",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Picklist__c/f6f78c70-bbb6-1af8-cc9e-9b2790c46b8f",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Picklist__c"
+        },
+        "%vlocity_namespace%__Sequence__c": 1,
+        "%vlocity_namespace%__TextValue__c": "Dynamic Rate",
+        "%vlocity_namespace%__UnitOfMeasureName__c": "",
+        "%vlocity_namespace%__Value__c": "Dynamic Rate",
+        "Name": "Dynamic Rate",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__PicklistValue__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__PicklistValue__c/51f765f2-8233-2dfd-d151-74d8e45b3fd5"
+    },
+    {
+        "%vlocity_namespace%__Abbreviation__c": "Fixed Rate",
+        "%vlocity_namespace%__BooleanValue__c": false,
+        "%vlocity_namespace%__Code__c": "ATT_FIXED",
+        "%vlocity_namespace%__DateTimeValue__c": "",
+        "%vlocity_namespace%__DateValue__c": "",
+        "%vlocity_namespace%__EffectiveFromDate__c": "2019-11-05",
+        "%vlocity_namespace%__EffectiveUntilDate__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "35e269fe-016e-d5d8-cd68-04987f9cb117",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__IsDefault__c": false,
+        "%vlocity_namespace%__NumberValue__c": "",
+        "%vlocity_namespace%__PicklistId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "f6f78c70-bbb6-1af8-cc9e-9b2790c46b8f",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Picklist__c/f6f78c70-bbb6-1af8-cc9e-9b2790c46b8f",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Picklist__c"
+        },
+        "%vlocity_namespace%__Sequence__c": 2,
+        "%vlocity_namespace%__TextValue__c": "Fixed Rate",
+        "%vlocity_namespace%__UnitOfMeasureName__c": "",
+        "%vlocity_namespace%__Value__c": "Fixed Rate",
+        "Name": "Fixed Rate",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__PicklistValue__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__PicklistValue__c/35e269fe-016e-d5d8-cd68-04987f9cb117"
+    }
+]

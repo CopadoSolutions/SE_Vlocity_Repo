@@ -1,0 +1,22 @@
+{
+    "%vlocity_namespace%__Code__c": "ATT-ATTR-BW",
+    "%vlocity_namespace%__DataType__c": "Text",
+    "%vlocity_namespace%__Description__c": "Bandwidth",
+    "%vlocity_namespace%__EffectiveFromDate__c": "2019-11-12",
+    "%vlocity_namespace%__EffectiveUntilDate__c": "",
+    "%vlocity_namespace%__GlobalGroupKey__c": "28859798-0971-ab71-5c8d-bc8d58f0598e",
+    "%vlocity_namespace%__GlobalId__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "738227aa-9a94-708d-d25a-1f641810bff6",
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsPublic__c": false,
+    "%vlocity_namespace%__IsShared__c": false,
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__PicklistValue__c": "Bandwidth_Values.json",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__UnitOfMeasureName__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "V1",
+    "Name": "Bandwidth",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Picklist__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Picklist__c/738227aa-9a94-708d-d25a-1f641810bff6"
+}

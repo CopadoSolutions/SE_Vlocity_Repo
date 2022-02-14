@@ -1,0 +1,18 @@
+{
+    "%vlocity_namespace%__Channel__c": "",
+    "%vlocity_namespace%__ContentType__c": "Image",
+    "%vlocity_namespace%__Description__c": "The default product image.",
+    "%vlocity_namespace%__DisplayConditionsData__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "3d3974e6-af15-04d8-2a7a-c8810ff87aaf",
+    "%vlocity_namespace%__IsDefaultImage__c": true,
+    "%vlocity_namespace%__IsPrivate__c": false,
+    "%vlocity_namespace%__ObjectId__c": "01t8c00000M2q3nAAB",
+    "%vlocity_namespace%__ProductGroupKey__c": "",
+    "%vlocity_namespace%__SequenceNumber__c": 1,
+    "%vlocity_namespace%__UrlLong__c": "https://vlocitydemodx-cdn.herokuapp.com/content/industry/cmt/VDOProductResources/images/TNMedal.png",
+    "%vlocity_namespace%__Url__c": "",
+    "Name": "CloudVoiceMobile Service Product Image",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityAttachment__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityAttachment__c/3d3974e6-af15-04d8-2a7a-c8810ff87aaf"
+}

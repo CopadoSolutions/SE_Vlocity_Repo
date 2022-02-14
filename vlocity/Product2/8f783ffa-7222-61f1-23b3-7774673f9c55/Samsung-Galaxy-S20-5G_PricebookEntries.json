@@ -1,0 +1,35 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": 0,
+        "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Samsung Galaxy S20+ 5G",
+        "One_Time_Cost__c": "",
+        "Pricebook2.Name": "Standard Price Book",
+        "Pricebook2Id": {
+            "Name": "Standard Price Book",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "8f783ffa-7222-61f1-23b3-7774673f9c55",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "8f783ffa-7222-61f1-23b3-7774673f9c55",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/8f783ffa-7222-61f1-23b3-7774673f9c55",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "ProductCode": "VLO-MOB-0202",
+        "Recurring_Cost__c": "",
+        "SOHO_One_Time_Discount__c": "",
+        "UnitPrice": 0,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/8f783ffa-7222-61f1-23b3-7774673f9c55"
+    }
+]

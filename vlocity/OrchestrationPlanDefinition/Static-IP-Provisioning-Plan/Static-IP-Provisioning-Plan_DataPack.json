@@ -1,0 +1,11 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "9923dcc6-45b0-3791-ce89-d28e6c6b8acc",
+    "%vlocity_namespace%__IsSchedulingEnabled__c": false,
+    "%vlocity_namespace%__SchedulingExpirationIntervalSeconds__c": "",
+    "%vlocity_namespace%__Scope__c": "Global",
+    "%vlocity_namespace%__ShowOrder__c": "",
+    "Name": "Static IP Provisioning Plan",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Static IP Provisioning Plan"
+}

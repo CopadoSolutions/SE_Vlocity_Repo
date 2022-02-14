@@ -1,0 +1,23 @@
+[
+    {
+        "%vlocity_namespace%__ChildCatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5cb7824d-0387-d718-17dc-1459500ccb03",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__Catalog__c/5cb7824d-0387-d718-17dc-1459500ccb03",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__ChildCatalogId__r.%vlocity_namespace%__GlobalKey__c": "5cb7824d-0387-d718-17dc-1459500ccb03",
+        "%vlocity_namespace%__ParentCatalogId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "3ac7398f-0dd2-d85d-3701-60e918e7f934",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Catalog__c/3ac7398f-0dd2-d85d-3701-60e918e7f934",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Catalog__c"
+        },
+        "%vlocity_namespace%__ParentCatalogId__r.%vlocity_namespace%__GlobalKey__c": "3ac7398f-0dd2-d85d-3701-60e918e7f934",
+        "%vlocity_namespace%__SequenceNumber__c": 1,
+        "Name": "DE Apple Phones Catalog",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CatalogRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CatalogRelationship__c/Generated-1135041457"
+    }
+]

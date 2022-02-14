@@ -1,0 +1,18 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity Demo Eng",
+    "%vlocity_namespace%__CustomJavascript__c": "demo-nuslice-burst-de.js",
+    "%vlocity_namespace%__Definition__c": "",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__DisplayOn__c": "",
+    "%vlocity_namespace%__ExternalID__c": "demo-nuslice-burst-de/1/Vlocity Demo Eng/1608157767814",
+    "%vlocity_namespace%__HTML__c": "demo-nuslice-burst-de.html",
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__SampleJson__c": "",
+    "%vlocity_namespace%__Sass__c": "demo-nuslice-burst-de.scss",
+    "%vlocity_namespace%__Type__c": "Mobile",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "demo-nuslice-burst-de",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUITemplate__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUITemplate__c/demo-nuslice-burst-de"
+}

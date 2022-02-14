@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://www.demandware.com/xml/impex/metadata/2006-10-31">
+    <type-extension type-id="Product">
+        <custom-attribute-definitions>
+            <attribute-definition attribute-id="pymtType">
+                <display-name xml:lang="x-default">Payment Type</display-name>
+                <type>enum-of-string</type>
+                <select-multiple-flag>true</select-multiple-flag>
+                <value-definitions>
+                    <value-definition>
+                        <display xml:lang="x-default">red</display>
+                        <value>red</value>
+                    </value-definition>
+                    <value-definition default="true">
+                        <display xml:lang="x-default">yellow</display>
+                        <value>yellow</value>
+                    </value-definition>
+                    <value-definition default="true">
+                        <display xml:lang="x-default">orange</display>
+                        <value>orange</value>
+                    </value-definition>
+                </value-definitions>
+            </attribute-definition>
+        </custom-attribute-definitions>
+    </type-extension>
+</metadata>

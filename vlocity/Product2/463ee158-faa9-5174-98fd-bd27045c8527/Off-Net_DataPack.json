@@ -1,0 +1,700 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "Off-Net_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "ATTRIBUTE-124": null,
+        "ATTRIBUTE-148": "PPP",
+        "ATTRIBUTE-149": "Ethernet",
+        "ATTRIBUTE-150": "250 Mbps",
+        "ATTRIBUTE-151": "None",
+        "ATTRIBUTE-152": "Ethernet",
+        "ATTRIBUTE-153": "5 Mbps",
+        "ATTRIBUTE-154": false
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "messages": [
+        ],
+        "records": [
+            {
+                "Code__c": "VLO-PRO-0006",
+                "Name": "Cloud Services",
+                "displaySequence": 14,
+                "id": "a0I8c00001Tc9BYEAZ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0J8c00000rM6dqEAC",
+                            "cloneable": true,
+                            "code": "ATTRIBUTE-153",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Access Speed",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": true,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "id": "1",
+                                    "label": "5 Mbps",
+                                    "readonly": false,
+                                    "value": "5 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "2",
+                                    "label": "10 Mbps",
+                                    "readonly": false,
+                                    "value": "10 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "3",
+                                    "label": "25 Mbps",
+                                    "readonly": false,
+                                    "value": "25 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "4",
+                                    "label": "50 Mbps",
+                                    "readonly": false,
+                                    "value": "50 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "5",
+                                    "label": "100 Mbps",
+                                    "readonly": false,
+                                    "value": "100 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "6",
+                                    "label": "150 Mbps",
+                                    "readonly": false,
+                                    "value": "150 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "7",
+                                    "label": "250 Mbps",
+                                    "readonly": false,
+                                    "value": "250 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "8",
+                                    "label": "1 GigE",
+                                    "readonly": false,
+                                    "value": "1 GigE"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "9",
+                                    "label": "OC12",
+                                    "readonly": false,
+                                    "value": "OC12"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "10",
+                                    "label": "OC48",
+                                    "readonly": false,
+                                    "value": "OC48"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "11",
+                                    "label": "OC192",
+                                    "readonly": false,
+                                    "value": "OC192"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0J8c00000rM6dvEAC",
+                            "cloneable": true,
+                            "code": "ATTRIBUTE-149",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Port Type",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "id": "1",
+                                    "label": "Private Line",
+                                    "readonly": false,
+                                    "value": "Private Line"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "2",
+                                    "label": "Ethernet",
+                                    "readonly": false,
+                                    "value": "Ethernet"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "3",
+                                    "label": "ADSL",
+                                    "readonly": false,
+                                    "value": "ADSL"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "4",
+                                    "label": "Wireless Lan",
+                                    "readonly": false,
+                                    "value": "Wireless Lan"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "5",
+                                    "label": "Dialup",
+                                    "readonly": false,
+                                    "value": "Dialup"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0J8c00000rM6drEAC",
+                            "cloneable": true,
+                            "code": "ATTRIBUTE-152",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Access Type",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": true,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "id": "1",
+                                    "label": "Private Line",
+                                    "readonly": false,
+                                    "value": "Private Line"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "2",
+                                    "label": "Ethernet",
+                                    "readonly": false,
+                                    "value": "Ethernet"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "3",
+                                    "label": "ADSL",
+                                    "readonly": false,
+                                    "value": "ADSL"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "4",
+                                    "label": "Wireless Lan",
+                                    "readonly": false,
+                                    "value": "Wireless Lan"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "5",
+                                    "label": "Dialup",
+                                    "readonly": false,
+                                    "value": "Dialup"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0J8c00000rM6dsEAC",
+                            "cloneable": true,
+                            "code": "ATTRIBUTE-154",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "checkbox",
+                            "isNotTranslatable": false,
+                            "label": "CoS Required",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0J8c00000rM6dtEAC",
+                            "cloneable": true,
+                            "code": "ATTRIBUTE-148",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "radio",
+                            "isNotTranslatable": false,
+                            "label": "Interface Type",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "id": "1",
+                                    "label": "Ethernet",
+                                    "readonly": false,
+                                    "value": "Ethernet"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "2",
+                                    "label": "Gigabit Ethernet",
+                                    "readonly": false,
+                                    "value": "Gigabit Ethernet"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "3",
+                                    "label": "ISDN",
+                                    "readonly": false,
+                                    "value": "ISDN"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "4",
+                                    "label": "Loopback",
+                                    "readonly": false,
+                                    "value": "Loopback"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "5",
+                                    "label": "PPP",
+                                    "readonly": false,
+                                    "value": "PPP"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "6",
+                                    "label": "TokenRing",
+                                    "readonly": false,
+                                    "value": "TokenRing"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "7",
+                                    "label": "Tunnel",
+                                    "readonly": false,
+                                    "value": "Tunnel"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0J8c00000rM6duEAC",
+                            "cloneable": true,
+                            "code": "ATTRIBUTE-150",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Port Speed",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": true,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "id": "1",
+                                    "label": "5 Mbps",
+                                    "readonly": false,
+                                    "value": "5 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "2",
+                                    "label": "10 Mbps",
+                                    "readonly": false,
+                                    "value": "10 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "3",
+                                    "label": "25 Mbps",
+                                    "readonly": false,
+                                    "value": "25 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "4",
+                                    "label": "50 Mbps",
+                                    "readonly": false,
+                                    "value": "50 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "5",
+                                    "label": "100 Mbps",
+                                    "readonly": false,
+                                    "value": "100 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "6",
+                                    "label": "150 Mbps",
+                                    "readonly": false,
+                                    "value": "150 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "7",
+                                    "label": "250 Mbps",
+                                    "readonly": false,
+                                    "value": "250 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "8",
+                                    "label": "1 GigE",
+                                    "readonly": false,
+                                    "value": "1 GigE"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "9",
+                                    "label": "OC12",
+                                    "readonly": false,
+                                    "value": "OC12"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "10",
+                                    "label": "OC48",
+                                    "readonly": false,
+                                    "value": "OC48"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "11",
+                                    "label": "OC192",
+                                    "readonly": false,
+                                    "value": "OC192"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0J8c00000rM6dwEAC",
+                            "cloneable": true,
+                            "code": "ATTRIBUTE-151",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "QoS Required",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "id": "1",
+                                    "label": "None",
+                                    "readonly": false,
+                                    "value": "None"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "2",
+                                    "label": "90% QoS",
+                                    "readonly": false,
+                                    "value": "90% QoS"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "3",
+                                    "label": "95% QoS",
+                                    "readonly": false,
+                                    "value": "95% QoS"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "4",
+                                    "label": "100% QoS",
+                                    "readonly": false,
+                                    "value": "100% QoS"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 7
+                }
+            },
+            {
+                "Code__c": "VLO-PRO-0015",
+                "Name": "Logistics",
+                "displaySequence": 23,
+                "id": "a0I8c00001Tc9BeEAJ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0J8c00000rM6dKEAS",
+                            "cloneable": false,
+                            "code": "ATTRIBUTE-124",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 4,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": true,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Provider",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 1
+                }
+            }
+        ],
+        "totalSize": 2
+    },
+    "%vlocity_namespace%__AttributeRules__c": "{}",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__CategoryData__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__DecompositionRelationship__c": "Off-Net_DecompositionRelationships.json",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "",
+    "%vlocity_namespace%__GlobalGroupKey__c": "d5f479df-fe5f-db5b-84ec-c19619f982f7",
+    "%vlocity_namespace%__GlobalKey__c": "463ee158-faa9-5174-98fd-bd27045c8527",
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsCustomerSubscription__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__Modification__c": "",
+    "%vlocity_namespace%__ObjectTypeId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "149664a52bb0c673347fed377c2f45ea",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/149664a52bb0c673347fed377c2f45ea",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
+    },
+    "%vlocity_namespace%__ObjectTypeName__c": "IP VPN",
+    "%vlocity_namespace%__OrchestrationScenario__c": "Off-Net_OrchestrationScenarios.json",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PriceListEntry__c": "Off-Net_PriceListEntries.json",
+    "%vlocity_namespace%__ProductChildItem__c": "Off-Net_ProductChildItems.json",
+    "%vlocity_namespace%__ProductRelationship__c": "Off-Net_ProductRelationships.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__Scope__c": "",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "",
+    "%vlocity_namespace%__SpecificationSubType__c": "",
+    "%vlocity_namespace%__SpecificationType__c": "Product",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": true,
+    "%vlocity_namespace%__Type__c": "Bundle",
+    "%vlocity_namespace%__VendorAccountId__c": "",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "V1",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "Antenna_Type__c": "",
+    "Auto_Attendant__c": "",
+    "Automated_Directory__c": "",
+    "Backup_Power__c": "",
+    "Bandwidth__c": "",
+    "Call_Barring__c": "",
+    "Call_Forwarding__c": "",
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
+    "Conferencing__c": "",
+    "Description": "Off-Net component of IP-VPN.",
+    "Device_Colour__c": "",
+    "Device_IMEI__c": "",
+    "Device_Manufacturer__c": "",
+    "Device_Network_Compatibility__c": "",
+    "Device_Operating_System__c": "",
+    "Device_Storage__c": "",
+    "Direct_Inward_Dialing__c": "",
+    "Discount__c": "",
+    "DisplayUrl": "",
+    "Ethernet_Ports__c": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Face_Size__c": "",
+    "Family": "Connectivity",
+    "Finish__c": "",
+    "Genre__c": "",
+    "ICCID__c": "",
+    "IMSI__c": "",
+    "Interactive_Voice_Response__c": "",
+    "Internet_Data_Usage_Cap__c": "",
+    "Internet_Download_Speed__c": "",
+    "Internet_Upload_Speed__c": "",
+    "IsActive": true,
+    "IsArchived": false,
+    "Line_Type__c": "",
+    "MSISDN__c": "",
+    "Maximum_Speed__c": "",
+    "Music_on_Hold__c": "",
+    "Name": "Off-Net",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "Number__c": "",
+    "PBX_Type__c": "",
+    "Price__c": "",
+    "PricebookEntry": "Off-Net_PricebookEntries.json",
+    "ProductCode": "VLO-CON-0003",
+    "Product_Channel__c": "All",
+    "Product_Owner__c": "",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "SIM_Type__c": "",
+    "Simultaneous_Connections__c": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": 2500,
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "Off-Net",
+            "One_Time_Cost__c": "",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "463ee158-faa9-5174-98fd-bd27045c8527",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "463ee158-faa9-5174-98fd-bd27045c8527",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/463ee158-faa9-5174-98fd-bd27045c8527",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "VLO-CON-0003",
+            "Recurring_Cost__c": "",
+            "SOHO_One_Time_Discount__c": "",
+            "UnitPrice": 2500,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/463ee158-faa9-5174-98fd-bd27045c8527"
+        }
+    ],
+    "StockKeepingUnit": "",
+    "Storage_Space__c": "",
+    "Strap__c": "",
+    "TV_Boxes_Required__c": "",
+    "TV_Connection__c": "",
+    "TV_Content__c": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/463ee158-faa9-5174-98fd-bd27045c8527",
+    "Voicemail__c": "",
+    "Wifi_Band__c": "",
+    "Wifi_Standard__c": ""
+}

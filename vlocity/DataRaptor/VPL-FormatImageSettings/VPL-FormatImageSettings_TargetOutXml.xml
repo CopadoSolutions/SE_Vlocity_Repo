@@ -1,0 +1,16 @@
+<imgheader>
+        <image-settings>
+            <external-location>
+                <http-url>http://images-na.ssl-images-amazon.com/</http-url>
+                <https-url>https://images-na.ssl-images-amazon.com/</https-url>
+            </external-location>
+            <view-types>
+                <view-type>large</view-type>
+                <view-type>medium</view-type>
+                <view-type>small</view-type>
+                <view-type>swatch</view-type>
+            </view-types>
+            <alt-pattern>${productname}</alt-pattern>
+            <title-pattern>${productname}</title-pattern>
+        </image-settings>
+    </imgheader>

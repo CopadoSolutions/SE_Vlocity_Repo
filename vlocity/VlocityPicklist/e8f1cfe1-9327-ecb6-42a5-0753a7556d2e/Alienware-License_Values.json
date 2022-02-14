@@ -1,0 +1,83 @@
+[
+    {
+        "%vlocity_namespace%__Abbreviation__c": "Essentials",
+        "%vlocity_namespace%__BooleanValue__c": false,
+        "%vlocity_namespace%__Code__c": "Essentials",
+        "%vlocity_namespace%__DateTimeValue__c": "",
+        "%vlocity_namespace%__DateValue__c": "",
+        "%vlocity_namespace%__EffectiveFromDate__c": "2019-11-14",
+        "%vlocity_namespace%__EffectiveUntilDate__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "dfe530e2-26e1-f3dd-8f12-f5395f2f4543",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__IsDefault__c": false,
+        "%vlocity_namespace%__NumberValue__c": "",
+        "%vlocity_namespace%__PicklistId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "e8f1cfe1-9327-ecb6-42a5-0753a7556d2e",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Picklist__c/e8f1cfe1-9327-ecb6-42a5-0753a7556d2e",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Picklist__c"
+        },
+        "%vlocity_namespace%__Sequence__c": 1,
+        "%vlocity_namespace%__TextValue__c": "Essentials",
+        "%vlocity_namespace%__UnitOfMeasureName__c": "",
+        "%vlocity_namespace%__Value__c": "Essentials",
+        "Name": "Essentials",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__PicklistValue__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__PicklistValue__c/dfe530e2-26e1-f3dd-8f12-f5395f2f4543"
+    },
+    {
+        "%vlocity_namespace%__Abbreviation__c": "Premium",
+        "%vlocity_namespace%__BooleanValue__c": false,
+        "%vlocity_namespace%__Code__c": "Premium",
+        "%vlocity_namespace%__DateTimeValue__c": "",
+        "%vlocity_namespace%__DateValue__c": "",
+        "%vlocity_namespace%__EffectiveFromDate__c": "2019-11-14",
+        "%vlocity_namespace%__EffectiveUntilDate__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "e2376684-5157-e08e-ce05-3eb570aa8857",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__IsDefault__c": false,
+        "%vlocity_namespace%__NumberValue__c": "",
+        "%vlocity_namespace%__PicklistId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "e8f1cfe1-9327-ecb6-42a5-0753a7556d2e",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Picklist__c/e8f1cfe1-9327-ecb6-42a5-0753a7556d2e",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Picklist__c"
+        },
+        "%vlocity_namespace%__Sequence__c": "",
+        "%vlocity_namespace%__TextValue__c": "Premium",
+        "%vlocity_namespace%__UnitOfMeasureName__c": "",
+        "%vlocity_namespace%__Value__c": "Premium",
+        "Name": "Premium",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__PicklistValue__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__PicklistValue__c/e2376684-5157-e08e-ce05-3eb570aa8857"
+    },
+    {
+        "%vlocity_namespace%__Abbreviation__c": "Standard",
+        "%vlocity_namespace%__BooleanValue__c": false,
+        "%vlocity_namespace%__Code__c": "Standard",
+        "%vlocity_namespace%__DateTimeValue__c": "",
+        "%vlocity_namespace%__DateValue__c": "",
+        "%vlocity_namespace%__EffectiveFromDate__c": "2019-11-14",
+        "%vlocity_namespace%__EffectiveUntilDate__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "ebbb9b98-486f-c289-e4d3-e44dc35b3e29",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__IsDefault__c": false,
+        "%vlocity_namespace%__NumberValue__c": "",
+        "%vlocity_namespace%__PicklistId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "e8f1cfe1-9327-ecb6-42a5-0753a7556d2e",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Picklist__c/e8f1cfe1-9327-ecb6-42a5-0753a7556d2e",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Picklist__c"
+        },
+        "%vlocity_namespace%__Sequence__c": 2,
+        "%vlocity_namespace%__TextValue__c": "Standard",
+        "%vlocity_namespace%__UnitOfMeasureName__c": "",
+        "%vlocity_namespace%__Value__c": "Standard",
+        "Name": "Standard",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__PicklistValue__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__PicklistValue__c/ebbb9b98-486f-c289-e4d3-e44dc35b3e29"
+    }
+]

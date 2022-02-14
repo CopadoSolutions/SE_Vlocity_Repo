@@ -1,0 +1,29 @@
+{
+    "%vlocity_namespace%__DependencyItemDefinitionId__c": {
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__r.Name": "commsB2B RB Rollback Dedicated Internet Provisioning",
+        "Name": "Undo DIA Provisioning Request",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationItemDefinition__c/Undo DIA Provisioning Request/%vlocity_namespace%__OrchestrationPlanDefinition__c/commsB2B RB Rollback Dedicated Internet Provisioning",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationItemDefinition__c"
+    },
+    "%vlocity_namespace%__DependencyPlanDefinitionId__c": {
+        "Name": "commsB2B RB Rollback Dedicated Internet Provisioning",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/commsB2B RB Rollback Dedicated Internet Provisioning",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+    },
+    "%vlocity_namespace%__DependencyType__c": "Depends On",
+    "%vlocity_namespace%__GlobalKey__c": "3897fa31-a4bf-e1ef-6095-540eef67f608",
+    "%vlocity_namespace%__OrchestrationItemDefinitionId__c": {
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__r.Name": "commsB2B RB Rollback Dedicated Internet Provisioning",
+        "Name": "UndoMilestone_DIAProv_Rollback",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationItemDefinition__c/UndoMilestone_DIAProv_Rollback/%vlocity_namespace%__OrchestrationPlanDefinition__c/commsB2B RB Rollback Dedicated Internet Provisioning",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationItemDefinition__c"
+    },
+    "%vlocity_namespace%__Scope__c": "Swimlane",
+    "Name": "UndoMilestone DIA Prov Rollback Depends On",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationDependencyDefinition__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationDependencyDefinition__c/3897fa31-a4bf-e1ef-6095-540eef67f608"
+}

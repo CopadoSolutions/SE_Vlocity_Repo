@@ -1,0 +1,981 @@
+{
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "{\n  \"loadMoreQuery\": \"\",\n  \"filterString\": \"\",\n  \"query\": \"\",\n  \"groupByKey\": \"%vlocity_namespace%__OneTimeCharge__c\",\n  \"groupByValue\": \"100\",\n  \"values\": [\n    {\n      \"childAssets\": {\n        \"records\": [\n          {\n            \"childAssets\": {\n              \"records\": [\n                {\n                  \"Name\": \"test gc 1\",\n                  \"%vlocity_namespace%__ServiceAccountId__r\": {\n                    \"Id\": \"0015g00000EyHwtAAF\",\n                    \"Name\": \"Starbucks Bangalore\",\n                    \"attributes\": {\n                      \"url\": \"/services/data/v52.0/sobjects/Account/0015g00000EyHwtAAF\",\n                      \"type\": \"Account\"\n                    }\n                  },\n                  \"%vlocity_namespace%__SequenceNumber__c\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"DOUBLE\",\n                    \"editable\": false,\n                    \"fieldName\": \"%vlocity_namespace%__SequenceNumber__c\",\n                    \"hidden\": true,\n                    \"label\": \"Sequence Number\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": 1\n                  },\n                  \"%vlocity_namespace%__OneTimeCharge__c\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"CURRENCY\",\n                    \"editable\": false,\n                    \"fieldName\": \"%vlocity_namespace%__OneTimeCharge__c\",\n                    \"hidden\": true,\n                    \"label\": \"One Time Charge\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": 100\n                  },\n                  \"%vlocity_namespace%__ParentItemId__c\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"STRING\",\n                    \"editable\": false,\n                    \"fieldName\": \"%vlocity_namespace%__ParentItemId__c\",\n                    \"hidden\": true,\n                    \"label\": \"ParentItemId\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": \"ff994c1b-01be-7ec4-b89a-5fcf2f82f1d4\"\n                  },\n                  \"%vlocity_namespace%__RootItemId__c\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"STRING\",\n                    \"editable\": false,\n                    \"fieldName\": \"%vlocity_namespace%__RootItemId__c\",\n                    \"hidden\": true,\n                    \"label\": \"RootItemId\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": \"462e1b76-d720-3e68-2c4a-c719ec0da786\"\n                  },\n                  \"%vlocity_namespace%__LineNumber__c\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"STRING\",\n                    \"editable\": false,\n                    \"fieldName\": \"%vlocity_namespace%__LineNumber__c\",\n                    \"hidden\": true,\n                    \"label\": \"Line Number\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": \"0001.0001.0001\"\n                  },\n                  \"%vlocity_namespace%__AssetReferenceId__c\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"STRING\",\n                    \"editable\": false,\n                    \"fieldName\": \"%vlocity_namespace%__AssetReferenceId__c\",\n                    \"hidden\": true,\n                    \"label\": \"Asset Reference Id\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": \"528d6558-1212-630f-236c-2386ef754938\"\n                  },\n                  \"AccountId\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"REFERENCE\",\n                    \"editable\": false,\n                    \"fieldName\": \"AccountId\",\n                    \"hidden\": false,\n                    \"label\": \"Account ID\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": \"0015g00000EyHwtAAF\"\n                  },\n                  \"Quantity\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"DOUBLE\",\n                    \"editable\": false,\n                    \"fieldName\": \"Quantity\",\n                    \"hidden\": true,\n                    \"label\": \"Quantity\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": 1\n                  },\n                  \"Id\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"ID\",\n                    \"editable\": false,\n                    \"fieldName\": \"Id\",\n                    \"hidden\": true,\n                    \"label\": \"Asset ID\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": \"02i5g0000009A2GAAU\"\n                  },\n                  \"%vlocity_namespace%__RecurringCharge__c\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"CURRENCY\",\n                    \"editable\": false,\n                    \"fieldName\": \"%vlocity_namespace%__RecurringCharge__c\",\n                    \"hidden\": true,\n                    \"label\": \"Recurring Charge\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": 20\n                  },\n                  \"%vlocity_namespace%__ServiceAccountId__c\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"REFERENCE\",\n                    \"editable\": false,\n                    \"fieldName\": \"%vlocity_namespace%__ServiceAccountId__c\",\n                    \"hidden\": false,\n                    \"label\": \"Service Account\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": \"0015g00000EyHwtAAF\"\n                  },\n                  \"%vlocity_namespace%__EffectiveOneTimeTotal__c\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"CURRENCY\",\n                    \"editable\": false,\n                    \"fieldName\": \"%vlocity_namespace%__EffectiveOneTimeTotal__c\",\n                    \"hidden\": true,\n                    \"label\": \"Effective One Time Total\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": 0\n                  },\n                  \"%vlocity_namespace%__OneTimeTotal__c\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"CURRENCY\",\n                    \"editable\": false,\n                    \"fieldName\": \"%vlocity_namespace%__OneTimeTotal__c\",\n                    \"hidden\": true,\n                    \"label\": \"One Time Total\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": 100\n                  },\n                  \"%vlocity_namespace%__OrderProductId__c\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"REFERENCE\",\n                    \"editable\": false,\n                    \"fieldName\": \"%vlocity_namespace%__OrderProductId__c\",\n                    \"hidden\": false,\n                    \"label\": \"Order Product\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": \"8025g0000000JtUAAU\"\n                  },\n                  \"displaySequence\": -1\n                }\n              ],\n              \"totalSize\": 0\n            },\n            \"Name\": \"test c 1\",\n            \"%vlocity_namespace%__ServiceAccountId__r\": {\n              \"Id\": \"0015g00000EyHwtAAF\",\n              \"Name\": \"Starbucks Bangalore\",\n              \"attributes\": {\n                \"url\": \"/services/data/v52.0/sobjects/Account/0015g00000EyHwtAAF\",\n                \"type\": \"Account\"\n              }\n            },\n            \"%vlocity_namespace%__SequenceNumber__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"DOUBLE\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__SequenceNumber__c\",\n              \"hidden\": true,\n              \"label\": \"Sequence Number\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 1\n            },\n            \"%vlocity_namespace%__OneTimeCharge__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"CURRENCY\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__OneTimeCharge__c\",\n              \"hidden\": true,\n              \"label\": \"One Time Charge\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 100\n            },\n            \"%vlocity_namespace%__ParentItemId__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"STRING\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__ParentItemId__c\",\n              \"hidden\": true,\n              \"label\": \"ParentItemId\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"462e1b76-d720-3e68-2c4a-c719ec0da786\"\n            },\n            \"%vlocity_namespace%__RootItemId__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"STRING\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__RootItemId__c\",\n              \"hidden\": true,\n              \"label\": \"RootItemId\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"462e1b76-d720-3e68-2c4a-c719ec0da786\"\n            },\n            \"%vlocity_namespace%__LineNumber__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"STRING\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__LineNumber__c\",\n              \"hidden\": true,\n              \"label\": \"Line Number\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"0001.0001\"\n            },\n            \"%vlocity_namespace%__AssetReferenceId__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"STRING\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__AssetReferenceId__c\",\n              \"hidden\": true,\n              \"label\": \"Asset Reference Id\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"ff994c1b-01be-7ec4-b89a-5fcf2f82f1d4\"\n            },\n            \"AccountId\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"REFERENCE\",\n              \"editable\": false,\n              \"fieldName\": \"AccountId\",\n              \"hidden\": false,\n              \"label\": \"Account ID\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"0015g00000EyHwtAAF\"\n            },\n            \"Quantity\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"DOUBLE\",\n              \"editable\": false,\n              \"fieldName\": \"Quantity\",\n              \"hidden\": true,\n              \"label\": \"Quantity\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 1\n            },\n            \"Id\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"ID\",\n              \"editable\": false,\n              \"fieldName\": \"Id\",\n              \"hidden\": true,\n              \"label\": \"Asset ID\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"02i5g0000009A2FAAU\"\n            },\n            \"%vlocity_namespace%__RecurringCharge__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"CURRENCY\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__RecurringCharge__c\",\n              \"hidden\": true,\n              \"label\": \"Recurring Charge\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 20\n            },\n            \"%vlocity_namespace%__ServiceAccountId__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"REFERENCE\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__ServiceAccountId__c\",\n              \"hidden\": false,\n              \"label\": \"Service Account\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"0015g00000EyHwtAAF\"\n            },\n            \"%vlocity_namespace%__EffectiveOneTimeTotal__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"CURRENCY\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__EffectiveOneTimeTotal__c\",\n              \"hidden\": true,\n              \"label\": \"Effective One Time Total\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 0\n            },\n            \"%vlocity_namespace%__OneTimeTotal__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"CURRENCY\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__OneTimeTotal__c\",\n              \"hidden\": true,\n              \"label\": \"One Time Total\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 200\n            },\n            \"%vlocity_namespace%__OrderProductId__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"REFERENCE\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__OrderProductId__c\",\n              \"hidden\": false,\n              \"label\": \"Order Product\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"8025g0000000JtTAAU\"\n            },\n            \"displaySequence\": -1\n          },\n          {\n            \"childAssets\": {\n              \"records\": [\n                {\n                  \"Name\": \"test gc 1\",\n                  \"%vlocity_namespace%__ServiceAccountId__r\": {\n                    \"Id\": \"0015g00000EyHwtAAF\",\n                    \"Name\": \"Starbucks Bangalore\",\n                    \"attributes\": {\n                      \"url\": \"/services/data/v52.0/sobjects/Account/0015g00000EyHwtAAF\",\n                      \"type\": \"Account\"\n                    }\n                  },\n                  \"%vlocity_namespace%__SequenceNumber__c\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"DOUBLE\",\n                    \"editable\": false,\n                    \"fieldName\": \"%vlocity_namespace%__SequenceNumber__c\",\n                    \"hidden\": true,\n                    \"label\": \"Sequence Number\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": 1\n                  },\n                  \"%vlocity_namespace%__OneTimeCharge__c\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"CURRENCY\",\n                    \"editable\": false,\n                    \"fieldName\": \"%vlocity_namespace%__OneTimeCharge__c\",\n                    \"hidden\": true,\n                    \"label\": \"One Time Charge\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": 100\n                  },\n                  \"%vlocity_namespace%__ParentItemId__c\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"STRING\",\n                    \"editable\": false,\n                    \"fieldName\": \"%vlocity_namespace%__ParentItemId__c\",\n                    \"hidden\": true,\n                    \"label\": \"ParentItemId\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": \"ff994c1b-01be-7ec4-b89a-5fcf2f82f1d4\"\n                  },\n                  \"%vlocity_namespace%__RootItemId__c\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"STRING\",\n                    \"editable\": false,\n                    \"fieldName\": \"%vlocity_namespace%__RootItemId__c\",\n                    \"hidden\": true,\n                    \"label\": \"RootItemId\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": \"462e1b76-d720-3e68-2c4a-c719ec0da786\"\n                  },\n                  \"%vlocity_namespace%__LineNumber__c\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"STRING\",\n                    \"editable\": false,\n                    \"fieldName\": \"%vlocity_namespace%__LineNumber__c\",\n                    \"hidden\": true,\n                    \"label\": \"Line Number\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": \"0001.0001.0001\"\n                  },\n                  \"%vlocity_namespace%__AssetReferenceId__c\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"STRING\",\n                    \"editable\": false,\n                    \"fieldName\": \"%vlocity_namespace%__AssetReferenceId__c\",\n                    \"hidden\": true,\n                    \"label\": \"Asset Reference Id\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": \"528d6558-1212-630f-236c-2386ef754938\"\n                  },\n                  \"AccountId\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"REFERENCE\",\n                    \"editable\": false,\n                    \"fieldName\": \"AccountId\",\n                    \"hidden\": false,\n                    \"label\": \"Account ID\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": \"0015g00000EyHwtAAF\"\n                  },\n                  \"Quantity\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"DOUBLE\",\n                    \"editable\": false,\n                    \"fieldName\": \"Quantity\",\n                    \"hidden\": true,\n                    \"label\": \"Quantity\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": 1\n                  },\n                  \"Id\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"ID\",\n                    \"editable\": false,\n                    \"fieldName\": \"Id\",\n                    \"hidden\": true,\n                    \"label\": \"Asset ID\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": \"02i5g0000009A2GAAU\"\n                  },\n                  \"%vlocity_namespace%__RecurringCharge__c\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"CURRENCY\",\n                    \"editable\": false,\n                    \"fieldName\": \"%vlocity_namespace%__RecurringCharge__c\",\n                    \"hidden\": true,\n                    \"label\": \"Recurring Charge\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": 20\n                  },\n                  \"%vlocity_namespace%__ServiceAccountId__c\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"REFERENCE\",\n                    \"editable\": false,\n                    \"fieldName\": \"%vlocity_namespace%__ServiceAccountId__c\",\n                    \"hidden\": false,\n                    \"label\": \"Service Account\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": \"0015g00000EyHwtAAF\"\n                  },\n                  \"%vlocity_namespace%__EffectiveOneTimeTotal__c\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"CURRENCY\",\n                    \"editable\": false,\n                    \"fieldName\": \"%vlocity_namespace%__EffectiveOneTimeTotal__c\",\n                    \"hidden\": true,\n                    \"label\": \"Effective One Time Total\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": 0\n                  },\n                  \"%vlocity_namespace%__OneTimeTotal__c\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"CURRENCY\",\n                    \"editable\": false,\n                    \"fieldName\": \"%vlocity_namespace%__OneTimeTotal__c\",\n                    \"hidden\": true,\n                    \"label\": \"One Time Total\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": 100\n                  },\n                  \"%vlocity_namespace%__OrderProductId__c\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"REFERENCE\",\n                    \"editable\": false,\n                    \"fieldName\": \"%vlocity_namespace%__OrderProductId__c\",\n                    \"hidden\": false,\n                    \"label\": \"Order Product\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": \"8025g0000000JtUAAU\"\n                  },\n                  \"displaySequence\": -1\n                }\n              ],\n              \"totalSize\": 0\n            },\n            \"Name\": \"test gc 1\",\n            \"%vlocity_namespace%__ServiceAccountId__r\": {\n              \"Id\": \"0015g00000EyHwoAAF\",\n              \"Name\": \"Starbucks hyderabad\",\n              \"attributes\": {\n                \"url\": \"/services/data/v52.0/sobjects/Account/0015g00000EyHwoAAF\",\n                \"type\": \"Account\"\n              }\n            },\n            \"%vlocity_namespace%__SequenceNumber__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"DOUBLE\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__SequenceNumber__c\",\n              \"hidden\": true,\n              \"label\": \"Sequence Number\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 1\n            },\n            \"%vlocity_namespace%__OneTimeCharge__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"CURRENCY\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__OneTimeCharge__c\",\n              \"hidden\": true,\n              \"label\": \"One Time Charge\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 100\n            },\n            \"%vlocity_namespace%__ParentItemId__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"STRING\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__ParentItemId__c\",\n              \"hidden\": true,\n              \"label\": \"ParentItemId\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"cb3ef190-533e-432e-b930-4bae81ca7819\"\n            },\n            \"%vlocity_namespace%__RootItemId__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"STRING\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__RootItemId__c\",\n              \"hidden\": true,\n              \"label\": \"RootItemId\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"cb3ef190-533e-432e-b930-4bae81ca7819\"\n            },\n            \"%vlocity_namespace%__LineNumber__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"STRING\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__LineNumber__c\",\n              \"hidden\": true,\n              \"label\": \"Line Number\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"0001.0001\"\n            },\n            \"%vlocity_namespace%__AssetReferenceId__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"STRING\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__AssetReferenceId__c\",\n              \"hidden\": true,\n              \"label\": \"Asset Reference Id\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"26958361-1c91-3d9c-6d4b-cb1728a7e3f9\"\n            },\n            \"AccountId\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"REFERENCE\",\n              \"editable\": false,\n              \"fieldName\": \"AccountId\",\n              \"hidden\": false,\n              \"label\": \"Account ID\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"0015g00000EyHwoAAF\"\n            },\n            \"Quantity\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"DOUBLE\",\n              \"editable\": false,\n              \"fieldName\": \"Quantity\",\n              \"hidden\": true,\n              \"label\": \"Quantity\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 1\n            },\n            \"Id\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"ID\",\n              \"editable\": false,\n              \"fieldName\": \"Id\",\n              \"hidden\": true,\n              \"label\": \"Asset ID\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"02i5g0000009A2AAAU\"\n            },\n            \"%vlocity_namespace%__RecurringCharge__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"CURRENCY\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__RecurringCharge__c\",\n              \"hidden\": true,\n              \"label\": \"Recurring Charge\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 20\n            },\n            \"%vlocity_namespace%__ServiceAccountId__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"REFERENCE\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__ServiceAccountId__c\",\n              \"hidden\": false,\n              \"label\": \"Service Account\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"0015g00000EyHwoAAF\"\n            },\n            \"%vlocity_namespace%__EffectiveOneTimeTotal__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"CURRENCY\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__EffectiveOneTimeTotal__c\",\n              \"hidden\": true,\n              \"label\": \"Effective One Time Total\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 0\n            },\n            \"%vlocity_namespace%__OneTimeTotal__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"CURRENCY\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__OneTimeTotal__c\",\n              \"hidden\": true,\n              \"label\": \"One Time Total\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 100\n            },\n            \"%vlocity_namespace%__OrderProductId__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"REFERENCE\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__OrderProductId__c\",\n              \"hidden\": false,\n              \"label\": \"Order Product\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"8025g0000000JtOAAU\"\n            },\n            \"displaySequence\": -1\n          },\n          {\n            \"Name\": \"Service A\",\n            \"%vlocity_namespace%__ServiceAccountId__r\": {\n              \"Id\": \"0015g00000EyHr5AAF\",\n              \"Name\": \"Starbucks\",\n              \"attributes\": {\n                \"url\": \"/services/data/v52.0/sobjects/Account/0015g00000EyHr5AAF\",\n                \"type\": \"Account\"\n              }\n            },\n            \"%vlocity_namespace%__SequenceNumber__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"DOUBLE\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__SequenceNumber__c\",\n              \"hidden\": true,\n              \"label\": \"Sequence Number\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 1\n            },\n            \"%vlocity_namespace%__OneTimeCharge__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"CURRENCY\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__OneTimeCharge__c\",\n              \"hidden\": true,\n              \"label\": \"One Time Charge\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 100\n            },\n            \"%vlocity_namespace%__ParentItemId__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"STRING\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__ParentItemId__c\",\n              \"hidden\": true,\n              \"label\": \"ParentItemId\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"215a4787-6370-59cb-968d-ae02fab6c3c9\"\n            },\n            \"%vlocity_namespace%__RootItemId__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"STRING\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__RootItemId__c\",\n              \"hidden\": true,\n              \"label\": \"RootItemId\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"215a4787-6370-59cb-968d-ae02fab6c3c9\"\n            },\n            \"%vlocity_namespace%__LineNumber__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"STRING\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__LineNumber__c\",\n              \"hidden\": true,\n              \"label\": \"Line Number\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"0001.0003\"\n            },\n            \"%vlocity_namespace%__AssetReferenceId__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"STRING\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__AssetReferenceId__c\",\n              \"hidden\": true,\n              \"label\": \"Asset Reference Id\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"efd3de47-aa5d-bf66-9a7e-ad068c8de29f\"\n            },\n            \"AccountId\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"REFERENCE\",\n              \"editable\": false,\n              \"fieldName\": \"AccountId\",\n              \"hidden\": false,\n              \"label\": \"Account ID\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"0015g00000EyHr5AAF\"\n            },\n            \"Quantity\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"DOUBLE\",\n              \"editable\": false,\n              \"fieldName\": \"Quantity\",\n              \"hidden\": true,\n              \"label\": \"Quantity\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 1\n            },\n            \"Id\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"ID\",\n              \"editable\": false,\n              \"fieldName\": \"Id\",\n              \"hidden\": true,\n              \"label\": \"Asset ID\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"02i5g0000009A1zAAE\"\n            },\n            \"%vlocity_namespace%__RecurringCharge__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"CURRENCY\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__RecurringCharge__c\",\n              \"hidden\": true,\n              \"label\": \"Recurring Charge\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 20\n            },\n            \"%vlocity_namespace%__ServiceAccountId__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"REFERENCE\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__ServiceAccountId__c\",\n              \"hidden\": false,\n              \"label\": \"Service Account\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"0015g00000EyHr5AAF\"\n            },\n            \"%vlocity_namespace%__EffectiveOneTimeTotal__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"CURRENCY\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__EffectiveOneTimeTotal__c\",\n              \"hidden\": true,\n              \"label\": \"Effective One Time Total\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 0\n            },\n            \"%vlocity_namespace%__OneTimeTotal__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"CURRENCY\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__OneTimeTotal__c\",\n              \"hidden\": true,\n              \"label\": \"One Time Total\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 100\n            },\n            \"%vlocity_namespace%__OrderProductId__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"REFERENCE\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__OrderProductId__c\",\n              \"hidden\": false,\n              \"label\": \"Order Product\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"8025g0000000JtDAAU\"\n            },\n            \"displaySequence\": -1\n          },\n          {\n            \"childAssets\": {\n              \"records\": [\n                {\n                  \"Name\": \"test gc 1\",\n                  \"%vlocity_namespace%__ServiceAccountId__r\": {\n                    \"Id\": \"0015g00000EyHwtAAF\",\n                    \"Name\": \"Starbucks Bangalore\",\n                    \"attributes\": {\n                      \"url\": \"/services/data/v52.0/sobjects/Account/0015g00000EyHwtAAF\",\n                      \"type\": \"Account\"\n                    }\n                  },\n                  \"%vlocity_namespace%__SequenceNumber__c\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"DOUBLE\",\n                    \"editable\": false,\n                    \"fieldName\": \"%vlocity_namespace%__SequenceNumber__c\",\n                    \"hidden\": true,\n                    \"label\": \"Sequence Number\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": 1\n                  },\n                  \"%vlocity_namespace%__OneTimeCharge__c\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"CURRENCY\",\n                    \"editable\": false,\n                    \"fieldName\": \"%vlocity_namespace%__OneTimeCharge__c\",\n                    \"hidden\": true,\n                    \"label\": \"One Time Charge\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": 100\n                  },\n                  \"%vlocity_namespace%__ParentItemId__c\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"STRING\",\n                    \"editable\": false,\n                    \"fieldName\": \"%vlocity_namespace%__ParentItemId__c\",\n                    \"hidden\": true,\n                    \"label\": \"ParentItemId\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": \"ff994c1b-01be-7ec4-b89a-5fcf2f82f1d4\"\n                  },\n                  \"%vlocity_namespace%__RootItemId__c\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"STRING\",\n                    \"editable\": false,\n                    \"fieldName\": \"%vlocity_namespace%__RootItemId__c\",\n                    \"hidden\": true,\n                    \"label\": \"RootItemId\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": \"462e1b76-d720-3e68-2c4a-c719ec0da786\"\n                  },\n                  \"%vlocity_namespace%__LineNumber__c\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"STRING\",\n                    \"editable\": false,\n                    \"fieldName\": \"%vlocity_namespace%__LineNumber__c\",\n                    \"hidden\": true,\n                    \"label\": \"Line Number\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": \"0001.0001.0001\"\n                  },\n                  \"%vlocity_namespace%__AssetReferenceId__c\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"STRING\",\n                    \"editable\": false,\n                    \"fieldName\": \"%vlocity_namespace%__AssetReferenceId__c\",\n                    \"hidden\": true,\n                    \"label\": \"Asset Reference Id\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": \"528d6558-1212-630f-236c-2386ef754938\"\n                  },\n                  \"AccountId\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"REFERENCE\",\n                    \"editable\": false,\n                    \"fieldName\": \"AccountId\",\n                    \"hidden\": false,\n                    \"label\": \"Account ID\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": \"0015g00000EyHwtAAF\"\n                  },\n                  \"Quantity\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"DOUBLE\",\n                    \"editable\": false,\n                    \"fieldName\": \"Quantity\",\n                    \"hidden\": true,\n                    \"label\": \"Quantity\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": 1\n                  },\n                  \"Id\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"ID\",\n                    \"editable\": false,\n                    \"fieldName\": \"Id\",\n                    \"hidden\": true,\n                    \"label\": \"Asset ID\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": \"02i5g0000009A2GAAU\"\n                  },\n                  \"%vlocity_namespace%__RecurringCharge__c\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"CURRENCY\",\n                    \"editable\": false,\n                    \"fieldName\": \"%vlocity_namespace%__RecurringCharge__c\",\n                    \"hidden\": true,\n                    \"label\": \"Recurring Charge\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": 20\n                  },\n                  \"%vlocity_namespace%__ServiceAccountId__c\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"REFERENCE\",\n                    \"editable\": false,\n                    \"fieldName\": \"%vlocity_namespace%__ServiceAccountId__c\",\n                    \"hidden\": false,\n                    \"label\": \"Service Account\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": \"0015g00000EyHwtAAF\"\n                  },\n                  \"%vlocity_namespace%__EffectiveOneTimeTotal__c\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"CURRENCY\",\n                    \"editable\": false,\n                    \"fieldName\": \"%vlocity_namespace%__EffectiveOneTimeTotal__c\",\n                    \"hidden\": true,\n                    \"label\": \"Effective One Time Total\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": 0\n                  },\n                  \"%vlocity_namespace%__OneTimeTotal__c\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"CURRENCY\",\n                    \"editable\": false,\n                    \"fieldName\": \"%vlocity_namespace%__OneTimeTotal__c\",\n                    \"hidden\": true,\n                    \"label\": \"One Time Total\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": 100\n                  },\n                  \"%vlocity_namespace%__OrderProductId__c\": {\n                    \"actions\": {\n                      \n                    },\n                    \"alternateValues\": null,\n                    \"dataType\": \"REFERENCE\",\n                    \"editable\": false,\n                    \"fieldName\": \"%vlocity_namespace%__OrderProductId__c\",\n                    \"hidden\": false,\n                    \"label\": \"Order Product\",\n                    \"messages\": [\n                      \n                    ],\n                    \"originalValue\": null,\n                    \"previousValue\": null,\n                    \"value\": \"8025g0000000JtUAAU\"\n                  },\n                  \"displaySequence\": -1\n                }\n              ],\n              \"totalSize\": 0\n            },\n            \"Name\": \"Sport\",\n            \"%vlocity_namespace%__ServiceAccountId__r\": {\n              \"Id\": \"0015g00000EyHr5AAF\",\n              \"Name\": \"Starbucks\",\n              \"attributes\": {\n                \"url\": \"/services/data/v52.0/sobjects/Account/0015g00000EyHr5AAF\",\n                \"type\": \"Account\"\n              }\n            },\n            \"%vlocity_namespace%__SequenceNumber__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"DOUBLE\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__SequenceNumber__c\",\n              \"hidden\": true,\n              \"label\": \"Sequence Number\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 2\n            },\n            \"%vlocity_namespace%__OneTimeCharge__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"CURRENCY\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__OneTimeCharge__c\",\n              \"hidden\": true,\n              \"label\": \"One Time Charge\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 110\n            },\n            \"%vlocity_namespace%__ParentItemId__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"STRING\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__ParentItemId__c\",\n              \"hidden\": true,\n              \"label\": \"ParentItemId\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"215a4787-6370-59cb-968d-ae02fab6c3c9\"\n            },\n            \"%vlocity_namespace%__RootItemId__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"STRING\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__RootItemId__c\",\n              \"hidden\": true,\n              \"label\": \"RootItemId\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"215a4787-6370-59cb-968d-ae02fab6c3c9\"\n            },\n            \"%vlocity_namespace%__LineNumber__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"STRING\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__LineNumber__c\",\n              \"hidden\": true,\n              \"label\": \"Line Number\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"0001.0001\"\n            },\n            \"%vlocity_namespace%__AssetReferenceId__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"STRING\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__AssetReferenceId__c\",\n              \"hidden\": true,\n              \"label\": \"Asset Reference Id\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"0ab1bb8a-b016-d8f8-242c-b019283b3902\"\n            },\n            \"AccountId\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"REFERENCE\",\n              \"editable\": false,\n              \"fieldName\": \"AccountId\",\n              \"hidden\": false,\n              \"label\": \"Account ID\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"0015g00000EyHr5AAF\"\n            },\n            \"Quantity\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"DOUBLE\",\n              \"editable\": false,\n              \"fieldName\": \"Quantity\",\n              \"hidden\": true,\n              \"label\": \"Quantity\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 1\n            },\n            \"Id\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"ID\",\n              \"editable\": false,\n              \"fieldName\": \"Id\",\n              \"hidden\": true,\n              \"label\": \"Asset ID\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"02i5g0000009A1xAAE\"\n            },\n            \"%vlocity_namespace%__RecurringCharge__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"CURRENCY\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__RecurringCharge__c\",\n              \"hidden\": true,\n              \"label\": \"Recurring Charge\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 20\n            },\n            \"%vlocity_namespace%__ServiceAccountId__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"REFERENCE\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__ServiceAccountId__c\",\n              \"hidden\": false,\n              \"label\": \"Service Account\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"0015g00000EyHr5AAF\"\n            },\n            \"%vlocity_namespace%__EffectiveOneTimeTotal__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"CURRENCY\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__EffectiveOneTimeTotal__c\",\n              \"hidden\": true,\n              \"label\": \"Effective One Time Total\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 0\n            },\n            \"%vlocity_namespace%__OneTimeTotal__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"CURRENCY\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__OneTimeTotal__c\",\n              \"hidden\": true,\n              \"label\": \"One Time Total\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 110\n            },\n            \"%vlocity_namespace%__OrderProductId__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"REFERENCE\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__OrderProductId__c\",\n              \"hidden\": false,\n              \"label\": \"Order Product\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"8025g0000000JtBAAU\"\n            },\n            \"displaySequence\": -1\n          },\n          {\n            \"Name\": \"Service B\",\n            \"%vlocity_namespace%__ServiceAccountId__r\": {\n              \"Id\": \"0015g00000EyHr5AAF\",\n              \"Name\": \"Starbucks\",\n              \"attributes\": {\n                \"url\": \"/services/data/v52.0/sobjects/Account/0015g00000EyHr5AAF\",\n                \"type\": \"Account\"\n              }\n            },\n            \"%vlocity_namespace%__SequenceNumber__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"DOUBLE\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__SequenceNumber__c\",\n              \"hidden\": true,\n              \"label\": \"Sequence Number\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 2\n            },\n            \"%vlocity_namespace%__OneTimeCharge__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"CURRENCY\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__OneTimeCharge__c\",\n              \"hidden\": true,\n              \"label\": \"One Time Charge\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 100\n            },\n            \"%vlocity_namespace%__ParentItemId__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"STRING\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__ParentItemId__c\",\n              \"hidden\": true,\n              \"label\": \"ParentItemId\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"215a4787-6370-59cb-968d-ae02fab6c3c9\"\n            },\n            \"%vlocity_namespace%__RootItemId__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"STRING\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__RootItemId__c\",\n              \"hidden\": true,\n              \"label\": \"RootItemId\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"215a4787-6370-59cb-968d-ae02fab6c3c9\"\n            },\n            \"%vlocity_namespace%__LineNumber__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"STRING\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__LineNumber__c\",\n              \"hidden\": true,\n              \"label\": \"Line Number\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"0001.0004\"\n            },\n            \"%vlocity_namespace%__AssetReferenceId__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"STRING\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__AssetReferenceId__c\",\n              \"hidden\": true,\n              \"label\": \"Asset Reference Id\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"8e486102-c95a-f452-6307-4a785eb77837\"\n            },\n            \"AccountId\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"REFERENCE\",\n              \"editable\": false,\n              \"fieldName\": \"AccountId\",\n              \"hidden\": false,\n              \"label\": \"Account ID\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"0015g00000EyHr5AAF\"\n            },\n            \"Quantity\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"DOUBLE\",\n              \"editable\": false,\n              \"fieldName\": \"Quantity\",\n              \"hidden\": true,\n              \"label\": \"Quantity\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 1\n            },\n            \"Id\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"ID\",\n              \"editable\": false,\n              \"fieldName\": \"Id\",\n              \"hidden\": true,\n              \"label\": \"Asset ID\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"02i5g0000009A20AAE\"\n            },\n            \"%vlocity_namespace%__RecurringCharge__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"CURRENCY\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__RecurringCharge__c\",\n              \"hidden\": true,\n              \"label\": \"Recurring Charge\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 20\n            },\n            \"%vlocity_namespace%__ServiceAccountId__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"REFERENCE\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__ServiceAccountId__c\",\n              \"hidden\": false,\n              \"label\": \"Service Account\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"0015g00000EyHr5AAF\"\n            },\n            \"%vlocity_namespace%__EffectiveOneTimeTotal__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"CURRENCY\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__EffectiveOneTimeTotal__c\",\n              \"hidden\": true,\n              \"label\": \"Effective One Time Total\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 0\n            },\n            \"%vlocity_namespace%__OneTimeTotal__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"CURRENCY\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__OneTimeTotal__c\",\n              \"hidden\": true,\n              \"label\": \"One Time Total\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 100\n            },\n            \"%vlocity_namespace%__OrderProductId__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"REFERENCE\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__OrderProductId__c\",\n              \"hidden\": false,\n              \"label\": \"Order Product\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"8025g0000000JtEAAU\"\n            },\n            \"displaySequence\": -1\n          },\n          {\n            \"Name\": \"Cinema\",\n            \"%vlocity_namespace%__ServiceAccountId__r\": {\n              \"Id\": \"0015g00000EyHr5AAF\",\n              \"Name\": \"Starbucks\",\n              \"attributes\": {\n                \"url\": \"/services/data/v52.0/sobjects/Account/0015g00000EyHr5AAF\",\n                \"type\": \"Account\"\n              }\n            },\n            \"%vlocity_namespace%__SequenceNumber__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"DOUBLE\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__SequenceNumber__c\",\n              \"hidden\": true,\n              \"label\": \"Sequence Number\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 3\n            },\n            \"%vlocity_namespace%__OneTimeCharge__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"CURRENCY\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__OneTimeCharge__c\",\n              \"hidden\": true,\n              \"label\": \"One Time Charge\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 100\n            },\n            \"%vlocity_namespace%__ParentItemId__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"STRING\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__ParentItemId__c\",\n              \"hidden\": true,\n              \"label\": \"ParentItemId\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"215a4787-6370-59cb-968d-ae02fab6c3c9\"\n            },\n            \"%vlocity_namespace%__RootItemId__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"STRING\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__RootItemId__c\",\n              \"hidden\": true,\n              \"label\": \"RootItemId\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"215a4787-6370-59cb-968d-ae02fab6c3c9\"\n            },\n            \"%vlocity_namespace%__LineNumber__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"STRING\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__LineNumber__c\",\n              \"hidden\": true,\n              \"label\": \"Line Number\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"0001.0002\"\n            },\n            \"%vlocity_namespace%__AssetReferenceId__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"STRING\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__AssetReferenceId__c\",\n              \"hidden\": true,\n              \"label\": \"Asset Reference Id\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"850b9b79-15d5-1fa2-e676-ef1615dbdebc\"\n            },\n            \"AccountId\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"REFERENCE\",\n              \"editable\": false,\n              \"fieldName\": \"AccountId\",\n              \"hidden\": false,\n              \"label\": \"Account ID\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"0015g00000EyHr5AAF\"\n            },\n            \"Quantity\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"DOUBLE\",\n              \"editable\": false,\n              \"fieldName\": \"Quantity\",\n              \"hidden\": true,\n              \"label\": \"Quantity\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 1\n            },\n            \"Id\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"ID\",\n              \"editable\": false,\n              \"fieldName\": \"Id\",\n              \"hidden\": true,\n              \"label\": \"Asset ID\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"02i5g0000009A1yAAE\"\n            },\n            \"%vlocity_namespace%__RecurringCharge__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"CURRENCY\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__RecurringCharge__c\",\n              \"hidden\": true,\n              \"label\": \"Recurring Charge\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 20\n            },\n            \"%vlocity_namespace%__ServiceAccountId__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"REFERENCE\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__ServiceAccountId__c\",\n              \"hidden\": false,\n              \"label\": \"Service Account\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"0015g00000EyHr5AAF\"\n            },\n            \"%vlocity_namespace%__EffectiveOneTimeTotal__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"CURRENCY\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__EffectiveOneTimeTotal__c\",\n              \"hidden\": true,\n              \"label\": \"Effective One Time Total\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 0\n            },\n            \"%vlocity_namespace%__OneTimeTotal__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"CURRENCY\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__OneTimeTotal__c\",\n              \"hidden\": true,\n              \"label\": \"One Time Total\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": 100\n            },\n            \"%vlocity_namespace%__OrderProductId__c\": {\n              \"actions\": {\n                \n              },\n              \"alternateValues\": null,\n              \"dataType\": \"REFERENCE\",\n              \"editable\": false,\n              \"fieldName\": \"%vlocity_namespace%__OrderProductId__c\",\n              \"hidden\": false,\n              \"label\": \"Order Product\",\n              \"messages\": [\n                \n              ],\n              \"originalValue\": null,\n              \"previousValue\": null,\n              \"value\": \"8025g0000000JtCAAU\"\n            },\n            \"displaySequence\": -1\n          }\n        ],\n        \"totalSize\": 0\n      },\n      \"promotions\": {\n        \"records\": [\n          {\n            \"Name\": \"new test promo\",\n            \"Id\": \"a3T5g000000PKWUEA4\",\n            \"displaySequence\": -1,\n            \"actions\": {\n              \"getpromodetails\": {\n                \"client\": {\n                  \"params\": {\n                    \n                  }\n                },\n                \"remote\": {\n                  \"params\": {\n                    \"cartId\": \"0015g00000EyHr5AAF\",\n                    \"id\": \"a3T5g000000PKWUEA4\",\n                    \"accountId\": \"0015g00000EyHr5AAF\",\n                    \"methodName\": \"getAppliedPromotionsByAccount\"\n                  }\n                },\n                \"rest\": {\n                  \"link\": null,\n                  \"method\": null,\n                  \"params\": {\n                    \n                  }\n                }\n              }\n            }\n          }\n        ],\n        \"totalSize\": 1\n      },\n      \"Name\": \"Residential combo\",\n      \"%vlocity_namespace%__ServiceAccountId__r\": {\n        \"Id\": \"0015g00000EyHr5AAF\",\n        \"Name\": \"Starbucks\",\n        \"attributes\": {\n          \"url\": \"/services/data/v52.0/sobjects/Account/0015g00000EyHr5AAF\",\n          \"type\": \"Account\"\n        }\n      },\n      \"%vlocity_namespace%__SequenceNumber__c\": {\n        \"actions\": {\n          \n        },\n        \"alternateValues\": null,\n        \"dataType\": \"DOUBLE\",\n        \"editable\": false,\n        \"fieldName\": \"%vlocity_namespace%__SequenceNumber__c\",\n        \"hidden\": true,\n        \"label\": \"Sequence Number\",\n        \"messages\": [\n          \n        ],\n        \"originalValue\": null,\n        \"previousValue\": null,\n        \"value\": 1\n      },\n      \"%vlocity_namespace%__OneTimeCharge__c\": {\n        \"actions\": {\n          \n        },\n        \"alternateValues\": null,\n        \"dataType\": \"CURRENCY\",\n        \"editable\": false,\n        \"fieldName\": \"%vlocity_namespace%__OneTimeCharge__c\",\n        \"hidden\": true,\n        \"label\": \"One Time Charge\",\n        \"messages\": [\n          \n        ],\n        \"originalValue\": null,\n        \"previousValue\": null,\n        \"value\": 100\n      },\n      \"%vlocity_namespace%__RootItemId__c\": {\n        \"actions\": {\n          \n        },\n        \"alternateValues\": null,\n        \"dataType\": \"STRING\",\n        \"editable\": false,\n        \"fieldName\": \"%vlocity_namespace%__RootItemId__c\",\n        \"hidden\": true,\n        \"label\": \"RootItemId\",\n        \"messages\": [\n          \n        ],\n        \"originalValue\": null,\n        \"previousValue\": null,\n        \"value\": \"215a4787-6370-59cb-968d-ae02fab6c3c9\"\n      },\n      \"%vlocity_namespace%__LineNumber__c\": {\n        \"actions\": {\n          \n        },\n        \"alternateValues\": null,\n        \"dataType\": \"STRING\",\n        \"editable\": false,\n        \"fieldName\": \"%vlocity_namespace%__LineNumber__c\",\n        \"hidden\": true,\n        \"label\": \"Line Number\",\n        \"messages\": [\n          \n        ],\n        \"originalValue\": null,\n        \"previousValue\": null,\n        \"value\": \"0001\"\n      },\n      \"%vlocity_namespace%__AssetReferenceId__c\": {\n        \"actions\": {\n          \n        },\n        \"alternateValues\": null,\n        \"dataType\": \"STRING\",\n        \"editable\": false,\n        \"fieldName\": \"%vlocity_namespace%__AssetReferenceId__c\",\n        \"hidden\": true,\n        \"label\": \"Asset Reference Id\",\n        \"messages\": [\n          \n        ],\n        \"originalValue\": null,\n        \"previousValue\": null,\n        \"value\": \"215a4787-6370-59cb-968d-ae02fab6c3c9\"\n      },\n      \"AccountId\": {\n        \"actions\": {\n          \n        },\n        \"alternateValues\": null,\n        \"dataType\": \"REFERENCE\",\n        \"editable\": false,\n        \"fieldName\": \"AccountId\",\n        \"hidden\": false,\n        \"label\": \"Account ID\",\n        \"messages\": [\n          \n        ],\n        \"originalValue\": null,\n        \"previousValue\": null,\n        \"value\": \"0015g00000EyHr5AAF\"\n      },\n      \"Quantity\": {\n        \"actions\": {\n          \n        },\n        \"alternateValues\": null,\n        \"dataType\": \"DOUBLE\",\n        \"editable\": false,\n        \"fieldName\": \"Quantity\",\n        \"hidden\": true,\n        \"label\": \"Quantity\",\n        \"messages\": [\n          \n        ],\n        \"originalValue\": null,\n        \"previousValue\": null,\n        \"value\": 1\n      },\n      \"Id\": {\n        \"actions\": {\n          \n        },\n        \"alternateValues\": null,\n        \"dataType\": \"ID\",\n        \"editable\": false,\n        \"fieldName\": \"Id\",\n        \"hidden\": true,\n        \"label\": \"Asset ID\",\n        \"messages\": [\n          \n        ],\n        \"originalValue\": null,\n        \"previousValue\": null,\n        \"value\": \"02i5g0000009A1wAAE\"\n      },\n      \"%vlocity_namespace%__RecurringCharge__c\": {\n        \"actions\": {\n          \n        },\n        \"alternateValues\": null,\n        \"dataType\": \"CURRENCY\",\n        \"editable\": false,\n        \"fieldName\": \"%vlocity_namespace%__RecurringCharge__c\",\n        \"hidden\": true,\n        \"label\": \"Recurring Charge\",\n        \"messages\": [\n          \n        ],\n        \"originalValue\": null,\n        \"previousValue\": null,\n        \"value\": 20\n      },\n      \"%vlocity_namespace%__ServiceAccountId__c\": {\n        \"actions\": {\n          \n        },\n        \"alternateValues\": null,\n        \"dataType\": \"REFERENCE\",\n        \"editable\": false,\n        \"fieldName\": \"%vlocity_namespace%__ServiceAccountId__c\",\n        \"hidden\": false,\n        \"label\": \"Service Account\",\n        \"messages\": [\n          \n        ],\n        \"originalValue\": null,\n        \"previousValue\": null,\n        \"value\": \"0015g00000EyHr5AAF\"\n      },\n      \"%vlocity_namespace%__EffectiveOneTimeTotal__c\": {\n        \"actions\": {\n          \n        },\n        \"alternateValues\": null,\n        \"dataType\": \"CURRENCY\",\n        \"editable\": false,\n        \"fieldName\": \"%vlocity_namespace%__EffectiveOneTimeTotal__c\",\n        \"hidden\": true,\n        \"label\": \"Effective One Time Total\",\n        \"messages\": [\n          \n        ],\n        \"originalValue\": null,\n        \"previousValue\": null,\n        \"value\": 510\n      },\n      \"%vlocity_namespace%__OneTimeTotal__c\": {\n        \"actions\": {\n          \n        },\n        \"alternateValues\": null,\n        \"dataType\": \"CURRENCY\",\n        \"editable\": false,\n        \"fieldName\": \"%vlocity_namespace%__OneTimeTotal__c\",\n        \"hidden\": true,\n        \"label\": \"One Time Total\",\n        \"messages\": [\n          \n        ],\n        \"originalValue\": null,\n        \"previousValue\": null,\n        \"value\": 510\n      },\n      \"%vlocity_namespace%__OrderProductId__c\": {\n        \"actions\": {\n          \n        },\n        \"alternateValues\": null,\n        \"dataType\": \"REFERENCE\",\n        \"editable\": false,\n        \"fieldName\": \"%vlocity_namespace%__OrderProductId__c\",\n        \"hidden\": false,\n        \"label\": \"Order Product\",\n        \"messages\": [\n          \n        ],\n        \"originalValue\": null,\n        \"previousValue\": null,\n        \"value\": \"8025g0000000JtAAAU\"\n      },\n      \"displaySequence\": -1\n    }\n  ]\n}",
+            "dsDelay": "",
+            "resultVar": ""
+        }
+    },
+    "enableLwc": true,
+    "isFlex": true,
+    "lwc": {
+        "DeveloperName": "cfCpqAssetViewerGroupLineItems_1_Vlocity",
+        "Id": "0Rb5g000000qw8mCAA",
+        "ManageableState": "unmanaged",
+        "MasterLabel": "cfCpqAssetViewerGroupLineItems_1_Vlocity",
+        "NamespacePrefix": "%vlocity_namespace%"
+    },
+    "selectableMode": "Multi",
+    "states": [
+        {
+            "actions": [
+            ],
+            "childCards": [
+                "cpqAssetViewerLineItem"
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "class": "slds-col ",
+                                    "element": "flexIcon",
+                                    "elementLabel": "Icon-0",
+                                    "key": "element_element_block_0_0_flexIcon_0_0",
+                                    "name": "Icon",
+                                    "parentElementKey": "element_block_0_0",
+                                    "property": {
+                                        "action": {
+                                            "actionData": {
+                                                "card": "{card}",
+                                                "stateAction": {
+                                                    "Web Page": {
+                                                        "targetName": "/apex"
+                                                    },
+                                                    "displayName": "Action",
+                                                    "eventName": "setValues",
+                                                    "fieldValues": [
+                                                        {
+                                                            "fieldName": "itemsCollapsed",
+                                                            "fieldValue": "true"
+                                                        }
+                                                    ],
+                                                    "id": "flex-action-1629963802817",
+                                                    "openUrlIn": "Current Window",
+                                                    "targetType": "Web Page",
+                                                    "type": "cardAction",
+                                                    "vlocityIcon": "standard-default"
+                                                },
+                                                "stateObj": "{record}"
+                                            },
+                                            "eventType": "onclick",
+                                            "iconName": "standard-default",
+                                            "label": "Action",
+                                            "name": ""
+                                        },
+                                        "card": "{card}",
+                                        "data-conditions": {
+                                            "group": [
+                                                {
+                                                    "field": "itemsCollapsed",
+                                                    "hasMergeField": false,
+                                                    "id": "state-new-condition-0",
+                                                    "operator": "!=",
+                                                    "type": "custom",
+                                                    "value": "true"
+                                                }
+                                            ],
+                                            "id": "state-condition-object",
+                                            "isParent": true
+                                        },
+                                        "extraclass": "slds-icon_container slds-icon__svg--default ",
+                                        "iconName": "utility:chevrondown",
+                                        "iconType": "Salesforce SVG",
+                                        "imgsrc": "",
+                                        "record": "{record}",
+                                        "size": "x-small",
+                                        "variant": "default"
+                                    },
+                                    "size": {
+                                        "default": "1",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": "",
+                                            "width": ""
+                                        },
+                                        "class": "slds-p-top_small ",
+                                        "container": {
+                                            "class": ""
+                                        },
+                                        "elementStyleProperties": {
+                                        },
+                                        "inlineStyle": "",
+                                        "margin": [
+                                        ],
+                                        "padding": [
+                                            {
+                                                "label": "top:small",
+                                                "size": "small",
+                                                "type": "top"
+                                            }
+                                        ],
+                                        "size": {
+                                            "default": "1",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_1-of-12 ",
+                                        "style": "     : #ccc 1px solid; \n         ",
+                                        "text": {
+                                            "align": "",
+                                            "color": ""
+                                        }
+                                    },
+                                    "styleObjects": [
+                                        {
+                                            "conditionString": "",
+                                            "conditions": "default",
+                                            "draggable": false,
+                                            "key": 0,
+                                            "label": "Default",
+                                            "name": "Default",
+                                            "styleObject": {
+                                                "background": {
+                                                    "color": "",
+                                                    "image": "",
+                                                    "position": "",
+                                                    "repeat": "",
+                                                    "size": ""
+                                                },
+                                                "border": {
+                                                    "color": "",
+                                                    "radius": "",
+                                                    "style": "",
+                                                    "type": "",
+                                                    "width": ""
+                                                },
+                                                "class": "slds-p-top_small ",
+                                                "container": {
+                                                    "class": ""
+                                                },
+                                                "elementStyleProperties": {
+                                                },
+                                                "inlineStyle": "",
+                                                "margin": [
+                                                ],
+                                                "padding": [
+                                                    {
+                                                        "label": "top:small",
+                                                        "size": "small",
+                                                        "type": "top"
+                                                    }
+                                                ],
+                                                "size": {
+                                                    "default": "1",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_1-of-12 ",
+                                                "style": "     : #ccc 1px solid; \n         ",
+                                                "text": {
+                                                    "align": "",
+                                                    "color": ""
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "type": "element"
+                                },
+                                {
+                                    "class": "slds-col ",
+                                    "element": "flexIcon",
+                                    "elementLabel": "Icon-1",
+                                    "key": "element_element_block_0_0_flexIcon_1_0",
+                                    "name": "Icon",
+                                    "parentElementKey": "element_block_0_0",
+                                    "property": {
+                                        "action": {
+                                            "actionData": {
+                                                "card": "{card}",
+                                                "stateAction": {
+                                                    "Web Page": {
+                                                        "targetName": "/apex"
+                                                    },
+                                                    "displayName": "Action",
+                                                    "eventName": "setValues",
+                                                    "fieldValues": [
+                                                        {
+                                                            "fieldName": "itemsCollapsed",
+                                                            "fieldValue": "false"
+                                                        }
+                                                    ],
+                                                    "id": "flex-action-1629963789442",
+                                                    "openUrlIn": "Current Window",
+                                                    "targetType": "Web Page",
+                                                    "type": "cardAction",
+                                                    "vlocityIcon": "standard-default"
+                                                },
+                                                "stateObj": "{record}"
+                                            },
+                                            "eventType": "onclick",
+                                            "iconName": "standard-default",
+                                            "label": "Action",
+                                            "name": ""
+                                        },
+                                        "card": "{card}",
+                                        "data-conditions": {
+                                            "group": [
+                                                {
+                                                    "field": "itemsCollapsed",
+                                                    "hasMergeField": false,
+                                                    "id": "state-new-condition-7",
+                                                    "operator": "==",
+                                                    "type": "custom",
+                                                    "value": "true"
+                                                }
+                                            ],
+                                            "id": "state-condition-object",
+                                            "isParent": true
+                                        },
+                                        "extraclass": "slds-icon_container slds-icon__svg--default ",
+                                        "iconName": "utility:chevronright",
+                                        "iconType": "Salesforce SVG",
+                                        "imgsrc": "",
+                                        "record": "{record}",
+                                        "size": "x-small",
+                                        "variant": "default"
+                                    },
+                                    "size": {
+                                        "default": "1",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": "",
+                                            "width": ""
+                                        },
+                                        "class": "slds-p-top_small ",
+                                        "container": {
+                                            "class": ""
+                                        },
+                                        "elementStyleProperties": {
+                                        },
+                                        "inlineStyle": "",
+                                        "margin": [
+                                        ],
+                                        "padding": [
+                                            {
+                                                "label": "top:small",
+                                                "size": "small",
+                                                "type": "top"
+                                            }
+                                        ],
+                                        "size": {
+                                            "default": "1",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_1-of-12 ",
+                                        "style": "     : #ccc 1px solid; \n         ",
+                                        "text": {
+                                            "align": "",
+                                            "color": ""
+                                        }
+                                    },
+                                    "styleObjects": [
+                                        {
+                                            "conditionString": "",
+                                            "conditions": "default",
+                                            "draggable": false,
+                                            "key": 0,
+                                            "label": "Default",
+                                            "name": "Default",
+                                            "styleObject": {
+                                                "background": {
+                                                    "color": "",
+                                                    "image": "",
+                                                    "position": "",
+                                                    "repeat": "",
+                                                    "size": ""
+                                                },
+                                                "border": {
+                                                    "color": "",
+                                                    "radius": "",
+                                                    "style": "",
+                                                    "type": "",
+                                                    "width": ""
+                                                },
+                                                "class": "slds-p-top_small ",
+                                                "container": {
+                                                    "class": ""
+                                                },
+                                                "elementStyleProperties": {
+                                                },
+                                                "inlineStyle": "",
+                                                "margin": [
+                                                ],
+                                                "padding": [
+                                                    {
+                                                        "label": "top:small",
+                                                        "size": "small",
+                                                        "type": "top"
+                                                    }
+                                                ],
+                                                "size": {
+                                                    "default": "1",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_1-of-12 ",
+                                                "style": "     : #ccc 1px solid; \n         ",
+                                                "text": {
+                                                    "align": "",
+                                                    "color": ""
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "type": "element"
+                                },
+                                {
+                                    "class": "slds-col ",
+                                    "element": "outputField",
+                                    "elementLabel": "Text-2",
+                                    "key": "element_element_block_0_0_outputField_2_0",
+                                    "name": "Text",
+                                    "parentElementKey": "element_block_0_0",
+                                    "property": {
+                                        "card": "{card}",
+                                        "data-conditions": {
+                                            "group": [
+                                                {
+                                                    "field": "groupByKey",
+                                                    "hasMergeField": false,
+                                                    "id": "state-new-condition-67",
+                                                    "operator": "!=",
+                                                    "type": "custom",
+                                                    "value": "%vlocity_namespace%__OneTimeCharge__c"
+                                                },
+                                                {
+                                                    "field": "groupByKey",
+                                                    "hasMergeField": false,
+                                                    "id": "state-new-condition-76",
+                                                    "logicalOperator": "&&",
+                                                    "operator": "!=",
+                                                    "type": "custom",
+                                                    "value": "%vlocity_namespace%__RecurringCharge__c"
+                                                },
+                                                {
+                                                    "field": "groupByKey",
+                                                    "hasMergeField": false,
+                                                    "id": "state-new-condition-92",
+                                                    "logicalOperator": "&&",
+                                                    "operator": "!=",
+                                                    "type": "custom",
+                                                    "value": "%vlocity_namespace%__OneTimeTotal__c"
+                                                }
+                                            ],
+                                            "id": "state-condition-object",
+                                            "isParent": true
+                                        },
+                                        "mergeField": "%3Cdiv%3E%3Cstrong%3E%3Cspan%20style=%22color:%20#0070d2;%20font-size:%2012pt;%22%3E%7Blabel%7D%3C/span%3E%3C/strong%3E%3C/div%3E",
+                                        "record": "{record}"
+                                    },
+                                    "size": {
+                                        "default": "6",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": "",
+                                            "width": ""
+                                        },
+                                        "class": "slds-p-top_x-small ",
+                                        "container": {
+                                            "class": ""
+                                        },
+                                        "elementStyleProperties": {
+                                        },
+                                        "inlineStyle": "",
+                                        "margin": [
+                                        ],
+                                        "padding": [
+                                            {
+                                                "label": "top:x-small",
+                                                "size": "x-small",
+                                                "type": "top"
+                                            }
+                                        ],
+                                        "size": {
+                                            "default": "6",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_6-of-12 ",
+                                        "style": "     : #ccc 1px solid; \n         ",
+                                        "text": {
+                                            "align": "",
+                                            "color": ""
+                                        }
+                                    },
+                                    "styleObjects": [
+                                        {
+                                            "conditionString": "",
+                                            "conditions": "default",
+                                            "draggable": false,
+                                            "key": 0,
+                                            "label": "Default",
+                                            "name": "Default",
+                                            "styleObject": {
+                                                "background": {
+                                                    "color": "",
+                                                    "image": "",
+                                                    "position": "",
+                                                    "repeat": "",
+                                                    "size": ""
+                                                },
+                                                "border": {
+                                                    "color": "",
+                                                    "radius": "",
+                                                    "style": "",
+                                                    "type": "",
+                                                    "width": ""
+                                                },
+                                                "class": "slds-p-top_x-small ",
+                                                "container": {
+                                                    "class": ""
+                                                },
+                                                "elementStyleProperties": {
+                                                },
+                                                "inlineStyle": "",
+                                                "margin": [
+                                                ],
+                                                "padding": [
+                                                    {
+                                                        "label": "top:x-small",
+                                                        "size": "x-small",
+                                                        "type": "top"
+                                                    }
+                                                ],
+                                                "size": {
+                                                    "default": "6",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_6-of-12 ",
+                                                "style": "     : #ccc 1px solid; \n         ",
+                                                "text": {
+                                                    "align": "",
+                                                    "color": ""
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "type": "text"
+                                },
+                                {
+                                    "class": "slds-col ",
+                                    "element": "outputField",
+                                    "elementLabel": "Text-3",
+                                    "key": "element_element_block_0_0_outputField_3_0",
+                                    "name": "Text",
+                                    "parentElementKey": "element_block_0_0",
+                                    "property": {
+                                        "card": "{card}",
+                                        "data-conditions": {
+                                            "group": [
+                                                {
+                                                    "field": "groupByKey",
+                                                    "hasMergeField": false,
+                                                    "id": "state-new-condition-43",
+                                                    "operator": "==",
+                                                    "type": "custom",
+                                                    "value": "%vlocity_namespace%__OneTimeCharge__c"
+                                                },
+                                                {
+                                                    "field": "groupByKey",
+                                                    "hasMergeField": false,
+                                                    "id": "state-new-condition-23",
+                                                    "logicalOperator": "||",
+                                                    "operator": "==",
+                                                    "type": "custom",
+                                                    "value": "%vlocity_namespace%__RecurringCharge__c"
+                                                },
+                                                {
+                                                    "field": "groupByKey",
+                                                    "hasMergeField": false,
+                                                    "id": "state-new-condition-39",
+                                                    "logicalOperator": "||",
+                                                    "operator": "==",
+                                                    "type": "custom",
+                                                    "value": "%vlocity_namespace%__OneTimeTotal__c"
+                                                }
+                                            ],
+                                            "id": "state-condition-object",
+                                            "isParent": true
+                                        },
+                                        "mergeField": "%3Cdiv%3E%3Cstrong%3E%3Cspan%20style=%22color:%20#0070d2;%20font-size:%2012pt;%22%3E$%7Blabel%7D%3C/span%3E%3C/strong%3E%3C/div%3E",
+                                        "record": "{record}"
+                                    },
+                                    "size": {
+                                        "default": "3",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": "",
+                                            "width": ""
+                                        },
+                                        "class": "slds-p-top_x-small ",
+                                        "container": {
+                                            "class": ""
+                                        },
+                                        "elementStyleProperties": {
+                                        },
+                                        "inlineStyle": "",
+                                        "margin": [
+                                        ],
+                                        "padding": [
+                                            {
+                                                "label": "top:x-small",
+                                                "size": "x-small",
+                                                "type": "top"
+                                            }
+                                        ],
+                                        "size": {
+                                            "default": "3",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_3-of-12 ",
+                                        "style": "     : #ccc 1px solid; \n         ",
+                                        "text": {
+                                            "align": "",
+                                            "color": ""
+                                        }
+                                    },
+                                    "styleObjects": [
+                                        {
+                                            "conditionString": "",
+                                            "conditions": "default",
+                                            "draggable": false,
+                                            "key": 0,
+                                            "label": "Default",
+                                            "name": "Default",
+                                            "styleObject": {
+                                                "background": {
+                                                    "color": "",
+                                                    "image": "",
+                                                    "position": "",
+                                                    "repeat": "",
+                                                    "size": ""
+                                                },
+                                                "border": {
+                                                    "color": "",
+                                                    "radius": "",
+                                                    "style": "",
+                                                    "type": "",
+                                                    "width": ""
+                                                },
+                                                "class": "slds-p-top_x-small ",
+                                                "container": {
+                                                    "class": ""
+                                                },
+                                                "elementStyleProperties": {
+                                                },
+                                                "inlineStyle": "",
+                                                "margin": [
+                                                ],
+                                                "padding": [
+                                                    {
+                                                        "label": "top:x-small",
+                                                        "size": "x-small",
+                                                        "type": "top"
+                                                    }
+                                                ],
+                                                "size": {
+                                                    "default": "3",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_3-of-12 ",
+                                                "style": "     : #ccc 1px solid; \n         ",
+                                                "text": {
+                                                    "align": "",
+                                                    "color": ""
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "type": "text"
+                                }
+                            ],
+                            "class": "slds-col ",
+                            "element": "block",
+                            "elementLabel": "Block-2",
+                            "name": "Block",
+                            "property": {
+                                "card": "{card}",
+                                "collapsedByDefault": false,
+                                "collapsible": false,
+                                "label": "Block",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "4",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "class": "slds-p-around_x-small",
+                                "padding": [
+                                    {
+                                        "size": "x-small",
+                                        "type": "around"
+                                    }
+                                ],
+                                "size": {
+                                    "default": "4",
+                                    "isResponsive": false
+                                },
+                                "sizeClass": "slds-size_4-of-12 "
+                            },
+                            "type": "block"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [
+                                    ],
+                                    "class": "slds-col ",
+                                    "element": "block",
+                                    "elementLabel": "Block-8-Block-0",
+                                    "key": "element_element_block_3_0_block_0_0",
+                                    "name": "Block",
+                                    "parentElementKey": "element_block_3_0",
+                                    "property": {
+                                        "card": "{card}",
+                                        "collapsedByDefault": false,
+                                        "collapsible": false,
+                                        "label": "Block",
+                                        "record": "{record}"
+                                    },
+                                    "size": {
+                                        "default": "1",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "class": "slds-p-around_x-small",
+                                        "padding": [
+                                            {
+                                                "size": "x-small",
+                                                "type": "around"
+                                            }
+                                        ],
+                                        "size": {
+                                            "default": "1",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_1-of-12 "
+                                    },
+                                    "type": "block"
+                                },
+                                {
+                                    "class": "slds-col ",
+                                    "element": "childCardPreview",
+                                    "elementLabel": "Block-8-FlexCard-1",
+                                    "key": "element_element_block_3_0_childCardPreview_1_0",
+                                    "name": "FlexCard",
+                                    "parentElementKey": "element_block_3_0",
+                                    "property": {
+                                        "cardName": "cpqAssetViewerLineItem",
+                                        "cardNode": "{record.value}",
+                                        "isChildCardTrackingEnabled": false,
+                                        "recordId": "{recordId}",
+                                        "selectedState": "Active"
+                                    },
+                                    "size": {
+                                        "default": "11",
+                                        "isResponsive": false
+                                    },
+                                    "stateIndex": 0,
+                                    "styleObject": {
+                                        "background": {
+                                            "color": "",
+                                            "image": "",
+                                            "position": "",
+                                            "repeat": "",
+                                            "size": ""
+                                        },
+                                        "border": {
+                                            "color": "",
+                                            "radius": "",
+                                            "style": "",
+                                            "type": "",
+                                            "width": ""
+                                        },
+                                        "class": "",
+                                        "container": {
+                                            "class": ""
+                                        },
+                                        "elementStyleProperties": {
+                                        },
+                                        "inlineStyle": "",
+                                        "margin": [
+                                        ],
+                                        "padding": [
+                                        ],
+                                        "size": {
+                                            "default": "11",
+                                            "isResponsive": false
+                                        },
+                                        "sizeClass": "slds-size_11-of-12 ",
+                                        "style": "     : #ccc 1px solid; \n         ",
+                                        "text": {
+                                            "align": "",
+                                            "color": ""
+                                        }
+                                    },
+                                    "styleObjects": [
+                                        {
+                                            "conditionString": "",
+                                            "conditions": "default",
+                                            "draggable": false,
+                                            "key": 0,
+                                            "label": "Default",
+                                            "name": "Default",
+                                            "styleObject": {
+                                                "background": {
+                                                    "color": "",
+                                                    "image": "",
+                                                    "position": "",
+                                                    "repeat": "",
+                                                    "size": ""
+                                                },
+                                                "border": {
+                                                    "color": "",
+                                                    "radius": "",
+                                                    "style": "",
+                                                    "type": "",
+                                                    "width": ""
+                                                },
+                                                "class": "",
+                                                "container": {
+                                                    "class": ""
+                                                },
+                                                "elementStyleProperties": {
+                                                },
+                                                "inlineStyle": "",
+                                                "margin": [
+                                                ],
+                                                "padding": [
+                                                ],
+                                                "size": {
+                                                    "default": "11",
+                                                    "isResponsive": false
+                                                },
+                                                "sizeClass": "slds-size_11-of-12 ",
+                                                "style": "     : #ccc 1px solid; \n         ",
+                                                "text": {
+                                                    "align": "",
+                                                    "color": ""
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "type": "element"
+                                }
+                            ],
+                            "class": "slds-col ",
+                            "element": "block",
+                            "elementLabel": "Block-4",
+                            "name": "Block",
+                            "property": {
+                                "card": "{card}",
+                                "collapsedByDefault": false,
+                                "collapsible": false,
+                                "data-conditions": {
+                                    "group": [
+                                        {
+                                            "field": "itemsCollapsed",
+                                            "hasMergeField": false,
+                                            "id": "state-new-condition-0",
+                                            "operator": "!=",
+                                            "type": "custom",
+                                            "value": "true"
+                                        }
+                                    ],
+                                    "id": "state-condition-object",
+                                    "isParent": true
+                                },
+                                "label": "Block",
+                                "record": "{record}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "class": "slds-p-around_x-small",
+                                "padding": [
+                                    {
+                                        "size": "x-small",
+                                        "type": "around"
+                                    }
+                                ],
+                                "sizeClass": "slds-size_12-of-12"
+                            },
+                            "type": "block"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "documents": [
+            ],
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Active",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "background": {
+                    "color": "",
+                    "image": "",
+                    "position": "",
+                    "repeat": "",
+                    "size": ""
+                },
+                "border": {
+                    "color": "",
+                    "radius": "",
+                    "style": "",
+                    "type": "",
+                    "width": ""
+                },
+                "class": "slds-card slds-m-around_none ",
+                "container": {
+                    "class": "slds-card"
+                },
+                "elementStyleProperties": {
+                },
+                "inlineStyle": "",
+                "margin": [
+                    {
+                        "label": "around:none",
+                        "size": "none",
+                        "type": "around"
+                    }
+                ],
+                "padding": [
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "slds-size_12-of-12 ",
+                "style": "      \n         ",
+                "text": {
+                    "align": "",
+                    "color": ""
+                }
+            }
+        }
+    ],
+    "theme": "slds",
+    "title": "cpqAssetViewerGroupLineItems",
+    "xmlJson": [
+        {
+            "@attributes": {
+                "targets": "lightning__AppPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "name": "recordId",
+                        "type": "String"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "targets": "lightning__RecordPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                }
+            ]
+        }
+    ],
+    "xmlObject": {
+        "targetConfigs": "PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImRlYnVnIiB0eXBlPSJCb29sZWFuIi8+CiAgICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0icmVjb3JkSWQiIHR5cGU9IlN0cmluZyIvPgogICAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgICAgPHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX1JlY29yZFBhZ2UiPgogICAgICAgICAgICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImRlYnVnIiB0eXBlPSJCb29sZWFuIi8+CiAgICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==",
+        "targets": {
+            "target": [
+                "lightning__RecordPage",
+                "lightning__AppPage",
+                "lightning__HomePage"
+            ]
+        }
+    }
+}

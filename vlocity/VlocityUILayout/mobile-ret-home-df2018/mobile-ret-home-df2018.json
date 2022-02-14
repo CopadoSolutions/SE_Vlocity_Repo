@@ -1,0 +1,14 @@
+{
+    "Cards": [
+    ],
+    "componentName": "cfMobileRetHomeDf2018",
+    "dataSource": {
+        "type": "Inherit"
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "vdo-mobile-ret-home-DF2018"
+        }
+    }
+}

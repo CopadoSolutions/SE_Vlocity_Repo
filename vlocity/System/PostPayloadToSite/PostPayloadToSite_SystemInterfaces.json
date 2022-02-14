@@ -1,0 +1,20 @@
+[
+    {
+        "%vlocity_namespace%__GlobalKey__c": "fe655054-1cfc-0b94-714b-428364355a99",
+        "%vlocity_namespace%__Implementation__c": "IntegrationProcedureSystemInterface",
+        "%vlocity_namespace%__Key__c": "PostPayloadToSite:PostPayloadToSiteIntegrationProcedure",
+        "%vlocity_namespace%__Path__c": "VDO_PostPayload",
+        "%vlocity_namespace%__Status__c": "",
+        "%vlocity_namespace%__SystemId__c": {
+            "Name": "PostPayloadToSite",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__System__c/PostPayloadToSite",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__System__c"
+        },
+        "%vlocity_namespace%__SystemId__r.Name": "PostPayloadToSite",
+        "Name": "PostPayloadToSiteIntegrationProcedure",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__SystemInterface__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__SystemInterface__c/PostPayloadToSiteIntegrationProcedure/%vlocity_namespace%__System__c/PostPayloadToSite"
+    }
+]

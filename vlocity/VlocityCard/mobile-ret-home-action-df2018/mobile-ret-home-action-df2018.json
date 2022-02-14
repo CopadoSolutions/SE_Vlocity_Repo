@@ -1,0 +1,64 @@
+{
+    "dataSource": {
+        "type": null
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "blankCardState": true,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'non-existent'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "Plans",
+                        "hasExtraParams": false,
+                        "iconName": "utility-weeklyview",
+                        "id": "RET_plan-df2018",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Phones",
+                        "hasExtraParams": false,
+                        "iconName": "utility-phone_portrait",
+                        "id": "RET_phone-df2018",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Deals",
+                        "hasExtraParams": false,
+                        "iconName": "utility-moneybag",
+                        "id": "RET_deal-df2018",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+            ],
+            "filter": "$scope.data.status === 'non-existent'",
+            "isSmartAction": false,
+            "name": "Action Card State",
+            "sObjectType": "Account",
+            "smartAction": {
+            },
+            "templateUrl": "vdo-mobile-ret-home-action-card"
+        }
+    ],
+    "title": "Mobile Actions"
+}

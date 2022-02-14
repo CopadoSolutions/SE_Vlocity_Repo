@@ -1,0 +1,27 @@
+<apex:page controller="NENeedleCastController" action="{!go}">
+    <apex:form >
+        <apex:pageBlock id="pb">
+           
+            <apex:pageBlockSection columns="2">
+          
+                <apex:outputLabel value="OID"/>
+                <apex:inputText value="{!oid}"/>
+                
+                <apex:outputLabel value="retURL"/>
+                <apex:inputText value="{!retURL}"/>
+                
+                <apex:outputLabel value="sunetworkid"/>
+                <apex:inputText value="{!sunetworkid}"/>
+                
+                <apex:outputLabel value="sunetworkuserid"/>
+                <apex:inputText value="{!sunetworkuserid}"/>
+                
+               
+                
+            </apex:pageBlockSection>
+             <apex:pageBlockButtons location="bottom">
+                <apex:commandButton value="go" action="{!go}"/>
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

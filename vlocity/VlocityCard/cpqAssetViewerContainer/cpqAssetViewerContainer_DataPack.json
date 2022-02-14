@@ -1,0 +1,51 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+            {
+                "id": 24,
+                "name": "Session.searchBy",
+                "val": "Name"
+            },
+            {
+                "id": 25,
+                "name": "Session.query",
+                "val": "t"
+            },
+            {
+                "id": 60,
+                "name": "recordId",
+                "val": "0015g00000EyHr5AAF"
+            },
+            {
+                "id": 20,
+                "name": "Session.pageSize",
+                "val": "5"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "{}",
+            "dsDelay": "",
+            "resultVar": ""
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "cpqAssetViewerContainer.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "cpqAssetViewerContainer/Vlocity/4/1631515450886",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "CPQAssetViewerContainerFinal/Vlocity/1/1622634159943",
+    "%vlocity_namespace%__SampleData__c": "{}",
+    "%vlocity_namespace%__Styles__c": "{\"customStyles\":\"\\n.select-an-action .slds-modal__container {\\n    text-align: left;\\n    width: 50%; \\n}\\n.select-an-action .slds-modal__content, .slds-p-around_medium {\\n    text-align: left;\\n}\\n.select-an-action .slds-dropdown__list {\\n    text-align: left !important;\\n}\\n.asset-viewer-search  .%vlocity_namespace%-modal_modal_slds {\\n        width: 50%;\\n}\\n\\n\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "cpqAssetViewerContainer",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/cpqAssetViewerContainer"
+}

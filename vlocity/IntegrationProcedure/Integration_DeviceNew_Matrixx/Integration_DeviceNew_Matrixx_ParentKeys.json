@@ -1,0 +1,8 @@
+[
+    "DataRaptor/AccountGetOIDFromAsset",
+    "DataRaptor/DeviceAddUpdate",
+    "DataRaptor/DeviceCreateBody_Matrixx",
+    "DataRaptor/ErrorRecordCallout",
+    "DataRaptor/ErrorRecordUpsert",
+    "DataRaptor/ObjectPrepareUpdate_Matrixx"
+]

@@ -1,0 +1,880 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "Blaze-Dedicated-Internet-Offer_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "ATT-ATTR-BW-003": "20 Mbps",
+        "ATTR-PLAN-001": "Dynamic Rate",
+        "ATTRIBUTE-072": null,
+        "ATTRIBUTE-124": null,
+        "ATTRIBUTE-152": "Ethernet",
+        "ATTRIBUTE-153": "50 Mbps",
+        "B2B-ATTR-CUSTOMER-CPE-ROUTER": "No",
+        "B2B-ATTR-ORDR-MGMT-OPTIONS": "FlowThrough",
+        "B2B-ATTR-PROINSTALL-REQ-001": "Yes"
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "messages": [
+        ],
+        "records": [
+            {
+                "Code__c": "VLO-PRO-0024",
+                "Name": "Configuration",
+                "displaySequence": 6,
+                "id": "a0I8c00001Tc9BxEAJ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0J8c00000rM6exEAC",
+                            "cloneable": true,
+                            "code": "ATT-ATTR-BW-003",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Committed Bandwidth",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "ba99656b-681c-be95-afb7-ada430012cb4",
+                                    "label": "10 Mbps",
+                                    "readonly": false,
+                                    "value": "10 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "fa899ce2-f2df-b8e3-bce2-97da04720f8d",
+                                    "label": "20 Mbps",
+                                    "readonly": false,
+                                    "value": "20 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "d73bccca-28d0-89fb-a613-3ddd85ab3f11",
+                                    "label": "50 Mbps",
+                                    "readonly": false,
+                                    "value": "50 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 38,
+                                    "id": "7b01e06a-dcbd-7d40-36eb-2f8ab71d0e77",
+                                    "label": "45 Mbps",
+                                    "readonly": false,
+                                    "value": "45 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "813f6436-4940-976a-a5e9-4cc8285f24c4",
+                                    "label": "100 Mbps",
+                                    "readonly": false,
+                                    "value": "100 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "51d47eda-08e1-469e-5b86-6eb37961b693",
+                                    "label": "150 Mbps",
+                                    "readonly": false,
+                                    "value": "150 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 60,
+                                    "id": "56999c3e-7fc9-b268-af39-c54adfbc223b",
+                                    "label": "250 Mbps",
+                                    "readonly": false,
+                                    "value": "250 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 70,
+                                    "id": "7bbb5226-e9c4-aed2-23eb-5b4eda92e5f7",
+                                    "label": "400 Mbps",
+                                    "readonly": false,
+                                    "value": "400 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 80,
+                                    "id": "6a7e2fe2-ead1-be8c-d4eb-da00a61fd87a",
+                                    "label": "500 Mbps",
+                                    "readonly": false,
+                                    "value": "500 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 90,
+                                    "id": "0b222686-a55f-ecf5-0d6b-bf1eb1e929ba",
+                                    "label": "600 Mbps",
+                                    "readonly": false,
+                                    "value": "600 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 100,
+                                    "id": "6b793c89-632d-a5de-afa5-a892494c6174",
+                                    "label": "1 Gbps",
+                                    "readonly": false,
+                                    "value": "1 Gbps"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0J8c00000rM6evEAC",
+                            "cloneable": true,
+                            "code": "ATTR-PLAN-001",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Usage Type",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "51f765f2-8233-2dfd-d151-74d8e45b3fd5",
+                                    "label": "Dynamic Rate",
+                                    "readonly": false,
+                                    "value": "Dynamic Rate"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "id": "35e269fe-016e-d5d8-cd68-04987f9cb117",
+                                    "label": "Fixed Rate",
+                                    "readonly": false,
+                                    "value": "Fixed Rate"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 2
+                }
+            },
+            {
+                "Code__c": "VLO-PER-0004",
+                "Name": "Analysis",
+                "displaySequence": 4,
+                "id": "a0I8c00001Tc9BmEAJ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0J8c00000rM6euEAC",
+                            "cloneable": true,
+                            "code": "B2B-ATTR-ORDR-MGMT-OPTIONS",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 10,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "OrderManagement",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "4fc21b34-93ab-9702-d239-dab51884407f",
+                                    "label": "FlowThrough",
+                                    "readonly": false,
+                                    "value": "FlowThrough"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "9bac69a6-3ed1-57ed-f433-4fb512d3a5a5",
+                                    "label": "ManualTask",
+                                    "readonly": false,
+                                    "value": "ManualTask"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "5c51ece0-ee57-b9f8-c024-051b969bcd8e",
+                                    "label": "CancelOrder",
+                                    "readonly": false,
+                                    "value": "CancelOrder"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 1
+                }
+            },
+            {
+                "Code__c": "VLO-PRO-0006",
+                "Name": "Cloud Services",
+                "displaySequence": 14,
+                "id": "a0I8c00001Tc9BYEAZ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0J8c00000rM6drEAC",
+                            "cloneable": true,
+                            "code": "ATTRIBUTE-152",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Access Type",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "d9dd91ad-227a-bb98-19a9-c0da29f77125",
+                                    "label": "Private Line",
+                                    "readonly": false,
+                                    "value": "Private Line"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "id": "fb023857-d61d-be75-8a9e-fb41008b6cb5",
+                                    "label": "Ethernet",
+                                    "readonly": false,
+                                    "value": "Ethernet"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 3,
+                                    "id": "edf51c86-b876-82de-c013-9ff24d842154",
+                                    "label": "ADSL",
+                                    "readonly": false,
+                                    "value": "ADSL"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 4,
+                                    "id": "7c648e45-5d4a-fc79-5f0b-68376d3cc01e",
+                                    "label": "Wireless Lan",
+                                    "readonly": false,
+                                    "value": "Wireless Lan"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 5,
+                                    "id": "6422d2f3-7439-d7e5-086e-92dc9d523216",
+                                    "label": "Dialup",
+                                    "readonly": false,
+                                    "value": "Dialup"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0J8c00000rM6dqEAC",
+                            "cloneable": true,
+                            "code": "ATTRIBUTE-153",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Access Speed",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "d1912fd6-ea31-ddc9-14a1-f7e0f97a2c69",
+                                    "label": "5 Mbps",
+                                    "readonly": false,
+                                    "value": "5 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "id": "b9d518a3-d93c-ce67-7d64-f4b6e3552c6a",
+                                    "label": "10 Mbps",
+                                    "readonly": false,
+                                    "value": "10 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 3,
+                                    "id": "ca14a5e8-33eb-7d55-94ce-e8d3368ae375",
+                                    "label": "25 Mbps",
+                                    "readonly": false,
+                                    "value": "25 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 4,
+                                    "id": "43e4aa0e-10f1-1028-f925-eb4308968fd3",
+                                    "label": "45 Mbps",
+                                    "readonly": false,
+                                    "value": "45 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 5,
+                                    "id": "45a227e4-1cf6-136d-60da-3fa81c4b395a",
+                                    "label": "50 Mbps",
+                                    "readonly": false,
+                                    "value": "50 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 6,
+                                    "id": "56177993-65f7-f540-6a59-eb06c548a510",
+                                    "label": "100 Mbps",
+                                    "readonly": false,
+                                    "value": "100 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 7,
+                                    "id": "6331cd6c-b0b7-d238-d2ba-f9150640583b",
+                                    "label": "155 Mbps",
+                                    "readonly": false,
+                                    "value": "155 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 8,
+                                    "id": "06afd411-5143-91e6-6be7-e8734d2cba9d",
+                                    "label": "250 Mbps",
+                                    "readonly": false,
+                                    "value": "250 Mbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 9,
+                                    "id": "50f68ab9-d5b8-3cd5-8bf1-596ba2eb4d9a",
+                                    "label": "1 Gbps",
+                                    "readonly": false,
+                                    "value": "1 Gbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "eecfb6dc-18b7-9733-d07c-501630dc5f31",
+                                    "label": "2.5 Gbps",
+                                    "readonly": false,
+                                    "value": "2.5 Gbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 11,
+                                    "id": "f50911fc-7da7-3f17-b75e-ff4da26f77fc",
+                                    "label": "10 Gbps",
+                                    "readonly": false,
+                                    "value": "10 Gbps"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 12,
+                                    "id": "115b20fb-625e-8c28-2a05-f697aeff65be",
+                                    "label": "OC12",
+                                    "readonly": false,
+                                    "value": "OC12"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 13,
+                                    "id": "1d1dfd51-7a8c-b070-005f-60ab147995e6",
+                                    "label": "OC48",
+                                    "readonly": false,
+                                    "value": "OC48"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 14,
+                                    "id": "ccca54c7-295b-006e-060e-4c9bba846d26",
+                                    "label": "OC192",
+                                    "readonly": false,
+                                    "value": "OC192"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 2
+                }
+            },
+            {
+                "Code__c": "VLO-PRO-0008",
+                "Name": "Installation",
+                "displaySequence": 16,
+                "id": "a0I8c00001Tc9BWEAZ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0J8c00000rM6cbEAC",
+                            "cloneable": false,
+                            "code": "ATTRIBUTE-072",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Installation Date",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 1
+                }
+            },
+            {
+                "Code__c": "VLO-PRO-0010",
+                "Name": "Router",
+                "displaySequence": 18,
+                "id": "a0I8c00001Tc9BXEAZ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0J8c00000rM6epEAC",
+                            "cloneable": true,
+                            "code": "B2B-ATTR-CUSTOMER-CPE-ROUTER",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 10,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Customer Owned CPE Router",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "b6888df8-f831-6d47-780a-8c4649155b68",
+                                    "label": "Yes",
+                                    "readonly": false,
+                                    "value": "Yes"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "id": "a00c1afd-bc8a-9f45-7e89-fa146921df39",
+                                    "label": "No",
+                                    "readonly": false,
+                                    "value": "No"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 1
+                }
+            },
+            {
+                "Code__c": "VLO-PRO-0025",
+                "Name": "XOMControl",
+                "displaySequence": 33,
+                "id": "a0I8c00001Tc9BwEAJ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0J8c00000rM6esEAC",
+                            "cloneable": true,
+                            "code": "B2B-ATTR-PROINSTALL-REQ-001",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 10,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Professional Install Requested",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "b6888df8-f831-6d47-780a-8c4649155b68",
+                                    "label": "Yes",
+                                    "readonly": false,
+                                    "value": "Yes"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "id": "a00c1afd-bc8a-9f45-7e89-fa146921df39",
+                                    "label": "No",
+                                    "readonly": false,
+                                    "value": "No"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 1
+                }
+            },
+            {
+                "Code__c": "VLO-PRO-0015",
+                "Name": "Logistics",
+                "displaySequence": 23,
+                "id": "a0I8c00001Tc9BeEAJ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0J8c00000rM6dKEAS",
+                            "cloneable": false,
+                            "code": "ATTRIBUTE-124",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 4,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Provider",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 1
+                }
+            }
+        ],
+        "totalSize": 7
+    },
+    "%vlocity_namespace%__AttributeRules__c": "{}",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__CategoryData__c": [
+        {
+            "actions": {
+            },
+            "childCategories": [
+                {
+                    "actions": {
+                    },
+                    "childCategories": [
+                    ],
+                    "displaySequence": -1,
+                    "fields": {
+                    },
+                    "messages": [
+                    ],
+                    "name": "B2B Dedicated Internet",
+                    "nameResult": {
+                    },
+                    "uiStates": {
+                    }
+                }
+            ],
+            "displaySequence": -1,
+            "fields": {
+            },
+            "messages": [
+            ],
+            "name": "B2B Internet",
+            "nameResult": {
+            },
+            "uiStates": {
+            }
+        },
+        {
+            "actions": {
+            },
+            "childCategories": [
+                {
+                    "actions": {
+                    },
+                    "childCategories": [
+                    ],
+                    "displaySequence": -1,
+                    "fields": {
+                    },
+                    "messages": [
+                    ],
+                    "name": "B2B Dedicated Internet",
+                    "nameResult": {
+                    },
+                    "uiStates": {
+                    }
+                }
+            ],
+            "displaySequence": -1,
+            "fields": {
+            },
+            "messages": [
+            ],
+            "name": "B2B Internet",
+            "nameResult": {
+            },
+            "uiStates": {
+            }
+        }
+    ],
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__DecompositionRelationship__c": "Blaze-Dedicated-Internet-Offer_DecompositionRelationships.json",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "",
+    "%vlocity_namespace%__GlobalGroupKey__c": "2de9b3ba-7d77-b60c-3f48-23f6dc4fae60",
+    "%vlocity_namespace%__GlobalKey__c": "2b8a7685-b384-a211-0edf-84d8d78588fc",
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsCustomerSubscription__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "Seconds",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__Modification__c": "",
+    "%vlocity_namespace%__ObjectFieldAttribute__c": "Blaze-Dedicated-Internet-Offer_ObjectFieldAttributes.json",
+    "%vlocity_namespace%__ObjectTypeId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "7b9b39-1a7326-6afb3e-e48ce0-fbaf3dddc",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/7b9b39-1a7326-6afb3e-e48ce0-fbaf3dddc",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
+    },
+    "%vlocity_namespace%__ObjectTypeName__c": "Dedicated Internet",
+    "%vlocity_namespace%__OrchestrationScenario__c": "Blaze-Dedicated-Internet-Offer_OrchestrationScenarios.json",
+    "%vlocity_namespace%__ParentClassCode__c": "B2B-CLASS-DIA",
+    "%vlocity_namespace%__ParentClassId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "7c00f3e4-cfe2-db57-b155-82c854f4b321",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/7c00f3e4-cfe2-db57-b155-82c854f4b321",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__PriceListEntry__c": "Blaze-Dedicated-Internet-Offer_PriceListEntries.json",
+    "%vlocity_namespace%__ProductChildItem__c": "Blaze-Dedicated-Internet-Offer_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "",
+    "%vlocity_namespace%__SpecificationSubType__c": "",
+    "%vlocity_namespace%__SpecificationType__c": "Offer",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "Service",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "Bundle",
+    "%vlocity_namespace%__VendorAccountId__c": "",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "V1",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "Antenna_Type__c": "",
+    "Auto_Attendant__c": "",
+    "Automated_Directory__c": "",
+    "Backup_Power__c": "",
+    "Bandwidth__c": "",
+    "Call_Barring__c": "",
+    "Call_Forwarding__c": "",
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
+    "Conferencing__c": "",
+    "Description": "Get the fastest dedicated Internet connectivity for all your cloud connectivity needs.",
+    "Device_Colour__c": "",
+    "Device_IMEI__c": "",
+    "Device_Manufacturer__c": "",
+    "Device_Network_Compatibility__c": "",
+    "Device_Operating_System__c": "",
+    "Device_Storage__c": "",
+    "Direct_Inward_Dialing__c": "",
+    "Discount__c": "",
+    "DisplayUrl": "",
+    "Ethernet_Ports__c": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Face_Size__c": "",
+    "Family": "Services",
+    "Finish__c": "",
+    "Genre__c": "",
+    "ICCID__c": "",
+    "IMSI__c": "",
+    "Interactive_Voice_Response__c": "",
+    "Internet_Data_Usage_Cap__c": "",
+    "Internet_Download_Speed__c": "",
+    "Internet_Upload_Speed__c": "",
+    "IsActive": true,
+    "IsArchived": false,
+    "Line_Type__c": "",
+    "MSISDN__c": "",
+    "Maximum_Speed__c": "",
+    "Music_on_Hold__c": "",
+    "Name": "Blaze Dedicated Internet Offer",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "Number__c": "",
+    "PBX_Type__c": "",
+    "Price__c": "",
+    "PricebookEntry": "Blaze-Dedicated-Internet-Offer_PricebookEntries.json",
+    "ProductCode": "B2B-DIA-001",
+    "Product_Channel__c": "",
+    "Product_Owner__c": "",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "SIM_Type__c": "",
+    "Simultaneous_Connections__c": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": 0,
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "Blaze Dedicated Internet Offer",
+            "One_Time_Cost__c": "",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "2b8a7685-b384-a211-0edf-84d8d78588fc",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "2b8a7685-b384-a211-0edf-84d8d78588fc",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/2b8a7685-b384-a211-0edf-84d8d78588fc",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "B2B-DIA-001",
+            "Recurring_Cost__c": "",
+            "SOHO_One_Time_Discount__c": "",
+            "UnitPrice": 0,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/2b8a7685-b384-a211-0edf-84d8d78588fc"
+        }
+    ],
+    "StockKeepingUnit": "",
+    "Storage_Space__c": "",
+    "Strap__c": "",
+    "TV_Boxes_Required__c": "",
+    "TV_Connection__c": "",
+    "TV_Content__c": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/2b8a7685-b384-a211-0edf-84d8d78588fc",
+    "Voicemail__c": "",
+    "Wifi_Band__c": "",
+    "Wifi_Standard__c": ""
+}

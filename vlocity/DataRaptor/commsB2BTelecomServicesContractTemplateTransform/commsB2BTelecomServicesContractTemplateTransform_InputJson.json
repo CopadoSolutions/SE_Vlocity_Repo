@@ -1,0 +1,35 @@
+{
+    "BillingAccount": {
+        "BillContName": "Text",
+        "BillDelivery": "Text",
+        "BillEmail": "Text",
+        "BillFreq": "Text",
+        "BillPayType": "Text",
+        "City": "Text",
+        "Name": "Text",
+        "PostalCode": "Text",
+        "ServiceLocation": {
+            "Name": "Text",
+            "OneTimeCharge": "Text",
+            "Product": "Text",
+            "Qty": "Text",
+            "RecurringCharges": "Text"
+        },
+        "State": "Text",
+        "Street": "Text",
+        "TotalOnetime": "Text",
+        "TotalQty": "Text",
+        "TotalRecurring": "Text"
+    },
+    "PrimaryCity": "Text",
+    "PrimaryCustomer": "Text",
+    "PrimaryName": "Text",
+    "PrimaryPostalCode": "Text",
+    "PrimaryState": "Text",
+    "PrimaryStreet": "Text",
+    "SalesCity": "Text",
+    "SalesName": "Text",
+    "SalesPostalCode": "Text",
+    "SalesState": "Text",
+    "SalesStreet": "Text"
+}

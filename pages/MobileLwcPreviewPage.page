@@ -1,0 +1,190 @@
+<apex:page showHeader="false"
+  sidebar="false"
+  standardStylesheets="false"
+  docType="html-5.0"
+  applyBodyTag="false"
+  lightningStylesheets="false"
+  title="LWC Preview VF Page"
+  cache="false"
+>
+  <apex:includeLightning />
+  <apex:slds />
+    <html>
+      <head>
+        <script>
+          class Loader {
+            constructor() {
+              this.el = document.getElementById('loading');
+            }
+            show() {
+              this.el.style.display = 'block';
+            }
+            hide() {
+              this.el.style.display = 'none';
+            }
+          }
+          function postMessageCb(c) {
+            return function(res) {
+              return c(res);
+            }
+          }
+          const cbMap = new Map();
+          window.onmessage = function(event) {
+            console.log('POSTMESSAGE', event);
+            handlePostMessage(event.data);
+          }
+          function handlePostMessage(data) {
+            const type = data.type;
+            if (type === 'setOmniMobile') {
+              handleSetOmniMobile(data);
+            }
+            if (type === 'callBackOmniMobile') {
+              handleCallBackOmniMobile(data);
+            }
+          }
+          function handleSetOmniMobile(data) {
+            window.omniMobile = data.omniMobile;
+            window.iframeId = data.id;
+          }
+          function handleCallBackOmniMobile(data) {
+            const fn = cbMap.get(data.callBackId);
+            if (fn) {
+              fn(data.payload);
+            }
+          }
+        </script>
+      </head>
+      <body>
+        <div id="loading" style="display: none;">
+          <div class="slds-scope">
+            <div class="slds-spinner_container slds-is-fixed">
+              <div role="status" class="slds-spinner--brand slds-spinner slds-spinner--large">
+              <span class="slds-assistive-text">Loading</span>
+              <div class="slds-spinner__dot-a"></div>
+              <div class="slds-spinner__dot-b"></div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div id="lightning" />
+        <script>
+        (function () {
+          // Omni event block START
+          window.addEventListener('omniaggregate', function (event) {
+            // Pass the data to the parent, as is needed there (because we are in an iframe)
+            const data = JSON.parse(JSON.stringify(event.detail.data));
+            var event = new CustomEvent('omniaggregate', {
+              bubbles: true,
+              cancelable: false,
+              composed: false,
+              detail: data
+            });
+            window.parent.document.dispatchEvent(event);
+          }, false);
+          window.addEventListener('omniactiondebug', function (event) {
+            // Pass the data to the parent, as is needed there (because we are in an iframe)
+            const data = JSON.parse(JSON.stringify(event.detail));
+            var event = new CustomEvent('omniactiondebug', {
+              bubbles: true,
+              cancelable: false,
+              composed: false,
+              detail: {
+                element: data.element,
+                response: data.response,
+                args: [data.params.sMethodName, data.params.sClassName, data.params.input, data.params.options]
+              }
+            });
+            window.parent.document.dispatchEvent(event);
+          }, false);
+          // Omni event block END
+          const oauthIndex = window.location.search.indexOf('&oauth_token');
+          const parsedUrl = oauthIndex > -1 ? window.location.search.substring(0, oauthIndex) : window.location.search;
+          const urlParams = JSON.parse(
+            window.decodeURIComponent(
+              parsedUrl
+                .replace('?data=', '')
+                .replace(/%23/g, '#')
+                .replace(/%2B/g, ' ')
+                .replace('&sdtd=1', '')
+            )
+          );
+          // Get the params for the component
+          const ns = urlParams.ns || 'c';
+          const lwcComponent = urlParams.lwc;
+          const vfns = urlParams.vfns;
+          // Create the object of attributes
+          delete urlParams.ns;
+          delete urlParams.lwc;
+          delete urlParams.vfns;
+          attrs = urlParams;
+          // Use lightning out to request the preview
+          const loader = new Loader();
+          const lwcWrapper = document.getElementById('lightning');
+          loader.show();
+          lwcWrapper.innerHTML = '';
+          $Lightning.use(`${vfns || ns}:ltngOutVF`, function () {
+            if (lwcComponent) {
+              $Lightning.createComponent(
+                `${ns}:${lwcComponent}`,
+                attrs,
+                'lightning',
+                function (cmp, status) {
+                  if (status === 'SUCCESS') {
+                    // If lwc load succesfully, making sure error div is empty
+                    document.querySelector("#auraErrorMessage").innerHTML = "";
+                    cmp.elements[0].omniMobile = omniMobileFn;
+                  }
+                  loader.hide();
+                }
+              );
+            }
+          });
+          function omniMobileFn(type) {
+            const typeArray = getTypeArray(type);
+            const callId = generateCallId();
+            window.parent.postMessage({
+              req: 'omnimobile',
+              type: typeArray,
+              payload: JSON.parse(JSON.stringify(Array.from(arguments).splice(1))),
+              id: window.iframeId,
+              callId: callId
+            }, '*');
+            const lastArg = arguments[arguments.length - 1];
+            if (typeof lastArg === 'function') {
+              console.log(':has callback');
+              cbMap.set(callId, postMessageCb(lastArg));
+              return;
+            }
+            return handleGetOmniMobileData(typeArray);
+          }
+          function getTypeArray(type) {
+            if (typeof type === 'string') {
+              return type.split('.');
+            }
+            if (Array.isArray(type)) {
+              return type;
+            }
+            throw new Error('type is not an array or string');
+          }
+          function handleGetOmniMobileData(type) {
+            if (!type.length) {
+              return window.omniMobile;
+            }
+            const target = type.reduce((c, n) => {
+              if (!c) {
+                return c;
+              }
+              return c[n];
+            }, window.omniMobile);
+            return target;
+          }
+          function generateCallId() {
+            return 'cb_' + Math.ceil(Math.random() * 1000000) + Number(new Date());
+          }
+        })();
+      </script>
+      <!-- Hide aura errors as this also shows unhandled exceptions on aura/lightning out  -->
+      <div id="auraErrorMessage" style="display: none;"></div>
+    </body>
+  </html>
+</apex:page>

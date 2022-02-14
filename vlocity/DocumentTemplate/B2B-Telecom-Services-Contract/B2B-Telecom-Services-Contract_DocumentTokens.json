@@ -1,0 +1,498 @@
+[
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "Telecom Services Contract/1/Vlocity/1591025747596",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/B2B Telecom Services Contract",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "",
+        "%vlocity_namespace%__TokenSymbol__c": "0b97aec9-4907-0899-862e-cd4ca8133dff",
+        "Name": "PrimaryCity",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/0b97aec9-4907-0899-862e-cd4ca8133dff"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "Telecom Services Contract/1/Vlocity/1591025747596",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/B2B Telecom Services Contract",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "",
+        "%vlocity_namespace%__TokenSymbol__c": "215b67f4-62b2-d584-25ff-cbbfb20cecf8",
+        "Name": "SalesStreet",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/215b67f4-62b2-d584-25ff-cbbfb20cecf8"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "Telecom Services Contract/1/Vlocity/1591025747596",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/B2B Telecom Services Contract",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "",
+        "%vlocity_namespace%__TokenSymbol__c": "22be90e4-1a55-a47c-945d-a4ba3570ab4e",
+        "Name": "PrimaryState",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/22be90e4-1a55-a47c-945d-a4ba3570ab4e"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "Telecom Services Contract/1/Vlocity/1591025747596",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/B2B Telecom Services Contract",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "",
+        "%vlocity_namespace%__TokenSymbol__c": "4da1f8a2-7864-d96d-2e7e-70de1923bb21",
+        "Name": "SalesName",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/4da1f8a2-7864-d96d-2e7e-70de1923bb21"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "Telecom Services Contract/1/Vlocity/1591025747596",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/B2B Telecom Services Contract",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "",
+        "%vlocity_namespace%__TokenSymbol__c": "554f237f-d29c-d131-a0c6-6906bc2ec209",
+        "Name": "PrimaryName",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/554f237f-d29c-d131-a0c6-6906bc2ec209"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "Telecom Services Contract/1/Vlocity/1591025747596",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/B2B Telecom Services Contract",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "",
+        "%vlocity_namespace%__TokenSymbol__c": "690a0bcf-0ff3-b07e-b487-e5aa7b3b1561",
+        "Name": "contractDueDate",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/690a0bcf-0ff3-b07e-b487-e5aa7b3b1561"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "Telecom Services Contract/1/Vlocity/1591025747596",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/B2B Telecom Services Contract",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "",
+        "%vlocity_namespace%__TokenSymbol__c": "6b045b92-e31c-1fae-3f9d-fef0bce9e0c2",
+        "Name": "PrimaryCustomer",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/6b045b92-e31c-1fae-3f9d-fef0bce9e0c2"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "Telecom Services Contract/1/Vlocity/1591025747596",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/B2B Telecom Services Contract",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "",
+        "%vlocity_namespace%__TokenSymbol__c": "8140c421-4d4a-5da8-6507-d1c53fcc1e8d",
+        "Name": "PrimaryPostalCode",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/8140c421-4d4a-5da8-6507-d1c53fcc1e8d"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "Telecom Services Contract/1/Vlocity/1591025747596",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/B2B Telecom Services Contract",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "",
+        "%vlocity_namespace%__TokenSymbol__c": "926823ed-6579-3c9d-c856-eade89e9579e",
+        "Name": "ContractId",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/926823ed-6579-3c9d-c856-eade89e9579e"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "Telecom Services Contract/1/Vlocity/1591025747596",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/B2B Telecom Services Contract",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "",
+        "%vlocity_namespace%__TokenSymbol__c": "9f7e977e-fd3e-1add-3527-ebaabb968458",
+        "Name": "PrimaryStreet",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/9f7e977e-fd3e-1add-3527-ebaabb968458"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "Telecom Services Contract/1/Vlocity/1591025747596",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/B2B Telecom Services Contract",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "",
+        "%vlocity_namespace%__TokenSymbol__c": "a9308fb4-649c-f57d-e174-2b9a514215cc",
+        "Name": "SalesState",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/a9308fb4-649c-f57d-e174-2b9a514215cc"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "Telecom Services Contract/1/Vlocity/1591025747596",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/B2B Telecom Services Contract",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "",
+        "%vlocity_namespace%__TokenSymbol__c": "c1f8483c-b777-9837-acda-ed2d57996636",
+        "Name": "SalesPostalCode",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/c1f8483c-b777-9837-acda-ed2d57996636"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "Telecom Services Contract/1/Vlocity/1591025747596",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/B2B Telecom Services Contract",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "",
+        "%vlocity_namespace%__TokenSymbol__c": "ec30923e-937a-8ce2-532c-5ab63d86f0eb",
+        "Name": "SalesCity",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/ec30923e-937a-8ce2-532c-5ab63d86f0eb"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "Telecom Services Contract/1/Vlocity/1591025747596",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/B2B Telecom Services Contract",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "BillingAccount",
+        "%vlocity_namespace%__TokenSymbol__c": "0891829a-6ddd-4976-efc3-6c85548fc769",
+        "Name": "BillContName",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/0891829a-6ddd-4976-efc3-6c85548fc769"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "Telecom Services Contract/1/Vlocity/1591025747596",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/B2B Telecom Services Contract",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "BillingAccount",
+        "%vlocity_namespace%__TokenSymbol__c": "1584f06e-bfc1-8b44-ffb9-3e2aa4d23279",
+        "Name": "PostalCode",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/1584f06e-bfc1-8b44-ffb9-3e2aa4d23279"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "Telecom Services Contract/1/Vlocity/1591025747596",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/B2B Telecom Services Contract",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "BillingAccount",
+        "%vlocity_namespace%__TokenSymbol__c": "18a3c384-857c-aefa-6d12-60f5f83c3e4f",
+        "Name": "BillPayType",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/18a3c384-857c-aefa-6d12-60f5f83c3e4f"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "Telecom Services Contract/1/Vlocity/1591025747596",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/B2B Telecom Services Contract",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "BillingAccount",
+        "%vlocity_namespace%__TokenSymbol__c": "47a63c02-d797-3fd5-0768-d2228d9c496c",
+        "Name": "TotalQty",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/47a63c02-d797-3fd5-0768-d2228d9c496c"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "Telecom Services Contract/1/Vlocity/1591025747596",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/B2B Telecom Services Contract",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "BillingAccount",
+        "%vlocity_namespace%__TokenSymbol__c": "4b2e329b-9806-75b6-e689-9f6d6581634d",
+        "Name": "City",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/4b2e329b-9806-75b6-e689-9f6d6581634d"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "Telecom Services Contract/1/Vlocity/1591025747596",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/B2B Telecom Services Contract",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "BillingAccount",
+        "%vlocity_namespace%__TokenSymbol__c": "56bd3a51-abeb-b1b7-56da-d7ebaa4d1763",
+        "Name": "TotalRecurring",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/56bd3a51-abeb-b1b7-56da-d7ebaa4d1763"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "Telecom Services Contract/1/Vlocity/1591025747596",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/B2B Telecom Services Contract",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "BillingAccount",
+        "%vlocity_namespace%__TokenSymbol__c": "64f0b7ee-f764-4f7d-b28e-a1dfc2a425d7",
+        "Name": "BillDelivery",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/64f0b7ee-f764-4f7d-b28e-a1dfc2a425d7"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "Telecom Services Contract/1/Vlocity/1591025747596",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/B2B Telecom Services Contract",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "BillingAccount",
+        "%vlocity_namespace%__TokenSymbol__c": "80c27406-f57c-3793-9b16-3db1e30f7113",
+        "Name": "State",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/80c27406-f57c-3793-9b16-3db1e30f7113"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "Telecom Services Contract/1/Vlocity/1591025747596",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/B2B Telecom Services Contract",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "BillingAccount",
+        "%vlocity_namespace%__TokenSymbol__c": "9fed894a-fafb-70a0-821b-a4e94b9b5ce9",
+        "Name": "BillFreq",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/9fed894a-fafb-70a0-821b-a4e94b9b5ce9"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "Telecom Services Contract/1/Vlocity/1591025747596",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/B2B Telecom Services Contract",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "BillingAccount",
+        "%vlocity_namespace%__TokenSymbol__c": "a46c0758-d286-16cc-56ed-684335d2a280",
+        "Name": "TotalOnetime",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/a46c0758-d286-16cc-56ed-684335d2a280"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "Telecom Services Contract/1/Vlocity/1591025747596",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/B2B Telecom Services Contract",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "BillingAccount",
+        "%vlocity_namespace%__TokenSymbol__c": "b16dead0-5956-b31c-5bad-315349836171",
+        "Name": "BillEmail",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/b16dead0-5956-b31c-5bad-315349836171"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "Telecom Services Contract/1/Vlocity/1591025747596",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/B2B Telecom Services Contract",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "BillingAccount",
+        "%vlocity_namespace%__TokenSymbol__c": "e1437275-32d0-b21f-36cc-58a83f4f4658",
+        "Name": "Street",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/e1437275-32d0-b21f-36cc-58a83f4f4658"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "Telecom Services Contract/1/Vlocity/1591025747596",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/B2B Telecom Services Contract",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "BillingAccount",
+        "%vlocity_namespace%__TokenSymbol__c": "f16c996e-f497-a53c-97b9-4b2a7339e325",
+        "Name": "Name",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/f16c996e-f497-a53c-97b9-4b2a7339e325"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "Telecom Services Contract/1/Vlocity/1591025747596",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/B2B Telecom Services Contract",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "BillingAccount:ServiceLocation",
+        "%vlocity_namespace%__TokenSymbol__c": "0df3b812-7cc9-969f-02ba-9497fb3aedc3",
+        "Name": "Name",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/0df3b812-7cc9-969f-02ba-9497fb3aedc3"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "Telecom Services Contract/1/Vlocity/1591025747596",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/B2B Telecom Services Contract",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "BillingAccount:ServiceLocation",
+        "%vlocity_namespace%__TokenSymbol__c": "4f356863-b1d4-3d2e-96e6-7e0669ef8bec",
+        "Name": "RecurringCharges",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/4f356863-b1d4-3d2e-96e6-7e0669ef8bec"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "Telecom Services Contract/1/Vlocity/1591025747596",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/B2B Telecom Services Contract",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "BillingAccount:ServiceLocation",
+        "%vlocity_namespace%__TokenSymbol__c": "608667c1-bf09-1319-7bdd-b0a2976cf06a",
+        "Name": "Product",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/608667c1-bf09-1319-7bdd-b0a2976cf06a"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "Telecom Services Contract/1/Vlocity/1591025747596",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/B2B Telecom Services Contract",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "BillingAccount:ServiceLocation",
+        "%vlocity_namespace%__TokenSymbol__c": "78b1e8b6-e70b-b8da-35e6-e74bcb838a3a",
+        "Name": "Qty",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/78b1e8b6-e70b-b8da-35e6-e74bcb838a3a"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "Telecom Services Contract/1/Vlocity/1591025747596",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/B2B Telecom Services Contract",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "BillingAccount:ServiceLocation",
+        "%vlocity_namespace%__TokenSymbol__c": "8162352d-35e9-1448-59f2-30d9e7230acb",
+        "Name": "OneTimeCharge",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/8162352d-35e9-1448-59f2-30d9e7230acb"
+    }
+]

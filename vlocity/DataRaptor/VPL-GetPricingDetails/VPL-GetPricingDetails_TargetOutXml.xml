@@ -1,0 +1,22 @@
+<pricebooks xmlns="http://www.demandware.com/xml/impex/pricebook/2006-10-31">
+    <pricebook>
+        <header pricebook-id="usd-m-sale-prices">
+            <currency>USD</currency>
+            <display-name xml:lang="x-default">Sale Prices</display-name>
+            <online-flag>true</online-flag>
+            <parent>usd-m-list-prices</parent>
+        </header>
+
+        <price-tables>
+             <price-table product-id="Sandals">
+                <online-from>2020-05-13T12:23:00.000Z</online-from>
+                <online-to>2020-05-27T00:23:00.000Z</online-to>
+                <amount quantity="1">74.00</amount>
+                <price-info>priceinfo</price-info>
+            </price-table>
+
+            
+
+        </price-tables>
+    </pricebook>
+</pricebooks>

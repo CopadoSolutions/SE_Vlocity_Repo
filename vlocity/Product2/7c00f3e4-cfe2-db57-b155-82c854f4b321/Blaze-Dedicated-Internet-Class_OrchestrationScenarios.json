@@ -1,0 +1,50 @@
+[
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "089ba11e-d9fe-221d-16c8-98b8db3e8b9f",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "commsB2B Dedicated Internet E2E Orch Plan",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/commsB2B Dedicated Internet E2E Orch Plan",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "7c00f3e4-cfe2-db57-b155-82c854f4b321",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/7c00f3e4-cfe2-db57-b155-82c854f4b321",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "7c00f3e4-cfe2-db57-b155-82c854f4b321",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "commsB2B Dedicated Internet E2E New Add Scenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/commsB2B Dedicated Internet E2E New Add Scenario/089ba11e-d9fe-221d-16c8-98b8db3e8b9f/Product2/7c00f3e4-cfe2-db57-b155-82c854f4b321"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Modify",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "bce17a0c-ec9b-ea1b-4dc3-1466d6301923",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "commsB2B Dedicated Internet E2E Modify Orch Plan",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/commsB2B Dedicated Internet E2E Modify Orch Plan",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "7c00f3e4-cfe2-db57-b155-82c854f4b321",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/7c00f3e4-cfe2-db57-b155-82c854f4b321",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "7c00f3e4-cfe2-db57-b155-82c854f4b321",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "commsB2B Dedicated Internet E2E Modify Scenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/commsB2B Dedicated Internet E2E Modify Scenario/bce17a0c-ec9b-ea1b-4dc3-1466d6301923/Product2/7c00f3e4-cfe2-db57-b155-82c854f4b321"
+    }
+]

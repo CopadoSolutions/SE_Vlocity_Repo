@@ -1,0 +1,64 @@
+[
+    {
+        "%vlocity_namespace%__ConditionData__c": "{\"name\":\"Parent Condition\",\"type\":\"AND\",\"singleconditions\":[{\"name\":\"Condition 1\",\"type\":\"SIMPLE\",\"left-side-type\":\"attribute\",\"left-side-datatype\":\"Picklist\",\"left-side\":\"B2B-ATTR-PROINSTALL-REQ-001\",\"left-side-name\":\"Professional Install Requested\",\"op\":\"=\",\"right-side-type\":\"value\",\"right-side\":\"Yes\"}]}",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "17bbf4f9-76c1-8e07-d441-04c1287724de",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/17bbf4f9-76c1-8e07-d441-04c1287724de",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "06eb2094-a01b-4fd5-ceb2-27a5aac4a008",
+        "%vlocity_namespace%__MappingsData__c": "[{\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Billing Code\",\"destination_attr_code\":\"ATTRIBUTE-117\",\"source_field_name\":\"%vlocity_namespace%__Product2Id__r.ProductCode\",\"source_type\":\"Field\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "a99a8fb5-0874-4fbc-54d0-2055daaa0686",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/a99a8fb5-0874-4fbc-54d0-2055daaa0686",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "a99a8fb5-0874-4fbc-54d0-2055daaa0686",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "Professional Biz Service Install To Non Recurring Charge Billing Spec",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/Professional Biz Service Install To Non Recurring Charge Billing Spec/Product2/a99a8fb5-0874-4fbc-54d0-2055daaa0686"
+    },
+    {
+        "%vlocity_namespace%__ConditionData__c": "{\"name\":\"Parent Condition\",\"type\":\"AND\",\"singleconditions\":[{\"name\":\"Condition 1\",\"type\":\"SIMPLE\",\"left-side-type\":\"attribute\",\"left-side-datatype\":\"Picklist\",\"left-side\":\"B2B-ATTR-PROINSTALL-REQ-001\",\"left-side-name\":\"Professional Install Requested\",\"op\":\"=\",\"right-side-type\":\"value\",\"right-side\":\"Yes\"}]}",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "a225e159-ae94-eca9-9494-e44896cce008",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/a225e159-ae94-eca9-9494-e44896cce008",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "52ff3c54-c3e5-57e8-7ec7-a987596673ae",
+        "%vlocity_namespace%__MappingsData__c": "",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "a99a8fb5-0874-4fbc-54d0-2055daaa0686",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/a99a8fb5-0874-4fbc-54d0-2055daaa0686",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "a99a8fb5-0874-4fbc-54d0-2055daaa0686",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "Professional Biz Service Install To Connectivity Installation Activation",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/Professional Biz Service Install To Connectivity Installation Activation/Product2/a99a8fb5-0874-4fbc-54d0-2055daaa0686"
+    }
+]

@@ -1,0 +1,8 @@
+[
+    "DataRaptor/AccountCreateBody_Matrixx",
+    "DataRaptor/AccountCreateResponse_Matrixx",
+    "DataRaptor/AccountGetOIDFromId",
+    "DataRaptor/ErrorRecordCallout",
+    "DataRaptor/ErrorRecordUpsert",
+    "DataRaptor/ObjectPrepareUpdate_Matrixx"
+]

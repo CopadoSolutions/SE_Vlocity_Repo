@@ -1,0 +1,37 @@
+{
+    "Cards": [
+        "Asset Grid",
+        "TV Offer Grid",
+        "Internet Offer Grid",
+        "Add Mobile Offer"
+    ],
+    "componentName": "cfVdoAssetLayoutGrid",
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.Id",
+                "val": "0014P000027oDJtQAM"
+            },
+            {
+                "name": "parent.obj.%vlocity_namespace%__LineNumber__c",
+                "val": "0001"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.Id || params.id\":\"{{params.Id || params.id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "vdo-card-canvas-de"
+        }
+    },
+    "workspace": [
+        "Asset Grid/Vlocity Demo Org/null/1516694577096",
+        "TV Offer Grid/Vlocity Demo Org/null/1516694577098",
+        "Internet Offer Grid/Vlocity Demo Org/null/1516694577099",
+        "Add Mobile Offer/Vlocity Demo Eng/1/1614886432661"
+    ]
+}

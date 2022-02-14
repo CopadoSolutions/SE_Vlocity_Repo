@@ -1,0 +1,30 @@
+{
+    "formattedAttributes": [
+        {
+            "apiName": "apiName",
+            "payload": {
+                "description": {
+                    "default": "value"
+                },
+                "display_name": {
+                    "default": "name"
+                },
+                "id": "Code",
+                "value_type": "Type"
+            }
+        },
+        {
+            "apiName": "apiName",
+            "payload": {
+                "description": {
+                    "label": "value"
+                },
+                "display_name": {
+                    "default": "name"
+                },
+                "id": "Code",
+                "value_type": "Type"
+            }
+        }
+    ]
+}

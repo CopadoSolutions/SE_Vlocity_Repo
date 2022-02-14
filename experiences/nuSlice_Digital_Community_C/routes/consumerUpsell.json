@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "f4feffc0-c0e6-4023-bce2-9eb95adbc3fc",
+  "appPageId" : "68d9bf5b-3c63-40b8-98a5-0501c99b9d7b",
+  "configurationTags" : [ ],
+  "id" : "4d4b0dba-b1e0-4c19-a0a6-ff6874ceb88a",
+  "label" : "consumer-upsell",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-consumer-upsell",
+  "type" : "route",
+  "urlPrefix" : "consumer-upsell"
+}

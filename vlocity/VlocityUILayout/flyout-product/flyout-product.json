@@ -1,0 +1,27 @@
+{
+    "Cards": [
+        "Product"
+    ],
+    "componentName": "cfFlyoutProduct",
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "parent.obj.Product2Id",
+                "val": "01t36000001TFOO"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"parent.obj.Product2Id\":\"{{parent.obj.Product2Id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "vdo-flyout-grid-usage"
+        }
+    },
+    "workspace": [
+        "Product/Vlocity Demo Org/null/1516694577098"
+    ]
+}

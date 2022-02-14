@@ -1,0 +1,84 @@
+{
+    "dataSource": {
+        "type": null
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "",
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Name']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Discount Name",
+                    "name": "['Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Discount Description",
+                    "name": "['Desc']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['AllItems']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Applies to All Items?",
+                    "name": "['AllItems']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['StartDate']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Start Date",
+                    "name": "['StartDate']",
+                    "type": "date"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['EndDate']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "End Date",
+                    "name": "['EndDate']",
+                    "type": "date"
+                }
+            ],
+            "isSmartAction": false,
+            "name": "Discounts",
+            "sObjectType": "",
+            "smartAction": {
+            },
+            "templateUrl": "commsB2B-list-card-DE"
+        }
+    ],
+    "title": "Discounts"
+}

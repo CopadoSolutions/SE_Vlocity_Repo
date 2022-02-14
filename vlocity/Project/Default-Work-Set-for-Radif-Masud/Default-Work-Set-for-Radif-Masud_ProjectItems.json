@@ -1,0 +1,88 @@
+[
+    {
+        "%vlocity_namespace%__Action__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "ca178146-85a0-94e2-d6be-20ddb21ec5e1",
+        "%vlocity_namespace%__ItemGlobalKey__c": "563eb19b-e2a1-fcec-e355-ca3badae62ac",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "563eb19b-e2a1-fcec-e355-ca3badae62ac",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/563eb19b-e2a1-fcec-e355-ca3badae62ac",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": "",
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ec150d88-fe84-0272-c30e-59a1012a7573",
+            "Name": "Default Work Set for Radif Masud",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ec150d88-fe84-0272-c30e-59a1012a7573",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "Name": "5G Premium Plan",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/ca178146-85a0-94e2-d6be-20ddb21ec5e1"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Change",
+        "%vlocity_namespace%__GlobalKey__c": "6053b4de-2ad5-2025-8638-489fb557c080",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5e5e5e8c-6578-de20-8f23-a20e3b0d3386",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__PriceListEntry__c/5e5e5e8c-6578-de20-8f23-a20e3b0d3386",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__PriceListEntry__c"
+        },
+        "%vlocity_namespace%__ItemType__c": "Price List Entry",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "01f6c494-39e2-0fe7-e8de-36e1d41e1472",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/01f6c494-39e2-0fe7-e8de-36e1d41e1472",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ec150d88-fe84-0272-c30e-59a1012a7573",
+            "Name": "Default Work Set for Radif Masud",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ec150d88-fe84-0272-c30e-59a1012a7573",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "01f6c494-39e2-0fe7-e8de-36e1d41e1472",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/01f6c494-39e2-0fe7-e8de-36e1d41e1472",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "Name": "Price | Recurring | Complete peace of mind with Blazing Fast dedicated Internet",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/6053b4de-2ad5-2025-8638-489fb557c080"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "No Change",
+        "%vlocity_namespace%__GlobalKey__c": "01f6c494-39e2-0fe7-e8de-36e1d41e1472",
+        "%vlocity_namespace%__ItemGlobalKey__c": "2b8a7685-b384-a211-0edf-84d8d78588fc",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "2b8a7685-b384-a211-0edf-84d8d78588fc",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/2b8a7685-b384-a211-0edf-84d8d78588fc",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__ItemVersion__c": "V1",
+        "%vlocity_namespace%__ParentItemId__c": "",
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ec150d88-fe84-0272-c30e-59a1012a7573",
+            "Name": "Default Work Set for Radif Masud",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/ec150d88-fe84-0272-c30e-59a1012a7573",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "Name": "Blaze Dedicated Internet Offer",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/01f6c494-39e2-0fe7-e8de-36e1d41e1472"
+    }
+]

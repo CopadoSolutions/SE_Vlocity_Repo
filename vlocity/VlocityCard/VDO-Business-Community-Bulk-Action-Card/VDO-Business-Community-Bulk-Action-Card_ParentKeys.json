@@ -1,0 +1,13 @@
+[
+    "VlocityAction/Business Account Alert",
+    "VlocityAction/Business Add A Line",
+    "VlocityAction/Business Order History",
+    "VlocityAction/Business Order Status",
+    "VlocityAction/Business Restore Account",
+    "VlocityAction/Business SIM Swap",
+    "VlocityAction/Business Suspend Account",
+    "VlocityAction/Business Usage",
+    "VlocityAction/Edit Record",
+    "VlocityAction/View",
+    "VlocityUITemplate/vdo-business-community-bulk-action-card"
+]

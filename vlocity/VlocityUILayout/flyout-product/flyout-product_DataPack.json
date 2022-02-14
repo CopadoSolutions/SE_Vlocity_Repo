@@ -1,0 +1,26 @@
+{
+    "%vlocity_namespace%__Author__c": "VlocityDev",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+            {
+                "name": "parent.obj.Product2Id",
+                "val": "01t36000001TFOO"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "query": "SELECT Id, Name, Description, %vlocity_namespace%__Type__c, %vlocity_namespace%__SubType__c, %vlocity_namespace%__ImageId__c, (SELECT id FROM Attachments WHERE name LIKE '%TN%' LIMIT 1) FROM Product2 WHERE Id = '{{parent.obj.Product2Id}}'"
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "flyout-product.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "flyout-product/1/VlocityDev/1599765533498",
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__RequiredPermission__c": "",
+    "%vlocity_namespace%__Type__c": "Flyout",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "flyout-product",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUILayout__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUILayout__c/flyout-product"
+}

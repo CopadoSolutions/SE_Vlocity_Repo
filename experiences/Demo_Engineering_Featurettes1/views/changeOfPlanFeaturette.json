@@ -1,0 +1,71 @@
+{
+  "appPageId" : "067cb50d-59bf-4755-900f-02d130a9107a",
+  "componentName" : "siteforce:dynamicLayout",
+  "id" : "8218b86c-6edd-4f89-a2b0-e52d8733e695",
+  "label" : "Change of Plan Featurette",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "e9e90b05-2e2d-4bc5-ba5f-5f01e5f1e489",
+          "columns" : [ {
+            "UUID" : "a1cb0597-4184-4a19-9e0d-c09d4d612982",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "e9e90b05-2e2d-4bc5-ba5f-5f01e5f1e489",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "bannerstyle" : "",
+            "bannertext" : "Demo Engineering Featurette - Change of Plan",
+            "showcomponent" : true
+          },
+          "componentName" : "c:demo_eng_simple_banner_text",
+          "id" : "6d98bece-0799-4641-bc73-f0270502a3ec",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a1cb0597-4184-4a19-9e0d-c09d4d612982",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "fcfbff1e-e121-448e-924a-317853bc5969",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Change of Plan Featurette"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "a4f14b92-fac9-4f2b-afaa-c6ee7b90792c",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "791d27a6-96c2-4170-9f82-9377d19ba046",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-change-of-plan-featurette"
+}

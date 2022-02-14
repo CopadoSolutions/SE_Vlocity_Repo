@@ -1,0 +1,9 @@
+[
+    "DataRaptor/VPL-FormatAttributeAsPayload",
+    "DataRaptor/VPL-FormatFieldsAsPayload",
+    "DataRaptor/VPL-GeneratePicklistFieldXML",
+    "DataRaptor/VPL-GetAllInputParams",
+    "DataRaptor/VPL-GetBatchAPIPublishStatus",
+    "DataRaptor/VPL-GetProductFields",
+    "DataRaptor/VPL-UpdateMetaPublishStatus"
+]

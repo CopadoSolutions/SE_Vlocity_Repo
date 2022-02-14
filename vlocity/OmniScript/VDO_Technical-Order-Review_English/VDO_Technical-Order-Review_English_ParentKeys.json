@@ -1,0 +1,5 @@
+[
+    "DataRaptor/VDOGetManualTask",
+    "DataRaptor/VDOGetOrderId",
+    "DataRaptor/VDOUpdateManualTask"
+]

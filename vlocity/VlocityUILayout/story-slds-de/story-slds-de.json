@@ -1,0 +1,52 @@
+{
+    "Cards": [
+        "Campaign Story",
+        "Case Story",
+        "Customer Interaction Story",
+        "Event Story",
+        "Note Story",
+        "Opportunity Story",
+        "Task Story",
+        "Order Story"
+    ],
+    "componentName": "cfStorySldsDe",
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "001o000000wFyLS"
+            }
+        ],
+        "type": "Dual",
+        "value": {
+            "apexRemoteResultVar": "Stories",
+            "apexRestResultVar": "Stories",
+            "endpoint": "/services/apexrest/%vlocity_namespace%/v1/story/{{params.id}}?pageSize=10",
+            "inputMap": {
+                "pageSize": "10",
+                "storyId": "{{params.id}}"
+            },
+            "methodType": "GET",
+            "remoteClass": "StoryListHandler",
+            "remoteMethod": "getStories",
+            "remoteNSPrefix": "%vlocity_namespace%",
+            "resultVar": "Stories"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "story-card-canvas-de"
+        }
+    },
+    "workspace": [
+        "Campaign Story/Vlocity Demo Org/1506696540633",
+        "Case Story/Vlocity Demo Org/1506696542328",
+        "Customer Interaction Story/Vlocity Demo Org/1506696544854",
+        "Event Story/Vlocity Demo Org/1506696548096",
+        "Note Story/Vlocity Demo Org/1506696549758",
+        "Opportunity Story/Vlocity Demo Org/1506696553714",
+        "Task Story/Vlocity Demo Org/1506696560197",
+        "Order Story/Vlocity Demo Org/1506696564170"
+    ]
+}

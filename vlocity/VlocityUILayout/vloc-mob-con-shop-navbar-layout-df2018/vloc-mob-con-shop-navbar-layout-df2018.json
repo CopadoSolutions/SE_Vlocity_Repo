@@ -1,0 +1,14 @@
+{
+    "Cards": [
+    ],
+    "componentName": "cfVlocMobConShopNavbarLayoutDf2018",
+    "dataSource": {
+        "type": null
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "vloc-mob-con-shop-navbar-df2018"
+        }
+    }
+}

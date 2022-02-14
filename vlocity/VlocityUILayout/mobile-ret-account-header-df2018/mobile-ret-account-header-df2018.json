@@ -1,0 +1,18 @@
+{
+    "Cards": [
+        "mobile-ret-account-header-dff2018"
+    ],
+    "componentName": "cfMobileRetAccountHeaderDf2018",
+    "dataSource": {
+        "type": null
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "cpq-base-header"
+        }
+    },
+    "workspace": [
+        "mobile-ret-account-header-dff2018/Vlocity Demo Eng/1/1598543281486"
+    ]
+}

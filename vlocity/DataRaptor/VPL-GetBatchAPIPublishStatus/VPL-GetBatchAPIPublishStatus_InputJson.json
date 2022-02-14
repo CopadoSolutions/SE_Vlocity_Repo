@@ -1,0 +1,28 @@
+{
+    "ContextId": null,
+    "MetaDataPublishLoop": {
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CCIPublishResponse": null,
+        "CreateRequestPayload": null,
+        "GeneratePicklistFieldXML": null,
+        "GetAllInputParams": null,
+        "GetBatchAPIPublishStatus": null,
+        "GetOAuthToken": null,
+        "GetProductFields": null,
+        "GetXMLConfigData": null,
+        "MetaDataPublishLoop": null,
+        "ProcessAPIResponse": null,
+        "SetConfigValues": null,
+        "UpdateCCPublishStatus": null,
+        "UpdateMetaPublishStatus": null,
+        "createFileObject": null
+    }
+}

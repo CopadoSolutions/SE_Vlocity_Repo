@@ -1,0 +1,10 @@
+{
+    "%vlocity_namespace%__EffectiveFromDate__c": "",
+    "%vlocity_namespace%__EffectiveUntilDate__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "f1ee05e1d5118e4d16a1aba64e8bbb70",
+    "%vlocity_namespace%__IsActive__c": true,
+    "Name": "Picklist Item Properties",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__UISection__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__UISection__c/f1ee05e1d5118e4d16a1aba64e8bbb70"
+}

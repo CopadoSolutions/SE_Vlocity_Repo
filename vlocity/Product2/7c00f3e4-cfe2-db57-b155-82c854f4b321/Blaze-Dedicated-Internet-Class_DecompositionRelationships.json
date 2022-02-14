@@ -1,0 +1,95 @@
+[
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "e900bcf1-6aa1-70f2-30ac-85381bcd926c",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/e900bcf1-6aa1-70f2-30ac-85381bcd926c",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "c77860fa-5bde-d702-c30d-ff259c745aa2",
+        "%vlocity_namespace%__MappingsData__c": "[{\"source_type\":\"Field\",\"source_field_name\":\"%vlocity_namespace%__Product2Id__r.ProductCode\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Billing Code\",\"destination_attr_code\":\"ATTRIBUTE-117\"},{\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"MRC\",\"destination_attr_code\":\"ATTRIBUTE-121\",\"source_field_name\":\"%vlocity_namespace%__RecurringCharge__c\",\"source_type\":\"Field\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "7c00f3e4-cfe2-db57-b155-82c854f4b321",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/7c00f3e4-cfe2-db57-b155-82c854f4b321",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "7c00f3e4-cfe2-db57-b155-82c854f4b321",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "Blaze Dedicated Internet Class To Recurring Charge Billing Spec",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/Blaze Dedicated Internet Class To Recurring Charge Billing Spec/Product2/7c00f3e4-cfe2-db57-b155-82c854f4b321"
+    },
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "ee52ec9f-9363-8608-ee25-fe02c77b4ec9",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/ee52ec9f-9363-8608-ee25-fe02c77b4ec9",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "6a0b9ae0-d150-e3d4-6ebb-f712d368c0d3",
+        "%vlocity_namespace%__MappingsData__c": "[{\"source_type\":\"Attribute\",\"source_attr_name\":\"Usage Type\",\"source_attr_code\":\"ATTR-PLAN-001\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Usage Type\",\"destination_attr_code\":\"ATTR-PLAN-001\"},{\"source_type\":\"Attribute\",\"source_attr_name\":\"Committed Bandwidth\",\"source_attr_code\":\"ATT-ATTR-BW-003\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Committed Bandwidth\",\"destination_attr_code\":\"ATT-ATTR-BW-003\"},{\"source_type\":\"Attribute\",\"source_attr_name\":\"Access Type\",\"source_attr_code\":\"ATTRIBUTE-152\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Access Type\",\"destination_attr_code\":\"ATTRIBUTE-152\"},{\"source_type\":\"Attribute\",\"source_attr_name\":\"Access Speed\",\"source_attr_code\":\"ATTRIBUTE-153\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Access Speed\",\"destination_attr_code\":\"ATTRIBUTE-153\"},{\"source_attr_name\":\"OrderManagement\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"OrderManagement\",\"destination_attr_code\":\"B2B-ATTR-ORDR-MGMT-OPTIONS\",\"source_attr_code\":\"B2B-ATTR-ORDR-MGMT-OPTIONS\",\"source_type\":\"Attribute\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "7c00f3e4-cfe2-db57-b155-82c854f4b321",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/7c00f3e4-cfe2-db57-b155-82c854f4b321",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "7c00f3e4-cfe2-db57-b155-82c854f4b321",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "Blaze Dedicated Internet Class To DIA Provisioning Spec",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/Blaze Dedicated Internet Class To DIA Provisioning Spec/Product2/7c00f3e4-cfe2-db57-b155-82c854f4b321"
+    },
+    {
+        "%vlocity_namespace%__ConditionData__c": "{\"singleconditions\":[{\"right-side\":\"No\",\"right-side-type\":\"value\",\"op\":\"=\",\"left-side-name\":\"Customer Owned CPE Router\",\"left-side\":\"B2B-ATTR-CUSTOMER-CPE-ROUTER\",\"left-side-datatype\":\"Picklist\",\"left-side-type\":\"attribute\",\"type\":\"SIMPLE\",\"name\":\"Condition 1\"}],\"type\":\"AND\",\"name\":\"Parent Condition\"}",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "91ae9022-8e1d-6b36-391a-b5ba4612edb5",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/91ae9022-8e1d-6b36-391a-b5ba4612edb5",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "3dd5a85b-5909-b75a-a513-a632a3ecf87b",
+        "%vlocity_namespace%__MappingsData__c": "",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "7c00f3e4-cfe2-db57-b155-82c854f4b321",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/7c00f3e4-cfe2-db57-b155-82c854f4b321",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "7c00f3e4-cfe2-db57-b155-82c854f4b321",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "Blaze Dedicated Internet Class To DIA Router Logistics Spec",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/Blaze Dedicated Internet Class To DIA Router Logistics Spec/Product2/7c00f3e4-cfe2-db57-b155-82c854f4b321"
+    }
+]

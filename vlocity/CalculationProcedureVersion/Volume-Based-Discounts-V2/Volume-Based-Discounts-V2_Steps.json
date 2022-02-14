@@ -1,0 +1,367 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixId__c": {
+            "Name": "Volume Based Discounts (VDO Deprecated)",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__CalculationMatrix__c/Volume Based Discounts (VDO Deprecated)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrix__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "Volume Based Discounts (VDO Deprecated)",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/Volume Based Discounts (VDO Deprecated)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "Volume Based Discounts (VDO Deprecated)",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/2/%vlocity_namespace%__CalculationProcedure__c/Volume Based Discounts (VDO Deprecated)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__Function__c": "Matrix Lookup",
+        "%vlocity_namespace%__GlobalKey__c": "51268f00-c330-daf2-be04-14106cb3b5e5",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "columnKey": "a18aa6",
+                "dataType": "Text",
+                "label": null,
+                "listValues": null,
+                "name": "Product"
+            },
+            {
+                "columnKey": "bbd6d9",
+                "dataType": "Number Range",
+                "label": null,
+                "listValues": "9,10,26,100",
+                "name": "Quantity"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": false,
+        "%vlocity_namespace%__OutputJSON__c": [
+            {
+                "columnKey": "60e4be",
+                "dataType": "Percent",
+                "label": null,
+                "listValues": null,
+                "name": "OneTimeDiscountPercent"
+            },
+            {
+                "columnKey": "bf03a1",
+                "dataType": "Percent",
+                "label": null,
+                "listValues": null,
+                "name": "RecurringDiscountPercent"
+            }
+        ],
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"OneTimeDiscountPercent\":\"VolumeBasedDiscounts__OneTimeDiscountPercent\",\"RecurringDiscountPercent\":\"VolumeBasedDiscounts__RecurringDiscountPercent\"}",
+        "%vlocity_namespace%__Sequence__c": 1,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "OneTimeCharge",
+                "dataType": "Currency",
+                "text": "OneTimeCharge",
+                "userDefined": true
+            },
+            {
+                "alias": "*",
+                "text": "*"
+            },
+            {
+                "alias": "(",
+                "text": "("
+            },
+            {
+                "alias": "One",
+                "text": "One"
+            },
+            {
+                "alias": "-",
+                "text": "-"
+            },
+            {
+                "alias": "VolumeBasedDiscounts__OneTimeDiscountPercent",
+                "dataType": "Percent",
+                "text": "OneTimeDiscountPercent ( Volume Based Discounts )",
+                "userDefined": false
+            },
+            {
+                "alias": ")",
+                "text": ")"
+            },
+            {
+                "alias": "*",
+                "text": "*"
+            },
+            {
+                "alias": "(",
+                "text": "("
+            },
+            {
+                "alias": "One",
+                "text": "One"
+            },
+            {
+                "alias": "-",
+                "text": "-"
+            },
+            {
+                "alias": "OneTimeManualDiscountPercent",
+                "dataType": "Percent",
+                "text": "OneTimeManualDiscountPercent",
+                "userDefined": true
+            },
+            {
+                "alias": ")",
+                "text": ")"
+            }
+        ],
+        "%vlocity_namespace%__CalculationFormula__c": "OneTimeCharge * ( One - VolumeBasedDiscounts__OneTimeDiscountPercent ) * ( One - OneTimeManualDiscountPercent )",
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "Volume Based Discounts (VDO Deprecated)",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/Volume Based Discounts (VDO Deprecated)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "Volume Based Discounts (VDO Deprecated)",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/2/%vlocity_namespace%__CalculationProcedure__c/Volume Based Discounts (VDO Deprecated)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__GlobalKey__c": "4f559eac-0ecc-2d80-89f5-5698a8a04d10",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "dataType": "Currency",
+                "name": "OneTimeCharge"
+            },
+            {
+                "dataType": "Percent",
+                "name": "OneTimeManualDiscountPercent"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": true,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "OneTimeCalculatedPrice",
+            "dataType": "Currency",
+            "name": "OneTimeCalculatedPrice"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"OneTimeCalculatedPrice\":\"OneTimeCalculatedPrice\"}",
+        "%vlocity_namespace%__Sequence__c": 2,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "OneTimeCalculatedPrice",
+                "dataType": "Currency",
+                "text": "OneTimeCalculatedPrice",
+                "userDefined": true
+            },
+            {
+                "alias": "*",
+                "text": "*"
+            },
+            {
+                "alias": "Quantity",
+                "dataType": "Number Range",
+                "text": "Quantity",
+                "userDefined": false
+            }
+        ],
+        "%vlocity_namespace%__CalculationFormula__c": "OneTimeCalculatedPrice * Quantity",
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "Volume Based Discounts (VDO Deprecated)",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/Volume Based Discounts (VDO Deprecated)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "Volume Based Discounts (VDO Deprecated)",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/2/%vlocity_namespace%__CalculationProcedure__c/Volume Based Discounts (VDO Deprecated)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__GlobalKey__c": "3acefb44-8bcc-caaf-8e3a-fa2ecd926cc1",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "dataType": "Currency",
+                "name": "OneTimeCalculatedPrice"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": true,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "OneTimeTotal",
+            "dataType": "Currency",
+            "name": "OneTimeTotal"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"OneTimeTotal\":\"OneTimeTotal\"}",
+        "%vlocity_namespace%__Sequence__c": 3,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "RecurringCharge",
+                "dataType": "Currency",
+                "text": "RecurringCharge",
+                "userDefined": true
+            },
+            {
+                "alias": "*",
+                "text": "*"
+            },
+            {
+                "alias": "(",
+                "text": "("
+            },
+            {
+                "alias": "One",
+                "text": "One"
+            },
+            {
+                "alias": "-",
+                "text": "-"
+            },
+            {
+                "alias": "VolumeBasedDiscounts__RecurringDiscountPercent",
+                "dataType": "Percent",
+                "text": "RecurringDiscountPercent ( Volume Based Discounts )",
+                "userDefined": false
+            },
+            {
+                "alias": ")",
+                "text": ")"
+            },
+            {
+                "alias": "*",
+                "text": "*"
+            },
+            {
+                "alias": "(",
+                "text": "("
+            },
+            {
+                "alias": "One",
+                "text": "One"
+            },
+            {
+                "alias": "-",
+                "text": "-"
+            },
+            {
+                "alias": "RecurringManualDiscountPercent",
+                "dataType": "Percent",
+                "text": "RecurringManualDiscountPercent",
+                "userDefined": true
+            },
+            {
+                "alias": ")",
+                "text": ")"
+            }
+        ],
+        "%vlocity_namespace%__CalculationFormula__c": "RecurringCharge * ( One - VolumeBasedDiscounts__RecurringDiscountPercent ) * ( One - RecurringManualDiscountPercent )",
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "Volume Based Discounts (VDO Deprecated)",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/Volume Based Discounts (VDO Deprecated)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "Volume Based Discounts (VDO Deprecated)",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/2/%vlocity_namespace%__CalculationProcedure__c/Volume Based Discounts (VDO Deprecated)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__GlobalKey__c": "5996ee3e-f24d-3312-fd95-35e1c6c3b30d",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "dataType": "Currency",
+                "name": "RecurringCharge"
+            },
+            {
+                "dataType": "Percent",
+                "name": "RecurringManualDiscountPercent"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": true,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "RecurringCalculatedPrice",
+            "dataType": "Currency",
+            "name": "RecurringCalculatedPrice"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"RecurringCalculatedPrice\":\"RecurringCalculatedPrice\"}",
+        "%vlocity_namespace%__Sequence__c": 4,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "RecurringCalculatedPrice",
+                "dataType": "Currency",
+                "text": "RecurringCalculatedPrice",
+                "userDefined": true
+            },
+            {
+                "alias": "*",
+                "text": "*"
+            },
+            {
+                "alias": "Quantity",
+                "dataType": "Number Range",
+                "text": "Quantity",
+                "userDefined": false
+            }
+        ],
+        "%vlocity_namespace%__CalculationFormula__c": "RecurringCalculatedPrice * Quantity",
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "Volume Based Discounts (VDO Deprecated)",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/Volume Based Discounts (VDO Deprecated)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "Volume Based Discounts (VDO Deprecated)",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/2/%vlocity_namespace%__CalculationProcedure__c/Volume Based Discounts (VDO Deprecated)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__GlobalKey__c": "e2158aed-52b6-912a-0e1c-520d85dd1d0e",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "dataType": "Currency",
+                "name": "RecurringCalculatedPrice"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": true,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "RecurringTotal",
+            "dataType": "Currency",
+            "name": "RecurringTotal"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"RecurringTotal\":\"RecurringTotal\"}",
+        "%vlocity_namespace%__Sequence__c": 5,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    }
+]

@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__Creator__c": "Radif Masud",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "ec150d88-fe84-0272-c30e-59a1012a7573",
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsDefault__c": true,
+    "%vlocity_namespace%__LastModifier__c": "Radif Masud",
+    "%vlocity_namespace%__OriginalCreatedDate__c": "2020-10-16T19:13:00.000Z",
+    "%vlocity_namespace%__ProjectItem__c": "Default-Work-Set-for-Radif-Masud_ProjectItems.json",
+    "%vlocity_namespace%__ProjectOwner__c": "Radif Masud",
+    "%vlocity_namespace%__Status__c": "Draft",
+    "Name": "Default Work Set for Radif Masud",
+    "RecordTypeId": {
+        "DeveloperName": "WorkSet",
+        "SobjectType": "%vlocity_namespace%__Project__c",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/%vlocity_namespace%__Project__c/WorkSet",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Project__c/ec150d88-fe84-0272-c30e-59a1012a7573"
+}

@@ -1,0 +1,83 @@
+[
+    {
+        "%vlocity_namespace%__Abbreviation__c": "",
+        "%vlocity_namespace%__BooleanValue__c": false,
+        "%vlocity_namespace%__Code__c": "PerfPicklistVal_198_1",
+        "%vlocity_namespace%__DateTimeValue__c": "",
+        "%vlocity_namespace%__DateValue__c": "",
+        "%vlocity_namespace%__EffectiveFromDate__c": "2020-03-31",
+        "%vlocity_namespace%__EffectiveUntilDate__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "199d624f-acee-4494-094d-5ec7856d0503",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__IsDefault__c": false,
+        "%vlocity_namespace%__NumberValue__c": 164,
+        "%vlocity_namespace%__PicklistId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "250d95a3-eae6-17c1-7568-b91f7f517393",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Picklist__c/250d95a3-eae6-17c1-7568-b91f7f517393",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Picklist__c"
+        },
+        "%vlocity_namespace%__Sequence__c": 1,
+        "%vlocity_namespace%__TextValue__c": "",
+        "%vlocity_namespace%__UnitOfMeasureName__c": "",
+        "%vlocity_namespace%__Value__c": "164",
+        "Name": "1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__PicklistValue__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__PicklistValue__c/199d624f-acee-4494-094d-5ec7856d0503"
+    },
+    {
+        "%vlocity_namespace%__Abbreviation__c": "",
+        "%vlocity_namespace%__BooleanValue__c": false,
+        "%vlocity_namespace%__Code__c": "PerfPicklistVal_198_2",
+        "%vlocity_namespace%__DateTimeValue__c": "",
+        "%vlocity_namespace%__DateValue__c": "",
+        "%vlocity_namespace%__EffectiveFromDate__c": "2020-03-31",
+        "%vlocity_namespace%__EffectiveUntilDate__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "4d6c79e2-7d68-ac7a-31b3-8d55b1e1ad7b",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__IsDefault__c": false,
+        "%vlocity_namespace%__NumberValue__c": 113,
+        "%vlocity_namespace%__PicklistId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "250d95a3-eae6-17c1-7568-b91f7f517393",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Picklist__c/250d95a3-eae6-17c1-7568-b91f7f517393",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Picklist__c"
+        },
+        "%vlocity_namespace%__Sequence__c": 2,
+        "%vlocity_namespace%__TextValue__c": "",
+        "%vlocity_namespace%__UnitOfMeasureName__c": "",
+        "%vlocity_namespace%__Value__c": "113",
+        "Name": "2",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__PicklistValue__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__PicklistValue__c/4d6c79e2-7d68-ac7a-31b3-8d55b1e1ad7b"
+    },
+    {
+        "%vlocity_namespace%__Abbreviation__c": "",
+        "%vlocity_namespace%__BooleanValue__c": false,
+        "%vlocity_namespace%__Code__c": "PerfPicklistVal_198_3",
+        "%vlocity_namespace%__DateTimeValue__c": "",
+        "%vlocity_namespace%__DateValue__c": "",
+        "%vlocity_namespace%__EffectiveFromDate__c": "2020-03-31",
+        "%vlocity_namespace%__EffectiveUntilDate__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "2218b2fb-3a12-332f-59fa-f65039d61288",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__IsDefault__c": false,
+        "%vlocity_namespace%__NumberValue__c": 245,
+        "%vlocity_namespace%__PicklistId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "250d95a3-eae6-17c1-7568-b91f7f517393",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Picklist__c/250d95a3-eae6-17c1-7568-b91f7f517393",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Picklist__c"
+        },
+        "%vlocity_namespace%__Sequence__c": 3,
+        "%vlocity_namespace%__TextValue__c": "",
+        "%vlocity_namespace%__UnitOfMeasureName__c": "",
+        "%vlocity_namespace%__Value__c": "245",
+        "Name": "3",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__PicklistValue__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__PicklistValue__c/2218b2fb-3a12-332f-59fa-f65039d61288"
+    }
+]

@@ -1,0 +1,24 @@
+{
+    "%vlocity_namespace%__CalculationMatrixId__c": {
+        "Name": "RangeAttributePricingMatrix",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__CalculationMatrix__c/RangeAttributePricingMatrix",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrix__c"
+    },
+    "%vlocity_namespace%__CalculationMatrixId__r.Name": "RangeAttributePricingMatrix",
+    "%vlocity_namespace%__CalculationMatrixRow__c": "RangeAttributePricingMatrix-v2_Rows.json",
+    "%vlocity_namespace%__CurrentStatus__c": "Active",
+    "%vlocity_namespace%__EndDateTime__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "cbd0d16d-db7a-f2bf-15f8-04a728b3712e",
+    "%vlocity_namespace%__GroupKeyValue__c": "",
+    "%vlocity_namespace%__MatrixUseLongOutput__c": false,
+    "%vlocity_namespace%__Priority__c": 2,
+    "%vlocity_namespace%__StartDateTime__c": "2018-07-12T01:16:00.000Z",
+    "%vlocity_namespace%__SubGroupKeyValue__c": "",
+    "%vlocity_namespace%__UseLongOutput__c": false,
+    "%vlocity_namespace%__VersionNumber__c": 2,
+    "Name": "RangeAttributePricingMatrix v2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/RangeAttributePricingMatrix"
+}

@@ -1,0 +1,7 @@
+[
+    "DataRaptor/VPL-ExtractCatalogCode",
+    "DataRaptor/VPL-ExtractProductDetailsJson",
+    "DataRaptor/VPL-RetrieveAccountNumber",
+    "DataRaptor/VPL-RetrieveCCClientId",
+    "IntegrationProcedure/VPL_CreateOrder"
+]

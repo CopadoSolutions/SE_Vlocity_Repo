@@ -1,0 +1,11 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "8c901185-7ea5-2895-66fe-f6d4eb018325",
+    "%vlocity_namespace%__SystemInterface__c": "PostPayloadToSite_SystemInterfaces.json",
+    "%vlocity_namespace%__URL__c": "http://externalsystem.com",
+    "Image__c": "",
+    "Name": "PostPayloadToSite",
+    "Online__c": true,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__System__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__System__c/PostPayloadToSite"
+}

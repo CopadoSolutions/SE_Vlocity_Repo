@@ -1,0 +1,22 @@
+{
+    "Cards": [
+        "np-resource-banner-demo-eng"
+    ],
+    "componentName": "cfNpBannerCmtDemoEng",
+    "dataSource": {
+        "type": null
+    },
+    "previewType": "runTime",
+    "sessionVars": [
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "np-banner-canvas-demo-eng"
+        }
+    },
+    "workspace": [
+        "np-resource-banner-demo-eng/Radif/1/1572381331947"
+    ],
+    "zones": {
+    }
+}

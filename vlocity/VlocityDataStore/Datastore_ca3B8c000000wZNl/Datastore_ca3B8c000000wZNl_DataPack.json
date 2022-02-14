@@ -1,0 +1,35 @@
+{
+    "%vlocity_namespace%__CachedDataSetId__c": "a5l8c000000CxYqAAK",
+    "%vlocity_namespace%__Classname__c": "",
+    "%vlocity_namespace%__EffectiveEndDateTime__c": "",
+    "%vlocity_namespace%__EffectiveStartDateTime__c": "",
+    "%vlocity_namespace%__Key__c": {
+        "%vlocity_namespace%__GlobalKey__c": "1444f20d-0695-c3e2-f7de-4251200015c5",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/1444f20d-0695-c3e2-f7de-4251200015c5",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__ProductId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "1444f20d-0695-c3e2-f7de-4251200015c5",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/1444f20d-0695-c3e2-f7de-4251200015c5",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__Value__c": {
+        "%vlocity_namespace%__GlobalKey__c": "679b4cd4-e10d-2720-6b1a-03a7a7efbfc4",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ProductChildItem__c/679b4cd4-e10d-2720-6b1a-03a7a7efbfc4",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProductChildItem__c"
+    },
+    "Name": "Datastore__ca3B8c000000wZNl",
+    "RecordTypeId": {
+        "DeveloperName": "ProductHierarchy",
+        "SobjectType": "%vlocity_namespace%__Datastore__c",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/%vlocity_namespace%__Datastore__c/ProductHierarchy",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Datastore__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Datastore__c/Generated622252220"
+}

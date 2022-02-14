@@ -1,0 +1,89 @@
+{
+    "control": {
+        "$$hashKey": "object:80",
+        "JSONPath": "Step6:ServiceConfigurationByAccount",
+        "bHasAttachment": false,
+        "children": [
+        ],
+        "compDisable": false,
+        "index": 0,
+        "indexInParent": 0,
+        "itemsKey": "recSet",
+        "level": 1,
+        "name": "ServiceConfigurationByAccount",
+        "propSetMap": {
+            "HTMLTemplateId": "vlcSelectableItemV2.html",
+            "accessibleInFutureSteps": false,
+            "dataJSON": true,
+            "disOnTplt": false,
+            "itemsKey": "recSet",
+            "label": null,
+            "maxCompareSize": 4,
+            "modalConfigurationSetting": {
+                "modalController": "ModalProductCtrl",
+                "modalHTMLTemplateId": "vlcProductConfig.html",
+                "modalSize": "lg"
+            },
+            "modalController": "ModalInstanceCtrl",
+            "modalHTMLTemplateId": "vlcModalContent.html",
+            "modalSize": "",
+            "postTransformBundle": "",
+            "preTransformBundle": "",
+            "remoteClass": "",
+            "remoteMethod": "",
+            "remoteOptions": {
+                "jsonPath": "Step6:ServiceConfigurationByAccount",
+                "postTransformBundle": "",
+                "preTransformBundle": "",
+                "vlcClass": "",
+                "vlcJSONNode": "ServiceConfigurationByAccount",
+                "vlcOperation": "Add",
+                "vlcSelectedItem": {
+                    "$$hashKey": "object:187",
+                    "added": false,
+                    "serviceAccountAddress": "6-7 Ave Two, Columbus",
+                    "serviceAccountId": "0016g000002u5AkAAI",
+                    "serviceAccountName": "Hilton - East Gate",
+                    "vlcSelected": true
+                }
+            },
+            "remoteTimeout": 30000,
+            "responseJSONNode": "",
+            "responseJSONPath": "",
+            "selectMode": "Single",
+            "sendJSONNode": "",
+            "sendJSONPath": "SelectServiceAccounts:ServiceAccounts",
+            "show": null
+        },
+        "response": null,
+        "rootIndex": 10,
+        "show": true,
+        "type": "Selectable Items",
+        "vlcSI": {
+            "recSet": [
+                {
+                    "$$hashKey": "object:187",
+                    "added": false,
+                    "serviceAccountAddress": "6-7 Ave Two, Columbus",
+                    "serviceAccountId": "0016g000002u5AkAAI",
+                    "serviceAccountName": "Hilton - East Gate",
+                    "vlcSelected": true
+                },
+                {
+                    "$$hashKey": "object:188",
+                    "serviceAccountAddress": "144 Longwood Gardens, New York City",
+                    "serviceAccountId": "0016g000002u58XAAQ",
+                    "serviceAccountName": "Hilton - East Side Penisular",
+                    "vlcSelected": true
+                },
+                {
+                    "$$hashKey": "object:189",
+                    "serviceAccountAddress": "96 Bank Ave, New York City",
+                    "serviceAccountId": "0016g000002u5B1AAI",
+                    "serviceAccountName": "Hilton - Globe Point",
+                    "vlcSelected": true
+                }
+            ]
+        }
+    }
+}

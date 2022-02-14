@@ -1,0 +1,26 @@
+{
+    "%vlocity_namespace%__CustomJavaScript__c": "CPQ_ApplyDiscount_SampleInput.json",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "CPQ_ApplyDiscount_Element_createCustomDiscount.json",
+        "CPQ_ApplyDiscount_Element_postDiscounts.json",
+        "CPQ_ApplyDiscount_Element_response.json",
+        "CPQ_ApplyDiscount_Element_ApplyDiscount.json",
+        "CPQ_ApplyDiscount_Element_FinalResponse.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__OmniProcessType__c": "Integration Procedure",
+    "%vlocity_namespace%__ProcedureKey__c": "CPQ_ApplyDiscount",
+    "%vlocity_namespace%__PropertySet__c": "CPQ_ApplyDiscount_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "ApplyDiscount",
+    "%vlocity_namespace%__Type__c": "CPQ",
+    "Name": "CPQApplyDiscount",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/CPQ/ApplyDiscount/Procedure"
+}

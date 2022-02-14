@@ -1,0 +1,11 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "c48f05eb-876e-500e-73e9-de2f7124cf1d",
+    "%vlocity_namespace%__IsSchedulingEnabled__c": false,
+    "%vlocity_namespace%__SchedulingExpirationIntervalSeconds__c": "",
+    "%vlocity_namespace%__Scope__c": "Main Order Item",
+    "%vlocity_namespace%__ShowOrder__c": "",
+    "Name": "commsB2B Update Dedicated Internet Billing Plan",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/commsB2B Update Dedicated Internet Billing Plan"
+}

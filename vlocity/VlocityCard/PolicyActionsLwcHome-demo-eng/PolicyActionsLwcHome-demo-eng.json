@@ -1,0 +1,89 @@
+{
+    "GlobalKey__c": "PolicyActionsLwcHome-demo-eng/Radif Masud/1/1586792352212",
+    "dataSource": {
+        "type": null
+    },
+    "enableLwc": true,
+    "filter": {
+        "['Type']": "Property"
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "displayName": "Cancel Policy",
+                        "extraParams": {
+                            "c__ContextId": "['Id']"
+                        },
+                        "hasExtraParams": true,
+                        "id": "CancelPolicy",
+                        "isCustomAction": true,
+                        "isLwcOS": true,
+                        "layoutType": "lightning",
+                        "omniLang": "",
+                        "omniSubType": "",
+                        "omniType": {
+                            "Id": "a3F3i000000Tt1REAS",
+                            "Language": "English",
+                            "Name": "insWC/PolicyCancellation/English",
+                            "SubType": "PolicyCancellation",
+                            "Type": "insWC",
+                            "isLwc": true
+                        },
+                        "openUrlIn": "New Tab / Window",
+                        "type": "OmniScript",
+                        "vForcewithNsPrefix": "%vlocity_namespace%__OmniScriptUniversalPage",
+                        "vlocityIcon": "icon-v-close"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "File Claim",
+                        "hasExtraParams": false,
+                        "id": "fnolPropertyNonLWC",
+                        "isCustomAction": true,
+                        "openUrlIn": "New Tab / Window",
+                        "type": "Custom",
+                        "url": "/apex/%vlocity_namespace%__OmniScriptUniversalPage?id={{params.id}}&OmniScriptType=propertylwc&OmniScriptSubType=ClaimFNOL&OmniScriptLang=English&PrefillDataRaptorBundle=&scriptMode=vertical&layout=newport&ContextId={{params.id}}",
+                        "vlocityIcon": "icon-v-edit2"
+                    }
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+            ],
+            "filter": "$scope.data.status === 'active'",
+            "isSmartAction": false,
+            "lwc": {
+                "DeveloperName": "actionGridCardLwc",
+                "Id": "0Rb3i000000bvROCAY",
+                "MasterLabel": "actionGridCardLwc",
+                "name": "actionGridCardLwc"
+            },
+            "name": "open-actions",
+            "sObjectType": "Asset",
+            "smartAction": {
+            },
+            "templateUrl": "action-grid-card-slds"
+        }
+    ],
+    "title": "Actions"
+}

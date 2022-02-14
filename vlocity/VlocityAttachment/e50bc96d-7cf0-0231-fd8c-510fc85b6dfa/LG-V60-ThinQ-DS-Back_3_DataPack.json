@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__Channel__c": "",
+    "%vlocity_namespace%__ContentType__c": "Image",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__DisplayConditionsData__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "e50bc96d-7cf0-0231-fd8c-510fc85b6dfa",
+    "%vlocity_namespace%__IsDefaultImage__c": false,
+    "%vlocity_namespace%__IsPrivate__c": false,
+    "%vlocity_namespace%__ObjectId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "1ce9a5ce-c435-a51d-fd2c-e550aa304c21",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/1ce9a5ce-c435-a51d-fd2c-e550aa304c21",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__ProductGroupKey__c": "d6683234-d87a-ebf4-a494-33c8076d4ae7",
+    "%vlocity_namespace%__SequenceNumber__c": 4,
+    "%vlocity_namespace%__UrlLong__c": "https://vlocitydemodx-cdn.herokuapp.com/content/industry/cmt/VDOProductResources/images/LG/LG_V60_04_Back_3.png",
+    "%vlocity_namespace%__Url__c": "",
+    "Name": "LG V60 ThinQ DS Back_3",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityAttachment__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityAttachment__c/e50bc96d-7cf0-0231-fd8c-510fc85b6dfa"
+}

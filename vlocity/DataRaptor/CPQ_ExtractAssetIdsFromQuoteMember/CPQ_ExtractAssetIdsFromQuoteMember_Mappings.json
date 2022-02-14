@@ -1,0 +1,39 @@
+[
+    {
+        "%vlocity_namespace%__DisplayType__c": "REFERENCE",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Turbo Extract",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 0,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Members",
+        "%vlocity_namespace%__FilterGroup__c": 0,
+        "%vlocity_namespace%__FilterOperator__c": "=",
+        "%vlocity_namespace%__FilterValue__c": "groupCartId",
+        "%vlocity_namespace%__GlobalKey__c": "fc4db580-3bf9-c262-5b50-5fbf8d96b728",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "%vlocity_namespace%__QuoteGroupId__r.%vlocity_namespace%__GroupCartId__c",
+        "%vlocity_namespace%__InterfaceObjectLookupOrder__c": 1,
+        "%vlocity_namespace%__InterfaceObjectName__c": "%vlocity_namespace%__QuoteMember__c",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "CPQ_ExtractAssetIdsFromQuoteMember6292396668609637",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "CPQ_ExtractAssetIdsFromQuoteMember",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Turbo Extract",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Members",
+        "%vlocity_namespace%__GlobalKey__c": "5f240ea6-89a9-ec8c-f89c-f9a6a5c37e44",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "%vlocity_namespace%__SelectedAssetIds__c",
+        "%vlocity_namespace%__InterfaceObjectName__c": "%vlocity_namespace%__QuoteMember__c",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "CPQ_ExtractAssetIdsFromQuoteMember4694051752783315",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": true,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "CPQ_ExtractAssetIdsFromQuoteMember",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

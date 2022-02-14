@@ -1,0 +1,9 @@
+<div ng-controller="consoleSideBarController">
+    <div class="left-profile-container">
+        <vloc-card ng-repeat="card in cards | orderBy:order" ctrl="{{accountCtrl}}" ng-model="card" data="card" records="records" index="{{$index}}" session-id="{{sessionId}}"></vloc-card>
+    </div>
+
+    <div class="left-story-container">
+        <vloc-layout layout-name="story-slds-de" ></vloc-layout>
+    </div>
+</div>

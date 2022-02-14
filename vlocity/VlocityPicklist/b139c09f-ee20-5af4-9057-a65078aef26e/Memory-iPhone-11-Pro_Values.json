@@ -1,0 +1,83 @@
+[
+    {
+        "%vlocity_namespace%__Abbreviation__c": "",
+        "%vlocity_namespace%__BooleanValue__c": false,
+        "%vlocity_namespace%__Code__c": "256GB",
+        "%vlocity_namespace%__DateTimeValue__c": "",
+        "%vlocity_namespace%__DateValue__c": "",
+        "%vlocity_namespace%__EffectiveFromDate__c": "",
+        "%vlocity_namespace%__EffectiveUntilDate__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "1c151254-3589-2954-7a26-b9ddc77756b8",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__IsDefault__c": false,
+        "%vlocity_namespace%__NumberValue__c": "",
+        "%vlocity_namespace%__PicklistId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b139c09f-ee20-5af4-9057-a65078aef26e",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Picklist__c/b139c09f-ee20-5af4-9057-a65078aef26e",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Picklist__c"
+        },
+        "%vlocity_namespace%__Sequence__c": 2,
+        "%vlocity_namespace%__TextValue__c": "256GB",
+        "%vlocity_namespace%__UnitOfMeasureName__c": "",
+        "%vlocity_namespace%__Value__c": "256GB",
+        "Name": "256GB",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__PicklistValue__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__PicklistValue__c/1c151254-3589-2954-7a26-b9ddc77756b8"
+    },
+    {
+        "%vlocity_namespace%__Abbreviation__c": "",
+        "%vlocity_namespace%__BooleanValue__c": false,
+        "%vlocity_namespace%__Code__c": "512GB",
+        "%vlocity_namespace%__DateTimeValue__c": "",
+        "%vlocity_namespace%__DateValue__c": "",
+        "%vlocity_namespace%__EffectiveFromDate__c": "",
+        "%vlocity_namespace%__EffectiveUntilDate__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "2a6d3e58-0724-79dc-440e-cacc0fd9fa75",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__IsDefault__c": false,
+        "%vlocity_namespace%__NumberValue__c": "",
+        "%vlocity_namespace%__PicklistId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b139c09f-ee20-5af4-9057-a65078aef26e",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Picklist__c/b139c09f-ee20-5af4-9057-a65078aef26e",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Picklist__c"
+        },
+        "%vlocity_namespace%__Sequence__c": 3,
+        "%vlocity_namespace%__TextValue__c": "512GB",
+        "%vlocity_namespace%__UnitOfMeasureName__c": "",
+        "%vlocity_namespace%__Value__c": "512GB",
+        "Name": "512GB",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__PicklistValue__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__PicklistValue__c/2a6d3e58-0724-79dc-440e-cacc0fd9fa75"
+    },
+    {
+        "%vlocity_namespace%__Abbreviation__c": "",
+        "%vlocity_namespace%__BooleanValue__c": false,
+        "%vlocity_namespace%__Code__c": "64GB",
+        "%vlocity_namespace%__DateTimeValue__c": "",
+        "%vlocity_namespace%__DateValue__c": "",
+        "%vlocity_namespace%__EffectiveFromDate__c": "",
+        "%vlocity_namespace%__EffectiveUntilDate__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "343d51c8-3300-da5e-5ef7-1b7d74595c52",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__IsDefault__c": false,
+        "%vlocity_namespace%__NumberValue__c": "",
+        "%vlocity_namespace%__PicklistId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b139c09f-ee20-5af4-9057-a65078aef26e",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Picklist__c/b139c09f-ee20-5af4-9057-a65078aef26e",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Picklist__c"
+        },
+        "%vlocity_namespace%__Sequence__c": 1,
+        "%vlocity_namespace%__TextValue__c": "64GB",
+        "%vlocity_namespace%__UnitOfMeasureName__c": "",
+        "%vlocity_namespace%__Value__c": "64GB",
+        "Name": "64GB",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__PicklistValue__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__PicklistValue__c/343d51c8-3300-da5e-5ef7-1b7d74595c52"
+    }
+]

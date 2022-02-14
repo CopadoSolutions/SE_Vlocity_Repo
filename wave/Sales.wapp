@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assetIcon>/analytics/wave/web/proto/images/app/icons/3.png</assetIcon>
+    <description>Sales performance dashboards.</description>
+    <folder>Sales</folder>
+    <masterLabel>Sales App</masterLabel>
+    <shares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>AllInternalUsers</sharedTo>
+        <sharedToType>Organization</sharedToType>
+    </shares>
+    <shares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>AllPartnerUsers</sharedTo>
+        <sharedToType>AllPrmUsers</sharedToType>
+    </shares>
+    <shares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>AllCustomerPortalUsers</sharedTo>
+        <sharedToType>AllCspUsers</sharedToType>
+    </shares>
+    <shares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>demo.org@communications.1644263715115</sharedTo>
+        <sharedToType>User</sharedToType>
+    </shares>
+</WaveApplication>

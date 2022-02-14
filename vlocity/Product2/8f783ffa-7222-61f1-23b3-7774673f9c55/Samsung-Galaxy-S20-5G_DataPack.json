@@ -1,0 +1,516 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "Samsung-Galaxy-S20-5G_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "ATTRIBUTE-016": "Cloud Blue",
+        "ATTRIBUTE-017": "128GB",
+        "ATTRIBUTE-064": "Samsung",
+        "ATTRIBUTE-065": "Android 10",
+        "ATTRIBUTE-123": "MOB-0202",
+        "ATTRIBUTE-125": "Samsung Corp",
+        "ATTRIBUTE-200": "6.7\"",
+        "ATTRIBUTE-201": "10MP",
+        "ATTRIBUTE-202": "12 MP Ultra Wide, 12 MP Wide, 64MP Telephoto",
+        "ATTRIBUTE-203": "Snapdragon 865 octa-core"
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "messages": [
+        ],
+        "records": [
+            {
+                "Code__c": "VLO-PRO-0003",
+                "Name": "Mobile Handset",
+                "displaySequence": 11,
+                "id": "a0I8c00001Tc9BREAZ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0J8c00000rM6c1EAC",
+                            "cloneable": false,
+                            "code": "ATTRIBUTE-016",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Device Colour",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": true,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "32bec1cd-6e05-b433-31a6-f7e6f2b4b661",
+                                    "label": "Cosmic Black",
+                                    "readonly": false,
+                                    "value": "Cosmic Black"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "id": "296d58ef-e5ca-5440-dea4-d52df8360af0",
+                                    "label": "Cloud Blue",
+                                    "readonly": false,
+                                    "value": "Cloud Blue"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0J8c00000rM6efEAC",
+                            "cloneable": true,
+                            "code": "ATTRIBUTE-200",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Device Screen Size",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0J8c00000rM6egEAC",
+                            "cloneable": true,
+                            "code": "ATTRIBUTE-201",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Device Front Camera",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0J8c00000rM6ehEAC",
+                            "cloneable": true,
+                            "code": "ATTRIBUTE-202",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Device Rear Camera",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0J8c00000rM6eiEAC",
+                            "cloneable": true,
+                            "code": "ATTRIBUTE-203",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Device Processor",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0J8c00000rM6c2EAC",
+                            "cloneable": false,
+                            "code": "ATTRIBUTE-017",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 2,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Device Storage",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": true,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "8d60a70f-5e4a-2a5a-db96-d9fb7cd6da0b",
+                                    "label": "128GB",
+                                    "readonly": false,
+                                    "value": "128GB"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "id": "129f148a-98d4-a776-7e7a-b22f74a185a0",
+                                    "label": "512GB",
+                                    "readonly": false,
+                                    "value": "512GB"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0J8c00000rM6cKEAS",
+                            "cloneable": false,
+                            "code": "ATTRIBUTE-064",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 3,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Device Manufacturer",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0J8c00000rM6cLEAS",
+                            "cloneable": false,
+                            "code": "ATTRIBUTE-065",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 4,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Device Operating System",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 8
+                }
+            },
+            {
+                "Code__c": "VLO-PRO-0015",
+                "Name": "Logistics",
+                "displaySequence": 23,
+                "id": "a0I8c00001Tc9BeEAJ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0J8c00000rM6dHEAS",
+                            "cloneable": false,
+                            "code": "ATTRIBUTE-123",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Part Number",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": true,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0J8c00000rM6dJEAS",
+                            "cloneable": false,
+                            "code": "ATTRIBUTE-125",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 3,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Supplier",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": true,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 2
+                }
+            }
+        ],
+        "totalSize": 2
+    },
+    "%vlocity_namespace%__AttributeRules__c": "{}",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__CategoryData__c": [
+        {
+            "actions": {
+            },
+            "childCategories": [
+            ],
+            "displaySequence": -1,
+            "fields": {
+            },
+            "id": "a2H6g000000WEKaEAO",
+            "messages": [
+            ],
+            "name": "Phones - Samsung",
+            "nameResult": {
+            },
+            "uiStates": {
+            }
+        }
+    ],
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "",
+    "%vlocity_namespace%__GlobalGroupKey__c": "bcc42702-6f23-87c7-d313-e030658a2db0",
+    "%vlocity_namespace%__GlobalKey__c": "8f783ffa-7222-61f1-23b3-7774673f9c55",
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsCustomerSubscription__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "Seconds",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__Modification__c": "",
+    "%vlocity_namespace%__ObjectTypeId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "0494987c4b255f05b823dc8b8cd9fe3d",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/0494987c4b255f05b823dc8b8cd9fe3d",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
+    },
+    "%vlocity_namespace%__ObjectTypeName__c": "Mobile Phone Spec",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PriceListEntry__c": "Samsung-Galaxy-S20-5G_PriceListEntries.json",
+    "%vlocity_namespace%__ProductChildItem__c": "Samsung-Galaxy-S20-5G_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__Scope__c": "",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "",
+    "%vlocity_namespace%__SpecificationSubType__c": "",
+    "%vlocity_namespace%__SpecificationType__c": "Product",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "Device",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "Product",
+    "%vlocity_namespace%__VendorAccountId__c": "",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "V1",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "Antenna_Type__c": "",
+    "Auto_Attendant__c": "",
+    "Automated_Directory__c": "",
+    "Backup_Power__c": "",
+    "Bandwidth__c": "",
+    "Call_Barring__c": "",
+    "Call_Forwarding__c": "",
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
+    "Conferencing__c": "",
+    "Description": "Samsung Galaxy S20+ 5G",
+    "Device_Colour__c": "",
+    "Device_IMEI__c": "",
+    "Device_Manufacturer__c": "",
+    "Device_Network_Compatibility__c": "",
+    "Device_Operating_System__c": "",
+    "Device_Storage__c": "",
+    "Direct_Inward_Dialing__c": "",
+    "Discount__c": "",
+    "DisplayUrl": "",
+    "Ethernet_Ports__c": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Face_Size__c": "",
+    "Family": "Mobile",
+    "Finish__c": "",
+    "Genre__c": "",
+    "ICCID__c": "",
+    "IMSI__c": "",
+    "Interactive_Voice_Response__c": "",
+    "Internet_Data_Usage_Cap__c": "",
+    "Internet_Download_Speed__c": "",
+    "Internet_Upload_Speed__c": "",
+    "IsActive": true,
+    "IsArchived": false,
+    "Line_Type__c": "",
+    "MSISDN__c": "",
+    "Maximum_Speed__c": "",
+    "Music_on_Hold__c": "",
+    "Name": "Samsung Galaxy S20+ 5G",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "Number__c": "",
+    "PBX_Type__c": "",
+    "Price__c": "",
+    "PricebookEntry": "Samsung-Galaxy-S20-5G_PricebookEntries.json",
+    "ProductCode": "VLO-MOB-0202",
+    "Product_Channel__c": "",
+    "Product_Owner__c": "",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "SIM_Type__c": "",
+    "Simultaneous_Connections__c": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": 0,
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "Samsung Galaxy S20+ 5G",
+            "One_Time_Cost__c": "",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "8f783ffa-7222-61f1-23b3-7774673f9c55",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "8f783ffa-7222-61f1-23b3-7774673f9c55",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/8f783ffa-7222-61f1-23b3-7774673f9c55",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "VLO-MOB-0202",
+            "Recurring_Cost__c": "",
+            "SOHO_One_Time_Discount__c": "",
+            "UnitPrice": 0,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/8f783ffa-7222-61f1-23b3-7774673f9c55"
+        }
+    ],
+    "StockKeepingUnit": "",
+    "Storage_Space__c": "",
+    "Strap__c": "",
+    "TV_Boxes_Required__c": "",
+    "TV_Connection__c": "",
+    "TV_Content__c": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/8f783ffa-7222-61f1-23b3-7774673f9c55",
+    "Voicemail__c": "",
+    "Wifi_Band__c": "",
+    "Wifi_Standard__c": ""
+}

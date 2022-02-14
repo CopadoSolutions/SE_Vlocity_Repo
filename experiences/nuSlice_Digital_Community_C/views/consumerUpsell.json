@@ -1,0 +1,77 @@
+{
+  "appPageId" : "68d9bf5b-3c63-40b8-98a5-0501c99b9d7b",
+  "componentName" : "siteforce:dynamicLayout",
+  "id" : "f4feffc0-c0e6-4023-bce2-9eb95adbc3fc",
+  "label" : "consumer-upsell",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgb(255,255,255)",
+        "backgroundOverlay" : "rgba(255,255,255,0.7)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "1b4a9ba8-8739-4fdc-a94b-b60f0643371a",
+          "columns" : [ {
+            "UUID" : "842bfd6b-18f9-4c1e-8cad-7d33dfb0e576",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "1b4a9ba8-8739-4fdc-a94b-b60f0643371a",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "customVFPage" : "VDOOmniscript",
+            "disableLoadInPage" : false,
+            "height" : "",
+            "language" : "English",
+            "layout" : "lightning",
+            "recordId" : "{!recordId}",
+            "scrollOffset" : "90",
+            "subtype" : "Consumer Burst Upsell",
+            "type" : "Demo"
+          },
+          "componentName" : "vlocity_cmt:OmniScriptCommunity",
+          "id" : "6c9890c0-b944-4c36-a855-72ab8b449c01",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "842bfd6b-18f9-4c1e-8cad-7d33dfb0e576",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b01a2560-b781-474d-b555-af64eecb7d9f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "consumer-upsell"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "af3cccd8-2ee4-4db3-8d1f-33fc9868c988",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "60facb5f-f145-4cf3-a691-77e2be46c330",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-consumer-upsell"
+}

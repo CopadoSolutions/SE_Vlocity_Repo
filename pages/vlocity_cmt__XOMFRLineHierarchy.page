@@ -1,0 +1,5 @@
+<apex:page standardController="vlocity_cmt__FulfilmentRequest__c" extensions="vlocity_cmt.XOMFRLineAndInventoryItemController,vlocity_cmt.XOMThorLocalizationController,vlocity_cmt.XOMUserInfoControllerExtension" showHeader="false" sidebar="false" applyHtmlTag="false">
+    <c:XOMIllustration title="We’re sorry, but the page you’re looking for no longer exists."
+            showReturn="false">
+    </c:XOMIllustration>
+</apex:page>

@@ -1,0 +1,40 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+            {
+                "id": 1,
+                "name": "Parent.cartId",
+                "val": "8015g000000Gu5C"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "IntegrationProcedures",
+        "value": {
+            "dsDelay": 0,
+            "inputMap": {
+                "cartId": "{Parent.cartId}"
+            },
+            "ipMethod": "CPQ_GetPromotionsAppliedToCart",
+            "resultVar": "[\"response\"]",
+            "vlocityAsync": false
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "cpqCartAppliedPromotion.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "cpqCartAppliedPromotion/Vlocity/2/1616512184826",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__SampleData__c": "{\"response\":{\"records\":[{\"AppliedPromotionAction\":\"Add\",\"Name\":{\"actions\":{},\"alternateValues\":null,\"dataType\":\"string\",\"editable\":true,\"fieldName\":\"Name\",\"hidden\":true,\"label\":\"Name\",\"messages\":[],\"originalValue\":null,\"previousValue\":null,\"value\":\"Test Promotion 1 CP\"},\"Description\":{\"actions\":{},\"alternateValues\":null,\"dataType\":\"string\",\"editable\":true,\"fieldName\":\"Description\",\"hidden\":null,\"label\":\"Description\",\"messages\":[],\"originalValue\":null,\"previousValue\":null,\"value\":\"Test Promotion 1 CP Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\"},\"name\":\"Test Promotion 1 CP\",\"%vlocity_namespace%__AppliesTo__c\":{\"actions\":{},\"alternateValues\":null,\"dataType\":\"PICKLIST\",\"editable\":true,\"fieldName\":\"%vlocity_namespace%__AppliesTo__c\",\"hidden\":true,\"label\":\"Applies To\",\"messages\":[],\"originalValue\":null,\"previousValue\":null,\"value\":null},\"%vlocity_namespace%__PricingEndDate__c\":{\"actions\":{},\"alternateValues\":null,\"dataType\":\"DATETIME\",\"editable\":true,\"fieldName\":\"%vlocity_namespace%__PricingEndDate__c\",\"hidden\":true,\"label\":\"Benefit End Date\",\"messages\":[],\"originalValue\":null,\"previousValue\":null,\"value\":null},\"%vlocity_namespace%__PricingStartDate__c\":{\"actions\":{},\"alternateValues\":null,\"dataType\":\"DATETIME\",\"editable\":true,\"fieldName\":\"%vlocity_namespace%__PricingStartDate__c\",\"hidden\":true,\"label\":\"Benefit Start Date\",\"messages\":[],\"originalValue\":null,\"previousValue\":null,\"value\":null},\"%vlocity_namespace%__CommitmentEndDate__c\":{\"actions\":{},\"alternateValues\":null,\"dataType\":\"DATETIME\",\"editable\":true,\"fieldName\":\"%vlocity_namespace%__CommitmentEndDate__c\",\"hidden\":true,\"label\":\"Commitment End Date\",\"messages\":[],\"originalValue\":null,\"previousValue\":null,\"value\":null},\"%vlocity_namespace%__CommitmentStartDate__c\":{\"actions\":{},\"alternateValues\":null,\"dataType\":\"DATETIME\",\"editable\":true,\"fieldName\":\"%vlocity_namespace%__CommitmentStartDate__c\",\"hidden\":true,\"label\":\"Commitment Start Date\",\"messages\":[],\"originalValue\":null,\"previousValue\":null,\"value\":null},\"%vlocity_namespace%__SubAction__c\":{\"actions\":{},\"alternateValues\":null,\"dataType\":\"PICKLIST\",\"editable\":true,\"fieldName\":\"%vlocity_namespace%__SubAction__c\",\"hidden\":true,\"label\":\"Sub Action\",\"messages\":[],\"originalValue\":null,\"previousValue\":null,\"value\":null},\"%vlocity_namespace%__RequestDate__c\":{\"actions\":{},\"alternateValues\":null,\"dataType\":\"DATETIME\",\"editable\":true,\"fieldName\":\"%vlocity_namespace%__RequestDate__c\",\"hidden\":true,\"label\":\"Request Date\",\"messages\":[],\"originalValue\":null,\"previousValue\":null,\"value\":null},\"%vlocity_namespace%__ReasonForCancellation__c\":{\"actions\":{},\"alternateValues\":null,\"dataType\":\"STRING\",\"editable\":true,\"fieldName\":\"%vlocity_namespace%__ReasonForCancellation__c\",\"hidden\":true,\"label\":\"Reason for Cancellation\",\"messages\":[],\"originalValue\":null,\"previousValue\":null,\"value\":null},\"%vlocity_namespace%__FulfilmentStatus__c\":{\"actions\":{},\"alternateValues\":null,\"dataType\":\"PICKLIST\",\"editable\":true,\"fieldName\":\"%vlocity_namespace%__FulfilmentStatus__c\",\"hidden\":true,\"label\":\"Fulfilment Status\",\"messages\":[],\"originalValue\":null,\"previousValue\":null,\"value\":null},\"%vlocity_namespace%__BillingAccountId__c\":{\"actions\":{},\"alternateValues\":null,\"dataType\":\"REFERENCE\",\"editable\":true,\"fieldName\":\"%vlocity_namespace%__BillingAccountId__c\",\"hidden\":true,\"label\":\"Account\",\"messages\":[],\"originalValue\":null,\"previousValue\":null,\"value\":null},\"%vlocity_namespace%__Sequence__c\":{\"actions\":{},\"alternateValues\":null,\"dataType\":\"DOUBLE\",\"editable\":true,\"fieldName\":\"%vlocity_namespace%__Sequence__c\",\"hidden\":true,\"label\":\"Sequence\",\"messages\":[],\"originalValue\":null,\"previousValue\":null,\"value\":null},\"%vlocity_namespace%__PromotionId__c\":{\"actions\":{},\"alternateValues\":null,\"dataType\":\"REFERENCE\",\"editable\":true,\"fieldName\":\"%vlocity_namespace%__PromotionId__c\",\"hidden\":true,\"label\":\"Promotion\",\"messages\":[],\"originalValue\":null,\"previousValue\":null,\"value\":\"a3T5g0000004JDYEA2\"},\"%vlocity_namespace%__Action__c\":{\"actions\":{},\"alternateValues\":null,\"dataType\":\"PICKLIST\",\"editable\":true,\"fieldName\":\"%vlocity_namespace%__Action__c\",\"hidden\":true,\"label\":\"Action\",\"messages\":[],\"originalValue\":null,\"previousValue\":null,\"value\":\"Add\"},\"Id\":{\"actions\":{},\"alternateValues\":null,\"dataType\":\"ID\",\"editable\":false,\"fieldName\":\"Id\",\"hidden\":true,\"label\":\"Record ID\",\"messages\":[],\"originalValue\":null,\"previousValue\":null,\"value\":\"a315g000000XluBAAS\"},\"displaySequence\":-1,\"actions\":{\"deleteappliedpromoitems\":{\"client\":{\"params\":{}},\"remote\":{\"params\":{\"cartId\":\"8015g000000Gu5CAAS\",\"id\":\"a315g000000XluBAAS\",\"methodName\":\"deleteAppliedPromoItems\"}},\"rest\":{\"link\":null,\"method\":null,\"params\":{}}}}}],\"totalSize\":1}}",
+    "%vlocity_namespace%__Styles__c": "{\"customStyles\":\".cpq__cart-applied-promo_container{\\n    background-color: #FAFAF9;\\n}\\n.cpq__cart-applied-promotions_empty-text {\\n    text-align: center;\\n}\\n\\n@media screen and (max-width: 48rem){\\n    .cpq__cart-applied-promotions_empty-text {\\n        text-align: left;\\n        padding-left: 16px;\\n    }\\n}\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "cpqCartAppliedPromotion",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/cpqCartAppliedPromotion"
+}

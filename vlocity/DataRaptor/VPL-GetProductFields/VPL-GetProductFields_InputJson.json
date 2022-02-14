@@ -1,0 +1,25 @@
+{
+    "ContextId": null,
+    "GetPublishParameters": {
+        "AttributeCondition": null,
+        "Attributes": null,
+        "BatchSize": null,
+        "ObjectTypes": null,
+        "ProductFields": null
+    },
+    "Step2": {
+        "InputBlock1": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "GetProductFields": null,
+        "GetPublishParameters": null,
+        "Step2": null
+    }
+}

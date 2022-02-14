@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <folder>vloc_cmt_track__Click_Tracking</folder>
+    <masterLabel>Click Tracking</masterLabel>
+    <shares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>demo.org@communications.1644263715115</sharedTo>
+        <sharedToType>User</sharedToType>
+    </shares>
+</WaveApplication>

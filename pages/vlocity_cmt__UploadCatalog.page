@@ -1,0 +1,5 @@
+<apex:page showHeader="true" sidebar="true">
+    <c:XOMIllustration title="We’re sorry, but the page you’re looking for no longer exists."
+            showReturn="false">
+    </c:XOMIllustration>
+</apex:page>

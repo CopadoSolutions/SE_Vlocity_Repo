@@ -1,0 +1,355 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "RangeAttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 3,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/3/%vlocity_namespace%__CalculationMatrix__c/RangeAttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "f7183c17-3a94-5396-9a9f-92a680b0ca2b",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "13c541",
+            "dataType": "Text",
+            "displayOrder": 1,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0L3600000IqxuKEAR",
+            "listValues": null,
+            "name": "Source Product Name"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "RangeAttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 3,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/3/%vlocity_namespace%__CalculationMatrix__c/RangeAttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "ed634665-8353-f6d8-14fd-737e988ee64e",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "26ee5f",
+            "dataType": "Text",
+            "displayOrder": 3,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0L3600000IqxuMEAR",
+            "listValues": null,
+            "name": "Characteristic Name"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "RangeAttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 3,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/3/%vlocity_namespace%__CalculationMatrix__c/RangeAttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "8d4fc79c-c9c9-8991-84f0-f9cdebde9844",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "2a0cd2",
+            "dataType": "Text",
+            "displayOrder": 4,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0L3600000IqxuNEAR",
+            "listValues": null,
+            "name": "Characteristic Value"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "RangeAttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 3,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/3/%vlocity_namespace%__CalculationMatrix__c/RangeAttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "751a620f-8a95-93e5-e774-4c0aea51a7c1",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "3a0611",
+            "dataType": "Text",
+            "displayOrder": 2,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0L3600000IqxuLEAR",
+            "listValues": null,
+            "name": "Source Product Code"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "RangeAttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 3,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/3/%vlocity_namespace%__CalculationMatrix__c/RangeAttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "9ea15061-248a-9ef2-7ab6-c0452ac665a4",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "7cdae9",
+            "dataType": "Text",
+            "displayOrder": 6,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0L3600000IqxuPEAR",
+            "listValues": null,
+            "name": "MRC"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "RangeAttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 3,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/3/%vlocity_namespace%__CalculationMatrix__c/RangeAttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "4988ff5e-2930-cb9a-543a-f4d426fabae0",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "7cea71",
+            "dataType": "Text",
+            "displayOrder": 7,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0L3600000IqxuJEAR",
+            "listValues": null,
+            "name": "NRC"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "RangeAttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 3,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/3/%vlocity_namespace%__CalculationMatrix__c/RangeAttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "c836e30a-0877-1a27-d5d8-360331556e1f",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "bd81e8",
+            "dataType": "Text",
+            "displayOrder": 5,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0L3600000IqxuOEAR",
+            "listValues": null,
+            "name": "Quantity"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "RangeAttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 3,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/3/%vlocity_namespace%__CalculationMatrix__c/RangeAttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "8d32213e-47f7-eff7-f442-2a580da5ecad",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Device Colour;Device Storage",
+            "Characteristic Value": "#ffda2e;128GB",
+            "Quantity": "5-10",
+            "Source Product Code": "VLO-MOB-0161",
+            "Source Product Name": "Apple iPhone X"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "900"
+        },
+        "Name": "1d9ddc52bec388391e3d470326fa9591",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "RangeAttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 3,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/3/%vlocity_namespace%__CalculationMatrix__c/RangeAttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "7feeb147-3140-cf70-c469-f48d46abc54a",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Device Colour;Device Storage",
+            "Characteristic Value": "#ffda2e;16GB",
+            "Quantity": "5-10",
+            "Source Product Code": "VLO-MOB-0161",
+            "Source Product Name": "Apple iPhone X"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "800"
+        },
+        "Name": "c7db9317d80748353ed5291e61e97257",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "RangeAttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 3,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/3/%vlocity_namespace%__CalculationMatrix__c/RangeAttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "206fbdaa-915b-b82a-9171-5f69c0ccf009",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Device Colour;Device Storage",
+            "Characteristic Value": "#ffda2e;32GB",
+            "Quantity": "5-10",
+            "Source Product Code": "VLO-MOB-0161",
+            "Source Product Name": "Apple iPhone X"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "850"
+        },
+        "Name": "54f077b61a1813691feb6de538bb9dbc",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "RangeAttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 3,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/3/%vlocity_namespace%__CalculationMatrix__c/RangeAttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "5ba9df72-0633-9a91-6a9d-b48ea3a8cc99",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Device Colour;Device Storage",
+            "Characteristic Value": "#ffda2e;64GB",
+            "Quantity": "5-10",
+            "Source Product Code": "VLO-MOB-0161",
+            "Source Product Name": "Apple iPhone X"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "875"
+        },
+        "Name": "05f910a26f7fafbf029ebacf1b5be998",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "RangeAttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 3,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/3/%vlocity_namespace%__CalculationMatrix__c/RangeAttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "4ca2b115-d731-abb7-1166-691a4d8d8a73",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Device Colour;Device Storage",
+            "Characteristic Value": "Space Grey;128GB",
+            "Quantity": "5-10",
+            "Source Product Code": "VLO-MOB-0161",
+            "Source Product Name": "Apple iPhone X"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "900"
+        },
+        "Name": "5ebfdedafd75281e775a0a57d06b10ee",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "RangeAttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 3,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/3/%vlocity_namespace%__CalculationMatrix__c/RangeAttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "7c968d26-0a66-4033-06a5-af8f29f3e3fa",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Device Colour;Device Storage",
+            "Characteristic Value": "Space Grey;16GB",
+            "Quantity": "5-10",
+            "Source Product Code": "VLO-MOB-0161",
+            "Source Product Name": "Apple iPhone X"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "800"
+        },
+        "Name": "727e3b5104158064228e209bfc2602c7",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "RangeAttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 3,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/3/%vlocity_namespace%__CalculationMatrix__c/RangeAttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "f9874ea6-8ef0-93bc-85b1-0b68857966a6",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Device Colour;Device Storage",
+            "Characteristic Value": "Space Grey;32GB",
+            "Quantity": "5-10",
+            "Source Product Code": "VLO-MOB-0161",
+            "Source Product Name": "Apple iPhone X"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "850"
+        },
+        "Name": "29bbf3549724ab3e2f648ff82706c8bf",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "RangeAttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 3,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/3/%vlocity_namespace%__CalculationMatrix__c/RangeAttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "2054a908-1cd8-4806-5a9a-8b58a7653d55",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Device Colour;Device Storage",
+            "Characteristic Value": "Space Grey;64GB",
+            "Quantity": "5-10",
+            "Source Product Code": "VLO-MOB-0161",
+            "Source Product Name": "Apple iPhone X"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "875"
+        },
+        "Name": "a700f0d865a7a75cac72534629c41f1e",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    }
+]

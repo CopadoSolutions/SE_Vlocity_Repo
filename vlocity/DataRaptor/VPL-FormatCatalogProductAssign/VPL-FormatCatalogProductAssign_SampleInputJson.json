@@ -1,0 +1,14 @@
+{
+    "error": "OK",
+    "errorCode": "INVOKE-200",
+    "productAssignemnt": [
+        {
+            "CatalogCode": "Vlocity_Shoes_Men",
+            "ProductCode": "Shoes"
+        },
+        {
+            "CatalogCode": "Vlocity_Shoes_Women",
+            "ProductCode": "Sandals"
+        }
+    ]
+}

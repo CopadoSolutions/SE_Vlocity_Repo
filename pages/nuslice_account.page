@@ -1,0 +1,96 @@
+<apex:page >
+<div class="nuslice-account">
+    <h1 class="slds-text-heading_large slds-m-bottom_none">Account</h1>
+    <div class="slds-grid slds-wrap">
+        <div class="slds-col"><hr class="slds-m-vertical_small" size="1" /></div>
+    </div>
+    <div class="slds-grid slds-wrap">
+        <div class="slds-col slds-small-size_1-of-1 slds-medium-size_4-of-12 slds-text-title--caps nuslice-text-gray">
+            Membership &amp; Billing
+            <br/><br/>
+            <a href="#" class="slds-text--align-center">Cancel Membership</a>
+            <br/><br/>
+        </div>
+        <div class="slds-col slds-small-size_1-of-1 slds-medium-size_8-of-12">
+            <div class="slds-grid slds-wrap">
+                <div class="slds-size_6-of-12"><strong>CurrentUser.email</strong></div>
+                <div class="slds-size_6-of-12 slds-text-align--right"><a href="#">Change account email</a></div>
+            </div>
+            <div class="slds-grid slds-wrap">
+                <div class="slds-size_6-of-12 nuslice-text-gray">Password: ********</div>
+                <div class="slds-size_6-of-12 slds-text-align--right"><a href="#">Change password</a></div>
+            </div>
+            <div class="slds-grid slds-wrap">
+                <div class="slds-size_6-of-12 nuslice-text-gray">Phone: (303) 859-7887</div>
+                <div class="slds-size_6-of-12 slds-text-align--right"><a href="#">Change phone number</a></div>
+            </div>
+            <div class="slds-grid slds-wrap">
+                <div class="slds-col"><hr class="slds-m-vertical_small" size="1"/></div>
+            </div>
+            <div class="slds-grid slds-wrap">
+                <div class="slds-size_6-of-12">
+                    <!-- image goes here -->
+                    <img alt="MasterCard" height="32px" class="slds-m-right_small" src="{!$Resource.nuslice_mastercard_icon}" width="53"/>
+                    <strong>**** **** **** 9695</strong>
+                </div>
+                <div class="slds-size_6-of-12 slds-text-align--right"><a href="#">Update payment info</a></div>
+            </div>
+            <div class="slds-grid slds-wrap">
+                <div class="slds-size_6-of-12"></div>
+                <div class="slds-size_6-of-12 slds-text-align--right"><a href="#">Billing details</a></div>
+            </div>
+            <div class="slds-grid slds-wrap">
+                <div class="slds-col"><hr class="slds-m-vertical_small" size="1"/></div>
+            </div>
+            <div class="slds-grid slds-wrap">
+                <div class="slds-size_6-of-12"></div>
+                <div class="slds-size_6-of-12 slds-text-align--right"><a href="#">Redeem gift card or promo code</a></div>
+            </div>
+            <div class="slds-grid slds-wrap">
+                <div class="slds-size_6-of-12"></div>
+                <div class="slds-size_6-of-12 slds-text-align--right"><a href="#">Where to buy gift cards</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="slds-grid slds-wrap">
+        <div class="slds-col"><hr class="slds-m-vertical_small" size="1"/></div>
+    </div>
+    <div class="slds-grid slds-wrap">
+        <div class="slds-col slds-small-size_1-of-1 slds-medium-size_4-of-12 slds-text-title--caps h2 nuslice-text-gray">Plan Details<br/><br/></div>
+        <div class="slds-col slds-small-size_1-of-1 slds-medium-size_8-of-12">
+            <div class="slds-grid slds-wrap">
+                <div class="slds-size_6-of-12">Family Mobile Plan</div>
+                <div class="slds-size_6-of-12 slds-text-align--right"><a href="#">Plan details</a></div>
+            </div>
+            <div class="slds-grid slds-wrap">
+                <div class="slds-size_6-of-12">Base 5G Stream &amp; GO Plan</div>
+                <div class="slds-size_6-of-12 slds-text-align--right"><a href="#">Plan details</a></div>
+            </div>
+            <div class="slds-grid slds-wrap">
+                <div class="slds-size_6-of-12">Stream &amp; GO Sharing</div>
+                <div class="slds-size_6-of-12 slds-text-align--right"><a href="#">Control sharing</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="slds-grid slds-wrap">
+        <div class="slds-col"><hr class="slds-m-vertical_small" size="1" style="color: #d4d0d7;"/></div>
+    </div>
+    <div class="slds-grid slds-wrap">
+        <div class="slds-col slds-small-size_1-of-1 slds-medium-size_4-of-12 slds-text-title--caps h2 nuslice-text-gray">Settings<br/><br/></div>
+        <div class="slds-col slds-small-size_1-of-1 slds-medium-size_8-of-12">
+            <div class="slds-grid slds-wrap">
+                <div class="slds-col"><a href="#">Manage authorized devices</a></div>
+            </div>
+            <div class="slds-grid slds-wrap">
+                <div class="slds-col"><a href="#">Manage mobile plan options</a></div>
+            </div>
+            <div class="slds-grid slds-wrap">
+                <div class="slds-col"><a href="#">Manage stream &amp; GO plan options</a></div>
+            </div>
+            <div class="slds-grid slds-wrap">
+                <div class="slds-col"><a href="#">Manage sharing options</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+</apex:page>

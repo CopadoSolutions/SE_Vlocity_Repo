@@ -1,0 +1,29 @@
+{
+    "%vlocity_namespace%__DependencyItemDefinitionId__c": {
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__r.Name": "commsB2B RB Dedicated Internet Billing Updates",
+        "Name": "UndoMilestone_SiteBillingRollback",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationItemDefinition__c/UndoMilestone_SiteBillingRollback/%vlocity_namespace%__OrchestrationPlanDefinition__c/commsB2B RB Dedicated Internet Billing Updates",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationItemDefinition__c"
+    },
+    "%vlocity_namespace%__DependencyPlanDefinitionId__c": {
+        "Name": "commsB2B RB Dedicated Internet Billing Updates",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/commsB2B RB Dedicated Internet Billing Updates",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+    },
+    "%vlocity_namespace%__DependencyType__c": "Depends On",
+    "%vlocity_namespace%__GlobalKey__c": "6784720a-75ca-1edd-14d3-ca3c27ad4402",
+    "%vlocity_namespace%__OrchestrationItemDefinitionId__c": {
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__r.Name": "commsB2B RB E2E Dedicated Internet Orch Plan",
+        "Name": "UndoMilestone_ADI Order Rollback Complete",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationItemDefinition__c/UndoMilestone_ADI Order Rollback Complete/%vlocity_namespace%__OrchestrationPlanDefinition__c/commsB2B RB E2E Dedicated Internet Orch Plan",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationItemDefinition__c"
+    },
+    "%vlocity_namespace%__Scope__c": "Global",
+    "Name": "UndoMilestone-ADIOrderRollbackComplete Depends on UndoMilestone-SiteBillingRB",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationDependencyDefinition__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationDependencyDefinition__c/6784720a-75ca-1edd-14d3-ca3c27ad4402"
+}

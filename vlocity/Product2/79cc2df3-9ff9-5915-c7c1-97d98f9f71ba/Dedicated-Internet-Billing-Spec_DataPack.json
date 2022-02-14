@@ -1,0 +1,270 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "Dedicated-Internet-Billing-Spec_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "ATTRIBUTE-116": null,
+        "ATTRIBUTE-117": null,
+        "B2B-ATTR-ORDR-MGMT-OPTIONS": null
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "messages": [
+        ],
+        "records": [
+            {
+                "Code__c": "VLO-PRO-0025",
+                "Name": "XOMControl",
+                "displaySequence": 33,
+                "id": "a0I8c00001Tc9BwEAJ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0J8c00000rM6euEAC",
+                            "cloneable": true,
+                            "code": "B2B-ATTR-ORDR-MGMT-OPTIONS",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 10,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "OrderManagement",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "4fc21b34-93ab-9702-d239-dab51884407f",
+                                    "label": "FlowThrough",
+                                    "readonly": false,
+                                    "value": "FlowThrough"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "9bac69a6-3ed1-57ed-f433-4fb512d3a5a5",
+                                    "label": "ManualTask",
+                                    "readonly": false,
+                                    "value": "ManualTask"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "5c51ece0-ee57-b9f8-c024-051b969bcd8e",
+                                    "label": "CancelOrder",
+                                    "readonly": false,
+                                    "value": "CancelOrder"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 1
+                }
+            },
+            {
+                "Code__c": "VLO-PRO-0014",
+                "Name": "Billing",
+                "displaySequence": 22,
+                "id": "a0I8c00001Tc9BdEAJ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0J8c00000rM6dDEAS",
+                            "cloneable": false,
+                            "code": "ATTRIBUTE-117",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Billing Code",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0J8c00000rM6dEEAS",
+                            "cloneable": false,
+                            "code": "ATTRIBUTE-116",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 2,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Bill Literal",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 2
+                }
+            }
+        ],
+        "totalSize": 2
+    },
+    "%vlocity_namespace%__AttributeRules__c": "{}",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__CategoryData__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "",
+    "%vlocity_namespace%__GlobalGroupKey__c": "2b4e3d41-3894-0338-3326-42e62147bda6",
+    "%vlocity_namespace%__GlobalKey__c": "79cc2df3-9ff9-5915-c7c1-97d98f9f71ba",
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsCustomerSubscription__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": false,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "Seconds",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__Modification__c": "",
+    "%vlocity_namespace%__ObjectFieldAttribute__c": "Dedicated-Internet-Billing-Spec_ObjectFieldAttributes.json",
+    "%vlocity_namespace%__ObjectTypeId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "76a3d0-c45527-67ed55-d28733-5bcaf0b1e",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/76a3d0-c45527-67ed55-d28733-5bcaf0b1e",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
+    },
+    "%vlocity_namespace%__ObjectTypeName__c": "Billing",
+    "%vlocity_namespace%__OrchestrationScenario__c": "Dedicated-Internet-Billing-Spec_OrchestrationScenarios.json",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__ProductChildItem__c": "Dedicated-Internet-Billing-Spec_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "",
+    "%vlocity_namespace%__SpecificationSubType__c": "",
+    "%vlocity_namespace%__SpecificationType__c": "Service",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "Service",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "Product",
+    "%vlocity_namespace%__VendorAccountId__c": "",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "V1",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "Antenna_Type__c": "",
+    "Auto_Attendant__c": "",
+    "Automated_Directory__c": "",
+    "Backup_Power__c": "",
+    "Bandwidth__c": "",
+    "Call_Barring__c": "",
+    "Call_Forwarding__c": "",
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
+    "Conferencing__c": "",
+    "Description": "Billing Technical Spec for ADI",
+    "Device_Colour__c": "",
+    "Device_IMEI__c": "",
+    "Device_Manufacturer__c": "",
+    "Device_Network_Compatibility__c": "",
+    "Device_Operating_System__c": "",
+    "Device_Storage__c": "",
+    "Direct_Inward_Dialing__c": "",
+    "Discount__c": "",
+    "DisplayUrl": "",
+    "Ethernet_Ports__c": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Face_Size__c": "",
+    "Family": "Services",
+    "Finish__c": "",
+    "Genre__c": "",
+    "ICCID__c": "",
+    "IMSI__c": "",
+    "Interactive_Voice_Response__c": "",
+    "Internet_Data_Usage_Cap__c": "",
+    "Internet_Download_Speed__c": "",
+    "Internet_Upload_Speed__c": "",
+    "IsActive": true,
+    "IsArchived": false,
+    "Line_Type__c": "",
+    "MSISDN__c": "",
+    "Maximum_Speed__c": "",
+    "Music_on_Hold__c": "",
+    "Name": "Dedicated Internet Billing Spec",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "Number__c": "",
+    "PBX_Type__c": "",
+    "Price__c": "",
+    "ProductCode": "B2B-ADI-BILLING-001",
+    "Product_Channel__c": "",
+    "Product_Owner__c": "",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "SIM_Type__c": "",
+    "Simultaneous_Connections__c": "",
+    "StockKeepingUnit": "",
+    "Storage_Space__c": "",
+    "Strap__c": "",
+    "TV_Boxes_Required__c": "",
+    "TV_Connection__c": "",
+    "TV_Content__c": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/79cc2df3-9ff9-5915-c7c1-97d98f9f71ba",
+    "Voicemail__c": "",
+    "Wifi_Band__c": "",
+    "Wifi_Standard__c": ""
+}

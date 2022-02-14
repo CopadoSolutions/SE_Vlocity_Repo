@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__Creator__c": "Justin Harris",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "f07e7940-2ae3-a238-bc49-fc5f9ea9d0bd",
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsDefault__c": false,
+    "%vlocity_namespace%__LastModifier__c": "Justin Harris",
+    "%vlocity_namespace%__OriginalCreatedDate__c": "2020-10-16T14:44:21.000Z",
+    "%vlocity_namespace%__ProjectItem__c": "Default-Comms-Project_ProjectItems.json",
+    "%vlocity_namespace%__ProjectOwner__c": "Justin Harris",
+    "%vlocity_namespace%__Status__c": "Draft",
+    "Name": "Default Comms Project",
+    "RecordTypeId": {
+        "DeveloperName": "WorkSet",
+        "SobjectType": "%vlocity_namespace%__Project__c",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/%vlocity_namespace%__Project__c/WorkSet",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Project__c/f07e7940-2ae3-a238-bc49-fc5f9ea9d0bd"
+}

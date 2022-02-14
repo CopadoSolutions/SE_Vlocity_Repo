@@ -1,0 +1,15 @@
+{
+    "priceListEntries": [
+        {
+            "price": 74,
+            "productId": "Sandals"
+        },
+        {
+            "onlineFrom": "",
+            "onlineTo": "2020-05-13 18:30",
+            "price": 300.3,
+            "priceInfo": "[{\"price\":10.00000,\"recurring\":\"Monthly\"}]",
+            "productId": "Shoes"
+        }
+    ]
+}

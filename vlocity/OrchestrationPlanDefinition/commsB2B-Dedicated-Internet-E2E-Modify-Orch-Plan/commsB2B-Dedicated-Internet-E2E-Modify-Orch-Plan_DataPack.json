@@ -1,0 +1,11 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "c65abe58-2818-fe79-70c6-e5fb54ae9c5e",
+    "%vlocity_namespace%__IsSchedulingEnabled__c": false,
+    "%vlocity_namespace%__SchedulingExpirationIntervalSeconds__c": "",
+    "%vlocity_namespace%__Scope__c": "Global",
+    "%vlocity_namespace%__ShowOrder__c": "",
+    "Name": "commsB2B Dedicated Internet E2E Modify Orch Plan",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/commsB2B Dedicated Internet E2E Modify Orch Plan"
+}

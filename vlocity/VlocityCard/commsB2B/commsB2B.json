@@ -1,0 +1,110 @@
+{
+    "dataSource": {
+        "type": null
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "Id",
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "Renew Contract",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-renew-contract",
+                        "id": "Renew Contract",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Amend Contract",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-modify-contract",
+                        "id": "Amend Contract",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Terminate Contract",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-terminate-contract",
+                        "id": "Terminate Contract",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Send for eSignature",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-send-for-e-signature",
+                        "id": "Send for eSignature",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Contract']['Name']",
+                    "group": "Custom Properties",
+                    "label": "Contract Name",
+                    "name": "['Contract']['Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Contract']['Type']",
+                    "group": "Custom Properties",
+                    "label": "Contract Type",
+                    "name": "['Contract']['Type']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Contract']['StartDate']",
+                    "group": "Custom Properties",
+                    "label": "Contract StartDate",
+                    "name": "['Contract']['StartDate']",
+                    "type": "date"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Contract']['Status']",
+                    "group": "Custom Properties",
+                    "label": "Contract Status",
+                    "name": "['Contract']['Status']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active'",
+            "flyout": {
+                "layout": "flyout-list"
+            },
+            "isSmartAction": false,
+            "name": "Sales Contract",
+            "sObjectType": "Contract",
+            "smartAction": {
+            },
+            "templateUrl": "vdo-card-active"
+        }
+    ],
+    "title": "Contract Grid"
+}

@@ -1,0 +1,69 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "VPL-PublishCatalogAndProductDetails",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPL/PublishCatalogAndProductDetails/Procedure",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "VPL-PublishCatalogAndProductDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPL/PublishCatalogAndProductDetails/Procedure",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "ProcessProdDetails",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VPL/PublishCatalogAndProductDetails/Procedure/ProcessProdDetails",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "ProcessProdDetails",
+    "%vlocity_namespace%__ParentElementType__c": "Loop Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "actionMessage": "",
+        "additionalInput": {
+            "CatalogFileName": "%GetProdIdsSplit:prodIds:index%_%GetDateTimeStamp:timeStamp%.xml",
+            "GetXMLConfigData": "%GetXMLConfigData%",
+            "NamedCredentialPrefix": "%NamedCredentialPrefix%",
+            "OAuthData": "%OAuthData%",
+            "RootCatalogId": "%GetAllCatalogs:parentCatalog%",
+            "VariationBatchSize": "%VariationBatchSize%",
+            "VlocityCatalog": "%VlocityCatalog%",
+            "allProductIds": "=IF(%PublishType% == 2,TOSTRING(%GetDeltaProductIds:DeltaProductIds%),%GetAllProductIds:allProductIds%)",
+            "catalogs": "%GetProductsForCatalog:catalogs%",
+            "clientId": "%GetFormattedPayload:clientId%",
+            "tmfInput:id": "%GetProdIdsSplit:prodIds:id%"
+        },
+        "additionalOutput": {
+        },
+        "chainOnStep": true,
+        "disOnTplt": false,
+        "disableChainable": false,
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "integrationProcedureKey": "VPL_FetchAndPublishProductDetails",
+        "label": "IntegrationProcedureAction4",
+        "remoteOptions": {
+            "useQueueable": true
+        },
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": true,
+        "show": null,
+        "useFormulas": true
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Integration Procedure Action",
+    "Name": "GetAndPublishProdDetails",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VPL/PublishCatalogAndProductDetails/Procedure/GetAndPublishProdDetails"
+}

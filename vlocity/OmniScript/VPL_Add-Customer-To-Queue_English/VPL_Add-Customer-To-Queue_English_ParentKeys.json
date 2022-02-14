@@ -1,0 +1,10 @@
+[
+    "DataRaptor/AddCustomerToQueue",
+    "DataRaptor/CustomerTypeAheadForEmail",
+    "DataRaptor/CustomerTypeAheadForName",
+    "DataRaptor/CustomerTypeAheadForPhone",
+    "DataRaptor/GetQueueRank",
+    "DataRaptor/PostContactInfo",
+    "DataRaptor/SaveProspectCustomer",
+    "DataRaptor/VerifyContactofAccount"
+]

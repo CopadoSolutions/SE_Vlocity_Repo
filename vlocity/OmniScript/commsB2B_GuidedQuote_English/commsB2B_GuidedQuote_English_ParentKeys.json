@@ -1,0 +1,11 @@
+[
+    "DataRaptor/VDOGetPriceList",
+    "DataRaptor/commsB2BExtractPrimaryBusAcct",
+    "DataRaptor/commsB2BGetBillingAccounts",
+    "DataRaptor/commsB2BGetOpptyDetails",
+    "DataRaptor/commsB2BGetUltParentOpptyItems",
+    "IntegrationProcedure/commsB2B_ServiceQualification",
+    "VlocityUITemplate/commsB2B-si-cartitems",
+    "VlocityUITemplate/commsB2B-si-di-config",
+    "VlocityUITemplate/os-sv-javascript"
+]

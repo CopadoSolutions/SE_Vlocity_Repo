@@ -1,0 +1,61 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+            "query": "SELECT Id, Name FROM Asset WHERE AccountId = '{{params.id}}' AND Name LIKE '%Sport%'"
+        }
+    },
+    "filter": {
+        "['Name']": "Sport"
+    },
+    "states": [
+        {
+            "blankCardState": true,
+            "collapse": true,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'non-existent'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+            ],
+            "filter": "$scope.data.status === 'non-existent'",
+            "isSmartAction": false,
+            "name": "Voice",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "NavIcon",
+                    "type": "string",
+                    "value": "'../resource/npResource/voice.svg'"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "NavTitle",
+                    "type": "string",
+                    "value": "['Name']"
+                }
+            ],
+            "sObjectType": "Account",
+            "smartAction": {
+            },
+            "templateUrl": "np-subnav-open"
+        }
+    ],
+    "title": "Voice"
+}

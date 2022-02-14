@@ -1,0 +1,20 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "81f53a6d-2705-dcfc-da11-f3a47c332694",
+    "%vlocity_namespace%__OrchestrationItemCondition__c": "",
+    "%vlocity_namespace%__OrchestrationItemDefinitionId__c": "",
+    "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": "",
+    "%vlocity_namespace%__OrderItemCondition__c": "",
+    "%vlocity_namespace%__Product2Id__c": "",
+    "%vlocity_namespace%__SystemId__c": "",
+    "%vlocity_namespace%__SystemInterfaceId__c": "",
+    "%vlocity_namespace%__ThorOrchestrationQueue__c": {
+        "%vlocity_namespace%__GlobalKey__c": "f8cd4a3c-99b5-9946-381e-4c9e6578eb5e",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ThorOrchestrationQueue__c/f8cd4a3c-99b5-9946-381e-4c9e6578eb5e",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ThorOrchestrationQueue__c"
+    },
+    "Name": "Default Normal Priority Queue",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationQueueAssignmentRule__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationQueueAssignmentRule__c/81f53a6d-2705-dcfc-da11-f3a47c332694"
+}

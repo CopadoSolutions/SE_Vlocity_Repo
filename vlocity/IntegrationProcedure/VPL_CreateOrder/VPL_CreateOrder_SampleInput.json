@@ -1,0 +1,15 @@
+{
+    "accountId": "0013h000009wSVcAAM",
+    "cartContextKey": "520cda9bffb65b1a582cc1472ecb964f",
+    "catalogCode": "apple",
+    "context": "{\"accountId\":\"0013h000009wSVcAAM\"}",
+    "isloggedin": true,
+    "shippingAddress": {
+        "Phone": "7411839109",
+        "ShippingCity": "California",
+        "ShippingCountry": "United States",
+        "ShippingPostalCode": "23924",
+        "ShippingState": "CA",
+        "ShippingStreet": "Denver\nnull"
+    }
+}

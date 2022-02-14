@@ -1,0 +1,32 @@
+{
+    "catalogs": [
+        {
+            "CatalogCode": "root",
+            "Id": "a0G3h000000EjFTEA0",
+            "PriceListId": "a303h000000gJbWAAU"
+        },
+        {
+            "CatalogCode": "Vlocity_Shoes_Men",
+            "Id": "a0G3h000000EjFdEAK",
+            "PriceListId": "a303h000000gJbWAAU",
+            "ProductIds": [
+                "01t3h000001OjkQAAS",
+                "01t3h000001OumOAAS"
+            ]
+        },
+        {
+            "CatalogCode": "KidsShoes",
+            "Id": "a0G3h0000006xdDEAQ",
+            "PriceListId": "a303h000000ckaVAAQ"
+        },
+        {
+            "CatalogCode": "Vlocity_Shoes_Women",
+            "Id": "a0G3h000000EjFYEA0",
+            "PriceListId": "a303h000000gJbWAAU",
+            "ProductIds": [
+                "01t3h000001OjkLAAS",
+                "01t3h000001KAtlAAG"
+            ]
+        }
+    ]
+}

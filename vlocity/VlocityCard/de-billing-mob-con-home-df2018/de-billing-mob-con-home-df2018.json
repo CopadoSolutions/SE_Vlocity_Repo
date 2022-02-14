@@ -1,0 +1,99 @@
+{
+    "dataSource": {
+        "type": "Query",
+        "value": {
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Bill",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "DisplayConditional",
+                    "type": "string",
+                    "value": "['%vlocity_namespace%__AccountId__r']['%vlocity_namespace%__EnableAutopay__c']"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "Autopay ON",
+                    "name": "DisplayConditionalTrue",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "collapse": true,
+                    "label": "Autopay OFF",
+                    "name": "DisplayConditionalFalse",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": ":",
+                    "name": "DisplayCurrency",
+                    "type": "string",
+                    "value": "['%vlocity_namespace%__BalanceDue__c']"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "Due",
+                    "name": "DisplayDate",
+                    "type": "string",
+                    "value": "['%vlocity_namespace%__DueDate__c']"
+                },
+                {
+                    "collapse": true,
+                    "label": "Billing",
+                    "name": "DisplayTitle",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "collapse": true,
+                    "label": "",
+                    "name": "DisplayString",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "NavigationPage",
+                    "type": "string",
+                    "value": "MobConBilling"
+                }
+            ],
+            "smartAction": {
+            },
+            "templateUrl": "vloc-mob-con-home-widget-long-arrow-2f2018"
+        }
+    ],
+    "title": "Bill"
+}

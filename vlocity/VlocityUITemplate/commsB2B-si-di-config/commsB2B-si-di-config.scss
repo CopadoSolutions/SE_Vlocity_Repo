@@ -1,0 +1,157 @@
+$small-text: #5F7399;
+$small-form-text: #1F4482;
+$light-gray: #D8DDE6;
+
+@mixin font-size($size) {
+	font-size:$size !important;
+	font-size: ($size / 16px) * 1rem !important;
+}
+/* usage
+div {
+	@include font-size(14px);
+}
+*/
+
+.container {
+	align-content: start;
+	align-items: start;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	article.slds-card { margin: 10px; }
+	.slds-card+.slds-card { margin-top: 10px !important; }
+}
+.via-slds.via-omni .slds-radio_button [type=radio]:checked+label span {
+	color: #ffffff !important;
+}
+.via-slds.via-omni span.slds-icon_container {
+	background: transparent;
+}
+.item {
+	border: 1px solid $light-gray;
+	border-radius: 5px !important;
+	flex: 0 0 auto;
+	//margin: 10px;
+	min-height: 400px;
+	width: 300px;
+
+	&:hover {
+		box-shadow: 0px 2px 6px 0px rgba(102,102,102,0.5) !important;
+			-webkit-box-shadow: 0px 2px 6px 0px rgba(102,102,102,0.5) !important;
+			-moz-box-shadow: 0px 2px 6px 0px rgba(102,102,102,0.5) !important;
+	}
+
+	.card-image {
+		background-size: cover;
+		border-radius: 5px 5px 0 0;
+		height: 170px;
+	}
+
+	.slds-card__header {
+		padding: 10px;
+
+		.slds-icon-standard-account {
+			background-color: #7f8de1 !important;
+		}
+
+		.slds-media__figure {
+			margin-right: 10px;
+		}
+
+		.slds-card__header-title {
+			color: #254B8F;
+			@include font-size(14px);
+			line-height: 14px;
+		}
+		p {
+			@include font-size(11px);
+		}
+	}
+
+	.slds-form-element__label {
+		color: $small-text;
+		@include font-size(11px);
+	}
+	.slds-form-element__control {
+		color: $small-form-text;
+		@include font-size(12px);
+	}
+
+	.slds-card__body_inner {
+		padding: 0 10px;
+
+		.slds-form-element_stacked:not(.slds-is-editing) {
+			padding: 0;
+		}
+		.slds-form-element_stacked:first-child {
+			border-bottom: 1px solid $light-gray;
+			padding-bottom: 10px;
+		}
+	}
+
+	.slds-card__footer {
+		background-color: #F7F9FB;
+		border-radius: 0 0 5px 5px;
+		border-top: none;
+		margin-top: 20px;
+		padding: 0 10px 20px 10px;
+		text-align: left;
+
+		.accordion {
+			> input[type="checkbox"] {
+				position: absolute;
+				left: -100vw;
+			}
+			> input[type="checkbox"]:checked ~ .content {
+				height: auto;
+				overflow: visible;
+			}
+			> input[type="checkbox"]:checked ~ .handle .slds-icon_x-small {
+				transform: rotate(90deg);
+			}
+			.content {
+				overflow-y: hidden;
+				height: 0;
+				transition: height 0.3s ease;
+			}
+			.handle {
+				@include font-size(14px);
+
+				label:before {
+					display: inline-block;
+					margin-right: 10px;
+					line-height: 1.556em;
+					vertical-align: middle;
+				}
+				label {
+					display: block;
+					padding: 10px 0;
+
+					.slds-icon_x-small {
+						
+					}
+				}
+			}
+		}
+
+		.slds-button {
+			@include font-size(12px);
+		}
+
+		.slds-form-element__label {
+			margin-top: 10px;
+		}
+		.slds-form-element__label:first-child {
+			margin-top: 0;
+		}
+
+		.slds-section__title-action {
+			background: none;
+		}
+		.slds-form-element_stacked:not(.slds-is-editing) {
+			padding: 0;
+		}
+	}
+}

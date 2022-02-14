@@ -1,0 +1,48 @@
+[
+    {
+        "%vlocity_namespace%__DefaultValue__c": "root",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "category-assignment:@category-id",
+        "%vlocity_namespace%__GlobalKey__c": "1ecfdbb2-df06-cb3e-1f8a-f90dc4cb7ff3",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "VPL-FormatCatalogProductMasterAssignCustoma0O3h0000008K55EAEItem0",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": false,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "VPL-FormatCatalogProductMasterAssign",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "category-assignment:@product-id",
+        "%vlocity_namespace%__GlobalKey__c": "091881f8-0f94-501b-8707-babc90ad76c6",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "productAssignment:ProductCode",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "VPL-FormatCatalogProductMasterAssignCustoma0O3h0000008K55EAEItem2",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": false,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "VPL-FormatCatalogProductMasterAssign",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "category-assignment:primary-flag:#text",
+        "%vlocity_namespace%__DomainObjectFieldType__c": "Boolean",
+        "%vlocity_namespace%__GlobalKey__c": "2b896f76-ea20-39a4-d030-3db23e57f733",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "productAssignment:PrimaryFlag",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "VPL-FormatCatalogProductMasterAssignCustoma0O3h0000008K55EAEItem1",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": false,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "VPL-FormatCatalogProductMasterAssign",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

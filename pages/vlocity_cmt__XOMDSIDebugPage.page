@@ -1,0 +1,5 @@
+<apex:page id="XOMDSIDebugPage" standardController="vlocity_cmt__OrchestrationItemDefinition__c" extensions="vlocity_cmt.XOMDSIDebugControllerExtension" docType="html-5.0" applyBodyTag="false" sideBar="false">
+    <c:XOMIllustration title="We’re sorry, but the page you’re looking for no longer exists."
+        showReturn="false">
+    </c:XOMIllustration>
+</apex:page>

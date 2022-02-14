@@ -1,0 +1,18 @@
+{
+  "forgotPasswordRouteId" : "0fe23571-0a13-4fa9-8db0-ccca1bd62917",
+  "isAvailableToGuests" : false,
+  "isFilteredComponentsView" : false,
+  "isProgressiveRenderingEnabled" : false,
+  "loginAppPageId" : "33c1580a-f652-4ad1-9be9-65b1630d3011",
+  "mainAppPageId" : "68d9bf5b-3c63-40b8-98a5-0501c99b9d7b",
+  "preferredDomain" : "none",
+  "selfRegistrationRouteId" : "074221bb-f48c-44b4-a54a-aaf2152b3b22",
+  "trustedSitesForScript" : [ {
+    "id" : "48a96d88-935b-455d-9261-79271a17c6ff",
+    "isActive" : true,
+    "trustedSiteName" : "CDN",
+    "trustedSiteUrl" : "https://vlocitydemodx-cdn.herokuapp.com",
+    "type" : "trustedSitesForScripts"
+  } ],
+  "type" : "site"
+}

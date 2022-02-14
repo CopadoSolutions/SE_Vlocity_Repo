@@ -1,0 +1,22 @@
+{
+    "%vlocity_namespace%__Description__c": "VDO Deprecated - use Vlocity Discounts for contract pricing adjustments",
+    "%vlocity_namespace%__EffectiveDate__c": "",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__Expression__c": "",
+    "%vlocity_namespace%__FailureMessage__c": "",
+    "%vlocity_namespace%__FallbackId__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "0965c843eaedf4b08f30d82fa4387473",
+    "%vlocity_namespace%__HeaderId__c": "",
+    "%vlocity_namespace%__IsActive__c": false,
+    "%vlocity_namespace%__ObjectName__c": "OrderItem",
+    "%vlocity_namespace%__Operation__c": "",
+    "%vlocity_namespace%__RuleAction__c": "ApplyFrameContractPricingtoOrder-VDO-Deprecated_RuleActions.json",
+    "%vlocity_namespace%__RuleFilter__c": "ApplyFrameContractPricingtoOrder-VDO-Deprecated_RuleFilters.json",
+    "%vlocity_namespace%__RulePurpose__c": "",
+    "%vlocity_namespace%__RuleType__c": "",
+    "%vlocity_namespace%__Type__c": "Pricing",
+    "Name": "ApplyFrameContractPricingtoOrder (VDO Deprecated)",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Rule__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Rule__c/0965c843eaedf4b08f30d82fa4387473"
+}

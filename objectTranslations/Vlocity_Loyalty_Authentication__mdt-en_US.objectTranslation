@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Vlocity Loyalty Authentication</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Vlocity Loyalty Authentication</value>
+    </caseValues>
+    <fields>
+        <label><!-- Access Token URL --></label>
+        <name>Access_Token_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer Key --></label>
+        <name>Consumer_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer Secret --></label>
+        <name>Consumer_Secret__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

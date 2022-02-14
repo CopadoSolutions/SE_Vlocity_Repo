@@ -1,0 +1,5 @@
+[
+    "OrchestrationItemDefinition/Send DIA Provisioning Request_commsB2B Provision Dedicated Internet Plan",
+    "OrchestrationItemDefinition/Technical Site Enrichment_commsB2B Provision Dedicated Internet Plan",
+    "OrchestrationPlanDefinition/commsB2B Provision Dedicated Internet Plan"
+]

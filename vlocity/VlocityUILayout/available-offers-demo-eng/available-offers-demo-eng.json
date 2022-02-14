@@ -1,0 +1,20 @@
+{
+    "Cards": [
+        "empty-card-demo-eng"
+    ],
+    "componentName": "cfAvailableOffersDemoEng",
+    "dataSource": {
+        "type": null
+    },
+    "previewType": "runTime",
+    "sessionVars": [
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-3x-slds-demo-eng"
+        }
+    },
+    "workspace": [
+        "empty-card-demo-eng/Radif Masud/1/1572721551699"
+    ]
+}

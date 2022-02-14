@@ -1,0 +1,31 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "[{\"phase\":\"browse\"}]",
+            "dsDelay": 0,
+            "resultVar": ""
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "cpqPromotions.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "cpqPromotions/Vlocity/4/1617116571859",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__SampleData__c": "[{\"phase\":\"browse\"}]",
+    "%vlocity_namespace%__Styles__c": "{\"customStyles\":\"\\n\\n.cpq__promotionheader{\\n    font-size: 18px;\\n    line-height: 27px;\\n    font-weight: bold;\\n    color: #000000;\\n}\\n.cpq__promotionsubheader{\\n    font-size: 13px;\\n    line-height: 20px;\\n    color:  #3E3E3C;\\n    font-weight: bold;\\n}\\n\\n/* .cpq-promotionsubheader-listview-desktop-state {\\n    display: inital;\\n}\\n\\n\\n@media (max-width: 1024px) {\\n  .cpq-promotionsubheader-listview-desktop-state {\\n  \\tdisplay: none;\\n  }\\n} */\\n\\n.flexcards-container_small .cpq-promotionsubheader-listview {\\n    display: none;\\n}\\n\\n.flexcards-container_medium   .cpq-promotionsubheader-listview {\\n    display: none;\\n}\\n\\n.flexcards-container_large   .cpq-promotionsubheader-listview {\\n    display: initial;\\n\\n}\\n\\n.cpq-promotionblock {\\n    max-height: 1250px;\\n    overflow-y: scroll;\\n}\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "cpqPromotions",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/cpqPromotions"
+}

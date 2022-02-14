@@ -1,0 +1,37 @@
+{
+    "DeleteCodes": [
+        {
+            "productCode": "hhf"
+        }
+    ],
+    "RootCatalogId": "Vlocity_Shoes_Catalog",
+    "XMLConfigData": {
+        "batchBoundary": "--vBatch",
+        "ccFolderName": "ShoCat",
+        "clientId": "9908fb27-0ef1-4f08-91d0-304cb3665ebe",
+        "imageTypes": [
+            {
+                "#text": "swatch"
+            },
+            {
+                "#text": "small"
+            },
+            {
+                "#text": "medium"
+            },
+            {
+                "#text": "large"
+            }
+        ],
+        "imgHttpURL": "http://images-na.ssl-images-amazon.com/images/",
+        "imgHttpsURL": "https://images-na.ssl-images-amazon.com/images/",
+        "metaNamespace": "http://www.demandware.com/xml/impex/metadata/2006-10-31",
+        "namespace": "http://www.demandware.com/xml/impex/catalog/2006-10-31",
+        "priceCurrency": "USD",
+        "priceForQuantity": 1,
+        "priceNamespace": "http://www.demandware.com/xml/impex/pricebook/2006-10-31",
+        "pricebookId": "VlocityPricebook",
+        "titlePattern": "${productname}",
+        "xmlLang": "x-default"
+    }
+}

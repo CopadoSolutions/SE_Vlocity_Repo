@@ -1,0 +1,35 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Formula",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 0,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Formula",
+        "%vlocity_namespace%__FormulaOrder__c": 1,
+        "%vlocity_namespace%__FormulaResultPath__c": "doesTimeStampMatch",
+        "%vlocity_namespace%__Formula__c": "IF(%CCPublishDetails% != null && %CCPublishDetails% != '' && %CCPublishDetails:c_SourceOrg% == %SourceOrg%,'match','does not match')",
+        "%vlocity_namespace%__GlobalKey__c": "6f6824ab-1106-4f30-4290-2dd342db906d",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "VPL-GetMetadataPublishStatusCustom5789",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": false,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "VPL-GetMetadataPublishStatus",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DefaultValue__c": "null",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "doesTimeStampMatch",
+        "%vlocity_namespace%__GlobalKey__c": "9c834e14-b5f2-7130-bf9b-8eed8d796cec",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "doesTimeStampMatch",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "VPL-GetMetadataPublishStatusCustom3584",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": false,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "VPL-GetMetadataPublishStatus",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

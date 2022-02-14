@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "c67dd914-bc78-4ec4-9dca-c9cff10788be",
+  "appPageId" : "68d9bf5b-3c63-40b8-98a5-0501c99b9d7b",
+  "configurationTags" : [ ],
+  "id" : "5de1581e-80f0-4539-a67f-498a7dfe55a9",
+  "label" : "mobile-configuration",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-mobile-configuration",
+  "type" : "route",
+  "urlPrefix" : "mobile-configuration"
+}

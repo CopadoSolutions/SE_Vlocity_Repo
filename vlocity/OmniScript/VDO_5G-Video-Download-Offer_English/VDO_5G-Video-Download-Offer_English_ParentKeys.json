@@ -1,0 +1,10 @@
+[
+    "DataRaptor/VDOGetAccountSubscribers",
+    "DataRaptor/VDOGetDemoAccount",
+    "DataRaptor/VDOGetPriceList",
+    "IntegrationProcedure/DemoEng_DC_CreateCart",
+    "IntegrationProcedure/Demo_AddProductToCartViaDCApi",
+    "IntegrationProcedure/Demo_GetOffersWrapperByCatalog",
+    "VlocityUITemplate/demo-nuslice-burst-de",
+    "VlocityUITemplate/demoSelectSubscriber"
+]

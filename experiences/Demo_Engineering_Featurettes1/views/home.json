@@ -1,0 +1,72 @@
+{
+  "appPageId" : "067cb50d-59bf-4755-900f-02d130a9107a",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "id" : "c4351a60-bf88-4a17-a670-30e5bb714989",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.de_city_skyline.1}\" style=\"width: 1396.98px; height: 1396.98px;\" /></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "844770e9-0ec4-409e-a59f-5ece1e7b6a5a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "bannerBackgroundColor" : "",
+        "bannerPosition" : "top",
+        "bannerSizePercent" : 35,
+        "borderRadius" : 20,
+        "haveBanner" : false,
+        "iconBackgroundColor" : "rgb(255,255,255)",
+        "iconSize" : "medium",
+        "noImageColor" : "rgb(212, 212, 212)",
+        "overlay" : "rgba(0,0,0,0.01)",
+        "templateType" : "default",
+        "titleColor" : "",
+        "titleFontSize" : "medium",
+        "titleHorizontalAlign" : "center"
+      },
+      "componentName" : "community_navigation:tileMenu",
+      "id" : "e8ec46ca-5355-4085-bf39-62a3d93d078a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4306e95e-a8ff-4939-8a84-c8be4fb34e16",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "aa17ede1-9f14-4db2-a581-ed7dc8f15fb8",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "f76ac7b9-e97d-4123-b314-cc3f9951c8d3",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "e5a476f6-bc9b-4fcb-9620-a502a47f4c5f",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "9c4c8aef-b246-4bf7-8f95-e0058a4d03b7",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6d8ada35-d471-45d5-afd4-cce49910447d",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}

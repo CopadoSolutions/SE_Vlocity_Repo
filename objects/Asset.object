@@ -1,0 +1,1731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fieldSets>
+        <fullName>vlocity_cmt__AssetConfiguration</fullName>
+        <description>Asset List under Accounts Tab.</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SerialNumber</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Quantity</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Status</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>vlocity_cmt__ProvisioningStatus__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>vlocity_cmt__RecurringTotal__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>vlocity_cmt__OneTimeTotal__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>AssetConfiguration</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>vlocity_cmt__EcommCachingFieldSet</fullName>
+        <description>Used in generation of Asset context key.</description>
+        <label>EcommCachingFieldSet</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>vlocity_cmt__OmniAssetConfiguration</fullName>
+        <description>Assets List in Omni Upgrade Flow</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>vlocity_cmt__ActivationDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SerialNumber</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Quantity</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Status</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Product2.Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>vlocity_cmt__ProvisioningStatus__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>vlocity_cmt__RecurringTotal__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>vlocity_cmt__OneTimeTotal__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>OmniAssetConfiguration</label>
+    </fieldSets>
+    <fields>
+        <fullName>AccountId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AssetCategory__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( CONTAINS( Name , &apos;Sport&apos;) , &apos;Sport Offer&apos;, IF(CONTAINS( Name , &apos;Mobile Plan&apos;), &apos;Mobile Offer&apos;, IF( CONTAINS(Name, &apos;Fibre Internet&apos;), &apos;Fibre Internet Offer&apos;, &apos;Unknown&apos; )))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Asset Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AssetLevel</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>AssetProvidedById</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AssetServicedById</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ConsequenceOfFailure</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>ContactId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>DigitalAssetStatus</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>ExternalIdentifier</fullName>
+        <inlineHelpText>ID of matching record in an external system.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>InstallDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsCompetitorProduct</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsInternal</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Is_Root__c</fullName>
+        <description>orig formula: IF(AND(vlocity_cmt__ParentItemId__c = &apos;&apos;, ISPICKVAL(Product2.Family, &apos;Mobile&apos;), ISPICKVAL(Product2.vlocity_cmt__SubType__c, &apos;Offer&apos;)), &apos;true&apos;, &apos;false&apos;)</description>
+        <externalId>false</externalId>
+        <formula>IF(AND(vlocity_cmt__ParentItemId__c = &apos;&apos;, ISPICKVAL(Product2.Family, &apos;Mobile&apos;), ISPICKVAL(Product2.vlocity_cmt__SubType__c, &apos;Offer&apos;)), &apos;true&apos;, &apos;false&apos;)</formula>
+        <label>Is Root</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LocationId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ManufactureDate</fullName>
+        <inlineHelpText>Date when the asset was manufactured.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Mobile_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Mobile Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ParentId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Price</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Product2Id</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProductCode</fullName>
+    </fields>
+    <fields>
+        <fullName>ProductDescription</fullName>
+    </fields>
+    <fields>
+        <fullName>ProductFamily</fullName>
+        <description>This field does not show up on layouts, use Product_Family__c</description>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Product_Family_Image__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(Product_Image__c), 
+IF(ISPICKVAL(Product2.Family, &apos;Bundle&apos;),&apos;/resource/VDOProductResources/images/TNBundle.png&apos;,&apos;&apos;)+ 
+IF(ISPICKVAL(Product2.Family, &apos;Mobile&apos;),
+          IF(ISPICKVAL(Product2.vlocity_cmt__SubType__c, &apos;Watch&apos;), &apos;/resource/VDOProductResources/images/TNWearable.png&apos;,&apos;&apos;)+ 
+          IF(ISPICKVAL(Product2.vlocity_cmt__SubType__c, &apos;Earphones&apos;), &apos;/resource/VDOProductResources/images/TNHeadphones.png&apos;,&apos;&apos;)+ 
+          IF(ISPICKVAL(Product2.vlocity_cmt__SubType__c, &apos;Tariff&apos;), &apos;/resource/VDOProductResources/images/TNTariff.png&apos;,&apos;&apos;)+ 
+          IF(ISPICKVAL(Product2.vlocity_cmt__SubType__c, &apos;Grant&apos;), &apos;/resource/VDOProductResources/images/TNTariff.png&apos;,&apos;&apos;)+ 
+          IF(ISPICKVAL(Product2.vlocity_cmt__SubType__c, &apos;Extra&apos;), &apos;/resource/VDOProductResources/images/TNStar.png&apos;,&apos;&apos;)+ 
+          IF(ISPICKVAL(Product2.vlocity_cmt__SubType__c, &apos;Service&apos;), &apos;/resource/VDOProductResources/images/TNStar.png&apos;,&apos;&apos;)+ 
+          IF(ISPICKVAL(Product2.vlocity_cmt__SubType__c, &apos;Discount&apos;), &apos;/resource/VDOProductResources/images/TNDiscount.png&apos;,&apos;&apos;)+ 
+          IF(ISPICKVAL(Product2.vlocity_cmt__SubType__c, &apos;Offer&apos;), &apos;/resource/VDOProductResources/images/TNStar.png&apos;,&apos;&apos;)+ 
+          IF(ISPICKVAL(Product2.vlocity_cmt__SubType__c, &apos;Technology&apos;), &apos;/resource/VDOProductResources/images/TNSim.png&apos;,&apos;&apos;)+ 
+          IF(ISPICKVAL(Product2.vlocity_cmt__Type__c, &apos;Bundle&apos;), &apos;/resource/VDOProductResources/images/TNBundle.png&apos;,&apos;&apos;)+ 
+          IF(ISPICKVAL(Product2.vlocity_cmt__SubType__c, &apos;Handset&apos;), &apos;/resource/VDOProductResources/images/TNMobile.png&apos;,&apos;&apos;),
+&apos;&apos;)+
+IF(ISPICKVAL(Product2.Family, &apos;Landline&apos;),
+          IF(ISPICKVAL(Product2.vlocity_cmt__SubType__c, &apos;Extra&apos;), &apos;/resource/VDOProductResources/images/TNPhone.png&apos;,&apos;&apos;)+ 
+          IF(ISPICKVAL(Product2.vlocity_cmt__SubType__c, &apos;Service&apos;), &apos;/resource/VDOProductResources/images/TNPBX.png&apos;,&apos;&apos;)+ 
+          IF(ISPICKVAL(Product2.vlocity_cmt__SubType__c, &apos;Offer&apos;), &apos;/resource/VDOProductResources/images/TNPhone.png&apos;,&apos;&apos;)+ 
+          IF(ISPICKVAL(Product2.vlocity_cmt__SubType__c, &apos;Installation&apos;), &apos;/resource/VDOProductResources/images/TNInstall.png&apos;,&apos;&apos;)+ 
+          IF(ISPICKVAL(Product2.vlocity_cmt__SubType__c, &apos;Software&apos;), &apos;/resource/VDOProductResources/images/TNPBX.png&apos;,&apos;&apos;),
+&apos;&apos;)+
+IF(ISPICKVAL(Product2.Family, &apos;Internet&apos;),
+          IF(ISPICKVAL(Product2.vlocity_cmt__SubType__c, &apos;Product&apos;), &apos;/resource/VDOProductResources/images/TNInternet.png&apos;,&apos;&apos;)+ 
+          IF(ISPICKVAL(Product2.vlocity_cmt__SubType__c, &apos;Service&apos;), &apos;/resource/VDOProductResources/images/TNLAN.png&apos;,&apos;&apos;)+ 
+          IF(ISPICKVAL(Product2.vlocity_cmt__SubType__c, &apos;Technology&apos;), &apos;/resource/VDOProductResources/images/TNPBX.png&apos;,&apos;&apos;)+ 
+          IF(ISPICKVAL(Product2.vlocity_cmt__SubType__c, &apos;Installation&apos;), &apos;/resource/VDOProductResources/images/TNInstall.png&apos;,&apos;&apos;)+ 
+          IF(ISPICKVAL(Product2.vlocity_cmt__SubType__c, &apos;Software&apos;), &apos;/resource/VDOProductResources/images/TNInternet.png&apos;,&apos;&apos;), 
+&apos;&apos;)+
+IF(ISPICKVAL(Product2.Family, &apos;Support&apos;),&apos;/resource/VDOProductResources/images/TNSupport.png&apos;,&apos;&apos;)+ 
+IF(ISPICKVAL(Product2.Family, &apos;Discount&apos;),&apos;/resource/VDOProductResources/images/TNDiscount.png&apos;,&apos;&apos;)+ 
+IF(ISPICKVAL(Product2.Family, &apos;TV&apos;),
+          IF(ISPICKVAL(Product2.vlocity_cmt__SubType__c, &apos;Extra&apos;), &apos;/resource/VDOProductResources/images/TNTV.png&apos;,&apos;&apos;)+ 
+          IF(ISPICKVAL(Product2.vlocity_cmt__SubType__c, &apos;Service&apos;), &apos;/resource/VDOProductResources/images/TNTV.png&apos;,&apos;&apos;)+ 
+          IF(ISPICKVAL(Product2.vlocity_cmt__SubType__c, &apos;Package&apos;), &apos;/resource/VDOProductResources/images/TNTV.png&apos;,&apos;&apos;)+ 
+          IF(ISPICKVAL(Product2.vlocity_cmt__SubType__c, &apos;Technology&apos;), &apos;/resource/VDOProductResources/images/TNTV.png&apos;,&apos;&apos;)+ 
+          IF(ISPICKVAL(Product2.vlocity_cmt__Type__c, &apos;Bundle&apos;), &apos;/resource/VDOProductResources/images/TNBundle.png&apos;,&apos;&apos;),
+&apos;&apos;),
+Product_Image__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Family Image</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Family__c</fullName>
+        <description>Note that the ProductFamily field does not show up on layouts. Use this field instead. The LOV for this field was synced up with the LOV for Product2.Family at the V105 upgrade.</description>
+        <externalId>false</externalId>
+        <label>Product Family</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>AddOns</fullName>
+                    <default>false</default>
+                    <label>AddOns</label>
+                </value>
+                <value>
+                    <fullName>Bundle</fullName>
+                    <default>false</default>
+                    <label>Bundle</label>
+                </value>
+                <value>
+                    <fullName>Connectivity</fullName>
+                    <default>false</default>
+                    <label>Connectivity</label>
+                </value>
+                <value>
+                    <fullName>Discount</fullName>
+                    <default>false</default>
+                    <label>Discount</label>
+                </value>
+                <value>
+                    <fullName>Internet</fullName>
+                    <default>false</default>
+                    <label>Internet</label>
+                </value>
+                <value>
+                    <fullName>Landline</fullName>
+                    <default>false</default>
+                    <label>Landline</label>
+                </value>
+                <value>
+                    <fullName>License</fullName>
+                    <default>false</default>
+                    <label>License</label>
+                </value>
+                <value>
+                    <fullName>Mobile</fullName>
+                    <default>false</default>
+                    <label>Mobile</label>
+                </value>
+                <value>
+                    <fullName>Offer</fullName>
+                    <default>false</default>
+                    <label>Offer</label>
+                </value>
+                <value>
+                    <fullName>Services</fullName>
+                    <default>false</default>
+                    <label>Services</label>
+                </value>
+                <value>
+                    <fullName>Streaming</fullName>
+                    <default>false</default>
+                    <label>Streaming</label>
+                </value>
+                <value>
+                    <fullName>Support</fullName>
+                    <default>false</default>
+                    <label>Support</label>
+                </value>
+                <value>
+                    <fullName>TV</fullName>
+                    <default>false</default>
+                    <label>TV</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Product_Image__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Image</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PurchaseDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Quantity</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Quantity_Remaining__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Quantity of this asset remaining. This field should be updated periodically based upon usage to track the remaining quantity of an asset, such as Burst Pack</description>
+        <externalId>false</externalId>
+        <label>Quantity Remaining</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RootAssetId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SerialNumber</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>StatusReason</fullName>
+        <inlineHelpText>Explanation of the device status.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>StockKeepingUnit</fullName>
+    </fields>
+    <fields>
+        <fullName>UsageEndDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Username__c</fullName>
+        <description>Added for DR CreateAssets - temporary mapping to Siebel Asset.AssetNumber.  New field in V101 apparently</description>
+        <externalId>false</externalId>
+        <label>Username</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Uuid</fullName>
+        <inlineHelpText>Unique string identifying the asset.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Vlocity_Demo_Asset__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Vlocity Demo Asset</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Vlocity_Rel_Graph_Image__c</fullName>
+        <description>Used for Rel Graph Demo</description>
+        <externalId>false</externalId>
+        <label>Vlocity Rel Graph Image</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vlocity_Rel_Graph__c</fullName>
+        <description>Used to show or hide assets from the Rel Graph.  The goal is to only show the parent (root) asset in the Rel Graph.  This formula should update the field to Show, if the length of the Line Number value is 4.  This is how the Vlocity Cards determine which asset to show on the Asset Card Framework on the Account.</description>
+        <externalId>false</externalId>
+        <formula>IF( LEN(vlocity_cmt__LineNumber__c)=4, &apos;Show&apos;, &apos;Hide&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Vlocity Rel Graph</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__Action__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Action</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Add</fullName>
+                    <default>false</default>
+                    <label>Add</label>
+                </value>
+                <value>
+                    <fullName>Change</fullName>
+                    <default>false</default>
+                    <label>Change</label>
+                </value>
+                <value>
+                    <fullName>Disconnect</fullName>
+                    <default>false</default>
+                    <label>Disconnect</label>
+                </value>
+                <value>
+                    <fullName>Existing</fullName>
+                    <default>false</default>
+                    <label>Existing</label>
+                </value>
+                <value>
+                    <fullName>Resume</fullName>
+                    <default>false</default>
+                    <label>Resume</label>
+                </value>
+                <value>
+                    <fullName>Suspend</fullName>
+                    <default>false</default>
+                    <label>Suspend</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__ActivationDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date when this asset was activated.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Activation Date for this Asset</inlineHelpText>
+        <label>Activation Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__ActivationName__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Name of the person who activated this asset.</description>
+        <externalId>false</externalId>
+        <label>Activation Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__AssetReferenceId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Unique identifier of the asset. Used by Vlocity CPQ to track the asset across various objects in the asset-based ordering lifecycle. Populate this field with some globally unique identifier if the asset is created/mastered in an external system. When assets are created from a completed order by Vlocity, the globally unique identifier is pulled from the order line item.</description>
+        <externalId>false</externalId>
+        <label>Asset Reference Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__AttributeMetadataChanges__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Attribute Metadata Changes</label>
+        <length>131072</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__AttributeSelectedValues__c</fullName>
+        <deprecated>false</deprecated>
+        <description>JSON body containing selected attribute values for this asset.</description>
+        <externalId>false</externalId>
+        <label>Attribute Selected Values</label>
+        <length>131072</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__BaseOneTimeCharge__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Holds the one-time charge of the order item before applying overrides and adjustments.</description>
+        <externalId>false</externalId>
+        <label>Base One Time Charge</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__BaseOneTimeTotal__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Holds the total one-time charge including rollups of the children and multiplied by the line&apos;s quantity.</description>
+        <externalId>false</externalId>
+        <label>Base One Time Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__BaseRecurringCharge__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Holds the recurring charge of the order item before applying overrides or adjustments.</description>
+        <externalId>false</externalId>
+        <label>Base Recurring Charge</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__BaseRecurringTotal__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Holds the total recurring charges including rollups of the children and multiplied by the line&apos;s quantity.</description>
+        <externalId>false</externalId>
+        <label>Base Recurring Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__BillingAccountId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the account responsible for paying for the asset.</description>
+        <externalId>false</externalId>
+        <label>Billing Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Billing Assets</relationshipLabel>
+        <relationshipName>BillingAccountAssets</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__BillingHold__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Lock the billing processes for this contracted service.</description>
+        <externalId>false</externalId>
+        <label>Billing Hold</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__CatalogItemReferenceDateTime__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Represents the date and time a product was originally purchased or added to the cart. With versioning enabled, the assetized reference date is used to render the structure during MACD operations.</description>
+        <externalId>false</externalId>
+        <label>Reference Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__ConnectDate__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Connect Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__ContractId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Contract</label>
+        <referenceTo>Contract</referenceTo>
+        <relationshipLabel>Assets</relationshipLabel>
+        <relationshipName>Assets</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__ContractNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>External identifier of the contract that governs this asset</description>
+        <externalId>true</externalId>
+        <label>Contract Number</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__CurrencyPaymentMode__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Currency Payment Mode</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Currency</fullName>
+                    <default>false</default>
+                    <label>Currency</label>
+                </value>
+                <value>
+                    <fullName>Loyalty</fullName>
+                    <default>false</default>
+                    <label>Loyalty</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__DeregulationStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Customer&apos;s choice of whether to go with a deregulated supplier or not. (Could be the name of the supplier.)</description>
+        <externalId>false</externalId>
+        <label>Deregulation Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__DisconnectDate__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Disconnect Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__EffectiveBaseOneTimeTotal__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Calculated only for the root. The value is the same as the Base One Time Total of the root item. This field is 0.0 for non-root item.</description>
+        <externalId>false</externalId>
+        <label>Effective Base One Time Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__EffectiveBaseRecurringTotal__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Calculated only for the root. The value is the same as the Base Recurring Total of the root item. This field is 0.0 for non-root item.</description>
+        <externalId>false</externalId>
+        <label>Effective Base Recurring Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__EffectiveOneTimeCostTotal__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Effective One Time Cost Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__EffectiveOneTimeLoyaltyTotal__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Effective One Time Loyalty Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__EffectiveOneTimeTotal__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Effective One Time Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__EffectiveQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Effective Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__EffectiveRecurringCostTotal__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Effective Recurring Cost Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__EffectiveRecurringTotal__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Effective Recurring Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__EffectiveUsageCostTotal__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Effective Usage Cost Total</description>
+        <externalId>false</externalId>
+        <label>Effective Usage Cost Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__EffectiveUsagePriceTotal__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Effective Usage Price Total</description>
+        <externalId>false</externalId>
+        <label>Effective Usage Price Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__EffectiveUsageQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Effective Usage Quantity</description>
+        <externalId>false</externalId>
+        <label>Effective Usage Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__FinancedAmountTotal__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Rollup of the Financed Amount.</description>
+        <externalId>false</externalId>
+        <label>Financed Amount Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__FinancedAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Stores the total amount to be paid to the finance provider.</description>
+        <externalId>false</externalId>
+        <label>Financed Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__FinancedInstallmentAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Stores the installment amount to be paid each month to the finance provider.</description>
+        <externalId>false</externalId>
+        <label>Financed Installment Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__InCartQuantityMap__c</fullName>
+        <deprecated>false</deprecated>
+        <description>JSON field with the following structure: {&quot;[childProductId]&quot;: [quantity], ....} that describes the child item quantities that roll-up to the quantity of this item. For example, {&quot;01t0O00000BPrs1QAD&quot;:1,&quot;01t0O00000BPrrwQAD&quot;:1}. The quantity value is the sum of quantities for that product across all instances on the child assets. For example, if two child assets exist of type Product A, the first with quantity 2 and the second with quantity 1, the map quantity for Product A should be 3. Helps CPQ identify quantities and enforce cardinality rules. Must be populated for all assets that have direct children, but it does not need to be populated for virtual products or assets with no children. Also, child virtual products should not be included in the map on their parent asset.</description>
+        <externalId>false</externalId>
+        <label>InCartQuantityMap</label>
+        <length>131072</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__InventoryItemId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of an associated inventory item (perhaps service inventory) if data about that inventory is kept in Vlocity.</description>
+        <externalId>false</externalId>
+        <label>Inventory Item</label>
+        <referenceTo>vlocity_cmt__InventoryItem__c</referenceTo>
+        <relationshipLabel>Assets</relationshipLabel>
+        <relationshipName>Assets</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__ItemName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Item Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__JSONAttribute__c</fullName>
+        <deprecated>false</deprecated>
+        <description>JSON body containing Vlocity Attribute data for the asset.</description>
+        <externalId>false</externalId>
+        <label>JSONAttribute</label>
+        <length>131072</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__LineNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Vlocity line number copied from the order which assists in sequencing the assets and organizing them into a hierarchy.</description>
+        <externalId>false</externalId>
+        <label>Line Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__OneTimeCalculatedPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>One Time Calculated Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__OneTimeCharge__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>One Time Charge</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__OneTimeCostTotal__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>One Time Cost Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__OneTimeCost__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>One Time Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__OneTimeDiscountPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>One Time Discount Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__OneTimeLoyaltyPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>One Time Loyalty Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__OneTimeLoyaltyTotal__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>One Time Loyalty Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__OneTimeManualDiscount__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>One Time Manual Discount</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__OneTimeMargin__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>One Time Margin</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__OneTimeTotal__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>One Time Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__OrderId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Order</label>
+        <referenceTo>Order</referenceTo>
+        <relationshipLabel>Assets</relationshipLabel>
+        <relationshipName>Assets</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__OrderProductId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Order Product from which this asset was created or most recently updated.</description>
+        <externalId>false</externalId>
+        <label>Order Product</label>
+        <referenceTo>OrderItem</referenceTo>
+        <relationshipLabel>Assets</relationshipLabel>
+        <relationshipName>Assets</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__ParentItemId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>ParentItemId</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__Password__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Asset password</description>
+        <externalId>false</externalId>
+        <label>User Password</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__PremisesId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Premises</label>
+        <referenceTo>vlocity_cmt__Premises__c</referenceTo>
+        <relationshipLabel>Assets</relationshipLabel>
+        <relationshipName>Assets</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__PriceListId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Price List</label>
+        <referenceTo>vlocity_cmt__PriceList__c</referenceTo>
+        <relationshipLabel>Assets Using This Price List</relationshipLabel>
+        <relationshipName>Assets</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__PricebookEntryId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>PricebookEntryId</description>
+        <externalId>false</externalId>
+        <inlineHelpText>PricebookEntryId</inlineHelpText>
+        <label>PricebookEntryId</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__PricingLogData__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Detailed pricing log information for this asset stored as a JSON structure. The JSON records the detailed prices, adjustments and interim calculations which result in the price to the customer.</description>
+        <externalId>false</externalId>
+        <label>Pricing Log</label>
+        <length>131072</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__ProductAttribXN__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>DEPRECATED. Use JSONAttribute__c.</description>
+        <externalId>false</externalId>
+        <label>Product Attribute</label>
+        <referenceTo>vlocity_cmt__ProductAttribXN__c</referenceTo>
+        <relationshipLabel>Assets</relationshipLabel>
+        <relationshipName>Assets</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__ProductGroupKey__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Version Group Key of Product</description>
+        <externalId>false</externalId>
+        <formula>Product2.vlocity_cmt__GlobalGroupKey__c</formula>
+        <label>Product Group Key</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__ProductHierarchyGroupKeyPath__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Stores the resulting string obtained by replacing every Product Id in the Product Hierarchy Path with its Version Group key</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Stores the resulting string obtained by replacing every Product Id in the Product Hierarchy Path with its Version Group key</inlineHelpText>
+        <label>Product Hierarchy Group Key Path</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__ProductHierarchyPath__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Vlocity internal field which identifies the path for this asset within the product hierarchy.</description>
+        <externalId>false</externalId>
+        <label>Product Hierarchy Path</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__ProvisioningStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The current provisioning, or fulfillment, status of the asset with values such as New, Active, Changed or Deleted.</description>
+        <externalId>false</externalId>
+        <label>Provisioning Status</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__RecurringCalculatedPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Recurring Calculated Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__RecurringCharge__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Recurring Charge</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__RecurringCostTotal__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Recurring Cost Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__RecurringCost__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Recurring Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__RecurringDiscountPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Recurring Discount Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__RecurringManualDiscount__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Recurring Manual Discount</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__RecurringMargin__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Recurring Margin</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__RecurringTotal__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Recurring Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__RecurringUOM__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Recurring UOM</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Monthly</fullName>
+                    <default>true</default>
+                    <label>Monthly</label>
+                </value>
+                <value>
+                    <fullName>Yearly</fullName>
+                    <default>false</default>
+                    <label>Yearly</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__ReliesOnItemId__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Identifies the Asset Reference Id of an asset that this asset depends on. This field can identify only one of the assets on which this asset relies. When multiple dependencies exist, relies on relationships should be tracked in the Asset Relationship object.</description>
+        <externalId>true</externalId>
+        <label>Relies on Item</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__RootItemId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>RootItemId</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__SequenceNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Sequence Number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__ServiceAccountId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>ID of the account that identifies the service location or subscriber that is the user of the service.</description>
+        <externalId>false</externalId>
+        <label>Service Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Service Assets</relationshipLabel>
+        <relationshipName>ServiceAccountAssets</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__ServiceIdentifier__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Unique identifier of the service used by the customer.</description>
+        <externalId>true</externalId>
+        <label>Service Identifier</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__ServicePointId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Service Point</label>
+        <referenceTo>vlocity_cmt__ServicePoint__c</referenceTo>
+        <relationshipLabel>Service Point Assets</relationshipLabel>
+        <relationshipName>ServicePointAssets</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__SubscriptionId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Subscription that this asset describes.</description>
+        <externalId>false</externalId>
+        <label>Subscription</label>
+        <referenceTo>vlocity_cmt__Subscription__c</referenceTo>
+        <relationshipLabel>Assets</relationshipLabel>
+        <relationshipName>Assets</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__UsageCostTotal__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Usage Cost Total</description>
+        <externalId>false</externalId>
+        <label>Usage Cost Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__UsageMargin__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Usage Margin</description>
+        <externalId>false</externalId>
+        <label>Usage Margin</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__UsageMeasurementId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>This reference to Charge Measurement for usage pricing.</description>
+        <externalId>false</externalId>
+        <label>Usage Unit of Measure</label>
+        <referenceTo>vlocity_cmt__ChargeMeasurement__c</referenceTo>
+        <relationshipLabel>Assets</relationshipLabel>
+        <relationshipName>Assets</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__UsagePriceTotal__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Usage Price Total</description>
+        <externalId>false</externalId>
+        <label>Usage Price Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__UsageQuantity__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Usage Quantity</description>
+        <externalId>false</externalId>
+        <label>Usage Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__UsageUnitCost__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Usage Cost</description>
+        <externalId>false</externalId>
+        <label>Usage Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__UsageUnitPrice__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Usage Price</description>
+        <externalId>false</externalId>
+        <label>Usage Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__Username__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Asset user name</description>
+        <externalId>false</externalId>
+        <label>User Name</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <listViews>
+        <fullName>AllAssets</fullName>
+        <columns>ASSET.NAME</columns>
+        <columns>vlocity_cmt__LineNumber__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>PRODUCT2.NAME</columns>
+        <columns>ASSET.LAST_UPDATE</columns>
+        <columns>Vlocity_Demo_Asset__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Assets</label>
+    </listViews>
+    <listViews>
+        <fullName>Hilton_United_States</fullName>
+        <columns>ASSET.NAME</columns>
+        <columns>ASSET.STATUS</columns>
+        <columns>PRODUCT2.NAME</columns>
+        <columns>ASSET.INSTALL_DATE</columns>
+        <columns>ASSET.LAST_UPDATE</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Vlocity_Demo_Asset__c</columns>
+        <columns>vlocity_cmt__ServiceAccountId__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>vlocity_cmt__ServiceAccountId__c</field>
+            <operation>startsWith</operation>
+            <value>Hilton - United</value>
+        </filters>
+        <label>Hilton - United States</label>
+    </listViews>
+    <listViews>
+        <fullName>vlocity_cmt__AllAssets</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Assets</label>
+    </listViews>
+    <searchLayouts>
+        <customTabListAdditionalFields>ASSET.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ASSET.SERIAL_NUMBER</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ASSET.INSTALL_DATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTACT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PRODUCT2.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ASSET.LAST_UPDATE</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>ASSET.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ASSET.SERIAL_NUMBER</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ASSET.INSTALL_DATE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CONTACT.NAME</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ASSET.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ASSET.SERIAL_NUMBER</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ASSET.INSTALL_DATE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.NAME</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>ASSET.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ASSET.SERIAL_NUMBER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ASSET.INSTALL_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ASSET.ROOT_ASSET</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ASSET.PARENT</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>vlocity_cmt__LineNumber__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ASSET.LAST_UPDATE</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>vlocity_cmt__Asset_Activation_Date_Rule</fullName>
+        <active>false</active>
+        <description>Validation Rule for Asset Activation Date. It should not be in the past.</description>
+        <errorConditionFormula>OR (vlocity_cmt__ActivationDate__c&lt;TODAY()) &amp;&amp; (NOT( ISCHANGED( vlocity_cmt__CatalogItemReferenceDateTime__c ) ) || ISCHANGED( vlocity_cmt__ActivationDate__c ) ) &amp;&amp; (NOT( ISCHANGED( vlocity_cmt__ProductHierarchyGroupKeyPath__c )) || ISCHANGED( vlocity_cmt__ActivationDate__c ))</errorConditionFormula>
+        <errorDisplayField>vlocity_cmt__ActivationDate__c</errorDisplayField>
+        <errorMessage>Activation Date cannot be in the past.</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>vlocity_cmt__ChangeToOrder</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Change to Order</masterLabel>
+        <openType>sidebar</openType>
+        <page>vlocity_cmt__CloneSelectedAssetsToOrder</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>vlocity_cmt__ChangeToQuote</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Change to Quote</masterLabel>
+        <openType>sidebar</openType>
+        <page>vlocity_cmt__CloneSelectedAssetsToQuote</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+</CustomObject>

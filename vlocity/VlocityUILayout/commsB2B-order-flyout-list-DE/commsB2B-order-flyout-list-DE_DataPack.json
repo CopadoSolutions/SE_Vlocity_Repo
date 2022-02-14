@@ -1,0 +1,30 @@
+{
+    "%vlocity_namespace%__Author__c": "CommsB2BFY2021",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+            {
+                "name": "parent.obj.%vlocity_namespace%__LineNumber__c",
+                "val": "0001.0001"
+            },
+            {
+                "name": "params.Id",
+                "val": "0013600000FBB68"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "query": "SELECT %vlocity_namespace%__LineNumber__c, %vlocity_namespace%__ProvisioningStatus__c, Product2.Name, Product2.%vlocity_namespace%__Type__c, Product2.%vlocity_namespace%__SubType__c, Product2.Family, %vlocity_namespace%__BillingAccountId__r.Name, %vlocity_namespace%__ServiceAccountId__r.Name, %vlocity_namespace%__EffectiveOneTimeTotal__c, %vlocity_namespace%__RecurringTotal__c, %vlocity_namespace%__OneTimeTotal__c, %vlocity_namespace%__EffectiveRecurringTotal__c, Order.AccountId FROM OrderItem WHERE OrderId = '{{parent.obj.OrderId}}' AND Order.AccountId = '{{params.Id || params.id}}'"
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "commsB2B-order-flyout-list-DE.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "commsB2B-order-flyout-list-DE/1/CommsB2BFY2021/1588097359891",
+    "%vlocity_namespace%__ParentID__c": "commsB2B-asset-flyout-list-DE/1/CommsB2BFY2021/1587566225314",
+    "%vlocity_namespace%__RequiredPermission__c": "",
+    "%vlocity_namespace%__Type__c": "Flyout",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "commsB2B-order-flyout-list-DE",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUILayout__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUILayout__c/commsB2B-order-flyout-list-DE"
+}

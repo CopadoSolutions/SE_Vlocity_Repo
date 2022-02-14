@@ -1,0 +1,40 @@
+[
+    {
+        "%vlocity_namespace%__DisplayType__c": "STRING",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Turbo Extract",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 0,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "product",
+        "%vlocity_namespace%__FilterGroup__c": 0,
+        "%vlocity_namespace%__FilterOperator__c": "IN",
+        "%vlocity_namespace%__FilterValue__c": "DeltaCodes",
+        "%vlocity_namespace%__GlobalKey__c": "511f8886-c0d1-aca5-f0af-be2ada68141c",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "ProductCode",
+        "%vlocity_namespace%__InterfaceObjectLookupOrder__c": 1,
+        "%vlocity_namespace%__InterfaceObjectName__c": "Product2",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "VPL-GetDeltaProductIdsCustom9872",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": false,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "VPL-GetDeltaProductIds",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DisplayType__c": "TEXTAREA",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Turbo Extract",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "product",
+        "%vlocity_namespace%__GlobalKey__c": "107428d6-996a-119b-46e2-bb2bef7d75c8",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Description",
+        "%vlocity_namespace%__InterfaceObjectName__c": "Product2",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "VPL-GetDeltaProductIdsCustom985",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": false,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "VPL-GetDeltaProductIds",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

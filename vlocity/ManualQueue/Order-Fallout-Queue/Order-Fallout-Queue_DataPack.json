@@ -1,0 +1,13 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__DisplayedFields__c": "",
+    "%vlocity_namespace%__FilterFields__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "31e1eda5-b9bb-94aa-4c2b-d691c78ded37",
+    "%vlocity_namespace%__LastAssignedToUserId__c": "",
+    "%vlocity_namespace%__NotificationEmailId__c": "",
+    "%vlocity_namespace%__QueueType__c": "Attributes-Based",
+    "Name": "Order Fallout Queue",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__ManualQueue__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__ManualQueue__c/Order Fallout Queue"
+}

@@ -1,0 +1,62 @@
+<template>
+  <slot name="dc-offer-grid-view-wrapper">
+    <div class="slds-grid slds-wrap nds-dc-offer-grid-view"
+         if:true={offers.length}>
+      <template for:each={offers}
+                for:item="offer"
+                for:index="index">
+        <article key={offer.id}
+                 data-id={index}
+                 onclick={selectOffer}
+                 data-offer-code={offer.offerCode}>
+          <section if:true={offer.promoCode}
+                   class="nds-dc-offer-tag">
+            {translatedLabelsObj.DCSpecialOffer} - {offer.promoCode}
+          </section>
+
+
+          <section>
+            <c-dc-offer-list-view-image offer-attachments={offer.attachments}
+                                        grid-view=true
+                                        if:true={offer.attachments.length}></c-dc-offer-list-view-image>
+          </section>
+          <section>
+            <slot name="dc-attributes">
+              <h2 class="nds-dc-offer-name">{offer.name}</h2>
+              <div>
+                <c-dc-offer-list-view-attribute offer-attributes={offer.attributes}>
+                </c-dc-offer-list-view-attribute>
+              </div>
+            </slot>
+          </section>
+          <section>
+            <c-dc-offer-list-view-price class="pricelist"
+                                        offer-promo={offer.promoCode}
+                                        price-info={offer.priceInfo}
+                                        grid-view=true></c-dc-offer-list-view-price>
+          </section>
+          <section>
+            <ul if:true={offer.products}>
+              <li for:each={offer.products}
+                  for:item="item"
+                  for:index="index"
+                  key={item.Name}>
+                <span>
+                  {item.Name}
+                </span>
+              </li>
+            </ul>
+          </section>
+          <section>
+            <slot name="dc-offer-desc">
+              <h3>Product Description</h3>
+              <div class="slds-tile__detail nds-dc-offer-detail">
+                {offer.description}
+              </div>
+            </slot>
+          </section>
+        </article>
+      </template>
+    </div>
+  </slot>
+</template>

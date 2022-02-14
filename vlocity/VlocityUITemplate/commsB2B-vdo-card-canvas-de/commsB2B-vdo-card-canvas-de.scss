@@ -1,0 +1,127 @@
+/*** VARIABLES ***/
+@import "variables";
+
+/*** STYLES ***/
+body {
+    padding: 0;
+    margin: 0;
+}
+.form-group {
+    padding-left: 10px;
+    //text-align: center;
+    width: 100%;
+
+    .slds-button_neutral {
+        height: 40px;
+    }
+}
+
+.col-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    align-items: auto;
+    align-content: start;
+}
+.col {
+    flex: 0 0 auto;
+    width: calc(100% / 4 - 20px);
+}
+
+
+.vlocity .form-control {
+    height: 40px;
+    padding: 4px 15px;
+    width: 100% !important;
+}
+.via-slds .slds-card__header {
+    padding: 0;
+    margin: 0;
+}
+.slds-text-heading_large {
+	font-size: 20px;
+	margin: 0;
+	margin-bottom: 25px;
+    margin-left: 10px;
+	padding: 0;
+}
+.via-slds .slds-container--large, .via-slds .slds-container_large {
+    max-width: 100%;
+}
+
+.flex-container {
+    align-items: auto;
+    align-content: start;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: start;
+}
+
+.vlocity {
+    
+    * {
+        font-family: "Salesforce Sans", Arial, sans-serif;
+        transition: all 100ms ease-in;
+    }
+    
+    section.console-flyout {
+        color: $dark-gray;
+        cursor: default;
+        //background-color: #fafafa;
+        border: 1px solid #dedede;
+        border-radius: 4px;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+        box-sizing: border-box;
+        float: left;
+        min-height: 100px;
+        margin: 10px;
+        position: relative;
+         
+        // DE-2255.  Uncommented. 
+        width: calc(100% - 20px);
+        
+        &.flyout {
+            transition:all 0.3s ease-in-out;
+
+            .animate-leave {
+              opacity: 1;
+              top: 0;
+              border:10px red;
+              height: 30px;
+            }
+            .card-info {
+                padding:20px;
+            }
+            .flyout-arrow {
+                display: none;
+                position: absolute;
+                z-index: 10;
+                border-bottom: 18px solid #E5F2FA;
+                border-left: 18px solid transparent;
+                border-right: 18px solid transparent;
+                height: 0;
+                width: 0;
+                pointer-events: none;
+                bottom: 100%;
+                top:-17px;
+            }
+            .flyout-close {
+                color: $dark-gray;
+                display:inline-block;
+                position:absolute;
+                right:5px;
+                top:5px;
+                cursor:pointer;
+                i {
+                    font-size:30px;
+                }
+            }
+            
+        }
+    }
+    
+}

@@ -1,0 +1,18 @@
+[
+    "VlocityAction/Billing Dispute",
+    "VlocityAction/Bluetooth Setup",
+    "VlocityAction/CRM_newCase",
+    "VlocityAction/CRM_newEvent",
+    "VlocityAction/CRM_newNote",
+    "VlocityAction/CRM_newOpportunity",
+    "VlocityAction/CRM_newReferral",
+    "VlocityAction/CRM_newTask",
+    "VlocityAction/Clock Out",
+    "VlocityAction/Clock in",
+    "VlocityAction/Renew",
+    "VlocityAction/Service Upgrade",
+    "VlocityAction/TV Order",
+    "VlocityAction/Troubleshoot Mobile",
+    "VlocityUITemplate/mobile-action-grid-card-slds",
+    "VlocityUITemplate/vdo-mobile-action-grid-card-slds"
+]

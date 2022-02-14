@@ -1,0 +1,30 @@
+{
+    "ContextId": null,
+    "ProcessProdDetails": {
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CatalogPublishData": null,
+        "CreateCatalogXMLs": null,
+        "GetAllCatalogs": null,
+        "GetAllProductIds": null,
+        "GetCatalogHierarchy": null,
+        "GetCatalogProductAssign": null,
+        "GetDateTimeStamp": null,
+        "GetDeleteProductCodes": null,
+        "GetDeltaProductCodes": null,
+        "GetFormattedPayload": null,
+        "GetProdIdsSplit": null,
+        "GetProductsForCatalog": null,
+        "OAuthData": null,
+        "ProcessProdDetails": null,
+        "PublishCatProdAssnToCC": null,
+        "PublishCatalogToCC": null
+    }
+}

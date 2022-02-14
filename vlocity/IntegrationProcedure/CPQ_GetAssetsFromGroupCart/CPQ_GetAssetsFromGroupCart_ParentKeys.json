@@ -1,0 +1,6 @@
+[
+    "DataRaptor/CPQ_CreateSelectedAssetIdsList",
+    "DataRaptor/CPQ_ExtractAccountIdFromCart",
+    "DataRaptor/CPQ_ExtractAssetIdsFromOrderMember",
+    "DataRaptor/CPQ_ExtractAssetIdsFromQuoteMember"
+]

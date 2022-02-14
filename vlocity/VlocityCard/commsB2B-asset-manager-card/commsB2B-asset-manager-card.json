@@ -1,0 +1,150 @@
+{
+    "GlobalKey__c": "commsB2B-asset-manager-card/Joe McMaster/1/1599062711266",
+    "dataSource": {
+        "type": null
+    },
+    "enableLwc": true,
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "Convert to Quote",
+                        "hasExtraParams": false,
+                        "id": "ChangeToQuote",
+                        "isCustomAction": true,
+                        "isLwcOS": false,
+                        "layoutType": "lightning",
+                        "omniLang": "",
+                        "omniSubType": "",
+                        "omniType": {
+                            "Id": "a1I3t00000Bta0BEAR",
+                            "Language": "English",
+                            "Name": "MACD/ChangeToQuote/English",
+                            "SubType": "ChangeToQuote",
+                            "Type": "MACD",
+                            "isLwc": false
+                        },
+                        "openUrlIn": "_self",
+                        "type": "OmniScript",
+                        "vForcewithNsPrefix": "%vlocity_namespace%__OmniScriptUniversalPage",
+                        "visualForce": "OmniScriptUniversalPage",
+                        "vlocityIcon": "icon-v-document1-line"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Convert to Order",
+                        "hasExtraParams": false,
+                        "id": "ChangeToOrder",
+                        "isCustomAction": true,
+                        "isLwcOS": false,
+                        "layoutType": "lightning",
+                        "omniLang": "",
+                        "omniSubType": "",
+                        "omniType": {
+                            "Id": "a1I3t00000Bta1zEAB",
+                            "Language": "English",
+                            "Name": "MACD/FDO/English",
+                            "SubType": "FDO",
+                            "Type": "MACD",
+                            "isLwc": false
+                        },
+                        "openUrlIn": "_self",
+                        "type": "OmniScript",
+                        "vForcewithNsPrefix": "%vlocity_namespace%__OmniScriptUniversalPage",
+                        "visualForce": "OmniScriptUniversalPage",
+                        "vlocityIcon": "icon-v-document1-line"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Move",
+                        "hasExtraParams": false,
+                        "id": "Move",
+                        "isCustomAction": true,
+                        "isLwcOS": false,
+                        "layoutType": "lightning",
+                        "omniLang": "",
+                        "omniSubType": "",
+                        "omniType": {
+                            "Id": "a1I3t00000Bta20EAB",
+                            "Language": "Multi-Language",
+                            "Name": "MACD/Move/Multi-Language",
+                            "SubType": "Move",
+                            "Type": "MACD",
+                            "isLwc": false
+                        },
+                        "openUrlIn": "_self",
+                        "type": "OmniScript",
+                        "vForcewithNsPrefix": "%vlocity_namespace%__MoveInAccount",
+                        "visualForce": "MoveInAccount",
+                        "vlocityIcon": "icon-v-document1-line"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Name",
+                    "name": "Name",
+                    "type": "text"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Quantity",
+                    "name": "Quantity",
+                    "type": "number"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "One Time Charge",
+                    "name": "OneTimeTotal",
+                    "type": "currency"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Recurring Charge",
+                    "name": "RecurringTotal",
+                    "type": "currency"
+                }
+            ],
+            "isSmartAction": false,
+            "lwc": {
+                "DeveloperName": "commsB2B_AssetManagerCard",
+                "Id": "0Rb3t000000ElDZCA0",
+                "MasterLabel": "CommsB2B Asset Manager Card",
+                "name": "commsB2B_AssetManagerCard"
+            },
+            "name": "Active",
+            "sObjectType": "Asset",
+            "smartAction": {
+            }
+        }
+    ],
+    "title": "Asset Manager"
+}

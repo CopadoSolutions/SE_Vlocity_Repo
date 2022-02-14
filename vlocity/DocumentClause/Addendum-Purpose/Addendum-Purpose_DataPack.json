@@ -1,0 +1,16 @@
+{
+    "%vlocity_namespace%__Category__c": "Definitions",
+    "%vlocity_namespace%__ClauseContent__c": "<div class=\"section-content-wrapper\" style=\"font-size: 10pt;\">\n<p><viawrapper>For Service in Existing Countries: A.&nbsp; Addition of new Non-US Local Access, Switched Ethernet Access Channels (Service Guide), and/or US Ethernet Access - Non-Standard B.&nbsp; Change to existing Non-US Local Access, Switched Ethernet Access Channels (Service Guide), and/or US Ethernet Access - Non-Standard</viawrapper></p>\n</div>",
+    "%vlocity_namespace%__ContractTypes__c": "Default",
+    "%vlocity_namespace%__IsArchived__c": false,
+    "%vlocity_namespace%__IsContentFormatted__c": true,
+    "%vlocity_namespace%__IsRestricted__c": false,
+    "%vlocity_namespace%__LocaleCode__c": "en_US",
+    "%vlocity_namespace%__ShortName__c": "CL:ADDENDUM_PURPOSE",
+    "%vlocity_namespace%__Tokens__c": "",
+    "%vlocity_namespace%__Type__c": "Generic",
+    "Name": "Addendum Purpose",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentClause__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentClause__c/Addendum Purpose"
+}

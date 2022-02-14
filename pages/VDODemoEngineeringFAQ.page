@@ -1,0 +1,75 @@
+<apex:page >
+
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+<style>
+
+body
+            {
+                background: transparent;
+            }
+            
+            html .brandQuaternaryBgr{
+    background:#ffffff!important;
+    }
+
+</style>
+
+<div class="container ">
+    <div class="panel-group" id="faqAccordion">
+        <div class="panel panel-default ">
+            <div class="panel-heading accordion-toggle question-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question0">
+                 <h4 class="panel-title">
+                    <a href="#" class="ing">Does nuSlice require a specific device to get their 5G service?</a>
+              </h4>
+
+            </div>
+            <div id="question0" class="panel-collapse collapse" style="height: 0px;">
+                <div class="panel-body">
+                     <h5><span class="label label-primary"></span></h5>
+
+                    <p>Currently nuSlice supports 5G on the Samsung Galaxy S10 series phones.
+                        </p>
+                </div>
+            </div>
+        </div>
+
+         <div class="panel panel-default ">
+            <div class="panel-heading accordion-toggle question-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question1">
+                 <h4 class="panel-title">
+                    <a href="#" class="ing">What entertainment options are bundled with nuSlice streaming packages?</a>
+              </h4>
+
+            </div>
+            <div id="question1" class="panel-collapse collapse" style="height: 0px;">
+                <div class="panel-body">
+                     <h5><span class="label label-primary"></span></h5>
+
+                    <p>nuSlice provides NetFlix, Amazon Prime and Hulu.
+                        </p>
+                </div>
+            </div>
+        </div>
+
+         <div class="panel panel-default ">
+            <div class="panel-heading accordion-toggle question-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question2">
+                 <h4 class="panel-title">
+                    <a href="#" class="ing">How is nuSlice "burst &amp; GO? different then other download and watch services?</a>
+              </h4>
+
+            </div>
+            <div id="question2" class="panel-collapse collapse" style="height: 0px;">
+                <div class="panel-body">
+                     <h5><span class="label label-primary"></span></h5>
+
+                    <p>nuSlice "burst &amp; GO" is the fastest available on demand download streaming service. We deliver 4K quality at 5G speeds.
+                        </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</apex:page>

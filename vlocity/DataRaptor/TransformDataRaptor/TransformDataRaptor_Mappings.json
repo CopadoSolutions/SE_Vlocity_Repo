@@ -1,0 +1,51 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "backgroundColors",
+        "%vlocity_namespace%__DomainObjectFieldType__c": "List<String>",
+        "%vlocity_namespace%__GlobalKey__c": "bbb2e5f3-a57c-6808-b72f-ba5c8003feb3",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "backgroundColor",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TransformDataRaptorCustom3631",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": false,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TransformDataRaptor",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "labels",
+        "%vlocity_namespace%__DomainObjectFieldType__c": "List<String>",
+        "%vlocity_namespace%__GlobalKey__c": "390ad5e7-a2d8-7e69-1be2-bf15153a4d95",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "labels",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TransformDataRaptorCustom3457",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": false,
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TransformDataRaptor",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "values",
+        "%vlocity_namespace%__DomainObjectFieldType__c": "List<Integer>",
+        "%vlocity_namespace%__GlobalKey__c": "e20eb381-ab89-daa2-e783-157d0bb70934",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "value",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "TestDataRaptorCustom4517",
+        "%vlocity_namespace%__OMplusSyncEnabled__c": false,
+        "%vlocity_namespace%__TransformValuesMap__c": "{}",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "TransformDataRaptor",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

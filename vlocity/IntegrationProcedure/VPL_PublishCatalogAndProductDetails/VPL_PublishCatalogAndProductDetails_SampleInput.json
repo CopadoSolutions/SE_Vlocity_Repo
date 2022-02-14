@@ -1,0 +1,50 @@
+{
+    "DeleteProductCodes": "",
+    "DeltaProductCodes": "",
+    "GetOAuthToken": {
+        "access_token": "yM7TiXLc25h1GDHSx9w0_5-HvsM",
+        "expires_in": 1799,
+        "scope": "mail",
+        "token_type": "Bearer"
+    },
+    "GetXMLConfigData": {
+        "error": "OK",
+        "errorCode": "INVOKE-200",
+        "xmlConfigData": {
+            "batchBoundary": "--vBatch",
+            "ccFolderName": "InternetPublish",
+            "clientId": "9908fb27-0ef1-4f08-91d0-304cb3665ebe",
+            "imageTypes": [
+                {
+                    "#text": "swatch"
+                },
+                {
+                    "#text": "small"
+                },
+                {
+                    "#text": "medium"
+                },
+                {
+                    "#text": "large"
+                }
+            ],
+            "imgHttpURL": "http://images-na.ssl-images-amazon.com",
+            "imgHttpsURL": "https://images-na.ssl-images-amazon.com",
+            "metaNamespace": "http://www.demandware.com/xml/impex/metadata/2006-10-31",
+            "namespace": "http://www.demandware.com/xml/impex/catalog/2006-10-31",
+            "ocapiBatchSize": "50",
+            "orgId": "00D3h0000069nFuEAI",
+            "priceCurrency": "USD",
+            "priceForQuantity": 1,
+            "priceNamespace": "http://www.demandware.com/xml/impex/pricebook/2006-10-31",
+            "pricebookId": "VlocityPricebook",
+            "queueableBatchSize": "200",
+            "systemAttrOcapi": "/s/-/dw/data/v20_4/system_object_definitions/Product/attribute_definitions/",
+            "titlePattern": "${productname}",
+            "xmlLang": "x-default"
+        }
+    },
+    "PublishType": "1",
+    "TMFBatchSize": 100,
+    "VlocityCatalog": "a0G3h000001MPvlEAG"
+}

@@ -1,0 +1,114 @@
+{
+  "appPageId" : "68d9bf5b-3c63-40b8-98a5-0501c99b9d7b",
+  "componentName" : "vlocity_cmt:vlocityNewportLayout",
+  "id" : "cab1291b-da1b-407d-afd9-1ee9337a7d07",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundColor" : "",
+        "customVFPage" : "VDODemoEngineeringCards",
+        "disableCache" : true,
+        "layout" : "np-banner-cmt-demo-eng",
+        "maxHeight" : "",
+        "openInActionsIn" : "/omniscript",
+        "recordId" : "{!CurrentUser.AccountId}",
+        "vlocitytheme" : "newport"
+      },
+      "componentName" : "vlocity_cmt:vlocityCommunityCardComponent",
+      "id" : "0b097f7d-34d3-4ade-968d-44e2fc5cd4a9",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "bannerstyle" : "nuslice",
+        "bannertext" : "Online only! Get $5 off monthly from our most popular streaming package for your first year.",
+        "showcomponent" : true
+      },
+      "componentName" : "c:demo_eng_simple_banner_text",
+      "id" : "8fa7dc0a-24eb-465e-a9e9-41600855eaf1",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 36px;\">﻿</span></p><p style=\"text-align: center;\"><span style=\"font-size: 48px; color: rgb(61, 20, 102); font-family: helvetica;\">offers selected for you</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "e248fd4c-b0be-4b43-8049-7f8372fa8983",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "backgroundColor" : "",
+        "customVFPage" : "VDODemoEngineeringCards",
+        "disableCache" : true,
+        "layout" : "available-offers-demo-eng",
+        "maxHeight" : "",
+        "openInActionsIn" : "/omniscript",
+        "recordId" : "{!CurrentUser.AccountId}",
+        "vlocitytheme" : ""
+      },
+      "componentName" : "vlocity_cmt:vlocityCommunityCardComponent",
+      "id" : "e763c86d-7099-4adf-b74f-d6bc0b47426b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"text-align: center;\"><span style=\"color: rgb(61, 20, 102); font-size: 48px;\">frequently asked questions </span></p><p style=\"text-align: center;\"><span style=\"font-size: 20px;\">﻿</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "20cdc041-1d82-4591-8139-42925ee487f2",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "height" : "200",
+        "pageName" : "VDODemoEngineeringFAQ",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:visualforcePage",
+      "id" : "5834ac19-30bb-4bca-9ba1-d27de5c5751c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "388202d6-044e-464d-96e1-dbf98b2b5d30",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "5e2a7dab-3160-4646-8f76-e483dd2f1bad",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "04d1e1b3-2a79-4b06-8aa4-12e1c9fb1bed",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "998d3991-b028-4f00-b6d9-7e87e9e4398c",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "9e64b824-b52a-43c0-a3dd-8179de801535",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "583dcd24-1fd3-4883-8fcb-bd3b4c96e101",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}

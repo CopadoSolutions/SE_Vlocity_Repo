@@ -1,0 +1,31 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "{\"onetimecheck\":false, \"recurringcheck\": false, \"recurringvalueicon\": \"$\", \"onetimevalueicon\": \"$\"}",
+            "dsDelay": "",
+            "resultVar": ""
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "cpqCreateCustomDiscountAmountDetails.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "cpqCreateCustomDiscountAmountDetails/Vlocity/1/1623843693515",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__SampleData__c": "{\"onetimecheck\":false,\"recurringcheck\":false,\"recurringvalueicon\":\"$\",\"onetimevalueicon\":\"$\"}",
+    "%vlocity_namespace%__Styles__c": "{\"customStyles\":\".cpq-create_discount-amount_details{\\n    padding: 0px;\\n}\\n.cpq-create_discount-amount_details .section_title{\\n    font-size: 13px;\\n    font-weight: bold;\\n    color: #3E3E3C;\\n}\\n.cpq-create_discount-amount_details .section_description{\\n    font-size: 12px;\\n    color: #3E3E3C;\\n}\\n.cpq-create_discount-amount_details .field-row{\\n    padding: 0px 20px;\\n}\\n.cpq-create_discount-amount_details .relative{\\n    position: relative;\\n}\\n.cpq-create_discount-amount_details .custom_icon{\\n    width: 30px;\\n    font-size: 13px;\\n    padding: 5px 7px;\\n    background-color: #ededed;\\n    position: absolute;\\n    top: 29px;\\n    left: 9px;\\n    text-align: center;\\n    border-top-left-radius: 3px;\\n    border-bottom-left-radius: 3px;\\n    border: 1px solid #ccc;\\n    border-right: none;\\n}\\n.cpq-create_discount-amount_details .relative .slds-scope .slds-input, .slds-scope .slds-input{\\n    padding-left: 35px !important;\\n}\\n.cpq-create_discount-amount_details .amt_checkbox{\\n    margin-bottom: 5px;\\n}\\n.value .slds-scope .slds-form-element__control{\\n    padding-left: 35px;\\n}\\n\\n.value{\\n    position: absolute;\\n    left: 35px;\\n    width: 128px;\\n}\\n\\n.value label.slds-form-element__label{\\n    margin-left: -25px !important;\\n}\\n\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "cpqCreateCustomDiscountAmountDetails",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/cpqCreateCustomDiscountAmountDetails"
+}

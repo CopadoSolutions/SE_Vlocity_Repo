@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <constants>
+        <name>constLunch</name>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Lunch</stringValue>
+        </value>
+    </constants>
+    <constants>
+        <name>constLunchBreak</name>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Lunch Break</stringValue>
+        </value>
+    </constants>
+    <constants>
+        <name>constMorningBreak</name>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Morning Break</stringValue>
+        </value>
+    </constants>
+    <constants>
+        <name>constNoonBreak</name>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Afternoon Break</stringValue>
+        </value>
+    </constants>
+    <constants>
+        <name>constShortBreak</name>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Short Break</stringValue>
+        </value>
+    </constants>
+    <decisions>
+        <name>Record_For_Deletion_Found</name>
+        <label>Record For Deletion Found</label>
+        <locationX>767</locationX>
+        <locationY>227</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Yes</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>socvRecordsForDeletion</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Delete_Existing_Records</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <formulas>
+        <name>formLunchInTime</name>
+        <dataType>DateTime</dataType>
+        <expression>IF ( 
+((TODAY() &gt;= DATE (2015,3,8)) &amp;&amp; TODAY() &lt;= DATE (2015,11,1)) || 
+((TODAY() &gt;= DATE (2016,3,13)) &amp;&amp; TODAY() &lt;= DATE (2016,11,6)),
+DATETIMEVALUE (TEXT (TODAY() + 1) &amp;&apos; 16:10:00&apos;), 
+DATETIMEVALUE (TEXT (TODAY() + 1) &amp;&apos; 15:10:00&apos;))</expression>
+    </formulas>
+    <formulas>
+        <name>formLunchOutTime</name>
+        <dataType>DateTime</dataType>
+        <expression>IF ( 
+((TODAY() &gt;= DATE (2015,3,8)) &amp;&amp; TODAY() &lt;= DATE (2015,11,1)) || 
+((TODAY() &gt;= DATE (2016,3,13)) &amp;&amp; TODAY() &lt;= DATE (2016,11,6)),
+DATETIMEVALUE (TEXT (TODAY() + 1) &amp;&apos; 16:30:00&apos;), 
+DATETIMEVALUE (TEXT (TODAY() + 1) &amp;&apos; 15:30:00&apos;))</expression>
+    </formulas>
+    <formulas>
+        <name>formMorningInTime</name>
+        <dataType>DateTime</dataType>
+        <expression>IF ( 
+((TODAY() &gt;= DATE (2015,3,8)) &amp;&amp; TODAY() &lt;= DATE (2015,11,1)) || 
+((TODAY() &gt;= DATE (2016,3,13)) &amp;&amp; TODAY() &lt;= DATE (2016,11,6)),
+DATETIMEVALUE (TEXT (TODAY() + 1) &amp;&apos; 08:10:00&apos;), 
+DATETIMEVALUE (TEXT (TODAY() + 1) &amp;&apos; 07:10:00&apos;))</expression>
+    </formulas>
+    <formulas>
+        <name>formMorningOutTime</name>
+        <dataType>DateTime</dataType>
+        <expression>IF ( 
+((TODAY() &gt;= DATE (2015,3,8)) &amp;&amp; TODAY() &lt;= DATE (2015,11,1)) || 
+((TODAY() &gt;= DATE (2016,3,13)) &amp;&amp; TODAY() &lt;= DATE (2016,11,6)),
+DATETIMEVALUE (TEXT (TODAY() + 1) &amp;&apos; 08:30:00&apos;), 
+DATETIMEVALUE (TEXT (TODAY() + 1) &amp;&apos; 07:30:00&apos;))</expression>
+    </formulas>
+    <formulas>
+        <name>formNoonInTime</name>
+        <dataType>DateTime</dataType>
+        <expression>IF ( 
+((TODAY() &gt;= DATE (2015,3,8)) &amp;&amp; TODAY() &lt;= DATE (2015,11,1)) || 
+((TODAY() &gt;= DATE (2016,3,13)) &amp;&amp; TODAY() &lt;= DATE (2016,11,6)),
+DATETIMEVALUE (TEXT (TODAY() + 1) &amp;&apos; 12:10:00&apos;), 
+DATETIMEVALUE (TEXT (TODAY() + 1) &amp;&apos; 11:10:00&apos;))</expression>
+    </formulas>
+    <formulas>
+        <name>formNoonOutTime</name>
+        <dataType>DateTime</dataType>
+        <expression>IF ( 
+((TODAY() &gt;= DATE (2015,3,8)) &amp;&amp; TODAY() &lt;= DATE (2015,11,1)) || 
+((TODAY() &gt;= DATE (2016,3,13)) &amp;&amp; TODAY() &lt;= DATE (2016,11,6)),
+DATETIMEVALUE (TEXT (TODAY() + 1) &amp;&apos; 12:30:00&apos;), 
+DATETIMEVALUE (TEXT (TODAY() + 1) &amp;&apos; 11:30:00&apos;))</expression>
+    </formulas>
+    <interviewLabel>Create New User Time Record {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Create New User Time Record</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>Create_First_Record</name>
+        <label>Create First Record</label>
+        <locationX>108</locationX>
+        <locationY>227</locationY>
+        <connector>
+            <targetReference>Create_Second_Record</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Flow_Created__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>In_Time__c</field>
+            <value>
+                <elementReference>formMorningInTime</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <elementReference>constMorningBreak</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Out_Time__c</field>
+            <value>
+                <elementReference>formMorningOutTime</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Task__c</field>
+            <value>
+                <elementReference>constShortBreak</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>User__c</field>
+            <value>
+                <elementReference>varNewUserId</elementReference>
+            </value>
+        </inputAssignments>
+        <object>User_Time_Record__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>Create_Second_Record</name>
+        <label>Create Second Record</label>
+        <locationX>231</locationX>
+        <locationY>227</locationY>
+        <connector>
+            <targetReference>Create_Third_Record</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Flow_Created__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>In_Time__c</field>
+            <value>
+                <elementReference>formNoonInTime</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <elementReference>constNoonBreak</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Out_Time__c</field>
+            <value>
+                <elementReference>formNoonOutTime</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Task__c</field>
+            <value>
+                <elementReference>constNoonBreak</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>User__c</field>
+            <value>
+                <elementReference>varNewUserId</elementReference>
+            </value>
+        </inputAssignments>
+        <object>User_Time_Record__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>Create_Third_Record</name>
+        <label>Create Third Record</label>
+        <locationX>355</locationX>
+        <locationY>227</locationY>
+        <connector>
+            <targetReference>Wait</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Flow_Created__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>In_Time__c</field>
+            <value>
+                <elementReference>formLunchInTime</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <elementReference>constLunch</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Out_Time__c</field>
+            <value>
+                <elementReference>formLunchOutTime</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Task__c</field>
+            <value>
+                <elementReference>constLunchBreak</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>User__c</field>
+            <value>
+                <elementReference>varNewUserId</elementReference>
+            </value>
+        </inputAssignments>
+        <object>User_Time_Record__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordDeletes>
+        <name>Delete_Existing_Records</name>
+        <label>Delete Existing Records</label>
+        <locationX>925</locationX>
+        <locationY>225</locationY>
+        <inputReference>socvRecordsForDeletion</inputReference>
+    </recordDeletes>
+    <recordLookups>
+        <name>Not_Flow_Records</name>
+        <label>Not Flow Records</label>
+        <locationX>649</locationX>
+        <locationY>226</locationY>
+        <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Record_For_Deletion_Found</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Flow_Created__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>UserId__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>varNewUserId</elementReference>
+            </value>
+        </filters>
+        <object>User_Time_Record__c</object>
+        <outputReference>socvRecordsForDeletion</outputReference>
+        <queriedFields>Id</queriedFields>
+    </recordLookups>
+    <runInMode>SystemModeWithoutSharing</runInMode>
+    <start>
+        <locationX>44</locationX>
+        <locationY>39</locationY>
+        <connector>
+            <targetReference>Create_First_Record</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>socvRecordsForDeletion</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>User_Time_Record__c</objectType>
+    </variables>
+    <variables>
+        <name>varNewUserId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <waits>
+        <name>Wait</name>
+        <label>Wait</label>
+        <locationX>476</locationX>
+        <locationY>227</locationY>
+        <defaultConnectorLabel>Default Path</defaultConnectorLabel>
+        <waitEvents>
+            <name>Wait_a_Min</name>
+            <conditionLogic>and</conditionLogic>
+            <connector>
+                <targetReference>Not_Flow_Records</targetReference>
+            </connector>
+            <eventType>AlarmEvent</eventType>
+            <inputParameters>
+                <name>AlarmTime</name>
+                <value>
+                    <elementReference>$Flow.CurrentDateTime</elementReference>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>TimeOffset</name>
+                <value>
+                    <numberValue>0.0</numberValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>TimeOffsetUnit</name>
+                <value>
+                    <stringValue>Hours</stringValue>
+                </value>
+            </inputParameters>
+            <label>Wait a Min</label>
+        </waitEvents>
+    </waits>
+</Flow>

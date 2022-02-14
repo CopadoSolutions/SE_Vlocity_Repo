@@ -1,0 +1,74 @@
+{
+  "appPageId" : "067cb50d-59bf-4755-900f-02d130a9107a",
+  "componentName" : "siteforce:dynamicLayout",
+  "id" : "230312a1-f219-4587-94d6-825c4988d868",
+  "label" : "Digital Commerce and LWC",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "2a6d869d-3909-4c47-8a93-86aeb9918714",
+          "columns" : [ {
+            "UUID" : "a210f9aa-e0b4-4ff1-a9cd-45b5d5836017",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "2a6d869d-3909-4c47-8a93-86aeb9918714",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "dir" : "ltr",
+            "inline" : false,
+            "inlineLabel" : "Launch demo_eng/lwc_featurette",
+            "inlineVariant" : "brand",
+            "layout" : "newport",
+            "recordId" : "{!recordId}"
+          },
+          "componentName" : "c:demo_engLwc_featuretteEnglish",
+          "id" : "808ab9b8-b07d-403f-be40-36033fbcd05b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a210f9aa-e0b4-4ff1-a9cd-45b5d5836017",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6ac1f039-66dc-4bf7-8f91-11c61b7a06bd",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Digital Commerce and LWC"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "06dfcae8-1c76-46a9-ad01-16cde623f361",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4abf9e1a-3a9c-4197-95ce-0117d2ea0402",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-digital-commerce-and-lwc"
+}

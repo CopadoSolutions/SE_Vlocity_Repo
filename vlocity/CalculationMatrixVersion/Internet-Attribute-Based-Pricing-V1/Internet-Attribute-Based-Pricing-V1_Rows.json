@@ -1,0 +1,469 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Internet Attribute Based Pricing",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Internet Attribute Based Pricing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "7e2d8fbf-83f0-678c-b399-1e39d7a0eeb1",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "5eab63",
+            "dataType": "Text",
+            "displayOrder": 2,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0L36000002UHWKEA4",
+            "listValues": null,
+            "name": "DownloadSpeed"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Internet Attribute Based Pricing",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Internet Attribute Based Pricing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "2a8523a9-09b6-8670-5b3a-eaf138fdd278",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "8d7fe4",
+            "dataType": "Text",
+            "displayOrder": 3,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0L36000002UHWLEA4",
+            "listValues": null,
+            "name": "UploadSpeed"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Internet Attribute Based Pricing",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Internet Attribute Based Pricing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "a17ab872-3b91-5745-afaa-cf4eea8b5e49",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "a1e1ce",
+            "dataType": "Currency",
+            "displayOrder": 4,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0L36000002UHWMEA4",
+            "listValues": null,
+            "name": "OneTimeChargeOverride"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Internet Attribute Based Pricing",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Internet Attribute Based Pricing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "df060fd1-4949-a1e4-daf5-15b2fbe34940",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "a9d736",
+            "dataType": "Currency",
+            "displayOrder": 5,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0L36000002UHWNEA4",
+            "listValues": null,
+            "name": "RecurringChargeOverride"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Internet Attribute Based Pricing",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Internet Attribute Based Pricing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "4be461cb-931b-b5ca-f69f-f858cef8ac1b",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "d71d2d",
+            "dataType": "Text",
+            "displayOrder": 1,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0L36000002UHWJEA4",
+            "listValues": null,
+            "name": "Product"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Internet Attribute Based Pricing",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Internet Attribute Based Pricing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "82a6078c-ff79-c1b0-a360-28f928ab3c3b",
+        "%vlocity_namespace%__InputData__c": {
+            "DownloadSpeed": "100Mbps",
+            "Product": "Configurable Fibre Internet",
+            "UploadSpeed": "10Mbps"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "OneTimeChargeOverride": 10,
+            "RecurringChargeOverride": 115
+        },
+        "Name": "3a3b9057c7bb0744519b62b6cba7f66f",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Internet Attribute Based Pricing",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Internet Attribute Based Pricing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "52334007-4dde-1864-8575-f4c065aad579",
+        "%vlocity_namespace%__InputData__c": {
+            "DownloadSpeed": "100Mbps",
+            "Product": "Configurable Fibre Internet",
+            "UploadSpeed": "15Mbps"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "OneTimeChargeOverride": 15,
+            "RecurringChargeOverride": 120
+        },
+        "Name": "4d3d273cc7093db9d09d90ca5bd7a039",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Internet Attribute Based Pricing",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Internet Attribute Based Pricing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "7918ce36-35f0-1aa2-9cff-9c24ca227442",
+        "%vlocity_namespace%__InputData__c": {
+            "DownloadSpeed": "100Mbps",
+            "Product": "Configurable Fibre Internet",
+            "UploadSpeed": "20Mbps"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "OneTimeChargeOverride": 20,
+            "RecurringChargeOverride": 125
+        },
+        "Name": "f8e3e081f4e400a7cca3a08c0af763a9",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Internet Attribute Based Pricing",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Internet Attribute Based Pricing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "049f620f-bfca-29ec-9834-f690b2f03179",
+        "%vlocity_namespace%__InputData__c": {
+            "DownloadSpeed": "100Mbps",
+            "Product": "Configurable Fibre Internet",
+            "UploadSpeed": "25Mbps"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "OneTimeChargeOverride": 25,
+            "RecurringChargeOverride": 130
+        },
+        "Name": "131cf8d64e79924dfffef92d0c1591b2",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Internet Attribute Based Pricing",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Internet Attribute Based Pricing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "0542f75a-ef52-8432-1b16-77531877e975",
+        "%vlocity_namespace%__InputData__c": {
+            "DownloadSpeed": "125Mbps",
+            "Product": "Configurable Fibre Internet",
+            "UploadSpeed": "10Mbps"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "OneTimeChargeOverride": 10,
+            "RecurringChargeOverride": 135
+        },
+        "Name": "8a3c6d4b8cc227b9b14e5df29074cb06",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Internet Attribute Based Pricing",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Internet Attribute Based Pricing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "effa6f99-ea50-f518-434f-8ed977f927db",
+        "%vlocity_namespace%__InputData__c": {
+            "DownloadSpeed": "125Mbps",
+            "Product": "Configurable Fibre Internet",
+            "UploadSpeed": "15Mbps"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "OneTimeChargeOverride": 15,
+            "RecurringChargeOverride": 140
+        },
+        "Name": "15b55132a6b1a85248ea5e86bc6b1626",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Internet Attribute Based Pricing",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Internet Attribute Based Pricing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "86a51dee-ab99-a4bc-3d2b-47dcbe488a99",
+        "%vlocity_namespace%__InputData__c": {
+            "DownloadSpeed": "125Mbps",
+            "Product": "Configurable Fibre Internet",
+            "UploadSpeed": "20Mbps"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "OneTimeChargeOverride": 20,
+            "RecurringChargeOverride": 145
+        },
+        "Name": "fd75fdaa1b5e0c73e599b4aa921f6bf5",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Internet Attribute Based Pricing",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Internet Attribute Based Pricing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "fcdc58e3-ee17-d560-7f4c-a19dcca1855d",
+        "%vlocity_namespace%__InputData__c": {
+            "DownloadSpeed": "125Mbps",
+            "Product": "Configurable Fibre Internet",
+            "UploadSpeed": "25Mbps"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "OneTimeChargeOverride": 25,
+            "RecurringChargeOverride": 150
+        },
+        "Name": "fd146e2d312f492a9fb9a56f39b8e46d",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Internet Attribute Based Pricing",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Internet Attribute Based Pricing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "8a0705f8-6377-b7b7-424d-e79ad9b31f49",
+        "%vlocity_namespace%__InputData__c": {
+            "DownloadSpeed": "50Mbps",
+            "Product": "Configurable Fibre Internet",
+            "UploadSpeed": "10Mbps"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "OneTimeChargeOverride": 10,
+            "RecurringChargeOverride": 75
+        },
+        "Name": "b07e671a68d5431cd5e40c592d819291",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Internet Attribute Based Pricing",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Internet Attribute Based Pricing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "dc3773f9-d216-b6a9-a236-0afea022ad3a",
+        "%vlocity_namespace%__InputData__c": {
+            "DownloadSpeed": "50Mbps",
+            "Product": "Configurable Fibre Internet",
+            "UploadSpeed": "15Mbps"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "OneTimeChargeOverride": 15,
+            "RecurringChargeOverride": 80
+        },
+        "Name": "a0b01f9e578a7e627178701d2844f0bb",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Internet Attribute Based Pricing",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Internet Attribute Based Pricing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "2ed09b3f-48c8-f2a7-0031-92122ed86907",
+        "%vlocity_namespace%__InputData__c": {
+            "DownloadSpeed": "50Mbps",
+            "Product": "Configurable Fibre Internet",
+            "UploadSpeed": "20Mbps"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "OneTimeChargeOverride": 20,
+            "RecurringChargeOverride": 85
+        },
+        "Name": "c0354f056edeab94e48e3dc79525a18d",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Internet Attribute Based Pricing",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Internet Attribute Based Pricing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "4df5590e-4e33-15cb-1f5d-880d3d59fa47",
+        "%vlocity_namespace%__InputData__c": {
+            "DownloadSpeed": "50Mbps",
+            "Product": "Configurable Fibre Internet",
+            "UploadSpeed": "25Mbps"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "OneTimeChargeOverride": 25,
+            "RecurringChargeOverride": 90
+        },
+        "Name": "67c929ae4e133e0197280c8dd9328154",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Internet Attribute Based Pricing",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Internet Attribute Based Pricing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "230dc95f-f66b-fa11-8737-4a19a1249f17",
+        "%vlocity_namespace%__InputData__c": {
+            "DownloadSpeed": "75 Mbps",
+            "Product": "Configurable Fibre Internet",
+            "UploadSpeed": "10Mbps"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "OneTimeChargeOverride": 10,
+            "RecurringChargeOverride": 95
+        },
+        "Name": "add65e8f41a5c600c1b7a6e88b73d076",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Internet Attribute Based Pricing",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Internet Attribute Based Pricing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "ee8088c4-801f-c739-cc7e-991993d3b57f",
+        "%vlocity_namespace%__InputData__c": {
+            "DownloadSpeed": "75 Mbps",
+            "Product": "Configurable Fibre Internet",
+            "UploadSpeed": "15Mbps"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "OneTimeChargeOverride": 15,
+            "RecurringChargeOverride": 100
+        },
+        "Name": "42aaba14a4b023aa1533e3323f9b403b",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Internet Attribute Based Pricing",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Internet Attribute Based Pricing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "b75e9055-9da6-7d7e-a7d8-fac8a54d4c12",
+        "%vlocity_namespace%__InputData__c": {
+            "DownloadSpeed": "75 Mbps",
+            "Product": "Configurable Fibre Internet",
+            "UploadSpeed": "20Mbps"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "OneTimeChargeOverride": 20,
+            "RecurringChargeOverride": 105
+        },
+        "Name": "b9a9f840ad92a146022d633592e776ac",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Internet Attribute Based Pricing",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Internet Attribute Based Pricing",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "f03d60b0-b4dc-8aab-ae5c-a70b2c7db77f",
+        "%vlocity_namespace%__InputData__c": {
+            "DownloadSpeed": "75 Mbps",
+            "Product": "Configurable Fibre Internet",
+            "UploadSpeed": "25Mbps"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "OneTimeChargeOverride": 25,
+            "RecurringChargeOverride": 110
+        },
+        "Name": "9ab90d37345825c18fd8f1a8402aff41",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    }
+]

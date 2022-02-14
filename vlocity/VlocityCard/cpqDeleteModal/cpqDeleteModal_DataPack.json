@@ -1,0 +1,26 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": null,
+        "value": {
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "cpqDeleteModal.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "cpqDeleteModal/Vlocity/1/1614190986278",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__SampleData__c": "",
+    "%vlocity_namespace%__Styles__c": "{\"customStyles\":\".delete-btn{\\n    width:fit-content;\\n    margin-left: auto;\\n}\\n\\n.delete-btn .slds-button{\\n    border-radius: 0px;\\n    margin-right: -1px;\\n}\\n\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "cpqDeleteModal",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/cpqDeleteModal"
+}

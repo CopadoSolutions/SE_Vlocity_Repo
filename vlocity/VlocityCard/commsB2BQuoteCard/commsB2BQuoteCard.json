@@ -1,0 +1,399 @@
+{
+    "dataSource": {
+        "type": null
+    },
+    "filter": {
+    },
+    "sessionVars": [
+        {
+            "name": "type",
+            "val": "\"quotes\""
+        }
+    ],
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "blankStateCheck": false,
+            "collapse": true,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['Status']",
+                        "logicalOperator": "&&",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "Draft"
+                    },
+                    {
+                        "field": "['Status']",
+                        "logicalOperator": "||",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "Approved"
+                    },
+                    {
+                        "field": "['Status']",
+                        "logicalOperator": "||",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "Accepted"
+                    },
+                    {
+                        "field": "['Status']",
+                        "logicalOperator": "||",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "Presented"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "View Record",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-document1-line",
+                        "id": "View Record",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Create Frame Agreement",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-document1-line",
+                        "id": "Create Frame Agreement-Quote",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Review Approvals",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-avatar-person",
+                        "id": "commsB2B Quote Approval",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Generate Quick Quote",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-attachment",
+                        "id": "commsB2B Quote Quick Generate",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Status']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Status",
+                    "name": "['Status']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Number']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Quote #",
+                    "name": "['Number']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['ExpirationDate']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Expiration Date",
+                    "name": "['ExpirationDate']",
+                    "type": "date"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['NRCTotal']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "NRC Total",
+                    "name": "['NRCTotal']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['RCTotal']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "RC Total",
+                    "name": "['RCTotal']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['Status'] == 'Draft' || $scope.obj['Status'] == 'Approved' || $scope.obj['Status'] == 'Accepted' || $scope.obj['Status'] == 'Presented'",
+            "flyout": {
+                "layout": "flyout-list"
+            },
+            "isSmartAction": false,
+            "name": "Good",
+            "sObjectType": "Quote",
+            "smartAction": {
+            },
+            "templateUrl": "commsB2B-vdo-card-active-de"
+        },
+        {
+            "actionCtxId": "['Id']",
+            "blankStateCheck": false,
+            "collapse": true,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['Status']",
+                        "logicalOperator": "&&",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "Needs Review"
+                    },
+                    {
+                        "field": "['Status']",
+                        "logicalOperator": "||",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "In Review"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "View Record",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-document1-line",
+                        "id": "View Record",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Review Approvals",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-avatar-person",
+                        "id": "commsB2B Quote Approval",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Generate Quick Quote",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-attachment",
+                        "id": "commsB2B Quote Quick Generate",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Status']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Status",
+                    "name": "['Status']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Number']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Quote #",
+                    "name": "['Number']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['ExpirationDate']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Expiration Date",
+                    "name": "['ExpirationDate']",
+                    "type": "date"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['NRCTotal']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "NRC Total",
+                    "name": "['NRCTotal']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['RCTotal']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "RC Total",
+                    "name": "['RCTotal']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['Status'] == 'Needs Review' || $scope.obj['Status'] == 'In Review'",
+            "flyout": {
+                "layout": "flyout-list"
+            },
+            "isSmartAction": false,
+            "name": "Warning",
+            "sObjectType": "Quote",
+            "smartAction": {
+            },
+            "templateUrl": "commsB2B-vdo-card-warning-de"
+        },
+        {
+            "actionCtxId": "['Id']",
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['Status']",
+                        "logicalOperator": "||",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "Rejected"
+                    },
+                    {
+                        "field": "['Status']",
+                        "logicalOperator": "||",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "Denied"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "View Record",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-document1-line",
+                        "id": "View Record",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Review Approvals",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-avatar-person",
+                        "id": "commsB2B Quote Approval",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Status']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Status",
+                    "name": "['Status']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Number']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Quote #",
+                    "name": "['Number']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['ExpirationDate']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Expiration Date",
+                    "name": "['ExpirationDate']",
+                    "type": "date"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['NRCTotal']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "NRC Total",
+                    "name": "['NRCTotal']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['RCTotal']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "RC Total",
+                    "name": "['RCTotal']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' || $scope.obj['Status'] == 'Rejected' || $scope.obj['Status'] == 'Denied'",
+            "flyout": {
+                "layout": "flyout-list"
+            },
+            "isSmartAction": false,
+            "name": "Alert",
+            "sObjectType": "Quote",
+            "smartAction": {
+            },
+            "templateUrl": "commsB2B-vdo-card-danger-de"
+        }
+    ],
+    "title": "Current Quotes"
+}

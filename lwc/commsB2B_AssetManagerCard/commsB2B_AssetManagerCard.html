@@ -1,0 +1,32 @@
+<template>
+
+    <lightning-card>
+        <div class="slds-var-p-around_small">
+            
+            <lightning-tabset>
+
+                <!-- Asset Table-->
+                <lightning-tab icon-name="utility:table">
+                    <div class="slds-var-p-top_small">
+                        <lightning-input type="search" placeholder="Search for services" onchange={filterAssetTable}></lightning-input>
+                    </div>
+                    <div class="slds-var-p-top_small">                
+                        <lightning-tree-grid class="assetTable" columns={assetColumns} data={assetData} key-field={assetKey} hide-checkbox-column onrowaction={handleAction} expanded-rows={assetExpanded}></lightning-tree-grid>
+                    </div>
+                </lightning-tab>
+
+                <!-- Asset Map -->
+                <lightning-tab icon-name="utility:world">
+                    <div class="slds-var-p-top_small">
+                        <lightning-map class="demo-service-map" map-markers={locations} markers-title="Service Locations" onmarkerselect={handleMarkerSelect}></lightning-map>
+                    </div>
+                    <div class="slds-var-p-top_small">
+                        <lightning-tree-grid columns={assetColumns} data={assetMapData} key-field={assetKey} hide-checkbox-column onrowaction={handleAction} expanded-rows={assetMapExpanded}></lightning-tree-grid>
+                    </div>
+                </lightning-tab>
+
+            </lightning-tabset>
+        </div>
+    </lightning-card>
+
+</template>

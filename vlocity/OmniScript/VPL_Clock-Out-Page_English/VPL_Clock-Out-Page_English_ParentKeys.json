@@ -1,0 +1,6 @@
+[
+    "DataRaptor/AppointmentsList",
+    "DataRaptor/ClockOutUser",
+    "DataRaptor/getNextWorkingDayUser",
+    "DataRaptor/getUserDetails"
+]

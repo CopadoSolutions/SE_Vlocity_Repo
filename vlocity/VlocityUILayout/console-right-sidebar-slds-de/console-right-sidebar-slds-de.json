@@ -1,0 +1,27 @@
+{
+    "Cards": [
+        "acuity-sidebar-offer-card"
+    ],
+    "componentName": "cfConsoleRightSidebarSldsDe",
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0016g000005qKrHAAU"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.id\":\"{{params.id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "console-right-sidebar-slds-de"
+        }
+    },
+    "workspace": [
+        "acuity-sidebar-offer-card/Vlocity Demo Org/1506954926859"
+    ]
+}

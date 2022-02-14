@@ -1,0 +1,24 @@
+{
+    "Cards": [
+    ],
+    "componentName": "cfVdoLoyaltyHome",
+    "dataSource": {
+        "type": null
+    },
+    "previewType": "runTime",
+    "sessionVars": [
+        {
+            "name": "Content",
+            "val": "[\"vdo-loyalty-member-overview\",\"vdo-loyalty-challenges\",\"vdo-loyalty-points-overview\"]"
+        },
+        {
+            "name": "Sidebar",
+            "val": "[\"vdo-loyalty-tier-information\", \"vdo-loyalty-transaction-feed\"]"
+        }
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "np-canvas-page"
+        }
+    }
+}

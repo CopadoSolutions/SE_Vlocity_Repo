@@ -1,0 +1,13 @@
+{
+    "BillingCity": "Dublin",
+    "BillingPostalCode": "94518",
+    "BillingState": "CA",
+    "BillingStreet": "10748 craigtown Ln",
+    "orderId": "",
+    "shippingAddress": {
+        "ShippingCity": "",
+        "ShippingPostalCode": "",
+        "ShippingState": "",
+        "ShippingStreet": ""
+    }
+}

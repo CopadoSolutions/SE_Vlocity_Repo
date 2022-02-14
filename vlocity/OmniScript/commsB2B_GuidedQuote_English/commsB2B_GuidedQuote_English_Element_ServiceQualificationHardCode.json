@@ -1,0 +1,175 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__InternalNotes__c": "This sets the results dataset to the same value that is returned by the Integration Procedure, which calls the WebHook.",
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "commsB2B Guided Quote",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/commsB2B/GuidedQuote/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "QualificationMicroServiceResponse": [
+                [
+                    "Service Account Name",
+                    "Maximum Physical Type",
+                    "Maximum Physical Bandwidth",
+                    "Committed Bandwidth Options"
+                ],
+                [
+                    "Hilton - Arms Circle",
+                    "10GigE-IEEE / 10G / Fiber",
+                    "10 Gbps",
+                    "10 Mbps, 20 Mbps, 50 Mbps, 100 Mbps, 150 Mbps, 250 Mbps, 400 Mbps, 500 Mbps, 600 Mbps, 1 Gbps"
+                ],
+                [
+                    "Hilton - Bellway House",
+                    "T3 / 45M / Copper",
+                    "45 Mbps",
+                    "10 Mbps, 20 Mbps"
+                ],
+                [
+                    "Hilton - Castle Way",
+                    "OC48-ATM / 2.5G / Sonet Fiber",
+                    "2.5 Gbps",
+                    "10 Mbps, 20 Mbps, 50 Mbps, 100 Mbps, 150 Mbps, 250 Mbps, 400 Mbps, 500 Mbps"
+                ],
+                [
+                    "Hilton - East Gate",
+                    "T3 / 45M / Copper",
+                    "45 Mbps",
+                    "10 Mbps, 20 Mbps"
+                ],
+                [
+                    "Hilton - East Side Penisular",
+                    "10GigE-IEEE / 10G / Fiber",
+                    "2.5 Gbps",
+                    "10 Mbps, 20 Mbps, 50 Mbps, 100 Mbps, 150 Mbps, 250 Mbps, 400 Mbps, 500 Mbps, 600 Mbps, 1 Gbps"
+                ],
+                [
+                    "Hilton - Globe Point",
+                    "OC48-ATM / 2.5G / Sonet Fiber",
+                    "2.5 Gbps",
+                    "10 Mbps, 20 Mbps, 50 Mbps, 100 Mbps, 150 Mbps, 250 Mbps, 400 Mbps, 500 Mbps"
+                ],
+                [
+                    "Hilton - James Point",
+                    "T3 / 45M / Copper",
+                    "45 Mbps",
+                    "10 Mbps, 20 Mbps"
+                ],
+                [
+                    "Hilton - Mission Point",
+                    "10GigE-IEEE / 10G / Fiber",
+                    "2.5 Gbps",
+                    "10 Mbps, 20 Mbps, 50 Mbps, 100 Mbps, 150 Mbps, 250 Mbps, 400 Mbps, 500 Mbps, 600 Mbps, 1 Gbps"
+                ],
+                [
+                    "Hilton - Queens Park",
+                    "T3 / 45M / Copper",
+                    "45 Mbps",
+                    "10 Mbps, 20 Mbps"
+                ],
+                [
+                    "Hilton - Union Square",
+                    "10GigE-IEEE / 10G / Fiber",
+                    "2.5 Gbps",
+                    "10 Mbps, 20 Mbps, 50 Mbps, 100 Mbps, 150 Mbps, 250 Mbps, 400 Mbps, 500 Mbps, 600 Mbps, 1 Gbps"
+                ],
+                [
+                    "Hilton - Upper Market",
+                    "T3 / 45M / Copper",
+                    "45 Mbps",
+                    "10 Mbps, 20 Mbps"
+                ],
+                [
+                    "Hilton - Dallas",
+                    "OC3-ATM / 155M / Sonet Fiber",
+                    "155 Mbps",
+                    "10 Mbps, 20 Mbps, 50 Mbps, 100 Mbps, 150 Mbps"
+                ],
+                [
+                    "Hilton - Miami",
+                    "OC48-ATM / 2.5G / Sonet Fiber",
+                    "2.5 Gbps",
+                    "10 Mbps, 20 Mbps, 50 Mbps, 100 Mbps, 150 Mbps, 250 Mbps, 400 Mbps, 500 Mbps, 600 Mbps, 1 Gbps"
+                ],
+                [
+                    "Hilton - New York City",
+                    "OC3-ATM / 155M / Sonet Fiber",
+                    "155 Mbps",
+                    "10 Mbps, 20 Mbps, 50 Mbps, 100 Mbps, 150 Mbps"
+                ],
+                [
+                    "Hilton - San Diego",
+                    "10GigE-IEEE / 10G / Fiber",
+                    "2.5 Gbps",
+                    "10 Mbps, 20 Mbps, 50 Mbps, 100 Mbps, 150 Mbps, 250 Mbps, 400 Mbps, 500 Mbps, 600 Mbps, 1 Gbps"
+                ],
+                [
+                    "Hilton - San Francisco",
+                    "OC3-ATM / 155M / Sonet Fiber",
+                    "155 Mbps",
+                    "10 Mbps, 20 Mbps, 50 Mbps, 100 Mbps, 150 Mbps"
+                ],
+                [
+                    "Hilton - Seattle",
+                    "10GigE-IEEE / 10G / Fiber",
+                    "2.5 Gbps",
+                    "10 Mbps, 20 Mbps, 50 Mbps, 100 Mbps, 150 Mbps, 250 Mbps, 400 Mbps, 500 Mbps, 600 Mbps, 1 Gbps"
+                ],
+                [
+                    "Hilton - United States",
+                    "10GigE-IEEE / 10G / Fiber",
+                    "2.5 Gbps",
+                    "10 Mbps, 20 Mbps, 50 Mbps, 100 Mbps, 150 Mbps, 250 Mbps, 400 Mbps, 500 Mbps, 600 Mbps, 1 Gbps"
+                ],
+                [
+                    "Home Depot - Billing",
+                    "OC3-ATM / 155M / Sonet Fiber",
+                    "155 Mbps",
+                    "10 Mbps, 20 Mbps, 50 Mbps, 100 Mbps, 150 Mbps"
+                ],
+                [
+                    "Home Depot - Albany",
+                    "OC48-ATM / 2.5G / Sonet Fiber",
+                    "2.5 Gbps",
+                    "10 Mbps, 20 Mbps, 50 Mbps, 100 Mbps, 150 Mbps, 250 Mbps, 400 Mbps, 500 Mbps"
+                ],
+                [
+                    "Home Depot - Brighton",
+                    "OC3-ATM / 155M / Sonet Fiber",
+                    "155 Mbps",
+                    "10 Mbps, 20 Mbps, 50 Mbps, 100 Mbps, 150 Mbps"
+                ],
+                [
+                    "Home Depot - HQ",
+                    "10GigE-IEEE / 10G / Fiber",
+                    "2.5 Gbps",
+                    "10 Mbps, 20 Mbps, 50 Mbps, 100 Mbps, 150 Mbps, 250 Mbps, 400 Mbps, 500 Mbps, 600 Mbps, 1 Gbps"
+                ]
+            ]
+        },
+        "label": "ServiceQualificationHardCode",
+        "message": {
+            "": ""
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "ServiceQualificationHardCode",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/commsB2B/GuidedQuote/English/ServiceQualificationHardCode"
+}

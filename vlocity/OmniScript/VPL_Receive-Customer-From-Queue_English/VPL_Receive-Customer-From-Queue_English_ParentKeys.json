@@ -1,0 +1,13 @@
+[
+    "DataRaptor/ExtractCustmerInteractionForBeginCustomer",
+    "DataRaptor/QueryQueue",
+    "DataRaptor/RecordsNew",
+    "DataRaptor/ResetStatusofQueue",
+    "DataRaptor/SetAttemptingToContactStatus",
+    "DataRaptor/SetStatusInProgressOrCancelled",
+    "DataRaptor/SetStatustoCancelled",
+    "DataRaptor/Status_AttemptingContactFromQueue",
+    "DataRaptor/Status_Completed",
+    "DataRaptor/Status_InProgress",
+    "VlocityUITemplate/SelectCustomersFromQueue"
+]

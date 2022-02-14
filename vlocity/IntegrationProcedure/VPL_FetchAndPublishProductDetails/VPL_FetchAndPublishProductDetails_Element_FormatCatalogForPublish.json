@@ -1,0 +1,56 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "VPL-FetchAndPublishProductDetails",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPL/FetchAndPublishProductDetails/Procedure",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "actionMessage": "",
+        "additionalInput": {
+            "GetAllCatalogs:parentCatalog": "%RootCatalogId%-m",
+            "GetAllCatalogs:storefrontCatalog": "%RootCatalogId%",
+            "GetAllProductDetails": "%GetProductOffering:products%",
+            "GetXMLConfigData": "%GetXMLConfigData%",
+            "PricebookId": "%PricebookId%",
+            "ProdSetAssignment": "%GetProductOffering:ProdSetAssignment%",
+            "isCatalogCreation": false,
+            "isPriceListExist": "%GetProductOffering:isPriceListExist%",
+            "isProductCreation": true,
+            "isVarProdPresent": "%GetProductOffering:isVarProdPresent%",
+            "priceListEntries": "%GetProductOffering:priceListEntries%",
+            "productSets": "%GetProductOffering:productSets%",
+            "variationAttributes": "%GetProductOffering:variationAttributes%"
+        },
+        "additionalOutput": {
+        },
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "disableChainable": false,
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "integrationProcedureKey": "VPL_FormatCatalogDataForCC",
+        "label": "IntegrationProcedureAction2",
+        "remoteOptions": {
+        },
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": true,
+        "show": null,
+        "useFormulas": true
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Integration Procedure Action",
+    "Name": "FormatCatalogForPublish",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VPL/FetchAndPublishProductDetails/Procedure/FormatCatalogForPublish"
+}

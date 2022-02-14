@@ -1,0 +1,122 @@
+.via-slds-card--left-profile {
+
+    left-profile-container {
+        margin-bottom: 40px;
+
+        .via-slds-story-cards--header {
+            background-color: #FBFCFD;
+            border-bottom: 1px solid #d8dde6;
+            border-top: none !important;
+        }
+    }
+
+    .via-slds-col {
+        border-left: 1px solid #d8dde6;
+        &:first-child {
+            border-left: 0 none;
+        }
+    } 
+    text-align: center;
+
+    .profile-name {
+        padding-top: 10px;
+    }
+    .profile-info {
+        margin-bottom: 20px;
+    }
+    .profile-picture {
+        z-index: 3;
+        border: 5px solid transparent;
+        border-radius: 100%;
+        box-sizing: content-box;
+        margin: 0 auto;
+        width: 128px;
+        height: 128px;
+        overflow: hidden;
+        position: relative;
+        margin-top: 10px;
+        img {
+            width: 128px;
+            border-radius: 100%;
+        }
+    }
+
+    .ribbon {
+        background: #FFF;
+        height: 18px;
+        margin: 0 auto;
+        position: relative;
+        width: 16px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 18px;
+        font-size: 12px;
+        color: #FFF;
+        display: inline-block;
+        margin-top: -10px;
+    }
+    .ribbon:after,
+    .ribbon:before {
+        content: '';
+        position: absolute;
+        border-top: 6px solid #FFF;
+        height: 0;
+        width: 0;
+        top: 100%;
+    }
+    .ribbon:after {
+        border-left: 8px solid transparent;
+        right: 0px;
+    }
+    .ribbon:before {
+        border-right: 8px solid transparent;
+        left: 0px;
+    }
+
+    .ribbon {
+        &.diamond,
+        &.promoter {
+            background: #b9f2ff;
+            &:before,
+            &:after {
+                border-top-color: #b9f2ff;
+            }
+        }
+        &.platinum,
+        &.satisfied {
+            background: #e5e4e2;
+            &:before,
+            &:after {
+                border-top-color: #e5e4e2;
+            }
+        }
+        &.gold,
+        &.neutral {
+            background: #FFD700;
+            &:before,
+            &:after {
+                border-top-color: #FFD700;
+            }
+        }
+        &.silver,
+        &.dissatisfied {
+            background: #C0C0C0;
+            &:before,
+            &:after {
+                border-top-color: #C0C0C0;
+            }
+        }
+        &.bronze,
+        &.disgruntled {
+            background: #cd7f32;
+            &:before,
+            &:after {
+                border-top-color: #cd7f32;
+            }
+        }
+    }
+
+    .via-action-icon:before {
+        font-size: 200%;
+    }
+}

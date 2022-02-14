@@ -1,0 +1,3 @@
+let definition =
+      {"states":[{"fields":[],"conditions":[{"field":"$scope.data.status","operator":"===","value":"'active'","type":"system"}],"definedActions":{"actions":[{"type":"Vlocity Action","id":"Statement Dashboard"},{"type":"Vlocity Action","id":"Relationships"},{"type":"Vlocity Action","id":"Change Address"},{"type":"Vlocity Action","id":"Verify Caller"},{"type":"Vlocity Action","id":"Renew"}]},"name":"Actions","templateUrl":"action-grid-card","sObjectType":"Account"}],"filter":{},"title":"Profile","dataSource":{"type":"Query","value":{"jsonMap":"{\"params.id\":\"{{params.id}}\"}"}},"Id":"a238c000000EpvjAAS","GlobalKey__c":"Profile Account Actions/Vlocity Demo Org/null/1516694577096","IsChildCard__c":false};
+  export default definition

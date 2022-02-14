@@ -1,0 +1,5 @@
+[
+    "OrchestrationItemDefinition/Send DIA Provisioning Request_commsB2B Provision Dedicated Internet Plan",
+    "OrchestrationItemDefinition/Start Billing For Site_commsB2B Update Dedicated Internet Billing Plan",
+    "OrchestrationPlanDefinition/commsB2B Provision Dedicated Internet Plan"
+]

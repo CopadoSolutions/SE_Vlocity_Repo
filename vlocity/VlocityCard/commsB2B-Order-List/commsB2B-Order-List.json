@@ -1,0 +1,108 @@
+{
+    "dataSource": {
+        "type": "Inherit"
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "Id",
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "displayName": "View Record",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-document1-line",
+                        "id": "View Record",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['%vlocity_namespace%__LineNumber__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Line Number",
+                    "name": "['%vlocity_namespace%__LineNumber__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Product2']['Name']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Product Name",
+                    "name": "['Product2']['Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['%vlocity_namespace%__ProvisioningStatus__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Provisioning Status",
+                    "name": "['%vlocity_namespace%__ProvisioningStatus__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['%vlocity_namespace%__EffectiveOneTimeTotal__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "One Time Total",
+                    "name": "['%vlocity_namespace%__EffectiveOneTimeTotal__c']",
+                    "type": "currency"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['%vlocity_namespace%__EffectiveRecurringTotal__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Recurring Total",
+                    "name": "['%vlocity_namespace%__EffectiveRecurringTotal__c']",
+                    "type": "currency"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['%vlocity_namespace%__BillingAccountId__r']['Name']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Billing Account",
+                    "name": "['%vlocity_namespace%__BillingAccountId__r']['Name']",
+                    "type": "string"
+                }
+            ],
+            "isSmartAction": false,
+            "name": "Child Products",
+            "sObjectType": "OrderItem",
+            "smartAction": {
+            },
+            "templateUrl": "commsB2B-list-card-DE"
+        }
+    ],
+    "title": "Order List"
+}

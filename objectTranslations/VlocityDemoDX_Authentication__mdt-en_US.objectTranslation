@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>VlocityDemoDX Authentication</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>VlocityDemoDX Authentications</value>
+    </caseValues>
+    <fields>
+        <label><!-- Client Id --></label>
+        <name>Client_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Secret --></label>
+        <name>Secret__c</name>
+    </fields>
+    <fields>
+        <label><!-- Token Endpoint --></label>
+        <name>Token_Endpoint__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

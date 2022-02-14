@@ -1,0 +1,18 @@
+[
+    "VlocityAction/Bluetooth Setup",
+    "VlocityAction/Download Bill",
+    "VlocityAction/International Plan",
+    "VlocityAction/Manage Payments",
+    "VlocityAction/Modify Bundle",
+    "VlocityAction/PPV Charges",
+    "VlocityAction/Parental Controls",
+    "VlocityAction/Renew",
+    "VlocityAction/Report Outage",
+    "VlocityAction/Service Upgrade",
+    "VlocityAction/Support Center",
+    "VlocityAction/Troubleshoot Mobile",
+    "VlocityAction/Voicemail Password",
+    "VlocityUILayout/flyout-list",
+    "VlocityUILayout/flyout-product",
+    "VlocityUITemplate/vdo-card-active-de"
+]

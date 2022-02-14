@@ -1,0 +1,26 @@
+{
+    "ContextId": "0013h00000Cr6gO",
+    "LanguageCode": "en_US",
+    "SelectStorefront": {
+        "CCSite": "RefArch"
+    },
+    "accountId": "0013h00000Cr6gO",
+    "id": "a233h000000eDiFAAU",
+    "layout": "lightning",
+    "site": [
+        {
+            "name": "RefArch",
+            "value": "RefArch"
+        }
+    ],
+    "siteId": "RefArch",
+    "testContextId": "0013h00000Cr6gO",
+    "timeStamp": "2020-07-27T10:29:39.303Z",
+    "userCurrencyCode": "USD",
+    "userId": "0053h000000KGVfAAO",
+    "userName": "commercecloud-dev@vlocity.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    }
+}

@@ -1,0 +1,71 @@
+{
+  "appPageId" : "067cb50d-59bf-4755-900f-02d130a9107a",
+  "componentName" : "siteforce:dynamicLayout",
+  "id" : "e073fe55-fca5-490c-b0bf-6b3eea83da7c",
+  "label" : "Multilingual Catalog Featurette",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "de451ba8-f1eb-46d0-955f-011a19123bf8",
+          "columns" : [ {
+            "UUID" : "f8715609-b92a-438e-bd72-70658d6bff5e",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "de451ba8-f1eb-46d0-955f-011a19123bf8",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "bannerstyle" : "",
+            "bannertext" : "Demo Engineering Featuette – Multilingual Catalog",
+            "showcomponent" : true
+          },
+          "componentName" : "c:demo_eng_simple_banner_text",
+          "id" : "e06fb28d-9e3e-4c61-8fd2-0f1256341a7e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "f8715609-b92a-438e-bd72-70658d6bff5e",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "894956fb-694d-4832-b497-58f7089f26f6",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Multilingual Catalog Featurette"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "304fd420-6027-4d6a-892f-bb83ddc5408f",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3842470f-fa72-4433-a0e1-46735ecc8247",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-multilingual-catalog-featurette"
+}

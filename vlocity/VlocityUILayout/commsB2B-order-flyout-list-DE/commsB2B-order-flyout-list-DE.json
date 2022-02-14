@@ -1,0 +1,37 @@
+{
+    "Cards": [
+        "CommsB2B-Orders"
+    ],
+    "componentName": "cfCommsB2BOrderFlyoutListDE",
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "parent.obj.OrderId",
+                "val": "8013h000000Ppx8AAC"
+            },
+            {
+                "name": "params.Id",
+                "val": "0013h000006GK5iAAG"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "body": "[\n    {\n        \"DateCreated\": \"2020-03-24T14:24:52.000Z\",\n        \"FulfilmentStatus\": \"Draft\",\n        \"OrderNCTotal\": 1230,\n        \"OrderRCTotal\": 730,\n        \"Name\": \"Business Essentials\",\n        \"Status\": \"Activated\",\n        \"OrderNumber\": \"00002745\"\n    },\n    {\n        \"DateCreated\": \"2020-04-13T19:10:54.000Z\",\n        \"FulfilmentStatus\": \"Activated\",\n        \"OrderNCTotal\": 0,\n        \"OrderRCTotal\": 7,\n        \"Name\": \"matt test\",\n        \"Status\": \"Activated\",\n        \"OrderNumber\": \"00006058\"\n    },\n    {\n        \"DateCreated\": \"2020-04-15T23:41:41.000Z\",\n        \"FulfilmentStatus\": \"Activated\",\n        \"OrderNCTotal\": 3900,\n        \"OrderRCTotal\": 1050,\n        \"Status\": \"Activated\",\n        \"OrderNumber\": \"00006064\"\n    },\n    {\n        \"DateCreated\": \"2020-04-07T22:49:01.000Z\",\n        \"FulfilmentStatus\": \"Activated\",\n        \"OrderNCTotal\": 4200,\n        \"OrderRCTotal\": 1050,\n        \"Name\": \"OMBaseTest1\",\n        \"Status\": \"Activated\",\n        \"OrderNumber\": \"00006050\"\n    },\n    {\n        \"DateCreated\": \"2020-04-23T15:57:33.000Z\",\n        \"FulfilmentStatus\": \"Draft\",\n        \"OrderNCTotal\": 0,\n        \"OrderRCTotal\": 0,\n        \"Status\": \"Draft\",\n        \"OrderNumber\": \"00006113\"\n    },\n    {\n        \"DateCreated\": \"2020-04-23T19:15:53.000Z\",\n        \"FulfilmentStatus\": \"Draft\",\n        \"OrderNCTotal\": 10.8,\n        \"OrderRCTotal\": 0,\n        \"Name\": \"Test\",\n        \"Status\": \"Draft\",\n        \"OrderNumber\": \"00006118\"\n    },\n    {\n        \"DateCreated\": \"2020-04-23T19:38:04.000Z\",\n        \"FulfilmentStatus\": \"Draft\",\n        \"OrderNCTotal\": 18,\n        \"OrderRCTotal\": 0,\n        \"Status\": \"Draft\",\n        \"OrderNumber\": \"00006121\"\n    },\n    {\n        \"DateCreated\": \"2020-04-28T16:30:41.000Z\",\n        \"FulfilmentStatus\": \"In Progress\",\n        \"OrderNCTotal\": 900,\n        \"OrderRCTotal\": 814.5,\n        \"Status\": \"Draft\",\n        \"OrderNumber\": \"00006133\"\n    },\n    {\n        \"DateCreated\": \"2020-04-15T23:08:58.000Z\",\n        \"FulfilmentStatus\": \"Activated\",\n        \"OrderNCTotal\": 4200,\n        \"OrderRCTotal\": 1050,\n        \"Name\": \"OM Test6t6\",\n        \"Status\": \"Activated\",\n        \"OrderNumber\": \"00006060\"\n    },\n    {\n        \"DateCreated\": \"2020-04-16T14:30:54.000Z\",\n        \"FulfilmentStatus\": \"Activated\",\n        \"OrderNCTotal\": 4150,\n        \"OrderRCTotal\": 1050,\n        \"Name\": \"Justin2\",\n        \"Status\": \"Activated\",\n        \"OrderNumber\": \"00006066\"\n    }\n]",
+            "bundle": "commsB2BGetOrderLines",
+            "inputMap": {
+                "": "{{parent.obj}}",
+                "ContextId": "{{params.id}}"
+            },
+            "jsonMap": "{\"parent.obj.OrderId\":\"{{parent.obj.OrderId}}\",\"params.Id || params.id\":\"{{params.Id || params.id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "commsB2B-list-card-canvas-DE"
+        }
+    },
+    "workspace": [
+        "CommsB2B-Orders/CommsB2BFY2021/1/1588180577715"
+    ]
+}

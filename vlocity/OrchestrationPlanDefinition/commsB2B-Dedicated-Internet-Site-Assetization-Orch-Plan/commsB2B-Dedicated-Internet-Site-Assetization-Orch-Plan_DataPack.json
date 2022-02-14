@@ -1,0 +1,11 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "3c522cbc-9043-22c2-a842-bc14f1e9f420",
+    "%vlocity_namespace%__IsSchedulingEnabled__c": false,
+    "%vlocity_namespace%__SchedulingExpirationIntervalSeconds__c": "",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__ShowOrder__c": "",
+    "Name": "commsB2B Dedicated Internet Site Assetization Orch Plan",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/commsB2B Dedicated Internet Site Assetization Orch Plan"
+}

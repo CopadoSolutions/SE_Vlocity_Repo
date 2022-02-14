@@ -1,0 +1,116 @@
+{
+    "QuoteLI": [
+        {
+            "Id": "0QL3h0000008oqpGAA",
+            "LineNumber": "0001",
+            "ProductName": "Blaze Premium Fiber Dedicated Internet",
+            "SequenceNumber": 1,
+            "UltimateParentFlag": "0001.0001"
+        },
+        {
+            "Id": "0QL3h0000008oqqGAA",
+            "LineNumber": "0001.0001",
+            "ProductName": "Static IP Address",
+            "SequenceNumber": 10,
+            "UltimateParentFlag": "0001.0001"
+        },
+        {
+            "Id": "0QL3h0000008oqrGAA",
+            "LineNumber": "0001.0002",
+            "ProductName": "Professional Biz Service Install",
+            "SequenceNumber": 20,
+            "UltimateParentFlag": "0001.0001"
+        },
+        {
+            "Id": "0QL3h0000008oquGAA",
+            "LineNumber": "0002",
+            "ProductName": "Blaze Dedicated Internet Offer",
+            "SequenceNumber": 1,
+            "UltimateParentFlag": "0001.0001"
+        },
+        {
+            "Id": "0QL3h0000008oqvGAA",
+            "LineNumber": "0002.0001",
+            "ProductName": "Professional Biz Service Install",
+            "SequenceNumber": 10,
+            "UltimateParentFlag": "0001.0001"
+        },
+        {
+            "Id": "0QL3h0000008oqzGAA",
+            "LineNumber": "0003",
+            "ProductName": "Blaze Dedicated Internet with CloudVault Security Offer",
+            "SequenceNumber": 1,
+            "UltimateParentFlag": "0001.0001"
+        },
+        {
+            "Id": "0QL3h0000008or0GAA",
+            "LineNumber": "0003.0001",
+            "ProductName": "Professional Biz Service Install",
+            "SequenceNumber": 10,
+            "UltimateParentFlag": "0001.0001"
+        },
+        {
+            "Id": "0QL3h0000008or1GAA",
+            "LineNumber": "0003.0002",
+            "ProductName": "CloudVault Security",
+            "SequenceNumber": 20,
+            "UltimateParentFlag": "0001.0001"
+        },
+        {
+            "Id": "0QL3h0000008or2GAA",
+            "LineNumber": "0003.0003",
+            "ProductName": "Static IP Address",
+            "SequenceNumber": 30,
+            "UltimateParentFlag": "0001.0001"
+        },
+        {
+            "Id": "0QL3h0000008or4GAA",
+            "LineNumber": "0004",
+            "ProductName": "IP-VPN Service",
+            "SequenceNumber": 1,
+            "UltimateParentFlag": "0001.0001"
+        },
+        {
+            "Id": "0QL3h0000008or5GAA",
+            "LineNumber": "0004.0001",
+            "ProductName": "On-Net",
+            "SequenceNumber": 1,
+            "UltimateParentFlag": "0001.0001"
+        },
+        {
+            "Id": "0QL3h0000008or6GAA",
+            "LineNumber": "0004.0001.0001",
+            "ProductName": "On-Net Local Loop",
+            "SequenceNumber": 1,
+            "UltimateParentFlag": "0001.0001"
+        },
+        {
+            "Id": "0QL3h0000008or7GAA",
+            "LineNumber": "0004.0002",
+            "ProductName": "Connectivity Installation and Activation",
+            "SequenceNumber": 3,
+            "UltimateParentFlag": "0001.0001"
+        },
+        {
+            "Id": "0QL3h0000008or8GAA",
+            "LineNumber": "0004.0003",
+            "ProductName": "Monthly Usage Fee",
+            "SequenceNumber": 4,
+            "UltimateParentFlag": "0001.0001"
+        },
+        {
+            "Id": "0QL3h0000008or9GAA",
+            "LineNumber": "0004.0004",
+            "ProductName": "Standard Service & Support Contract",
+            "SequenceNumber": 5,
+            "UltimateParentFlag": "0001.0001"
+        },
+        {
+            "Id": "0QL3h0000008orAGAQ",
+            "LineNumber": "0004.0005",
+            "ProductName": "8 Port - CPE",
+            "SequenceNumber": 7,
+            "UltimateParentFlag": "0001.0001"
+        }
+    ]
+}

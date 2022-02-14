@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__Channel__c": "",
+    "%vlocity_namespace%__ContentType__c": "Image",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__DisplayConditionsData__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "1442d698-6dff-fcb5-2297-76e34b8ccd01",
+    "%vlocity_namespace%__IsDefaultImage__c": false,
+    "%vlocity_namespace%__IsPrivate__c": false,
+    "%vlocity_namespace%__ObjectId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "3c714f2e-1010-f060-1508-8621a40a677a",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/3c714f2e-1010-f060-1508-8621a40a677a",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__ProductGroupKey__c": "5558033d-8a5d-e46a-ee7b-404e2e290c2a",
+    "%vlocity_namespace%__SequenceNumber__c": 3,
+    "%vlocity_namespace%__UrlLong__c": "https://vlocitydemodx-cdn.herokuapp.com/content/industry/cmt/VDOProductResources/images/LG/LG_Q70_03_Back_1.png",
+    "%vlocity_namespace%__Url__c": "",
+    "Name": "LG Q70 Back",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityAttachment__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityAttachment__c/1442d698-6dff-fcb5-2297-76e34b8ccd01"
+}

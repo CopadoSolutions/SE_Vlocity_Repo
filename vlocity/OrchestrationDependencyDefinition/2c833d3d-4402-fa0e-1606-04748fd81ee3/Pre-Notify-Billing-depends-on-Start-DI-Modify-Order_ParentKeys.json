@@ -1,0 +1,5 @@
+[
+    "OrchestrationItemDefinition/Pre-Notify Billing_commsB2B Update Dedicated Internet Billing Plan",
+    "OrchestrationItemDefinition/Start DI Modify Order_commsB2B Dedicated Internet E2E Modify Orch Plan",
+    "OrchestrationPlanDefinition/commsB2B Dedicated Internet E2E Modify Orch Plan"
+]

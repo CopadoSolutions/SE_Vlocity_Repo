@@ -1,0 +1,32 @@
+{
+    "Cards": [
+        "commsB2BQuoteCard"
+    ],
+    "componentName": "cfCommsB2BQuoteLayoutGridDemoEngDE",
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0013h000006GK5iAAG"
+            }
+        ],
+        "type": "DataRaptor",
+        "value": {
+            "bundle": "commsB2BGetAccountQuotes",
+            "inputMap": {
+                "ContextId": "{{params.id}}"
+            }
+        }
+    },
+    "previewType": "runTime",
+    "sessionVars": [
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "commsB2B-vdo-card-canvas-de"
+        }
+    },
+    "workspace": [
+        "commsB2BQuoteCard/CommsB2BFY2021/1/1586811705047"
+    ]
+}

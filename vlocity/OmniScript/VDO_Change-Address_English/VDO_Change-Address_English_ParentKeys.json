@@ -1,0 +1,5 @@
+[
+    "DataRaptor/VDOAccountTypeAhead",
+    "DataRaptor/VDOContactTypeAhead",
+    "DataRaptor/VDOTypeAheadUpsert"
+]

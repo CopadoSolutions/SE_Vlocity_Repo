@@ -1,0 +1,12 @@
+<div ng-controller="MetaDataPublishResDetails" class="showMetaData">
+    
+<div>
+    <div ng-if="fileId != null" ><a href="/{{fileId}}" tabindex="-1" target="_blank"><br/>Click here</a> to export XML file for attribute options and import in Commerce Cloud.</div>
+    <div ng-if="successFieldCount != null && successFieldCount != ''"><br/>{{successFieldCount}} fields are successfully synced with Commerce Cloud.</div>
+    <div ng-if="notFoundFields != null && notFoundFields != ''"><br/>Fields not found : {{notFoundFields}}</div>
+    <div ng-if="notFoundObjects != null && notFoundObjects != ''"><br/>ObjectTypes not found : {{notFoundObjects}}</div>
+    <div ng-if="notSyncFields != null && notSyncFields != ''"><br/>Failed to publish Fields : {{notSyncFields}}</div>
+    <div ng-if="!isSuccess"><br/>Batch API call to Commerce Cloud Failed. Please check logs.</div>
+    <div ng-if="noDataToPublish"><br/>No Product fields or Attributes for Publish. Please provide valid data.</div>
+</div>
+</div>

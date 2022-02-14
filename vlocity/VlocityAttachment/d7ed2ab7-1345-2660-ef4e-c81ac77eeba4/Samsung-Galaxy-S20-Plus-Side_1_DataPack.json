@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__Channel__c": "",
+    "%vlocity_namespace%__ContentType__c": "Image",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__DisplayConditionsData__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "d7ed2ab7-1345-2660-ef4e-c81ac77eeba4",
+    "%vlocity_namespace%__IsDefaultImage__c": false,
+    "%vlocity_namespace%__IsPrivate__c": false,
+    "%vlocity_namespace%__ObjectId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "8f783ffa-7222-61f1-23b3-7774673f9c55",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/8f783ffa-7222-61f1-23b3-7774673f9c55",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__ProductGroupKey__c": "bcc42702-6f23-87c7-d313-e030658a2db0",
+    "%vlocity_namespace%__SequenceNumber__c": 3,
+    "%vlocity_namespace%__UrlLong__c": "https://vlocitydemodx-cdn.herokuapp.com/content/industry/cmt/VDOProductResources/images/Samsung/SS_Galaxy_S20Plus__Carousel_Side_1_Blue.png",
+    "%vlocity_namespace%__Url__c": "",
+    "Name": "Samsung Galaxy S20 Plus Side_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityAttachment__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityAttachment__c/d7ed2ab7-1345-2660-ef4e-c81ac77eeba4"
+}

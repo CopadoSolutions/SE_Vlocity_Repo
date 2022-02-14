@@ -1,0 +1,20 @@
+{
+    "ContextId": "",
+    "SetOrchItemState": "Completed",
+    "StepWelcomePackageChecklist": {
+        "RGChecklist": null
+    },
+    "id": "a1I3k00000HpZfAEAV",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://xenial105--vlocity-cmt.visualforce.com",
+    "timeStamp": "2019-11-15T16:17:20.004Z",
+    "userCurrencyCode": "USD",
+    "userId": "0053k00000AfjCRAAZ",
+    "userName": "vivekk03@vdo105.cmt",
+    "userProfile": "System Administrator",
+    "userTimeZone": -480,
+    "vlcPersistentComponent": {
+    }
+}

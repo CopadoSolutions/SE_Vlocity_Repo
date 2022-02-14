@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>1</activeVersionNumber>
+    <description>Autolaunched flow, kicked off by a process builder process &quot;User Object Related Processes&quot;.
+Creates three new records in [User Time Records] object every time a new user is created.</description>
+    <masterLabel>Create New User Time Record</masterLabel>
+</FlowDefinition>

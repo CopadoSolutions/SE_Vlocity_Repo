@@ -1,0 +1,489 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "Apple-Watch-Sport-Series-3_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "ATTRIBUTE-064": null,
+        "ATTRIBUTE-076": null,
+        "ATTRIBUTE-077": null,
+        "ATTRIBUTE-078": null,
+        "ATTRIBUTE-123": null,
+        "ATTRIBUTE-125": null
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "messages": [
+        ],
+        "records": [
+            {
+                "Code__c": "VLO-PRO-0009",
+                "Name": "Watch",
+                "displaySequence": 17,
+                "id": "a0I8c00001Tc9BUEAZ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0J8c00000rM6cWEAS",
+                            "cloneable": false,
+                            "code": "ATTRIBUTE-076",
+                            "dataType": "text",
+                            "description": "The strap of the watch",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "radio",
+                            "isNotTranslatable": false,
+                            "label": "Strap",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "id": "1",
+                                    "label": "Black Sport Band",
+                                    "readonly": false,
+                                    "value": "Black Sport Band"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "2",
+                                    "label": "Yellow Sport Band",
+                                    "readonly": false,
+                                    "value": "Yellow Sport Band"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "3",
+                                    "label": "Apricot Sport Band",
+                                    "readonly": false,
+                                    "value": "Apricot Sport Band"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "4",
+                                    "label": "Royal Blue Sport Band",
+                                    "readonly": false,
+                                    "value": "Royal Blue Sport Band"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "5",
+                                    "label": "White Sport Band",
+                                    "readonly": false,
+                                    "value": "White Sport Band"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "6",
+                                    "label": "Midnight Blue Sport Band",
+                                    "readonly": false,
+                                    "value": "Midnight Blue Sport Band"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "7",
+                                    "label": "Antique White Sport Band",
+                                    "readonly": false,
+                                    "value": "Antique White Sport Band"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "8",
+                                    "label": "Stone Sport Band",
+                                    "readonly": false,
+                                    "value": "Stone Sport Band"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "9",
+                                    "label": "Lavender Sport Band",
+                                    "readonly": false,
+                                    "value": "Lavender Sport Band"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "10",
+                                    "label": "Scuba Blue Woven Nylon",
+                                    "readonly": false,
+                                    "value": "Scuba Blue Woven Nylon"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0J8c00000rM6cVEAS",
+                            "cloneable": false,
+                            "code": "ATTRIBUTE-077",
+                            "dataType": "text",
+                            "description": "The size of the watch face",
+                            "disabled": false,
+                            "displaySequence": 2,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "radio",
+                            "isNotTranslatable": false,
+                            "label": "Face Size",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "id": "1",
+                                    "label": "38mm",
+                                    "readonly": false,
+                                    "value": "38mm"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "2",
+                                    "label": "42mm",
+                                    "readonly": false,
+                                    "value": "42mm"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0J8c00000rM6cXEAS",
+                            "cloneable": false,
+                            "code": "ATTRIBUTE-078",
+                            "dataType": "text",
+                            "description": "The finish of the watch body",
+                            "disabled": false,
+                            "displaySequence": 3,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "radio",
+                            "isNotTranslatable": false,
+                            "label": "Finish",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "id": "1",
+                                    "label": "Silver Aluminium",
+                                    "readonly": false,
+                                    "value": "Silver Aluminium"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "2",
+                                    "label": "Rose Gold Aluminium",
+                                    "readonly": false,
+                                    "value": "Rose Gold Aluminium"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "3",
+                                    "label": "Gold Aluminium",
+                                    "readonly": false,
+                                    "value": "Gold Aluminium"
+                                },
+                                {
+                                    "disabled": false,
+                                    "id": "4",
+                                    "label": "Space Grey Aluminium",
+                                    "readonly": false,
+                                    "value": "Space Grey Aluminium"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 3
+                }
+            },
+            {
+                "Code__c": "VLO-PRO-0003",
+                "Name": "Mobile Handset",
+                "displaySequence": 11,
+                "id": "a0I8c00001Tc9BREAZ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0J8c00000rM6cKEAS",
+                            "cloneable": false,
+                            "code": "ATTRIBUTE-064",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 3,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Device Manufacturer",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 1
+                }
+            },
+            {
+                "Code__c": "VLO-PRO-0015",
+                "Name": "Logistics",
+                "displaySequence": 23,
+                "id": "a0I8c00001Tc9BeEAJ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0J8c00000rM6dHEAS",
+                            "cloneable": false,
+                            "code": "ATTRIBUTE-123",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Part Number",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0J8c00000rM6dJEAS",
+                            "cloneable": false,
+                            "code": "ATTRIBUTE-125",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 3,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Supplier",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 2
+                }
+            }
+        ],
+        "totalSize": 3
+    },
+    "%vlocity_namespace%__AttributeRules__c": "{}",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__CategoryData__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "",
+    "%vlocity_namespace%__GlobalGroupKey__c": "954cab3a-c3ec-f927-727d-15e23000a0bd",
+    "%vlocity_namespace%__GlobalKey__c": "1b1b6c6f-c1b0-1c1d-e068-4651202cb07b",
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsCustomerSubscription__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__Modification__c": "",
+    "%vlocity_namespace%__ObjectTypeId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "3a481bee83219f662b6f07856b6b1f79",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/3a481bee83219f662b6f07856b6b1f79",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
+    },
+    "%vlocity_namespace%__ObjectTypeName__c": "Watches",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PriceListEntry__c": "Apple-Watch-Sport-Series-3_PriceListEntries.json",
+    "%vlocity_namespace%__ProductChildItem__c": "Apple-Watch-Sport-Series-3_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "91044c86-336d-c477-def0-2d03af657cc6",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/91044c86-336d-c477-def0-2d03af657cc6",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__Scope__c": "",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "",
+    "%vlocity_namespace%__SpecificationSubType__c": "",
+    "%vlocity_namespace%__SpecificationType__c": "Product",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "Watch",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "Product",
+    "%vlocity_namespace%__VendorAccountId__c": "",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "V1",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "Antenna_Type__c": "",
+    "Auto_Attendant__c": "",
+    "Automated_Directory__c": "",
+    "Backup_Power__c": "",
+    "Bandwidth__c": "",
+    "Call_Barring__c": "",
+    "Call_Forwarding__c": "",
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
+    "Conferencing__c": "",
+    "Description": "Anodised aluminium cases in four finishes.",
+    "Device_Colour__c": "",
+    "Device_IMEI__c": "",
+    "Device_Manufacturer__c": "",
+    "Device_Network_Compatibility__c": "",
+    "Device_Operating_System__c": "",
+    "Device_Storage__c": "",
+    "Direct_Inward_Dialing__c": "",
+    "Discount__c": "",
+    "DisplayUrl": "",
+    "Ethernet_Ports__c": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Face_Size__c": "",
+    "Family": "Mobile",
+    "Finish__c": "",
+    "Genre__c": "",
+    "ICCID__c": "",
+    "IMSI__c": "",
+    "Interactive_Voice_Response__c": "",
+    "Internet_Data_Usage_Cap__c": "",
+    "Internet_Download_Speed__c": "",
+    "Internet_Upload_Speed__c": "",
+    "IsActive": true,
+    "IsArchived": false,
+    "Line_Type__c": "",
+    "MSISDN__c": "",
+    "Maximum_Speed__c": "",
+    "Music_on_Hold__c": "",
+    "Name": "Apple Watch Sport Series 3",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "Number__c": "",
+    "PBX_Type__c": "",
+    "Price__c": "",
+    "PricebookEntry": "Apple-Watch-Sport-Series-3_PricebookEntries.json",
+    "ProductCode": "VLO-MOB-0029",
+    "Product_Channel__c": "Web",
+    "Product_Owner__c": "",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "SIM_Type__c": "",
+    "Simultaneous_Connections__c": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": 0,
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "Apple Watch Sport Series 3",
+            "One_Time_Cost__c": "",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "1b1b6c6f-c1b0-1c1d-e068-4651202cb07b",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "1b1b6c6f-c1b0-1c1d-e068-4651202cb07b",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/1b1b6c6f-c1b0-1c1d-e068-4651202cb07b",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "VLO-MOB-0029",
+            "Recurring_Cost__c": "",
+            "SOHO_One_Time_Discount__c": "",
+            "UnitPrice": 299,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/1b1b6c6f-c1b0-1c1d-e068-4651202cb07b"
+        }
+    ],
+    "StockKeepingUnit": "",
+    "Storage_Space__c": "",
+    "Strap__c": "",
+    "TV_Boxes_Required__c": "",
+    "TV_Connection__c": "",
+    "TV_Content__c": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/1b1b6c6f-c1b0-1c1d-e068-4651202cb07b",
+    "Voicemail__c": "",
+    "Wifi_Band__c": "",
+    "Wifi_Standard__c": ""
+}

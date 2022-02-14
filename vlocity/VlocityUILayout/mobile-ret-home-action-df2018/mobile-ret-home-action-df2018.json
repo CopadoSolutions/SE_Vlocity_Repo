@@ -1,0 +1,21 @@
+{
+    "Cards": [
+        "mobile-ret-home-action-df2018"
+    ],
+    "componentName": "cfMobileRetHomeActionDf2018",
+    "dataSource": {
+        "type": "Custom",
+        "value": {
+            "body": "[]"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-1x-simple-slds"
+        }
+    },
+    "workspace": [
+        "mobile-ret-home-action-df2018/Vlocity Demo Eng/1/1597695700874"
+    ]
+}

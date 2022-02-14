@@ -1,0 +1,17 @@
+.via-slds-console-sidebar {
+    .icon-segment {
+        min-width: 22px;
+    }   
+}
+.left-profile-container, .left-story-container {
+    border: 1px solid #D8DDE6;
+    border-radius: 4px;
+    box-shadow: var(--lwc-cardShadow,0 2px 2px 0 rgba(0, 0, 0, 0.10));
+ }
+.left-profile-container {
+    background: rgb(244,247,250);
+    background: linear-gradient(180deg, rgba(244,247,250,1) 0%, rgba(255,255,255,1) 50%);
+}
+.left-story-container {
+    margin-top: 40px;
+}

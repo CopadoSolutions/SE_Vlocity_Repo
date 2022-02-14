@@ -1,0 +1,37 @@
+{
+    "Cards": [
+        "np-subnav-asset-df2018",
+        "np-asset-offer-df2018",
+        "np-asset-offer-tv-df2018",
+        "np-asset-offer-internet-df2018",
+        "np-asset-offer-mobile-df2018"
+    ],
+    "componentName": "cfNpSubnavbarCmtDf2018",
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "$root.vlocity.userAccountId",
+                "val": "0016g000005qKrHAAU"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"$root.vlocity.userAccountId\":\"{{$root.vlocity.userAccountId}}\"}"
+        }
+    },
+    "enableLwc": false,
+    "previewType": "runTime",
+    "repeatCards": false,
+    "templates": {
+        "0": {
+            "templateUrl": "np-subnavbar-canvas"
+        }
+    },
+    "workspace": [
+        "np-subnav-asset-df2018/Justin Harris/1/1594319409420",
+        "np-asset-offer-df2018/Justin Harris/1/1594319186306",
+        "np-asset-offer-tv-df2018/Justin Harris/1/1594391419306",
+        "np-asset-offer-internet-df2018/Justin Harris/1/1594391578226",
+        "np-asset-offer-mobile-df2018/Justin Harris/1/1594391737080"
+    ]
+}

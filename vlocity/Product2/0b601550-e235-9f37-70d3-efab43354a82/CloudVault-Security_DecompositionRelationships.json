@@ -1,0 +1,64 @@
+[
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "d2f635a0-4617-9280-3fee-db21510dbf6e",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/d2f635a0-4617-9280-3fee-db21510dbf6e",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "23072f6c-3277-ac40-15db-a2caae2a7d75",
+        "%vlocity_namespace%__MappingsData__c": "",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "0b601550-e235-9f37-70d3-efab43354a82",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/0b601550-e235-9f37-70d3-efab43354a82",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "0b601550-e235-9f37-70d3-efab43354a82",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "CloudVault Security To CloudVault Security Provisioning Spec",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/CloudVault Security To CloudVault Security Provisioning Spec/Product2/0b601550-e235-9f37-70d3-efab43354a82"
+    },
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "e900bcf1-6aa1-70f2-30ac-85381bcd926c",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/e900bcf1-6aa1-70f2-30ac-85381bcd926c",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "d2a08cbc-974a-03a6-e4ca-02afa12c5e21",
+        "%vlocity_namespace%__MappingsData__c": "[{\"source_type\":\"Field\",\"source_field_name\":\"%vlocity_namespace%__Product2Id__r.ProductCode\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Billing Code3\",\"destination_attr_code\":\"B2B-ATTR-BILLCODE-003\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "0b601550-e235-9f37-70d3-efab43354a82",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/0b601550-e235-9f37-70d3-efab43354a82",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "0b601550-e235-9f37-70d3-efab43354a82",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "CloudVault Security To Recurring Charge Billing Spec",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/CloudVault Security To Recurring Charge Billing Spec/Product2/0b601550-e235-9f37-70d3-efab43354a82"
+    }
+]

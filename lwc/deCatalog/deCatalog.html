@@ -1,0 +1,42 @@
+<template>
+    <div class="nds-dc-catalog-wrapper">
+        <slot name="dc-catalog-wrapper-large">
+            <div class="nds-dc-catalog-scrollable">
+                <template for:each={catalogs} for:item="catalog" for:index="index">
+                    <div if:true={catalog.active} 
+                         key={catalog.name} 
+                         class="nds-dc-catalog-item nds-dc-active-catalog" 
+                         data-catalog-index={index} 
+                         onclick={selectCatalog}>
+                        <div class="slds-media__figure">
+                            <img if:false={catalog.active} src={catalog.img1} alt={catalog.name} width=70/>
+                            <img if:true={catalog.active}  src={catalog.img2} alt={catalog.name} width=70/>
+                            <div>{catalog.name}</div>
+                        </div>
+                    </div>
+                    <div if:false={catalog.active} key={catalog.catalogCode} class="nds-dc-catalog-item" data-catalog-index={index} onclick={selectCatalog}>
+                        <div class="slds-media__figure">
+                            <img if:false={catalog.active} src={catalog.img1} alt={catalog.name} width=70/>
+                            <img if:true={catalog.active}  src={catalog.img2} alt={catalog.name} width=70/>
+                            <div>{catalog.name}</div>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </slot>
+    </div>
+    <div class="nds-dc-mobile-catalog-wrapper" if:true={icons}>
+        <slot name="dc-catalog-wrapper-small">
+            <img class = "nds-dc-menu-icon" src={icons.menuIcon} onclick={toggleCatalogMobileMenu}></br>
+            <div class="nds-dc-mobile-menu-list">
+                <span class="nds-dc-menu-icon" onclick={toggleCatalogMobileMenu}>X</span>
+                <ul>
+                    <li for:each={catalogs} for:item="catalog" for:index="index" key={catalog.catalogCode} data-catalog-index={index} onclick={selectCatalog}>
+                        <span if:false={catalog.active}>{catalog.name}</span>
+                        <span if:true={catalog.active} class="active">{catalog.name}</span>
+                    </li>
+                </ul>
+            </div>
+        </slot>
+    </div>
+</template>

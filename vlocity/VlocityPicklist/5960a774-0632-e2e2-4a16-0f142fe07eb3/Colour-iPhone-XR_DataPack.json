@@ -1,0 +1,22 @@
+{
+    "%vlocity_namespace%__Code__c": "VLO-PL-1009",
+    "%vlocity_namespace%__DataType__c": "Text",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__EffectiveFromDate__c": "",
+    "%vlocity_namespace%__EffectiveUntilDate__c": "",
+    "%vlocity_namespace%__GlobalGroupKey__c": "dacf99ce-3de2-15f9-c229-643ef842bb3d",
+    "%vlocity_namespace%__GlobalId__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "5960a774-0632-e2e2-4a16-0f142fe07eb3",
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsPublic__c": false,
+    "%vlocity_namespace%__IsShared__c": false,
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__PicklistValue__c": "Colour-iPhone-XR_Values.json",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__UnitOfMeasureName__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "V1",
+    "Name": "Colour - iPhone XR",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Picklist__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Picklist__c/5960a774-0632-e2e2-4a16-0f142fe07eb3"
+}

@@ -1,0 +1,16 @@
+{
+    "%vlocity_namespace%__Description__c": "Recurring 1 Week",
+    "%vlocity_namespace%__EffectiveEndDate__c": "",
+    "%vlocity_namespace%__EffectiveStartDate__c": "2017-01-01T00:00:00.000Z",
+    "%vlocity_namespace%__FrequencyUnitOfMeasure__c": "",
+    "%vlocity_namespace%__Frequency__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "604f09f0-16db-4ea9-79e1-a11f6c037195",
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__Repeat__c": "",
+    "%vlocity_namespace%__TotalDurationUoM__c": "Week",
+    "%vlocity_namespace%__TotalDuration__c": 1,
+    "Name": "TP-1W",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__TimePlan__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__TimePlan__c/604f09f0-16db-4ea9-79e1-a11f6c037195"
+}

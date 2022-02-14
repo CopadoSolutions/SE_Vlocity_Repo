@@ -1,0 +1,83 @@
+{
+    "dataSource": {
+        "type": null
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "Id",
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Product2']['Name']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Product",
+                    "name": "['Product2']['Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['%vlocity_namespace%__ProvisioningStatus__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Provisioning Status",
+                    "name": "['%vlocity_namespace%__ProvisioningStatus__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['%vlocity_namespace%__ServiceAccountId__r']['Name']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Service Account",
+                    "name": "['%vlocity_namespace%__ServiceAccountId__r']['Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['%vlocity_namespace%__RecurringTotal__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Recurring Total",
+                    "name": "['%vlocity_namespace%__RecurringTotal__c']",
+                    "type": "currency"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['%vlocity_namespace%__OneTimeTotal__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "One Time Total",
+                    "name": "['%vlocity_namespace%__OneTimeTotal__c']",
+                    "type": "currency"
+                }
+            ],
+            "isSmartAction": false,
+            "name": "Line Items",
+            "sObjectType": "OrderItem",
+            "smartAction": {
+            },
+            "templateUrl": "commsB2B-list-card-DE"
+        }
+    ],
+    "title": "Order Line Items"
+}

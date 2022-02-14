@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "230312a1-f219-4587-94d6-825c4988d868",
+  "appPageId" : "067cb50d-59bf-4755-900f-02d130a9107a",
+  "configurationTags" : [ ],
+  "id" : "876c8016-1a1f-40f3-b6b2-3c7209a11683",
+  "label" : "Digital Commerce and LWC",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-digital-commerce-and-lwc",
+  "type" : "route",
+  "urlPrefix" : "digital-commerce-and-lwc"
+}

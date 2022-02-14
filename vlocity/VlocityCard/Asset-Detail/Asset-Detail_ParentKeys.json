@@ -1,0 +1,7 @@
+[
+    "VlocityAction/CPQ_ChangeService",
+    "VlocityAction/CPQ_UpgradePlan",
+    "VlocityAction/CPQ_ViewService",
+    "VlocityAction/CPQ_getSupport",
+    "VlocityUITemplate/mobile-cpq-asset-detail"
+]

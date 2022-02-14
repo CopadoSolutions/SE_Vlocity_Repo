@@ -1,0 +1,796 @@
+<apex:page controller="IntegrationWorkbenchController" showHeader="true" sidebar="false" docType="html-5.0">
+<html xmlns:ng="http://angularjs.org" class="ng-cloak"  ng-keyup="handleKeys($event.keyCode)"  >
+    <head>  
+        <apex:stylesheet value="{!URLFOR($Resource.vlocity_cmt__vlocity_assets, '/css/vlocity.css')}"/>
+        <apex:includeScript value="{!URLFOR($Resource.vlocity_cmt__vlocity_assets, '/javascripts/vlocity.js')}"/>
+        <apex:stylesheet value="{!URLFOR($Resource.vlocity_cmt__vkBeautify, '/vkBeautify-master/main.css')}"/>
+
+        <apex:includeScript value="{!$Resource.vlocity_cmt__JQUERYJS}"/>
+        <apex:includeScript value="{!$Resource.vlocity_cmt__AngularJS}"/>
+        <apex:includeScript value="{!$Resource.vlocity_cmt__ANGULARBOOT}"/>
+        <apex:includeScript value="{!$Resource.vlocity_cmt__AngularStrapJS}"/>
+        <apex:includeScript value="{!$Resource.vlocity_cmt__AngularStrapTplJS}"/>
+        <apex:includeScript value="{!$Resource.vlocity_cmt__AngularSanitizeJS}" /> 
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+       
+      	<apex:includeScript value="{!URLFOR($Resource.vlocity_cmt__vkBeautify, '/vkBeautify-master/vkbeautify.js')}"/>
+      	<apex:includeScript value="{!URLFOR($Resource.vlocity_cmt__vkBeautify, '/vkBeautify-master/main.js')}"/>
+        <apex:stylesheet value="{!$Resource.vlocity_cmt__ProductAttributesCss}" />
+        <apex:includeScript value="/soap/ajax/31.0/connection.js" />
+	    <style>
+	    	.outputs {
+	    		width: 95%;
+	    		margin: 20 auto;
+	    	}
+	    	.outputs > div {
+	    		position: relative;
+	    		height: 510px;
+	    		float: left;
+	    	}
+	    	
+	    	.codeContent {
+	    		overflow: scroll;
+	    		height: 500px;
+	    		//max-width: 800px;
+	    		margin: 0 auto;
+	    	}
+	    	.bodyDiv {
+	    		height: auto;
+	    	}
+	    	.xpathResult table {
+	    		border: 1px solid #ddd;
+	    	}
+	    	.xpathResult table th {
+	    		border: 1px solid #ddd;
+	    		padding: 5px;
+	    	}
+	    	.xpathResult table tr:nth-child(2n+1) {
+    			background-color: #fff;
+    		}
+	    	.xpathResult table td{
+ 	    		border: 1px solid #ddd;
+  	 			padding: 5px;
+    		}
+	    	.xpathResult table tr:nth-child(2n) {
+    			 background-color: #f1f1f1;
+    		}
+
+	    	.xPathKey {
+	    		vertical-align: top;
+	    	}
+	    	
+	    	ul {
+	    		list-style-type: none;
+	    	}
+
+	    	.vlocity .outputs {
+	    		padding-top: 10px;
+	    		float: left;
+	    	}
+
+	    	.vlocity .outputs .card{
+				width: 100%;
+				border: 1px solid gray;
+				box-shadow: 1px 1px 3px #888;
+				border-top: 10px solid lightblue;
+				height: 100%;
+				padding-: 10px;
+				margin: 10px;
+				overflow: scroll;
+    			display: table;
+    			table-layout: fixed;
+			}
+
+			.vlocity .outputs h1 {
+				text-align: center;	
+				border-bottom: solid lightgrey 1px;	
+				margin-bottom: 1px;		
+			}
+
+			.vlocity .outputs .card pre {
+				word-wrap: normal;
+				display: flex;
+
+			}
+
+			.vlocity .dropdown-menu li {
+			    margin-left: 0;
+			    width: auto;
+			}
+
+			.vlocity .files {
+				float: left;
+				width: 100%;
+				font-size: 12px;
+				overflow: scroll;
+				display: table;
+			}
+
+			.vlocity .files .card {
+				width: 100%;
+				display: table-cell;
+			}
+
+			.vlocity .files h1 {
+				border-bottom: : 1px solid gray;
+			}
+
+			.vlocity .files ul li {
+				margin-left : 0;
+			}
+			.vlocity .files ul li:hover {
+				background-color: lightblue;
+			}
+			.vlocity .files ul li:visited {
+				background-color: lightgrey;
+			}
+			.vlocity .files ul {
+				padding-left : 0;
+				padding-right : 20px;
+			}
+
+			.vlocity .openFile {
+				height: 200px;
+				//width: 80%;
+				overflow: scroll;
+			}
+
+			.vlocity .MakeDR {
+				float: left;
+			}
+
+			.vlocity .closeFile {
+				height: 30px;
+				//width: 50px;
+				overflow: hidden;
+				padding: 3px;
+			}
+			.vlocity .closeFile .card {
+				height: 52px;
+				overflow: hidden;
+			}
+
+			.vlocity .newFile {
+				padding: 10px;
+			}
+
+			.vlocity #outboundFlow div {
+				padding-bottom: 10px;
+			}
+
+			#spinnerDiv {  
+			    position:absolute;
+			    top:0;
+			    left:0;
+			    width:100%;
+			    height:100%;
+			    z-index:1000;
+			    background-color:grey;
+			    opacity: .8;
+			 }
+
+			.ajax-loader {
+			    position: absolute;
+			    left: 50%;
+			    top: 50%;
+			    margin-left: -32px; /* -1 * image width / 2 */
+			    margin-top: -32px;  /* -1 * image height / 2 */
+			    display: block;     
+			}
+
+			.xpaths {
+				display: block;
+				float: left;
+			}
+
+	    </style>
+    </head>
+	<body class="vlocity" ng-app="workApp" ng-controller="workController" id="workController">
+		<div id="spinnerDiv" ng-show="Billloading">
+    		<img src="{!URLFOR($Resource.vlocity_cmt__vlocity_assets, '/images/loading-spinner.png')}" class="ajax-loader"/>
+		</div>
+		<div class="vlocity">
+		<!--
+			<ul class="nav nav-pills">
+				<li class="active"><a data-toggle="pill" href="#outboundFlow">Outbound Flow</a></li>
+  				<li><a data-toggle="pill" href="#xmlImport">XML Import</a></li>
+			</ul>
+		-->
+			<div class="tab-content">
+				<div id="xmlImport">
+					<div ng-class="filesOpen ? 'files openFile' : 'files closeFile'">
+						<div class="card">
+							<H1 ng-click="toggleFiles()">Files</H1>
+							<div ng-show="filesOpen">
+							    <input class="newFile" width="100" type="file" id="fileToUpload" ng-model="alunos.file" onchange="angular.element(this).scope().getFile(this.files)" />
+								<ul>
+									<li ng-repeat="file in files" ng-click="loadDoc(file.Id,file.Name)">{{file.Name}}</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="xpaths">
+					    <label for="xpath">Enter xPath</label>
+					    <input type="text" size="100" 
+					    	ng-model="xpath" 
+					    	typeahead="path for path in xPaths | filter:$viewValue " 
+					    	typeahead-on-select="onSelect($item, $model, $label)"
+					    	/>
+					    <input type="button" Value="get XPath" ng-click="getXPath()" />
+					    <div class="xpathResult">
+					    	<table>
+					    		<thead>
+					    			<th>Path</th>
+					    			<th>Value</th>
+					    		</thead>
+					    		
+						    	<tr ng-repeat="(key, value) in xpathResult">
+					  				<td class="xPathKey"> {{key}} </td> 
+					  				<td class="xPathValue"><pre> {{value}} </pre></td>
+								</tr>
+					    	</table>
+					    </div>
+					</div>
+					<div class="MakeDR">
+					    <label for="DRName">Data Raptor Name</label>
+					    <input type="text" name="DRName" ng-model="DRName" />
+					    <input type="button" Value="Create INbound Data Raptor" ng-click="makeDRIn()" />
+					    <input type="button" Value="Create OUTbound Data Raptor" ng-click="makeDROut()" />
+				    </div>
+				    <div class="outputs">
+				    	<ul class="nav nav-pills">
+  							<li><a data-toggle="pill" href="#RawContent">Raw Content</a></li>
+							<li><a data-toggle="pill" href="#JSONContent">JSON Content</a></li>
+							<li><a data-toggle="pill" href="#RaptorMap">DataRaptor Map</a></li>
+						</ul>
+
+				    	<div class="tab-content">
+							<div id="RawContent" class="tab-pane fade">
+								<div class="card">
+					    			<h1>Raw File Content {{fileName}}</h1>
+					    			<div class="codeContent" >
+						    			<pre class="prettyprint lang-xml">{{fileContents}}</pre>	 
+						    		</div>
+					    		</div>
+				    		</div>
+							<div id="JSONContent" class="tab-pane fade">
+						    	<div class="card">
+						    		<h1>JSON Content {{fileName}}</h1>
+						    		<div class="codeContent" >
+							    		<pre >{{jsonString}}</pre>
+							    	</div>
+						    	</div>
+						    </div>
+						    <div id="RaptorMap" class="tab-pane fade">
+						    	<div class="card">
+						    		<h1>Raptor Map {{fileName}}</h1>
+						    		<div class="codeContent" >
+							    		<pre >{{raptorMap}}</pre>  		
+							    	</div>
+						    	</div>
+						    </div>
+						</div>
+				    </div>
+
+					<img class="resultImg" onload="transformResult2('hello');" />
+				    <apex:form >
+						<apex:actionFunction name="transformXML2" action="{!transformXML2}" 
+								rerender="results">
+			    			<apex:param id="fName" name="fileName" value="" />
+			    			<apex:param id="fContents" name="fileContents" value="" />
+						</apex:actionFunction>
+						<apex:actionFunction name="setDocument" action="{!setDocument}" 
+								rerender="results">
+			    			<apex:param id="docId" name="docId" value="" />
+						</apex:actionFunction>
+						<apex:actionFunction name="setRawDocument" action="{!setRawDocument}" 
+								rerender="rawResults">
+			    			<apex:param id="docId2" name="docId2" value="" />
+						</apex:actionFunction>
+						<apex:outputPanel id="results">
+							<script type="text/javascript">
+								angular.element(document.getElementById('workController')).scope().attachId = "{!attachId}";
+							</script>
+							<script src="/servlet/servlet.FileDownload?file={!attachId}"></script>
+						</apex:outputPanel>
+						<apex:outputPanel id="rawResults">
+							<script type="text/javascript">
+								angular.element(document.getElementById('workController')).scope().rawId = "{!rawId}";
+							</script>
+							<script src="/servlet/servlet.FileDownload?file={!rawId}"></script>
+						</apex:outputPanel>
+					</apex:form>
+				</div>
+				<div id="jsonImport" class="tab-pane fade">
+					<h1>JSON Import</h1>
+				</div>
+				<div id="inboundFlow" class="tab-pane fade">Inbound Flow
+					<div>
+						<label for="inputName">Input Flow Name</label>
+						<input id="inputName" ng-model="inputName"/>
+						<input type="button" value="New" ng-click="" />
+						<ul>
+							<li ng-repeat="" ng-click="">
+							</li>
+						</ul>
+					</div>	
+					<div id="flow">
+						<ol>
+							<li>Input Type
+								<select ng-change="">
+									<option value="XML" selected="true">XML</option>
+									<option value="JSON">JSON</option>
+								</select>
+							</li>
+							<li>Transform Steps
+								<div>
+									inumerated list of steps to pre-process the inbound message
+								</div>
+							</li>
+							<li>DR Bundle</li>
+							<li>Post Process transform steps
+								<div>
+									Convert back to XML / transform reponse into something.
+								</div>
+							</li>
+							<li>Result DR Bundle
+								<div>
+									select the result to send back.  Could be nothing or object updated / inserted
+								</div>
+							</li>
+							<li>Post process Result DR bundle
+							</li>
+						</ol>
+					</div>
+				</div>
+				<div id="outboundFlow" class="tab-pane fade">
+					Outbound Flow
+					<div>
+						<select name="Callout" id="Callout"
+      						ng-options="option.Name for option in callouts track by option.Id"
+      						ng-model="selectedCallout">      							
+      					</select>
+						<label for="inputName">New Outbound Flow Name</label>
+						<input type="button" value="Edit Callouts" ng-click="" />
+					</div>	
+					<div class="MDTimputs">
+						<table>
+							<tr>
+								<td>Name</td>
+								<td>{{selectedCallout.Name}}</td>								
+							</tr>
+							<tr>
+								<td>Http Action</td>
+								<td>{{selectedCallout.HTTPAction__c}}
+								</td>
+							</tr>
+							<tr>
+								<td>Integration Processing Class</td>
+								<td>{{selectedCallout.IntegrationProcessingClass__c}}</td>
+							</tr>
+							<tr>
+								<td>Is Active</td>
+								<td>{{selectedCallout.IsActive__c}}</td>
+							</tr>
+							<tr>
+								<td>Outbound DRBundle Name</td>
+								<td>{{DataRaptors[selectedCallout.OutboundDRBundleName__c].Name}}
+      							</td>
+							</tr>
+							<tr>
+								<td>Persist Callout Data</td>
+								<td>{{selectedCallout.PersistCalloutData__c}}</td>
+							</tr>
+							<tr>
+								<td>Remote Site</td>
+								<td>{{selectedCallout.RemoteSite__c}}</td>
+							</tr>
+							<tr>
+								<td>Result DRBundle Name</td>
+								<td>{{DataRaptors[selectedCallout.ResultDRBundleName__c].Name}}
+      							</td>
+							</tr>
+							<tr>
+								<td>Transform URL DRBundle</td>
+								<td>{{DataRaptors[selectedCallout.TransformURLDRBundle__c].Name}}
+      							</td>
+							</tr>
+							<tr>
+								<td>URI</td>
+								<td>{{selectedCallout.URI__c}}</td>
+							</tr>
+						</table>
+						<Button ng-click="updateCallItem()">Edit</Button>
+						
+					<!--	<th>Http Action</th>
+						<th>Is Active</th>
+						<th>Integration Processing Class</th>
+					-->
+					</div>
+					<div class="context">
+						<span>Context</span>
+						<textarea ng-model="integrationContext"></textarea>
+						<BUTTON ng-click="runContext()">Run Context</BUTTON>
+					</div>
+					<div class="contextId">
+						<span>Context</span>
+						<input ng-model="integrationContextId" />
+						<BUTTON ng-click="runContextId()">Run Context Id</BUTTON>
+					</div>
+					<div class="calloutItem" ng-show="calloutData != undefined">
+						<table>
+							<tr ng-repeat="(key, value) in calloutDescribe">
+								<td>{{value}}</td>
+								<td><pre>{{calloutData[key]}}</pre></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript">
+
+		function transformResult2(transform,rawId) {
+//			console.log('2 results' + transform);
+			
+			if (angular.element(document.getElementById('workController')).scope() != undefined) {
+				angular.element(document.getElementById('workController')).scope().transformResult(transform,rawId);
+				angular.element(document.getElementById('workController')).scope().$apply();
+			}
+		}
+
+		function setRawXML(xml) {
+//			console.log('2 results' + transform);
+			
+			if (angular.element(document.getElementById('workController')).scope() != undefined) {
+				angular.element(document.getElementById('workController')).scope().setRawXML(xml);
+				angular.element(document.getElementById('workController')).scope().$apply();
+			}
+		}
+
+		var remoteActions = {
+	          	transformXML: {
+	          		action: "{!$RemoteAction.IntegrationWorkbenchController.transformXML}",
+	          	},
+	          	getXPath: {
+	          		action: "{!$RemoteAction.IntegrationWorkbenchController.getXPath}",	          		
+	          	},
+	          	getDocuments: {
+	          		action: "{!$RemoteAction.IntegrationWorkbenchController.getDocuments}",	          	
+	          	},
+	          	makeDRIn: {
+	          		action: "{!$RemoteAction.IntegrationWorkbenchController.makeDRIn}",	          		
+	          	},
+	          	makeDROut: {
+	          		action: "{!$RemoteAction.IntegrationWorkbenchController.makeDROut}",	          
+	          	},
+	          	describeObject: {
+	          		action: "{!$RemoteAction.IntegrationWorkbenchController.describeObject}",	
+	          	},
+	          	makeCallout: {
+	          		action: "{!$RemoteAction.IntegrationWorkbenchController.makeCallout}",	          	
+	          	},
+	          	getDataRaptors: {
+	          		action: "{!$RemoteAction.IntegrationWorkbenchController.getDataRaptors}",	
+	          	},
+	    };
+
+		var workApp = angular.module("workApp", ["vlocity","ui.bootstrap"]);
+
+
+		workApp.config(["remoteActionsProvider", function(remoteActionsProvider){
+	    	remoteActionsProvider.setRemoteActions(window.remoteActions || {});
+	  	}]);
+		workApp.controller('workController', function ($scope,$timeout,$http,remoteActions) {
+			$scope.fileName				= "";
+			$scope.uploadFile 			= "";
+			$scope.fileContents 		= "";
+			$scope.jsonString 			= "";
+			$scope.raptorMap 			= "";
+			$scope.xpath				= "";
+			$scope.xPaths				= "";
+			$scope.files				= [];
+			$scope.filesOpen			= true;
+			$scope.showRaw				= true;
+			$scope.showJson				= false;
+			$scope.showRaptor			= false;
+			$scope.Billloading			= false;
+			$scope.callouts				= "";
+			$scope.integeationContext 	= '';
+			$scope.integrationContextId = '';
+			$scope.DataRaptors			= [];
+
+			$scope.makeDRIn = function() {
+				$scope.Billloading = true;
+				remoteActions.makeDRIn($scope.DRName,$scope.attachId,$scope.rawId)
+		      	.then(function(result) {
+					$scope.Billloading = false;
+		      		console.log(result);
+		      		if (result.error) {
+		      			alert("Error " + result.error);
+		      			return;
+		      		}
+		      		var url = 'https://' + window.location.hostname + '/apex/drmapper?bundleId=' + result.success;
+		      		var win = window.open(url, '_blank');
+					if (win) {
+    				//Browser has allowed it to be opened
+    					win.focus();
+					} else {
+    					//Browser has blocked it
+    					alert('Please allow popups for this website or open url ' + url);
+					}
+		     	}, function(error) {
+					$scope.Billloading = false;
+		     		console.log(error);
+		     		alert('Error ocurred getting xpath\n' + error.message);
+		     	});
+			}
+			$scope.makeDROut = function() {
+				$scope.Billloading = true;
+				remoteActions.makeDROut($scope.DRName,$scope.attachId,$scope.rawId)
+		      	.then(function(result) {
+					$scope.Billloading = false;
+		      		console.log(result);
+		      		if (result.error) {
+		      			alert("Error " + result.error);
+		      			return;
+		      		}
+		      		var url = 'https://' + window.location.hostname + '/apex/drmapper?bundleId=' + result.success;
+		      		var win = window.open(url, '_blank');
+					if (win) {
+    				//Browser has allowed it to be opened
+    					win.focus();
+					} else {
+    					//Browser has blocked it
+    					alert('Please allow popups for this website or open url ' + url);
+					}
+		     	}, function(error) {
+					$scope.Billloading = false;
+		     		console.log(error);
+		     		alert('Error ocurred getting xpath\n' + error.message);
+		     	});
+			}
+
+/*			$scope.getCallouts = function() {
+				remoteActions.getCallouts()
+		      		.then(function(result) {
+		      			console.log('Callout result  ');
+		      			console.log(result);
+		      			$scope.callouts = result;
+		     	}, function(error) {
+		     		console.log(error);
+		     		alert('Error ocurred getting callouts\n' + error.message);
+		     	});
+	
+			}
+*/
+			$scope.describeCallout = function() {
+				remoteActions.describeObject('CalloutItem__c')
+					.then(function(result) {
+						console.log('Describe callout ');
+						console.log(result);
+						$scope.calloutDescribe = result;
+					}, function(error) {
+		     			console.log(error);
+		     			alert('Error ocurred getting callouts\n' + error.message);
+		     		})
+			}
+
+			$scope.runContext = function() {
+				$scope.makeCallout($scope.selectedCallout.DeveloperName,$scope.integrationContext);
+			}
+
+			$scope.runContextId = function() {
+				var idContext = '{"Id" : "' + $scope.integrationContextId + '"}';
+				$scope.makeCallout($scope.selectedCallout.DeveloperName,idContext);
+			}
+
+			$scope.makeCallout = function(name,context) {
+				remoteActions.makeCallout(name,context)
+					.then(function(result) {
+						console.log('Make callout ');
+						console.log(result);
+						angular.forEach(result, function(value, key) {
+							var decoded = angular.element('<textarea />').html(value).text();
+							//if (decoded.indexOf('{') == 0) {
+							//	decoded = JSON.stringify(decoded);
+							//}
+						  	result[key] = decoded;
+						});
+						console.log("After Escape");
+						console.log(result);
+						$scope.calloutData = result;
+					}, function(error) {
+		     			console.log(error);
+		     			alert('Error ocurred getting callouts\n' + error.message);
+		     		})
+			}
+
+			$scope.getDataRaptors = function() {
+				remoteActions.getDataRaptors()
+					.then(function(result) {
+						console.log("Data Raptors");
+						$scope.DataRaptors = [];
+						angular.forEach(result, function(item) {
+							$scope.DataRaptors[item.Id] = item;
+						});
+
+//						$scope.DataRaptors = result;
+						console.log($scope.DataRaptors);
+					}, function(error) {
+		     			console.log(error);
+		     			alert('Error ocurred getting Data Raptors\n' + error.message);
+		     		}
+		     	);
+
+			}
+
+			$scope.setRawXML = function(xml) {
+				$scope.fileContents = vkbeautify.xml(xml, 4);
+				$scope.Billloading		= false;
+			}
+
+			$scope.toggleRaw = function() {
+				$scope.showRaw = !$scope.showRaw;
+			}
+
+			$scope.toggleJson = function() {
+				$scope.showJson = !$scope.showJson;
+			}
+
+			$scope.toggleRaptor = function() {
+				$scope.showRaptor = !$scope.showRaptor;
+			}
+
+			$scope.toggleFiles = function() {
+				$scope.filesOpen = !$scope.filesOpen;				
+			}
+
+			$scope.loadFiles = function() {
+				$scope.Billloading = true;
+				remoteActions.getDocuments()
+		      	.then(function(documents) {
+					$scope.Billloading = false;
+		      		console.log(documents);
+		      		$scope.files = documents;
+		     	}, function(error) {
+					$scope.Billloading = false;
+		     		console.log(error);
+		     		alert('Error ocurred getting xpath\n' + error.message);
+		     	});
+			}
+
+			$scope.loadFiles();
+
+			$scope.loadDoc = function(docId,Name) {
+				$scope.fileName = Name;
+				setDocument(docId);
+			}
+
+			$scope.transformResult = function(transform,rawId) {
+				$scope.Billloading		= true;
+				$scope.clearData();
+				// now we have the source in json format.
+		      	$scope.jsonString 	= JSON.stringify(transform.json, undefined, 4);
+		      	$scope.raptorMap	= JSON.stringify(transform.RaptorMap, undefined, 4);
+		      	$scope.xPaths		= transform.xPaths;
+		      	$scope.rawId		= rawId;
+		      	setRawDocument(rawId);
+		      	$scope.loadFiles();
+
+			}
+
+			$scope.loadFile = function() {
+				console.log("file is " + $scope.uploadFile);
+			}
+			$scope.selectMatch = function($index) {
+				console.log("Index" + $index);
+				$scope.xpath = this.match.model;
+			}
+
+			$scope.changeText = function() {
+				$scope.clearData();
+				//alunos.file = '';
+				$scope.fileContents = $scope.pastedText;
+				$scope.parseXML($scope.fileContents);
+
+			}
+
+			$scope.onSelect = function($item, $model, $label) {
+				console.log("item is "  + item);
+				console.log("model is " + model);
+				console.log("label is " + label);
+			}
+
+			$scope.unescapeHTML = function(html) {
+  				return html.replace(/\&\lt;/g,'<').replace(/\&\gt;/g,'>').replace(/\&\amp;/g,'&');
+			}
+
+			$scope.getXPath = function() {
+				$scope.Billloading = true;
+
+				remoteActions.getXPath($scope.xpath,$scope.rawId)
+		      	.then(function(transform) {
+		      		console.log(transform);
+		      		angular.forEach(transform, function(value, key) {
+		      			var newVal = $scope.unescapeHTML(value);
+		      			newVal = newVal.replace(/(\r\n|\n|\r| |\t)/gm,"");
+//		      			newVal = newVal.replace(/>/g,">\n");
+		      			transform[key] = vkbeautify.xml(newVal,4);
+		      		})
+		      		console.log(transform);
+		      		$scope.xpathResult = transform;
+					$scope.Billloading = false;
+		     }, function(error) {
+				$scope.Billloading = false;
+		     	console.log(error);
+		     	alert('Error ocurred getting xpath\n' + error.message);
+		     });
+
+			}
+
+			$scope.getFile = function(files) {
+				$scope.Billloading = true;
+
+				console.log("file list is " + files);
+				console.log("file name " + files[0].name);
+				console.log("File type " + files[0].type);
+				$scope.fileName = files[0].name;
+				$scope.clearData();
+
+				var reader = new FileReader();
+				$scope.Billloading = true;
+
+                reader.onload = function(e) {
+                    $scope.fileContents = reader.result;
+                    $scope.fileContents = $scope.fileContents.replace(/\r/gm,'');
+                    $scope.fileContents = $scope.fileContents.replace(/\n/gm,'');
+                    $scope.fileContents = $scope.fileContents.replace(/\r\n/gm,'');
+                    //Call the controller function
+					$scope.Billloading = true;
+			     	var retval = transformXML2($scope.fileName,$scope.fileContents);
+					$scope.Billloading = true;
+   					//$scope.parseXML(reader.result);
+   					//fileDisplayArea.innerText = reader.result;
+
+                }
+
+                reader.readAsText(files[0]);    
+
+/*				$http.get("File:///" + files[0].name).success(function(data) {
+   					$scope.fileContents = data;
+   					$scope.parseXML(data);
+   				});
+*/			}
+
+			$scope.clearData = function() {
+				$scope.fileContents = "";
+				$scope.jsonString 	= "";
+				$scope.raptorMap 	= "";
+				$scope.xpath		= "";
+				$scope.xPaths		= "";
+				$scope.xpathResult	= "";
+			}
+
+			$scope.parseXML = function(xml) {
+				/*remoteActions.transformXML(xml)
+		      	.then(function(transform) {
+		      		console.log(transform);
+		      		$scope.jsonString 	= JSON.stringify(transform.json, undefined, 4);
+		      		$scope.raptorMap	= JSON.stringify(transform.RaptorMap, undefined, 4);
+		      		$scope.xPaths		= transform.xPaths;
+		     });*/
+			}
+
+			//$scope.getCallouts();
+			//$scope.describeCallout();
+			$scope.getDataRaptors();
+		});
+
+
+</script>
+
+
+</apex:page>

@@ -1,0 +1,71 @@
+{
+    "Cards": [
+        "de-recommended-mob-con-product",
+        "de-image-carousel-mob-con-product"
+    ],
+    "componentName": "cfVlocMobConProductLayoutDf2018",
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "Apple iPhone X"
+            }
+        ],
+        "type": "IntegrationProcedures",
+        "value": {
+            "inputMap": {
+                "AccountId": "{{$root.currentUser.Account.attributes.url.substring(38)}}",
+                "ProductName": "{{params.id}}"
+            },
+            "ipMethod": "VlocityMobileConsumer_GetProductsFromCatalog",
+            "optionsMap": {
+                "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+            },
+            "resultVar": "products"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "vloc-mob-con-product-df2018"
+        }
+    },
+    "workspace": [
+        "de-recommended-mob-con-product/Vlocity Demo Eng/1/1596061314321",
+        "de-image-carousel-mob-con-product/Vlocity Demo Eng/1/1596061766512"
+    ],
+    "zones": {
+        "Images": {
+            "cardNames": [
+            ],
+            "label": "Images",
+            "layouts": [
+            ],
+            "name": "Images",
+            "zoneCards": [
+                {
+                    "Author": "Vlocity Demo Eng",
+                    "Name": "de-image-carousel-mob-con-product",
+                    "Version": 1,
+                    "globalKey": "de-image-carousel-mob-con-product/Vlocity Demo Eng/1/1596061766512"
+                }
+            ]
+        },
+        "Recommended": {
+            "cardNames": [
+            ],
+            "label": "Recommended",
+            "layouts": [
+            ],
+            "name": "Recommended",
+            "zoneCards": [
+                {
+                    "Author": "Vlocity Demo Eng",
+                    "Name": "de-recommended-mob-con-product",
+                    "Version": 1,
+                    "globalKey": "de-recommended-mob-con-product/Vlocity Demo Eng/1/1596061314321"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Ad Creative SizeType --></label>
+        <name>vlocity_cmt__AdCreativeSizeTypeId__c</name>
+        <relationshipLabel><!-- Ad Space Creative Size Types --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Ad Space Specification --></label>
+        <name>vlocity_cmt__AdSpaceSpecificationId__c</name>
+        <relationshipLabel><!-- Ad Space Creative Size Types --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,9 @@
+<apex:page showHeader="false" contenttype="text/xml" standardStylesheets="false" standardcontroller="Contact">
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+<Say voice="woman">
+Hi {!Contact.FirstName}. This is Velocity. This is a reminder that our field service team will be installing your services today.  They will be installing your services at {!Contact.MailingStreet}, {!Contact.MailingCity}. If this is correct, please hang up now. If this is incorrect please stay on the line while I connect you with our field service team.
+</Say>
+<Dial timeout="10">{!Contact.HomePhone}</Dial>
+</Response>
+</apex:page>

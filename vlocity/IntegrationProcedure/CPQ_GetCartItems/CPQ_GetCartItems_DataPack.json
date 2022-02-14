@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__CustomJavaScript__c": "{}",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "CPQ_GetCartItems_Element_GetCartItemsAction.json",
+        "CPQ_GetCartItems_Element_GetCartItemsResponse.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__OmniProcessType__c": "Integration Procedure",
+    "%vlocity_namespace%__ProcedureKey__c": "CPQ_GetCartItems",
+    "%vlocity_namespace%__PropertySet__c": "CPQ_GetCartItems_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "GetCartItems",
+    "%vlocity_namespace%__Type__c": "CPQ",
+    "Name": "CPQGetCartItems",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/CPQ/GetCartItems/Procedure"
+}

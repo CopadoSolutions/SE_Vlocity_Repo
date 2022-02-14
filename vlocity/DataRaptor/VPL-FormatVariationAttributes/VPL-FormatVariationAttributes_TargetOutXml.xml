@@ -1,0 +1,27 @@
+<variationAttr>
+<variation-attribute attribute-id="Color" variation-attribute-id="Color">
+        <display-name xml:lang="x-default">color</display-name>
+        <variation-attribute-values>
+            <variation-attribute-value value="green">
+                <display-value xml:lang="x-default">green</display-value>
+                <description xml:lang="x-default">green</description>
+            </variation-attribute-value>
+            <variation-attribute-value value="pink">
+                <display-value xml:lang="x-default">pink</display-value>
+                <description xml:lang="x-default">pink</description>
+            </variation-attribute-value>
+        </variation-attribute-values>
+    </variation-attribute>
+    <variation-attribute attribute-id="Color" variation-attribute-id="Color">
+        <display-name xml:lang="x-default">color</display-name>
+        <variation-attribute-values>
+            <variation-attribute-value value="green">
+                <display-value xml:lang="x-default">green</display-value>
+                <description xml:lang="x-default">green</description>
+            </variation-attribute-value>
+            <variation-attribute-value value="pink">
+                <display-value xml:lang="x-default">pink</display-value>
+                <description xml:lang="x-default">pink</description>
+            </variation-attribute-value>
+        </variation-attribute-values>
+    </variation-attribute></variationAttr>

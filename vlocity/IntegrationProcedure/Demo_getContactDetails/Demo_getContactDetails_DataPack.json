@@ -1,0 +1,24 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "Used for Vlocity Digital Community demo.",
+    "%vlocity_namespace%__CustomJavaScript__c": "{}",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "Demo_getContactDetails_Element_DRGetContactDetails.json",
+        "Demo_getContactDetails_Element_ResponseAction.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__OmniProcessType__c": "Integration Procedure",
+    "%vlocity_namespace%__ProcedureKey__c": "Demo_getContactDetails",
+    "%vlocity_namespace%__PropertySet__c": "Demo_getContactDetails_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "getContactDetails",
+    "%vlocity_namespace%__Type__c": "Demo",
+    "Name": "Get Contact Details",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Demo/getContactDetails/Procedure"
+}

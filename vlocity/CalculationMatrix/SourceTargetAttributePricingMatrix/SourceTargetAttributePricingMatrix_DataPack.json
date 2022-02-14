@@ -1,0 +1,14 @@
+{
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "40358c7c-1471-1837-d4a4-adc0197892c0",
+    "%vlocity_namespace%__GroupKey__c": "",
+    "%vlocity_namespace%__SubGroupKey__c": "",
+    "%vlocity_namespace%__VersionsWithLongOutputCount__c": 0,
+    "%vlocity_namespace%__WildcardColumn__c": "",
+    "%vlocity_namespace%__WildcardValue__c": "",
+    "Name": "SourceTargetAttributePricingMatrix",
+    "RecordTypeId": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrix__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__CalculationMatrix__c/SourceTargetAttributePricingMatrix"
+}

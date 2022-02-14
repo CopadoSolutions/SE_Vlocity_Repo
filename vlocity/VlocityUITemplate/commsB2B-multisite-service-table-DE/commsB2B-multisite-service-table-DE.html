@@ -1,0 +1,282 @@
+<section ng-app="app" ng-controller="MainCtrl">
+	
+	<div class="slds-grid slds-wrap slds-m-bottom_small">
+		<div class="slds-col slds-size_1-of-1 slds-small-size_6-of-12 slds-medium-size_8-of-12 slds-large-size_9-of-12">
+			<div class="slds-form-element">
+				<div class="slds-form-element__control slds-input-has-icon slds-input-has-icon_left">
+					<slds-svg-icon sprite="'utility'" icon="'search'" extra-classes="'slds-input__icon'"></slds-svg-icon>
+					<input type="filter" placeholder="Search" ng-model="searchKeyword" class="slds-input" />
+				</div>
+			</div>
+		</div>
+		<div class="slds-col slds-size_1-of-1 slds-small-size_6-of-12 slds-medium-size_4-of-12 slds-large-size_3-of-12 slds-text-align_right">
+			<div ng-repeat="action in data.actions" class="slds-button-group slds-m-left_small" role="group">
+				<a href="javascript:void(0);" role="menuitem" tabindex="0" ng-click="saveDataLaunchOS(action)" hotkey-card-action>
+					<!-- insert a wrapper on the action to transform the data then perform the action and set to session storage for OS to access -->
+					<button class="slds-button slds-button_neutral">{{action.displayName}}</button>
+				</a>
+			</div>
+		</div>
+		<div class="slds-col slds-size_1-of-1 slds-small-size_6-of-12 slds-medium-size_6-of-12 slds-large-size_6-of-12 slds-p-vertical_small">
+			Showing {{results.length || "All"}} of {{assets.length}} services
+		</div>
+		<div class="slds-col slds-size_1-of-1 slds-small-size_6-of-12 slds-medium-size_6-of-12 slds-large-size_6-of-12 slds-p-vertical_small slds-text-align_right">
+			{{all_checked.length || "0"}} services selected
+		</div>
+	</div>
+
+	<table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_fixed-layout slds-table_resizable-cols slds-no-row-hover" role="grid">
+		<thead>
+			<tr class="slds-line-height_reset">
+				<th scope="col" ng-init="allSelected = false" style="width:5%">
+					<label><input type="checkbox" ng-model="allSelected" ng-click="toggleAll()" /></label>
+				</th>
+				<th class="slds-is-sortable" scope="col">
+					<a class="slds-th__action slds-text-link_reset" href="#" ng-click="orderByField='Name'; reverseSort = !reverseSort">
+						<div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+							<span class="slds-truncate strong" title="Product Name">
+								Product Name 
+								<span ng-show="orderByField == 'Name'">
+									<span ng-show="!reverseSort"><i class="icon-v-up-caret"></i></span>
+									<span ng-show="reverseSort"><i class="icon-v-down-caret"></i></span>
+								</span>
+							</span>
+						</div>
+					</a>
+				</th>
+				<th class="slds-is-sortable" scope="col" style="width:20%">
+					<a class="slds-th__action slds-text-link_reset" href="#" ng-click="orderByField='ShippingAddress.StreetAddress'; reverseSort = !reverseSort">
+						<div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+							<span class="slds-truncate strong" title="Address">
+								Address 
+								<span ng-show="orderByField == 'ShippingAddress.StreetAddress'">
+									<span ng-show="!reverseSort"><i class="icon-v-up-caret"></i></span>
+									<span ng-show="reverseSort"><i class="icon-v-down-caret"></i></span>
+								</span>
+							</span>
+						</div>
+					</a>
+				</th>
+				
+				<!-- DE-1030 -->
+				<!-- <th class="slds-is-sortable">
+					<a class="slds-th__action slds-text-link_reset" href="#" ng-click="orderByField='ContractTerm'; reverseSort = !reverseSort">
+						<div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+							<span class="slds-truncate strong" title="Address">
+								Term 
+								<span ng-show="orderByField == 'ContractTerm'">
+									<span ng-show="!reverseSort"><i class="icon-v-up-caret"></i></span>
+									<span ng-show="reverseSort"><i class="icon-v-down-caret"></i></span>
+								</span>
+							</span>
+						</div>
+					</a>
+				</th> -->
+				
+				<th class="slds-is-sortable slds-text-align_right" scope="col" style="width:10%">
+					<a class="slds-th__action slds-text-link_reset" href="#" ng-click="orderByField='RecurringTotal '; reverseSort = !reverseSort">
+						<div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+							<span class="strong slds-truncate" title="Monthly & Non-Monthly Recurring Charges">
+								Charges <!-- DE-1091 -->
+								<span ng-show="orderByField == 'RecurringTotal '">
+									<span ng-show="!reverseSort"><i class="icon-v-up-caret"></i></span>
+									<span ng-show="reverseSort"><i class="icon-v-down-caret"></i></span>
+								</span>
+							</span>
+						</div>
+					</a>
+				</th>
+				
+				<!-- DE-1030 -->
+				<!-- <th class="slds-is-sortable">
+					<a class="slds-th__action slds-text-link_reset" href="#" ng-click="orderByField='BillingAccountName'; reverseSort = !reverseSort">
+						<div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+							<span class="slds-truncate strong" title="Billing">
+								Billing <span ng-show="orderByField == 'BillingAccountName'">
+								<span ng-show="!reverseSort"><i class="icon-v-up-caret"></i></span>
+								<span ng-show="reverseSort"><i class="icon-v-down-caret"></i></span>
+							</span>
+						</div>
+					</a>
+				</th> -->
+				
+				<th class="slds-is-sortable" scope="col" style="width:20%">
+					<a class="slds-th__action slds-text-link_reset" href="#" ng-click="orderByField='ServiceAccountName'; reverseSort = !reverseSort">
+						<div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+							<span class="slds-truncate strong" title="Service">
+								Service Account <!-- DE-1091 -->
+								<span ng-show="orderByField == 'ServiceAccountName'">
+									<span ng-show="!reverseSort"><i class="icon-v-up-caret"></i></span>
+									<span ng-show="reverseSort"><i class="icon-v-down-caret"></i></span>
+								</span>
+							</span>
+						</div>
+					</a>
+				</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr ng-repeat-start="asset in assets | orderBy:orderByField:reverseSort | filter: searchKeyword as results " ng-init="showChildren = false" class="slds-p-vertical_medium" ng-class="{'children-expanded': showChildren}">           
+				<td>
+					<input type="checkbox" ng-checked="allSelected || asset.assetChecked" ng-click="toggleSelection(asset)"/>
+				</td>
+				<td>
+					<div class="slds-grid">
+						<!-- If asset.child, present a showChildren toggle-->
+						<div class="slds-col slds-size_1-of-12"style="text-align: center;">
+							<span ng-show="asset.child.length"> 
+								<div ng-show="!showChildren" ng-click="showChildren = !showChildren">
+									<slds-svg-icon  sprite="'utility'" icon="'chevronright'" size="'x-small'" extra-classes="'icon-color'"></slds-svg-icon>
+								</div>
+								<div ng-show="showChildren" ng-click="showChildren = !showChildren">
+									<slds-svg-icon sprite="'utility'" icon="'chevrondown'" size="'x-small'" extra-classes="'icon-color'"></slds-svg-icon>
+								</div>
+							</span>
+						</div>
+						<div class="slds-size_11-of-12 slds-has-flexi-truncate">
+							<p title="{{asset.Name}}" class="slds-text-body_regular slds-truncate strong">{{asset.Name}}</p>
+							<div class="slds-grid">
+								<!-- If asset.Attributes, present a show/hide details toggle -->
+								<div class="slds-col slds-size_1-of-3">
+									<div class="slds-media slds-media--center" ng-if="asset.Attributes">
+										<button  ng-if="asset.expanded" ng-click="asset.expanded = false" class="slds-button">
+											<span class="slds-media__figure">
+												<vloc-card-icon data="data" sprite="'utility'" icon="'hide'" size="'x-small'" obj="obj" size="'medium'" class="icon-color"></vloc-card-icon>
+											</span>
+											<span>Hide Details</span>
+										</button>
+										<button  ng-if="!asset.expanded" ng-click="expandSelected(asset)" class="slds-button">
+											<span class="slds-media__figure">
+												<vloc-card-icon data="data" sprite="'utility'" icon="'preview'" size="'x-small'" obj="obj" size="'medium'" class="icon-color"></vloc-card-icon>
+											</span>
+											<span>Show Details</span>
+										</button>
+									</div>
+								</div>
+								<div class="slds-col slds-size_1-of-3"></div>
+							</div>
+						</div>
+					</div>
+				</td>
+				<td>
+					<div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+						<div class="slds-text-body_regular slds-truncate">
+							<span title="{{asset.ShippingAddress.StreetAddress}}">{{asset.ShippingAddress.StreetAddress}}</span><br />
+							<span title="{{asset.ShippingAddress.City}}">{{asset.ShippingAddress.City}}</span>
+							<span title="{{asset.ShippingAddress.State}}">{{asset.ShippingAddress.State}}</span>
+							<span title="{{asset.ShippingAddress.PostalCode}}">{{asset.ShippingAddress.PostalCode}}</span>
+						</div>
+					</div>
+				</td>
+				
+				<!-- DE-1030 -->
+				<!-- <td>
+					<div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+						<span class="slds-text-heading_small  slds-truncate">{{asset.ContractTerm}} Month</span>
+					</div>
+				</td> -->
+				
+				<td>
+					<div class="slds-grid slds-wrap slds-grid_align-end slds-text-align_right ">
+						<div class="slds-col slds-size_1-of-1">
+							<span class="slds-text-body_regular">{{asset.RecurringTotal | currency }}</span>
+						</div>
+						<div class="slds-col slds-size_1-of-1">
+							<span class="slds-text-body_regular">{{asset.OneTimeTotal | currency }}</span>
+						</div>
+					</div>
+				</td>
+				
+				<!-- DE-1030 -->
+				<!-- <td>
+					<div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+						<span class="slds-text-heading_small  slds-truncate" >
+							<a href="/lightning/r/{{asset.BillingAccountId}}/view" >{{asset.BillingAccountName}}</a>
+						</span>
+					</div>
+				</td> -->
+				
+				<td>
+					<div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+						<span class="slds-text-body_regular slds-truncate">
+							<a href="/lightning/r/{{asset.ServiceAccountId}}/view" >{{asset.ServiceAccountName}}</a>
+						</span>
+					</div>
+				</td>
+			</tr>
+			
+			<tr ng-if="asset.expanded && asset.Attributes" class="product-card">
+				<td colspan="5"> <!-- DE-1030 Changed from 7 to 5 -->
+					<div class="slds-card__body"> 
+						<div class="slds-grid slds-wrap slds-gutters">
+							<div class="slds-col slds-size_3-of-12" ng-repeat="(key, value) in asset.Attributes" >
+								<p class="slds-truncate slds-text-heading--label" title="{{key}}">{{key}}</p>
+								<div class="slds-tile__detail cl-text_muted">
+									<p class="slds-truncate">{{value}}</p>                                
+								</div>
+							</div>
+						</div>
+					</div>
+				</td>
+			</tr>
+
+			<tr class="children slds-line-height_reset" ng-show="showChildren" ng-repeat-end ng-repeat="asset in asset.child">
+				<td></td>
+				<td>
+					<div class="slds-grid">
+						<!-- If asset.child, present a showChildren toggle-->
+						<div class="slds-col slds-size_1-of-12"></div>
+						<div class="slds-size_11-of-12"> 
+							<span title="{{asset.Name}}" class="slds-text-body_regular slds-truncate">{{asset.Name}}</span>
+						</div>
+					</div>
+				</td>
+				<td>
+					<div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+						<div class="slds-text-body_regular">
+							<span title="{{asset.Premises.StreetAddress}}">{{asset.Premises.StreetAddress}}</span><br />
+							<span title="{{asset.Premises.City}}">{{asset.Premises.City}}</span>
+							<span title="{{asset.Premises.State}}">{{asset.Premises.State}}</span>
+							<span title="{{asset.Premises.PostalCode}}">{{asset.Premises.PostalCode}}</span>
+						</div>
+					</div>
+				</td>
+				
+				<!-- DE-1030 -->
+				<!-- <td>
+					<div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+						<span class="slds-text-heading_small  slds-truncate">{{asset.ContractTerm}} Month</span>
+					</div>
+				</td> -->
+				
+				<td>
+					<div class="slds-grid slds-gutters_medium slds-wrap slds-grid_vertical-align-center slds-has-flexi-truncate slds-text-align_right">
+						<div class="slds-col slds-size_1-of-1">
+							<span class="slds-text-body_regular slds-truncate ">{{asset.RecurringTotal | currency }}</span>
+						</div>
+						<div class="slds-col slds-size_1-of-1">
+							<span class="slds-text-body_regular slds-truncate">{{asset.OneTimeTotal | currency }}</span>
+						</div>
+					</div>
+				</td>
+				
+				<!-- DE-1030 -->
+				<!-- <td>
+					<div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+						<span class="slds-text-heading_small  slds-truncate" ><a href="/lightning/r/{{asset.BillingAccountId}}/view" >{{asset.BillingAccountName}}</a></span>
+					</div>
+				</td> -->
+				
+				<td>
+					<div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate">
+						<span class="slds-text-body_regular slds-truncate">
+							<a href="/lightning/r/{{asset.ServiceAccountId}}/view">{{asset.ServiceAccountName}}</a>
+						</span>
+					</div>
+				</td>
+			</tr>
+
+		</tbody> 
+	</table>
+</section>

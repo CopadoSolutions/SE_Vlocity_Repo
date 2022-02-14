@@ -1,0 +1,11 @@
+[
+    "DataRaptor/AssetRequestBody",
+    "DataRaptor/CheckForHierarchy",
+    "DataRaptor/CreateAssets1",
+    "DataRaptor/CreateAssets2",
+    "DataRaptor/CreateAssets3",
+    "DataRaptor/GetSiebelPricebook",
+    "DataRaptor/GetVlocAccountId",
+    "DataRaptor/PhoneNumBody",
+    "DataRaptor/TransformAssets"
+]

@@ -1,0 +1,167 @@
+{
+  "appPageId" : "68d9bf5b-3c63-40b8-98a5-0501c99b9d7b",
+  "componentName" : "siteforce:dynamicLayout",
+  "id" : "d09cc765-04e5-4d56-a97e-b7bde36db9dd",
+  "label" : "Account",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgb(255,255,255)",
+        "backgroundOverlay" : "rgba(255,255,255,0.7)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "6856c68d-0d18-436f-9019-df0a50244478",
+          "columns" : [ {
+            "UUID" : "a88c9c4d-d430-45d0-a9b7-7277ab672f36",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "6856c68d-0d18-436f-9019-df0a50244478",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "backgroundColor" : "",
+            "customVFPage" : "VDODemoEngineeringCards",
+            "disableCache" : true,
+            "layout" : "np-subnavbar-cmt-demo-eng",
+            "maxHeight" : "",
+            "openInActionsIn" : "/omniscript",
+            "recordId" : "{!CurrentUser.accountId}",
+            "vlocitytheme" : ""
+          },
+          "componentName" : "vlocity_cmt:vlocityCommunityCardComponent",
+          "id" : "18b76151-9f0c-46a6-9be1-40a0b12bde33",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a88c9c4d-d430-45d0-a9b7-7277ab672f36",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(255,255,255)",
+        "backgroundOverlay" : "rgba(255,255,255,0.7)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "083b83dc-d9e8-4e2d-9f2f-e05c314b6fc2",
+          "columns" : [ {
+            "UUID" : "c58a2b62-0bce-4dd3-bccb-adb25b4454d9",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "083b83dc-d9e8-4e2d-9f2f-e05c314b6fc2",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "ccimage" : "../sfsites/c/resource/nuslice_mastercard_icon",
+            "defaultemail" : "{!CurrentUser.email}",
+            "showcomponent" : false
+          },
+          "componentName" : "c:demo_eng_account_data_wireframe",
+          "id" : "e1296f8d-a568-4ad8-9715-ad46eaeecb26",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"nuslice-account\">\n\t<h1 class=\"slds-text-heading_large slds-m-bottom_none\">Account</h1>\n\t<div class=\"slds-grid slds-wrap\">\n\t\t<div class=\"slds-col\"><hr class=\"slds-m-vertical_small\" noshade size=\"1\"></div>\n\t</div>\n\t<div class=\"slds-grid slds-wrap\">\n\t\t<div class=\"slds-col slds-small-size_1-of-1 slds-medium-size_4-of-12 slds-text-title--caps nuslice-text-gray\">\n\t\t\tMembership &amp; Billing\n\t\t\t<br><br>\n\t\t\t<a href=\"#\" class=\"slds-text--align-center\">Cancel Membership</a>\n\t\t\t<br><br>\n\t\t</div>\n\t\t<div class=\"slds-col slds-small-size_1-of-1 slds-medium-size_8-of-12\">\n\t\t\t<div class=\"slds-grid slds-wrap\">\n\t\t\t\t<div class=\"slds-size_6-of-12\"><strong>{!CurrentUser.email}</strong></div>\n\t\t\t\t<div class=\"slds-size_6-of-12 slds-text-align--right\"><a href=\"#\">Change account email</a></div>\n\t\t\t</div>\n\t\t\t<div class=\"slds-grid slds-wrap\">\n\t\t\t\t<div class=\"slds-size_6-of-12 nuslice-text-gray\">Password: ********</div>\n\t\t\t\t<div class=\"slds-size_6-of-12 slds-text-align--right\"><a href=\"#\">Change password</a></div>\n\t\t\t</div>\n\t\t\t<div class=\"slds-grid slds-wrap\">\n\t\t\t\t<div class=\"slds-size_6-of-12 nuslice-text-gray\">Phone: (303) 859-7887</div>\n\t\t\t\t<div class=\"slds-size_6-of-12 slds-text-align--right\"><a href=\"#\">Change phone number</a></div>\n\t\t\t</div>\n\t\t\t<div class=\"slds-grid slds-wrap\">\n\t\t\t\t<div class=\"slds-col\"><hr class=\"slds-m-vertical_small\" noshade size=\"1\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"slds-grid slds-wrap\">\n\t\t\t\t<div class=\"slds-size_6-of-12\">\n\t\t\t\t\t<!-- image goes here -->\n\t\t\t\t\t<img alt=\"MasterCard\" class=\"slds-m-right_small\" src=\"/sfsites/c/resource/nuslice_mastercard_icon\" width=\"30\">\n\t\t\t\t\t<strong>**** **** **** 9695</strong>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"slds-size_6-of-12 slds-text-align--right\"><a href=\"#\">Update payment info</a></div>\n\t\t\t</div>\n\t\t\t<div class=\"slds-grid slds-wrap\">\n\t\t\t\t<div class=\"slds-size_6-of-12\"></div>\n\t\t\t\t<div class=\"slds-size_6-of-12 slds-text-align--right\"><a href=\"#\">Billing details</a></div>\n\t\t\t</div>\n\t\t\t<div class=\"slds-grid slds-wrap\">\n\t\t\t\t<div class=\"slds-col\"><hr class=\"slds-m-vertical_small\" noshade size=\"1\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"slds-grid slds-wrap\">\n\t\t\t\t<div class=\"slds-size_6-of-12\"></div>\n\t\t\t\t<div class=\"slds-size_6-of-12 slds-text-align--right\"><a href=\"#\">Redeem gift card or promo code</a></div>\n\t\t\t</div>\n\t\t\t<div class=\"slds-grid slds-wrap\">\n\t\t\t\t<div class=\"slds-size_6-of-12\"></div>\n\t\t\t\t<div class=\"slds-size_6-of-12 slds-text-align--right\"><a href=\"#\">Where to buy gift cards</a></div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div class=\"slds-grid slds-wrap\">\n\t\t<div class=\"slds-col\"><hr class=\"slds-m-vertical_small\" noshade size=\"1\"></div>\n\t</div>\n    <!--\n\t<div class=\"slds-grid slds-wrap\">\n\t\t<div class=\"slds-col slds-small-size_1-of-1 slds-medium-size_4-of-12 slds-text-title--caps h2 nuslice-text-gray\">Plan Details<br><br></div>\n\t\t<div class=\"slds-col slds-small-size_1-of-1 slds-medium-size_8-of-12\">\n\t\t\t<div class=\"slds-grid slds-wrap\">\n\t\t\t\t<div class=\"slds-size_6-of-12\">Family Mobile Plan</div>\n\t\t\t\t<div class=\"slds-size_6-of-12 slds-text-align--right\"><a href=\"#\">Plan details</a></div>\n\t\t\t</div>\n\t\t\t<div class=\"slds-grid slds-wrap\">\n\t\t\t\t<div class=\"slds-size_6-of-12\">Base 5G Stream &amp; GO Plan</div>\n\t\t\t\t<div class=\"slds-size_6-of-12 slds-text-align--right\"><a href=\"#\">Plan details</a></div>\n\t\t\t</div>\n\t\t\t<div class=\"slds-grid slds-wrap\">\n\t\t\t\t<div class=\"slds-size_6-of-12\">Stream &amp; GO Sharing</div>\n\t\t\t\t<div class=\"slds-size_6-of-12 slds-text-align--right\"><a href=\"#\">Control sharing</a></div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div class=\"slds-grid slds-wrap\">\n\t\t<div class=\"slds-col\"><hr class=\"slds-m-vertical_small\" noshade size=\"1\" style=\"color: #d4d0d7;\"></div>\n\t</div>\n\t<div class=\"slds-grid slds-wrap\">\n\t\t<div class=\"slds-col slds-small-size_1-of-1 slds-medium-size_4-of-12 slds-text-title--caps h2 nuslice-text-gray\">Settings<br><br></div>\n\t\t<div class=\"slds-col slds-small-size_1-of-1 slds-medium-size_8-of-12\">\n\t\t\t<div class=\"slds-grid slds-wrap\">\n\t\t\t\t<div class=\"slds-col\"><a href=\"#\">Manage authorized devices</a></div>\n\t\t\t</div>\n\t\t\t<div class=\"slds-grid slds-wrap\">\n\t\t\t\t<div class=\"slds-col\"><a href=\"#\">Manage mobile plan options</a></div>\n\t\t\t</div>\n\t\t\t<div class=\"slds-grid slds-wrap\">\n\t\t\t\t<div class=\"slds-col\"><a href=\"#\">Manage stream &amp; GO plan options</a></div>\n\t\t\t</div>\n\t\t\t<div class=\"slds-grid slds-wrap\">\n\t\t\t\t<div class=\"slds-col\"><a href=\"#\">Manage sharing options</a></div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t-->\t\t\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "1365308a-d87a-4f9d-9754-796355f5faf5",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "backgroundColor" : "",
+            "customVFPage" : "VDODemoEngineeringCards",
+            "disableCache" : false,
+            "layout" : "np-plan-details-demo-eng",
+            "maxHeight" : "",
+            "openInActionsIn" : "/omniscript",
+            "recordId" : "{!CurrentUser.accountId}",
+            "vlocitytheme" : ""
+          },
+          "componentName" : "vlocity_cmt:vlocityCommunityCardComponent",
+          "id" : "19b07c02-fe82-42b9-a271-de3d03b29cd7",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"nuslice-account\">\n\t<div class=\"slds-grid slds-wrap\">\n\t\t<div class=\"slds-col\"><hr class=\"slds-m-vertical_small\" noshade size=\"1\" style=\"color: #d4d0d7;\"></div>\n\t</div>\n\t<div class=\"slds-grid slds-wrap\">\n\t\t<div class=\"slds-col slds-small-size_1-of-1 slds-medium-size_4-of-12 slds-text-title--caps h2 nuslice-text-gray\">Settings<br><br></div>\n\t\t<div class=\"slds-col slds-small-size_1-of-1 slds-medium-size_8-of-12\">\n\t\t\t<div class=\"slds-grid slds-wrap\">\n\t\t\t\t<div class=\"slds-col\"><a href=\"#\">Manage authorized devices</a></div>\n\t\t\t</div>\n\t\t\t<div class=\"slds-grid slds-wrap\">\n\t\t\t\t<div class=\"slds-col\"><a href=\"#\">Manage mobile plan options</a></div>\n\t\t\t</div>\n\t\t\t<div class=\"slds-grid slds-wrap\">\n\t\t\t\t<div class=\"slds-col\"><a href=\"#\">Manage stream &amp; GO plan options</a></div>\n\t\t\t</div>\n\t\t\t<div class=\"slds-grid slds-wrap\">\n\t\t\t\t<div class=\"slds-col\"><a href=\"#\">Manage sharing options</a></div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n    <div class=\"slds-grid slds-wrap\">\n\t\t<div class=\"slds-col\"><hr class=\"slds-m-vertical_small\" noshade size=\"1\" style=\"color: #d4d0d7;\"></div>\n\t</div>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "02ae78c0-9fb7-428d-bc69-cde7fd6bdf71",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "backgroundColor" : "",
+            "customVFPage" : "VDODemoEngineeringCards",
+            "disableCache" : true,
+            "layout" : "np-transactions-feed-nuslice-demo-eng",
+            "maxHeight" : "",
+            "openInActionsIn" : "/omniscript",
+            "recordId" : "{!recordId}",
+            "vlocitytheme" : ""
+          },
+          "componentName" : "vlocity_cmt:vlocityCommunityCardComponent",
+          "id" : "dc3e7520-49b7-447e-be0f-b58f28868b95",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "c58a2b62-0bce-4dd3-bccb-adb25b4454d9",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "566d24fc-eb43-4d8d-b1ff-71cb191a07b4",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Account"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "2c71acfb-0a0e-418b-b815-dd6dc700d579",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4beff999-0a49-410e-82be-6665020938b5",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-account"
+}

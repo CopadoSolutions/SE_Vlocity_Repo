@@ -1,0 +1,72 @@
+<div class="via-nds" ng-controller="dcReviewOrderController">
+  <div class="nds-dc-review-order_container" ng-if="this.bpTree && this.bpTree.response && this.bpTree.response.Payment">
+    <div class="nds-step_label nds-dc-step_label">Review Order</div>
+    <div class="nds-dc-checkout_review-order" ng-init="billingAddress = this.bpTree.response.UpdateBillingAddress.Billing; shippingAddress = this.bpTree.response.UpdateBillingAddress.Shipping; transactionDetails=this.bpTree.response.Payment;">
+      <slot name="dc-contact-info">
+        <div class="nds-dc-checkout_details-container">
+          <span class="nds-dc-review_title">Contact Information</span>
+          <div class="nds-dc-review_details-body">
+            <p class="nds-dc-review_name">{{this.bpTree.response.Authenticate.name}}</p>
+            <p class="nds-dc-review_name">{{this.bpTree.response.Authenticate.email}}</p>
+          </div>
+        </div>
+      </slot>
+      <slot name="dc-billing-address">
+        <div class="nds-dc-checkout_details-container">
+          <span class="nds-dc-review_title">Billing Address</span>
+          <div class="nds-dc-review_details-body">
+            <p class="nds-dc-review_name">{{billingAddress.BillingAddress}}</p>
+            <p class="nds-dc-review_name">{{billingAddress.BillingCity}}, {{billingAddress.BillingState}} {{billingAddress.BillingZIPCode}}</p>
+          </div>
+        </div>
+      </slot>
+      <slot name="dc-shipping-address">
+        <div class="nds-dc-checkout_details-container">
+          <span class="nds-dc-review_title">Shipping Address</span>
+          <div class="nds-dc-review_details-body">
+            <p class="nds-dc-review_name">{{shippingAddress.ShippingAddress}}</p>
+            <p class="nds-dc-review_name">{{shippingAddress.ShippingCity}}, {{shippingAddress.ShippingState}} {{shippingAddress.ShippingZIPCode}}</p>
+          </div>
+        </div>
+      </slot>
+      <slot name="dc-payment-transaction-details">
+        <div class="nds-dc-checkout_details-container">
+          <span class="nds-dc-review_title">Payment</span>
+          <div class="nds-dc-review_details-body nds-dc-checkout_payment-review">
+            <p class="nds-dc-review_name">{{this.bpTree.response.Authenticate.name}}</p>
+            <p ng-if="transactionDetails.paymentReceived" class="nds-dc-review_name">{{transactionDetails.cardType}} | {{transactionDetails.cardNumber}}</p>
+            <p ng-if="transactionDetails.paymentReceived" class="nds-dc-review_name">{{transactionDetails.expirationDate}}</p>
+            <p ng-if="!transactionDetails.paymentReceived" class="nds-dc-review_name">Payment Failed</p>
+          </div>
+        </div>
+      </slot>
+    </div>
+    <div class="nds-dc-terms-conditions">
+      <div class="nds-form-element__control">
+        <label class="nds-checkbox nds-dc-checkbox">
+          <input type="checkbox" name="termsConditions" id="vlocity-dc-terms-conditions" ng-model="acceptTermsAndConditions">
+          <span class="nds-checkbox_faux"></span>
+          <label class="nds-checkbox__label">
+            <span class="nds-form-element__label">By checking this box I agree to Vlocity's Terms and Conditions and Privacy Statement.</span>
+          </label>
+        </label>
+      </div>
+    </div>
+    <div class="nds-align_absolute-center"><button class="nds-button nds-dc-button nds-button_brand" ng-click="submitOrder()" ng-disabled="!acceptTermsAndConditions || orderSubmitted">Submit Order</button></div>
+  </div>
+  <div class="nds-spinner_container" ng-if="showSpinner()">
+        <div class="nds-spinner_brand nds-spinner" aria-hidden="false" role="alert">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+            <circle cx="12.5%" cy="50" r="12.5%" transform="translate(0 2.80974)">
+                <animateTransform attributeName="transform" dur="1s" type="translate" values="0 15 ; 0 -15; 0 15" repeatCount="indefinite" begin="0.1"></animateTransform> 
+            </circle> 
+            <circle cx="50%" cy="50" r="12.5%" transform="translate(0 5.87316)"> 
+                <animateTransform attributeName="transform" dur="1s" type="translate" values="0 10 ; 0 -10; 0 10" repeatCount="indefinite" begin="0.2"></animateTransform> 
+            </circle> 
+            <circle cx="87.5%" cy="50" r="12.5%" transform="translate(0 4.93658)">  
+                <animateTransform attributeName="transform" dur="1s" type="translate" values="0 5 ; 0 -5; 0 5" repeatCount="indefinite" begin="0.3"></animateTransform> 
+            </circle>  
+            </svg>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+            {
+                "id": 0,
+                "name": "Parent.flowType",
+                "val": "bulkChange"
+            }
+        ],
+        "orderBy": {
+        },
+        "type": null,
+        "value": {
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "cpqConfigureCartItem.json",
+    "%vlocity_namespace%__Description__c": "cpqConfigureCartItem",
+    "%vlocity_namespace%__GlobalKey__c": "cpqConfigureCartItem/Vlocity/6/1625647142416",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "cpqProductCartItemClone1/Vlocity/1/1614826371726",
+    "%vlocity_namespace%__SampleData__c": "",
+    "%vlocity_namespace%__Styles__c": "{\"customStyles\":\".cpq__configure-root-product {\\n    margin-top: 10px;\\n    box-shadow: 0px 2px 2px 1px #0000001A;\\n}\\n\\n.cpq__configure-cart-item-price {\\n    color: #006DCC;\\n    margin-top: 9px; \\n}\\n\\n.cpq__configure-root-product-name{\\n    text-align: left;\\n    font-weight: bold;\\n}\\n.cpq__configure-root-product-description {\\n    text-align: left;\\n}\\n.cpq__ConfigureCartItemProductGroups {\\n    margin-top: 10px;\\n    box-shadow: 0px 2px 2px 0px #0000001A;\\n}\\n\\n.cpq__configurator-bulk-delete{\\n    text-decoration: line-through;\\n}\\n\\n @media (max-width: 1024px) {\\n  .cpq-configureCartItem-deleteaction{\\n  \\tposition: absolute;\\n    right: 0px;\\n  }\\n\\n  .cpq__bulkchange-select-action{\\n  \\tposition: absolute;\\n    right: 0px;\\n    margin-right: 15px;\\n  }\\n} \\n\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "cpqConfigureCartItem",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/cpqConfigureCartItem"
+}

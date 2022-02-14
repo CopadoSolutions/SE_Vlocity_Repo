@@ -1,0 +1,31 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "{\"showAppliedDiscounts\":false,\"asyncJobResponse\":\"none\"}",
+            "dsDelay": "",
+            "resultVar": ""
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "cpqCartAppliedDiscountContainer.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "cpqCartAppliedDiscountContainer/Vlocity/1/1622572931296",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__SampleData__c": "{\"showAppliedDiscounts\":false,\"asyncJobResponse\":\"none\"}",
+    "%vlocity_namespace%__Styles__c": "{\"customStyles\":\".cpq__cart-applied-disc_container{\\n    background-color: #FAFAF9;\\n}\\n.cpq__add-new-discount{\\n    position: absolute;\\n    right: 10px;\\n    top: 16px;\\n    width: fit-content;\\n    width: -moz-fit-content; /* Support Mozilla Firefox Browser */\\n    z-index: 99;\\n}\\n.cpq__add-new-discount__cnd{\\n    z-index: 89;\\n}\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "cpqCartAppliedDiscountContainer",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/cpqCartAppliedDiscountContainer"
+}

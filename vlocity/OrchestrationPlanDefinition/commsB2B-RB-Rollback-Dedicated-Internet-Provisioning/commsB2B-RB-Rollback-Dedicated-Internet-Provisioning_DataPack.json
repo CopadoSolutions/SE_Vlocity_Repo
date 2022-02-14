@@ -1,0 +1,11 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "657a6241-5927-323a-5069-2bba45b05286",
+    "%vlocity_namespace%__IsSchedulingEnabled__c": false,
+    "%vlocity_namespace%__SchedulingExpirationIntervalSeconds__c": "",
+    "%vlocity_namespace%__Scope__c": "Global",
+    "%vlocity_namespace%__ShowOrder__c": "",
+    "Name": "commsB2B RB Rollback Dedicated Internet Provisioning",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/commsB2B RB Rollback Dedicated Internet Provisioning"
+}

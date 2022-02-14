@@ -1,0 +1,47 @@
+{
+    "dataSource": {
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"$root.currentUser.Account.attributes.url.substring(38)\":\"{{$root.currentUser.Account.attributes.url.substring(38)}}\"}"
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Images",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "Type",
+                    "type": "string",
+                    "value": "Small"
+                }
+            ],
+            "smartAction": {
+            },
+            "templateUrl": "vloc-mob-con-product-image-wrapper-df2018"
+        }
+    ],
+    "title": "Images"
+}

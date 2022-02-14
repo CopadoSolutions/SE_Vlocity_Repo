@@ -1,0 +1,31 @@
+{
+    "Cards": [
+        "vloc-mob-con-product-image-df2018"
+    ],
+    "componentName": "cfVlocMobConProductImageLayoutDf2018",
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "attrs.productid",
+                "val": ""
+            },
+            {
+                "name": "attrs.type",
+                "val": "Small"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"attrs.productid\":\"{{attrs.productid}}\",\"attrs.type\":\"{{attrs.type}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "vloc-mob-con-blank-canvas"
+        }
+    },
+    "workspace": [
+        "vloc-mob-con-product-image-df2018/Vlocity Demo Eng/1/1595889358867"
+    ]
+}

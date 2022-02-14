@@ -1,0 +1,8 @@
+<template>
+    <template if:true={document}>
+        <img src={resolvedimagepath} alt={resolvedimagepath} width={width} height={height} ></img>
+    </template>
+    <template if:true={error}>
+        <img alt={error}></img>
+    </template>
+</template>

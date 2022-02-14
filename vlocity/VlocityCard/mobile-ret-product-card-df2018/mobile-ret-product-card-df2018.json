@@ -1,0 +1,47 @@
+{
+    "dataSource": {
+        "type": null
+    },
+    "enableLwc": false,
+    "filter": {
+    },
+    "states": [
+        {
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "Upgrade",
+                        "hasExtraParams": false,
+                        "iconName": "action-new_task",
+                        "id": "RET_Placeholder",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+            ],
+            "flyout": {
+                "layout": "mobile-ret-product-detail"
+            },
+            "isSmartAction": false,
+            "name": "Phone",
+            "sObjectType": "Account",
+            "smartAction": {
+            },
+            "templateUrl": "mobile-ret-product-item-df2018"
+        }
+    ],
+    "title": "mobile-ret-product-card-2f2018"
+}

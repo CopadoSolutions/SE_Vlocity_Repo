@@ -1,0 +1,10 @@
+[
+    "VlocityAction/Configure Order",
+    "VlocityAction/View Order",
+    "VlocityAction/View Provisioning Status",
+    "VlocityAction/commsB2B Create Order Doc",
+    "VlocityAction/commsB2B Modify Cancel Order",
+    "VlocityUILayout/commsB2B-order-flyout-list-DE",
+    "VlocityUITemplate/commsB2B-vdo-card-active-de",
+    "VlocityUITemplate/commsB2B-vdo-card-warning-de"
+]

@@ -1,0 +1,2324 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "574dea7b-0a24-808b-c391-c7a5e32280a3",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "4eeacc",
+            "dataType": "Text",
+            "displayOrder": 5,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0L3600000IqxvWEAR",
+            "listValues": null,
+            "name": "MRC"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "b100b824-e1a3-ff25-b817-fe66117acdbb",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "bb4264",
+            "dataType": "Text",
+            "displayOrder": 1,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0L3600000IqxvSEAR",
+            "listValues": null,
+            "name": "Source Product Name"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "4945e7f4-3e2b-5d72-077c-d308acf17b50",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "d051b0",
+            "dataType": "Text",
+            "displayOrder": 3,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0L3600000IqxvUEAR",
+            "listValues": null,
+            "name": "Characteristic Name"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "1f95e81f-2323-f00a-38b2-4a5a930c5476",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "d6d370",
+            "dataType": "Text",
+            "displayOrder": 4,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0L3600000IqxvVEAR",
+            "listValues": null,
+            "name": "Characteristic Value"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "e31f29f7-9c6c-19b0-1e1b-0d7d54c5d4e3",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "dca2fe",
+            "dataType": "Text",
+            "displayOrder": 6,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0L3600000IqxvREAR",
+            "listValues": null,
+            "name": "NRC"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "cd490c0b-549c-ce27-bce4-a222685d9a3c",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "dff3cf",
+            "dataType": "Text",
+            "displayOrder": 2,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0L3600000IqxvTEAR",
+            "listValues": null,
+            "name": "Source Product Code"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "1406a94c-b448-5737-214d-c1829fc89445",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Device Colour;Device Storage",
+            "Characteristic Value": "Gold - #ffda2e;128GB",
+            "Source Product Code": "VLO-MOB-0161",
+            "Source Product Name": "Apple iPhone X"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "1120"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "8e22d0e52bffeaccdbe1ad98da0f54c0",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "ecabb76d-fd1c-a2d9-57e6-aae6b44211c9",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Device Colour;Device Storage",
+            "Characteristic Value": "Gold - #ffda2e;16GB",
+            "Source Product Code": "VLO-MOB-0161",
+            "Source Product Name": "Apple iPhone X"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "820"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "1987c34ee02a3247af1106eb06552833",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "5bc1ff5d-5e47-8c53-9321-ba5bca9c37ae",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Device Colour;Device Storage",
+            "Characteristic Value": "Gold - #ffda2e;32GB",
+            "Source Product Code": "VLO-MOB-0161",
+            "Source Product Name": "Apple iPhone X"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "970"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "a867271334c4e66e08f155dc6282add3",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "8232f3a7-b1da-842b-4946-4897e7da9df4",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Device Colour;Device Storage",
+            "Characteristic Value": "Gold - #ffda2e;64GB",
+            "Source Product Code": "VLO-MOB-0161",
+            "Source Product Name": "Apple iPhone X"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "1020"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "2170a4af5ad1013f6616411a33969bb0",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "a8f52ef4-d591-dfb4-c34b-7a389a2c6b66",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Device Colour;Device Storage",
+            "Characteristic Value": "Rose Gold - #f2d7ed;128GB",
+            "Source Product Code": "VLO-MOB-0161",
+            "Source Product Name": "Apple iPhone X"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "1110"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "38070bc2743cabfe4af4c6bd91d79ddf",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "f5597946-afd8-9c80-2d27-f7c8c6b404cb",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Device Colour;Device Storage",
+            "Characteristic Value": "Rose Gold - #f2d7ed;16GB",
+            "Source Product Code": "VLO-MOB-0161",
+            "Source Product Name": "Apple iPhone X"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "810"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "be79d7d09bd5ce1588706ebfd971b9a6",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "2f2b430f-ac39-6fcb-2f89-74bfd02fb985",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Device Colour;Device Storage",
+            "Characteristic Value": "Rose Gold - #f2d7ed;32GB",
+            "Source Product Code": "VLO-MOB-0161",
+            "Source Product Name": "Apple iPhone X"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "960"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "0f4dd70f7d5f079b0620face70fd1da1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "b8eff2bb-bf13-b04d-b1e4-db8c280027df",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Device Colour;Device Storage",
+            "Characteristic Value": "Rose Gold - #f2d7ed;64GB",
+            "Source Product Code": "VLO-MOB-0161",
+            "Source Product Name": "Apple iPhone X"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "1010"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "9295e0366f70806734f5708b55c57738",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "2ea4a2aa-4f69-e730-d166-2c7d2a94a174",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Device Colour;Device Storage",
+            "Characteristic Value": "Silver - #bababa;128GB",
+            "Source Product Code": "VLO-MOB-0161",
+            "Source Product Name": "Apple iPhone X"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "1105"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "aba1245cd06ab0d52a923d266962aa11",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "eca175af-9d9b-c913-8673-51f701ef21da",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Device Colour;Device Storage",
+            "Characteristic Value": "Silver - #bababa;16GB",
+            "Source Product Code": "VLO-MOB-0161",
+            "Source Product Name": "Apple iPhone X"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "900"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "e9eddfc8f4bb367fb48f082d150c51b8",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "661941b5-10e6-0822-18c4-3abc12415fe9",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Device Colour;Device Storage",
+            "Characteristic Value": "Silver - #bababa;32GB",
+            "Source Product Code": "VLO-MOB-0161",
+            "Source Product Name": "Apple iPhone X"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "925"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "30502e45c9c1688bb6e60c93ef7a5539",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "3f391043-cb3e-0258-c743-391b752e8319",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Device Colour;Device Storage",
+            "Characteristic Value": "Silver - #bababa;64GB",
+            "Source Product Code": "VLO-MOB-0161",
+            "Source Product Name": "Apple iPhone X"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "975"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "8af7220a500bb33a9964f1f76292bf17",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "c6b6cb9a-ee85-cfb5-5709-186fac31ee73",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Device Colour;Device Storage",
+            "Characteristic Value": "Space Grey - #656562;128GB",
+            "Source Product Code": "VLO-MOB-0161",
+            "Source Product Name": "Apple iPhone X"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "1100"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "823810a9585f064ef1643aadcb452487",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "9d603de0-106b-415f-37db-dcd41e69cff3",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Device Colour;Device Storage",
+            "Characteristic Value": "Space Grey - #656562;16GB",
+            "Source Product Code": "VLO-MOB-0161",
+            "Source Product Name": "Apple iPhone X"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "800"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "effcad8debf89dbe19c94b2b8fc46d76",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "4879c543-af01-a539-656d-d08a92b49dac",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Device Colour;Device Storage",
+            "Characteristic Value": "Space Grey - #656562;32GB",
+            "Source Product Code": "VLO-MOB-0161",
+            "Source Product Name": "Apple iPhone X"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "950"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "6711a7622096dbc951d47a2d44a9acc4",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "496fe99e-3488-ed15-fbc0-89c910d55e82",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Device Colour;Device Storage",
+            "Characteristic Value": "Space Grey - #656562;64GB",
+            "Source Product Code": "VLO-MOB-0161",
+            "Source Product Name": "Apple iPhone X"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "1000"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "2979b1e43750613178512f6ea1cbf449",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "7c05eda7-c4f2-c0a7-2d67-dddd6b7e11a6",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Device Colour;Device Storage",
+            "Characteristic Value": "White - #ffffff;128GB",
+            "Source Product Code": "VLO-MOB-0161",
+            "Source Product Name": "Apple iPhone X"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "1130"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "45f66fda6a68566a6d2e9a487fc32833",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "66b936d3-0893-93b5-df3a-bb74c8df0da4",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Device Colour;Device Storage",
+            "Characteristic Value": "White - #ffffff;16GB",
+            "Source Product Code": "VLO-MOB-0161",
+            "Source Product Name": "Apple iPhone X"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "830"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "94dfa64d2b21c6bd15664c9444c45c16",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "3e786d17-41f7-c2ba-508b-d94b60578bc6",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Device Colour;Device Storage",
+            "Characteristic Value": "White - #ffffff;32GB",
+            "Source Product Code": "VLO-MOB-0161",
+            "Source Product Name": "Apple iPhone X"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "980"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "7b7d3ae23732698af9e2dd4502a67138",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "113db292-97bb-8cc4-0729-6fd1a7f63dd8",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Device Colour;Device Storage",
+            "Characteristic Value": "White - #ffffff;64GB",
+            "Source Product Code": "VLO-MOB-0161",
+            "Source Product Name": "Apple iPhone X"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "1030"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "c6980e29a0d9fb5d2ba97d23d5c27be1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "286344c8-8242-2404-c048-5417f755e5f1",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Port Speed",
+            "Characteristic Value": "1 GigE",
+            "Source Product Code": "VLO-CON-0002",
+            "Source Product Name": "On-Net"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "550"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "df03e546a47e65bfa66e09302540fdd6",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "697518f3-288a-73f8-8362-d2ef7f563059",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Port Speed",
+            "Characteristic Value": "10 Mbps",
+            "Source Product Code": "VLO-CON-0002",
+            "Source Product Name": "On-Net"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "400"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "ce807237552cbf8f173f91c67197e136",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "d8e1142b-8f47-c70d-49bc-4946806b7ae2",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Port Speed",
+            "Characteristic Value": "100 Mbps",
+            "Source Product Code": "VLO-CON-0002",
+            "Source Product Name": "On-Net"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "475"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "edc30d05396f7043255fb0d5eb21a329",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "7ce6d12d-2c19-ffb7-b7f6-d07f17de1345",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Port Speed",
+            "Characteristic Value": "150 Mbps",
+            "Source Product Code": "VLO-CON-0002",
+            "Source Product Name": "On-Net"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "500"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "187b41053deb9549021da91095a19e84",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "086194f3-dd48-91a6-e7a5-edd0b4fa4045",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Port Speed",
+            "Characteristic Value": "25 Mbps",
+            "Source Product Code": "VLO-CON-0002",
+            "Source Product Name": "On-Net"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "425"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "6218c2cc35f3a8f1298e42689c48f7bb",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "c124cb07-415c-c372-92a2-841bdb4fd310",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Port Speed",
+            "Characteristic Value": "250 Mbps",
+            "Source Product Code": "VLO-CON-0002",
+            "Source Product Name": "On-Net"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "525"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "308c536a9c717be2c531fa6a00210aa9",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "b4c54ab1-947d-e437-af2a-41f41404eea4",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Port Speed",
+            "Characteristic Value": "5 Mbps",
+            "Source Product Code": "VLO-CON-0002",
+            "Source Product Name": "On-Net"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "375"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "d044585f2a53eaa26f036fb078277af2",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "689ca9ce-db82-eb70-7ddb-553dee138815",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Port Speed",
+            "Characteristic Value": "50 Mbps",
+            "Source Product Code": "VLO-CON-0002",
+            "Source Product Name": "On-Net"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "450"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "ddac1c6cd0d8689eff77ef49460d1e81",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "23ca0831-82eb-b13e-97ac-c2b13fbff127",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Port Speed",
+            "Characteristic Value": "OC12",
+            "Source Product Code": "VLO-CON-0002",
+            "Source Product Name": "On-Net"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "575"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "1cd16db2852ab1772e024cf5ac4ddef1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "11d66de5-ec6d-5e5c-6583-f1c05f606d0f",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Port Speed",
+            "Characteristic Value": "OC192",
+            "Source Product Code": "VLO-CON-0002",
+            "Source Product Name": "On-Net"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "625"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "3dd75c69748afdec937d76324b6c971a",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "593756c6-5050-f854-61d4-532bc078c56b",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Port Speed",
+            "Characteristic Value": "OC48",
+            "Source Product Code": "VLO-CON-0002",
+            "Source Product Name": "On-Net"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "0",
+            "NRC": "600"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "af0b072cc52a30eda9d95dd76d97e28d",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "4fafaf61-9419-4dae-30e2-cb1963f6456a",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Dynamic Rate;1 Gbps",
+            "Source Product Code": "B2B-DIA-001",
+            "Source Product Name": "Blaze Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "300",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "c197ff5cebdbbcf0de88be5c57c5000d",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "de1f1e7a-22a0-065b-59c6-f7af633c4bfb",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Dynamic Rate;1 Gbps",
+            "Source Product Code": "B2B-DIA-CLDVAULT-001",
+            "Source Product Name": "Blaze Dedicated Internet + CloudVault Security Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "600",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "984945a37c3455207ec27a5981e57c12",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "3a69dc90-4dbb-33a6-711b-ecf1312ef5a8",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Dynamic Rate;1 Gbps",
+            "Source Product Code": "B2B-DIA-FBR-PRMIUM-001",
+            "Source Product Name": "Blaze Premium Fiber Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "600",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "2c0d12ec25beeeed8791a9bbce9bfa8a",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "7b4c4c7c-be90-3813-97f8-8fcf30635333",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Dynamic Rate;10 Mbps",
+            "Source Product Code": "B2B-DIA-001",
+            "Source Product Name": "Blaze Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "210",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "8c510ad223d0ac5e25f02ec81fca586c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "907ffdaf-0f01-17ea-b222-107fde0fd50a",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Dynamic Rate;10 Mbps",
+            "Source Product Code": "B2B-DIA-CLDVAULT-001",
+            "Source Product Name": "Blaze Dedicated Internet + CloudVault Security Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "450",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "14e7f2c1d89780ae2c60d5a10705dcce",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "c4eef985-0108-f695-49b6-04d3c7fc914c",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Dynamic Rate;10 Mbps",
+            "Source Product Code": "B2B-DIA-FBR-PRMIUM-001",
+            "Source Product Name": "Blaze Premium Fiber Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "450",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "e60ce8c6d2582d13f3650bb22151f4ec",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "ae3b3ac3-f543-595e-d1fe-c228a53adf93",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Dynamic Rate;100 Mbps",
+            "Source Product Code": "B2B-DIA-001",
+            "Source Product Name": "Blaze Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "240",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "1e161a742ffe3e83d97ef74a9ca8709e",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "be9ef0d3-61f0-03b6-e93f-0ab2aa555bec",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Dynamic Rate;100 Mbps",
+            "Source Product Code": "B2B-DIA-CLDVAULT-001",
+            "Source Product Name": "Blaze Dedicated Internet + CloudVault Security Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "480",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "4389a2cd2709dc8b70ba312d16bb25c2",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "9fcafe8c-cfe0-37af-6dc4-f382d47c8495",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Dynamic Rate;100 Mbps",
+            "Source Product Code": "B2B-DIA-FBR-PRMIUM-001",
+            "Source Product Name": "Blaze Premium Fiber Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "480",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "38412f96ee4f50cdeb30924e3dfd2b60",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "b5ca690d-ad13-b3d9-bb5b-487d8afa9454",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Dynamic Rate;150 Mbps",
+            "Source Product Code": "B2B-DIA-001",
+            "Source Product Name": "Blaze Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "250",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "f2bf63e001b41b6353ba1a7e777892fc",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "95a8afce-941b-f3fe-ad9d-e729c7917847",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Dynamic Rate;150 Mbps",
+            "Source Product Code": "B2B-DIA-CLDVAULT-001",
+            "Source Product Name": "Blaze Dedicated Internet + CloudVault Security Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "490",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "5f34344307462f884efc054da45032a0",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "0c6c8c38-9065-cc0b-4dbc-11afbd4cfe4f",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Dynamic Rate;150 Mbps",
+            "Source Product Code": "B2B-DIA-FBR-PRMIUM-001",
+            "Source Product Name": "Blaze Premium Fiber Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "490",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "d4c819e9f3d14ce6e7cc3eba04628097",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "ebdc41ce-5dd1-3b90-9dd4-89caca55b63f",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Dynamic Rate;20 Mbps",
+            "Source Product Code": "B2B-DIA-001",
+            "Source Product Name": "Blaze Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "220",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "8f8d7e22f1b00c36d31f19c683d76eff",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "880bc563-0596-a940-2486-b6382e2f2fb9",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Dynamic Rate;20 Mbps",
+            "Source Product Code": "B2B-DIA-CLDVAULT-001",
+            "Source Product Name": "Blaze Dedicated Internet + CloudVault Security Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "460",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "2d5ad46df5ec60da0e171bfb4cfaad57",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "f9aee035-10ef-e764-fa1a-a0e1647c1af0",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Dynamic Rate;20 Mbps",
+            "Source Product Code": "B2B-DIA-FBR-PRMIUM-001",
+            "Source Product Name": "Blaze Premium Fiber Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "460",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "12423ca83a61c4bc5b9fb48570ebf33a",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "1f5f1d22-d3fe-b086-6fc3-67bb10d05127",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Dynamic Rate;250 Mbps",
+            "Source Product Code": "B2B-DIA-001",
+            "Source Product Name": "Blaze Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "260",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "d79b7a28a41827eedd5fb0ed6e8ebd87",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "8e0231e0-dc09-206b-87bc-caeda02eb03d",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Dynamic Rate;250 Mbps",
+            "Source Product Code": "B2B-DIA-CLDVAULT-001",
+            "Source Product Name": "Blaze Dedicated Internet + CloudVault Security Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "500",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "9b557584e4e8299cdb113000a6fdafa2",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "fed837fa-371b-4bc8-51d9-b259dc6a701c",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Dynamic Rate;250 Mbps",
+            "Source Product Code": "B2B-DIA-FBR-PRMIUM-001",
+            "Source Product Name": "Blaze Premium Fiber Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "500",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "f35b69596b70a9b7b1a4d50a69659c9b",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "91516130-3267-1a51-b902-0ccad2506f2f",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Dynamic Rate;400 Mbps",
+            "Source Product Code": "B2B-DIA-001",
+            "Source Product Name": "Blaze Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "270",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "e502ea0dc99c0c42b34bbcce1185c3c4",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "a1451db0-c9eb-cfe5-356b-4e3086fa51b7",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Dynamic Rate;400 Mbps",
+            "Source Product Code": "B2B-DIA-CLDVAULT-001",
+            "Source Product Name": "Blaze Dedicated Internet + CloudVault Security Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "510",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "3ecd696f69d0cc38ae3fb6d44681b413",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "2e6ae9e8-0123-3628-9c63-e56a02c688db",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Dynamic Rate;400 Mbps",
+            "Source Product Code": "B2B-DIA-FBR-PRMIUM-001",
+            "Source Product Name": "Blaze Premium Fiber Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "510",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "b4f3117e4dcc7be6d9bd7769e2a91ef0",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "52cafc0e-47a7-6794-ac37-ec1dca2dc6ce",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Dynamic Rate;50 Mbps",
+            "Source Product Code": "B2B-DIA-001",
+            "Source Product Name": "Blaze Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "230",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "91e43c02e5e4180acec8e7877ef6066e",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "35bf5ed5-eac9-b23b-ed46-f369e2a92e89",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Dynamic Rate;50 Mbps",
+            "Source Product Code": "B2B-DIA-CLDVAULT-001",
+            "Source Product Name": "Blaze Dedicated Internet + CloudVault Security Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "470",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "953cfad078d287572eaf8d38da5c7ed8",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "7c5e0018-bc3b-dd2f-655c-3142d7cff8ee",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Dynamic Rate;50 Mbps",
+            "Source Product Code": "B2B-DIA-FBR-PRMIUM-001",
+            "Source Product Name": "Blaze Premium Fiber Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "470",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "b65fdc5f4148ba298e9ba98d399bca50",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "94cd5c74-a6b3-fef9-2212-a6b954feffc5",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Dynamic Rate;500 Mbps",
+            "Source Product Code": "B2B-DIA-001",
+            "Source Product Name": "Blaze Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "280",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "d4d5540240b8d31b1889eb166829bfbb",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "a0c11779-7b30-a63a-b9e8-3013e3458b4d",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Dynamic Rate;500 Mbps",
+            "Source Product Code": "B2B-DIA-CLDVAULT-001",
+            "Source Product Name": "Blaze Dedicated Internet + CloudVault Security Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "530",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "be4614f4e948e014d12abd6e4b5cd3f8",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "6afa8f93-c1fe-a4d3-d142-967619b8fb0d",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Dynamic Rate;500 Mbps",
+            "Source Product Code": "B2B-DIA-FBR-PRMIUM-001",
+            "Source Product Name": "Blaze Premium Fiber Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "530",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "cfe95ec039c2fd427eafbaa416e1ab62",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "a41b94ba-c79e-4b9e-3af2-07e771fb0d17",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Dynamic Rate;600 Mbps",
+            "Source Product Code": "B2B-DIA-001",
+            "Source Product Name": "Blaze Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "290",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "70ab3e0ffa1c77fdb79892c9f119a505",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "2c4a61f0-562e-201c-e396-d7111cbf09cd",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Dynamic Rate;600 Mbps",
+            "Source Product Code": "B2B-DIA-CLDVAULT-001",
+            "Source Product Name": "Blaze Dedicated Internet + CloudVault Security Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "550",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "89bfea05ca7beadcb58d7e718fb30706",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "77b49b64-d39a-12ed-35d8-6c6ba8570b0e",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Dynamic Rate;600 Mbps",
+            "Source Product Code": "B2B-DIA-FBR-PRMIUM-001",
+            "Source Product Name": "Blaze Premium Fiber Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "550",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "a87ae19a12551b95100904fe20a0b444",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "a6a9879a-5e90-19ef-8c0a-761cc7896630",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Fixed Rate;1 Gbps",
+            "Source Product Code": "B2B-DIA-001",
+            "Source Product Name": "Blaze Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "450",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "c4cd933aace36b143941b83e01b1d4a2",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "8e56577f-7022-aba0-0b06-12701da54678",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Fixed Rate;1 Gbps",
+            "Source Product Code": "B2B-DIA-CLDVAULT-001",
+            "Source Product Name": "Blaze Dedicated Internet + CloudVault Security Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "650",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "02f19ff9203814fca861de17bf497778",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "913a2701-0171-e4b7-8621-30fe2f39674f",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Fixed Rate;1 Gbps",
+            "Source Product Code": "B2B-DIA-FBR-PRMIUM-001",
+            "Source Product Name": "Blaze Premium Fiber Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "650",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "d99d99ddf56115286189855c07c1c689",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "4c81e5dd-d012-632f-38f7-da8f9b6b0d96",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Fixed Rate;10 Mbps",
+            "Source Product Code": "B2B-DIA-001",
+            "Source Product Name": "Blaze Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "220",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "7064814912b58d1cb420472cbba91ac9",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "5b29b29a-9002-1202-7422-f2775fd72741",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Fixed Rate;10 Mbps",
+            "Source Product Code": "B2B-DIA-CLDVAULT-001",
+            "Source Product Name": "Blaze Dedicated Internet + CloudVault Security Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "460",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "5f547825ec0a172d414b791bf7f769b6",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "5ab1da73-e617-f650-143f-2ba6e8874d2e",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Fixed Rate;10 Mbps",
+            "Source Product Code": "B2B-DIA-FBR-PRMIUM-001",
+            "Source Product Name": "Blaze Premium Fiber Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "460",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "f6cbe4bc5bb856133582fb25b3449a8a",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "4ae09990-1531-29cc-987c-68202aad9f2b",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Fixed Rate;100 Mbps",
+            "Source Product Code": "B2B-DIA-001",
+            "Source Product Name": "Blaze Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "275",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "fe18d14d65d233ea20f0db1143288834",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "2d873afb-99ad-357a-61b5-3ab76e87ea1c",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Fixed Rate;100 Mbps",
+            "Source Product Code": "B2B-DIA-CLDVAULT-001",
+            "Source Product Name": "Blaze Dedicated Internet + CloudVault Security Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "490",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "f1873cd6694aab16f547589423e5b8a2",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "b3fccd49-682f-aa36-9ccf-3dd129c542a4",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Fixed Rate;100 Mbps",
+            "Source Product Code": "B2B-DIA-FBR-PRMIUM-001",
+            "Source Product Name": "Blaze Premium Fiber Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "490",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "4331367aa7e062b830315058349cc346",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "db6df943-9cba-4f22-4bd4-21bc0684a7d7",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Fixed Rate;150 Mbps",
+            "Source Product Code": "B2B-DIA-001",
+            "Source Product Name": "Blaze Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "290",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "5cbf212b83dbf5d9ba773374cee07d9c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "172ec83d-c420-8a8e-45b0-96e3bdb63cc8",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Fixed Rate;150 Mbps",
+            "Source Product Code": "B2B-DIA-CLDVAULT-001",
+            "Source Product Name": "Blaze Dedicated Internet + CloudVault Security Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "500",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "9c078eade686d221cd2a6e7902aa2cc2",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "bbd8a4ae-4e16-82fd-d90d-9500e36d064b",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Fixed Rate;150 Mbps",
+            "Source Product Code": "B2B-DIA-FBR-PRMIUM-001",
+            "Source Product Name": "Blaze Premium Fiber Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "500",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "475484b76be002df3ecfdb4c372856c2",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "8949a870-08eb-6fa1-88c4-a8f2a0491dc5",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Fixed Rate;20 Mbps",
+            "Source Product Code": "B2B-DIA-001",
+            "Source Product Name": "Blaze Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "235",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "91fe7057af4b80f9491b38b8f227f302",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "9feb1201-c336-4096-5701-2709a39b1d62",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Fixed Rate;20 Mbps",
+            "Source Product Code": "B2B-DIA-CLDVAULT-001",
+            "Source Product Name": "Blaze Dedicated Internet + CloudVault Security Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "470",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "487e8ae3262b56b2d3558136f926282d",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "c656f173-49bc-fb20-443b-77275a6f5472",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Fixed Rate;20 Mbps",
+            "Source Product Code": "B2B-DIA-FBR-PRMIUM-001",
+            "Source Product Name": "Blaze Premium Fiber Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "470",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "29108a110ded92bb2959075e0765dde6",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "02feafcd-cd97-07b8-4d3b-11b060933d22",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Fixed Rate;250 Mbps",
+            "Source Product Code": "B2B-DIA-001",
+            "Source Product Name": "Blaze Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "300",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "06e1c8576a122947331b07f8e3c2c8f5",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "113dfa30-0a02-c953-f370-1965a171ad04",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Fixed Rate;250 Mbps",
+            "Source Product Code": "B2B-DIA-CLDVAULT-001",
+            "Source Product Name": "Blaze Dedicated Internet + CloudVault Security Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "535",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "b63a060e7a55e409790d7d51c89d29cb",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "3b8e3bcc-687a-45ff-4fa8-a01146f8cca3",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Fixed Rate;250 Mbps",
+            "Source Product Code": "B2B-DIA-FBR-PRMIUM-001",
+            "Source Product Name": "Blaze Premium Fiber Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "535",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "7e14cbbcce9b52667764d6c0b9995361",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "889a4cd1-72a8-bf29-5197-60e4b4129db5",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Fixed Rate;400 Mbps",
+            "Source Product Code": "B2B-DIA-001",
+            "Source Product Name": "Blaze Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "325",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "88c78017abb239299ac991822a41064b",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "09ae18d1-1bcb-7780-0f59-a1f7e23a4eea",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Fixed Rate;400 Mbps",
+            "Source Product Code": "B2B-DIA-CLDVAULT-001",
+            "Source Product Name": "Blaze Dedicated Internet + CloudVault Security Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "550",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "4c8a1824eced238c3483ec53e8acf0f9",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "6b4033f3-aacc-23e9-c901-222e38c31c7a",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Fixed Rate;400 Mbps",
+            "Source Product Code": "B2B-DIA-FBR-PRMIUM-001",
+            "Source Product Name": "Blaze Premium Fiber Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "550",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "4cffaf2801e210e2b8beab53bab885bf",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "54c76baf-ae31-5cf6-641a-f709bf5614cc",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Fixed Rate;50 Mbps",
+            "Source Product Code": "B2B-DIA-001",
+            "Source Product Name": "Blaze Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "250",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "bf74fdf84b038a8ce4fb1faf693d73f1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "25ecc6cb-594b-a5e2-90f8-c90f6724f702",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Fixed Rate;50 Mbps",
+            "Source Product Code": "B2B-DIA-CLDVAULT-001",
+            "Source Product Name": "Blaze Dedicated Internet + CloudVault Security Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "480",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "1ce725d7172421b6e136fb48f70acec3",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "564d7497-2702-6210-c208-aadde5d7fc6b",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Fixed Rate;50 Mbps",
+            "Source Product Code": "B2B-DIA-FBR-PRMIUM-001",
+            "Source Product Name": "Blaze Premium Fiber Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "480",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "b77012f0be7d8eb57c1e442e66f3a3f1",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "39df432d-ef88-3c9e-baa8-6cf50f7e1424",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Fixed Rate;500 Mbps",
+            "Source Product Code": "B2B-DIA-001",
+            "Source Product Name": "Blaze Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "350",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "755e3a827b7859083cede1219c0d1291",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "cd1b2711-2dec-a404-d4f3-908115a14b79",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Fixed Rate;500 Mbps",
+            "Source Product Code": "B2B-DIA-CLDVAULT-001",
+            "Source Product Name": "Blaze Dedicated Internet + CloudVault Security Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "575",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "32e797a3a7bda63b902c10cf004796e3",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "fbc33851-d049-a120-a712-a78a3c45dfce",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Fixed Rate;500 Mbps",
+            "Source Product Code": "B2B-DIA-FBR-PRMIUM-001",
+            "Source Product Name": "Blaze Premium Fiber Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "575",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "dcfda890db2972901fc152cb63918753",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "b909e25d-28a5-bdb6-cce7-480c692067cb",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Fixed Rate;600 Mbps",
+            "Source Product Code": "B2B-DIA-001",
+            "Source Product Name": "Blaze Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "375",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "d0f4e2d1f9a86086fd07d46a225594ec",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "5e7ae0f3-bb9e-752e-110c-b0531ce0b83f",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Fixed Rate;600 Mbps",
+            "Source Product Code": "B2B-DIA-CLDVAULT-001",
+            "Source Product Name": "Blaze Dedicated Internet + CloudVault Security Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "600",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "8ae5a88c888392e06436d3afdfa3e366",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "AttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 6,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/6/%vlocity_namespace%__CalculationMatrix__c/AttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "b17c3a72-a9bf-bab5-e1d8-026d5f7d81f4",
+        "%vlocity_namespace%__InputData__c": {
+            "Characteristic Name": "Usage Type;Committed Bandwidth",
+            "Characteristic Value": "Fixed Rate;600 Mbps",
+            "Source Product Code": "B2B-DIA-FBR-PRMIUM-001",
+            "Source Product Name": "Blaze Premium Fiber Dedicated Internet Offer"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "600",
+            "NRC": "0"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2018-07-11T23:07:00.000Z",
+        "Name": "b19989877fb75c28458ff506d0be13af",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    }
+]

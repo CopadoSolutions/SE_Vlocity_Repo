@@ -1,0 +1,14 @@
+[
+    "DataRaptor/VDOGetAccountSubscribers",
+    "DataRaptor/VDOGetDemoAccount",
+    "IntegrationProcedure/DemoEng_DC_CreateCart",
+    "IntegrationProcedure/Demo_AddProductToCartViaDCApi",
+    "IntegrationProcedure/Demo_GetOffersWrapperByCatalog",
+    "VlocityUITemplate/demo-basket-de",
+    "VlocityUITemplate/demo-offers-tiles-de",
+    "VlocityUITemplate/demo-radio-image-tiles",
+    "VlocityUITemplate/demoSelectSubscriber",
+    "VlocityUITemplate/demoSelectText",
+    "VlocityUITemplate/demoSurveyQuestion",
+    "VlocityUITemplate/os-sv-javascript"
+]

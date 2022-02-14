@@ -1,0 +1,26 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": null,
+        "value": {
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "cpqPills.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "cpqPills/Vlocity/1/1623265654236",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__SampleData__c": "",
+    "%vlocity_namespace%__Styles__c": "{\"customStyles\":\".pill-style{\\n    width: fit-content;\\n    background: #F4F6F9;\\n}\\n.empty-pill-state{\\n    display: none;\\n    \\n}\\n\\n.pill-text{ \\n    color: #0070D2;\\n}\\n.max-100{\\n    max-width: 95%;\\n}\\n.pill-container{\\n    background: #fff;\\n    flex-wrap: nowrap;\\n    border: 1px solid #ccc !important;\\n    align-items: center;\\n    padding: 0px 4px !important;\\n    overflow-x: unset;\\n    width: fit-content;\\n    margin-right: 3px!important;\\n    position: relative;\\n    font-size: 14px;\\n    margin-bottom: 4px !important;\\n}\\n.fit-content{\\n    width: fit-content;\\n    max-width: 100%;\\n    position: absolute;\\n    right: 1px;\\n}\\n.icon-placeholder{\\n    width: 25px;\\n    height: 25px;\\n}\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "cpqPills",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/cpqPills"
+}

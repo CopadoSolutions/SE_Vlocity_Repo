@@ -1,0 +1,7 @@
+[
+    "VlocityAction/RET_ChangeService",
+    "VlocityAction/RET_UpgradePlan",
+    "VlocityAction/RET_getSupport",
+    "VlocityAction/Troubleshoot Mobile",
+    "VlocityUITemplate/mobile-ret-asset-detail-demo"
+]

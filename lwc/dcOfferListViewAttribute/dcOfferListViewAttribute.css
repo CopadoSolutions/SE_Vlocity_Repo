@@ -1,0 +1,42 @@
+.vlocity-dc-tile-text {
+  color: #54698d;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 0.5rem;
+}
+.vlocity-dc-offer-attribute-item {
+  display: flex;
+}
+.vlocity-dc-offer-round-button-set {
+  margin-top: 3px;
+  padding: 5px 0px;
+  display: flex;
+}
+.vlocity-dc-offer-round-button-set .vlocity-dc-offer-attribute {
+  height: 21px;
+  width: 21px;
+  margin-right: 6px;
+  box-shadow: 0 0 0.25rem 0 rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  display: inline-block;
+}
+.vlocity-dc-offer-button-set > div {
+  display: inline-block;
+}
+.vlocity-dc-offer-button-set .vlocity-dc-offer-attribute {
+  padding: 0.25rem 0.5rem;
+  margin: 3px 6px 3px 0;
+  box-shadow: 0 0 0.15rem 0 rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+  display: inline-block;
+  cursor: pointer;
+}
+.vlocity-dc-tile-text-small {
+  color: #556a8c;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+h3 {
+  margin-top: 1rem;
+}

@@ -1,0 +1,27 @@
+{
+    "ContextId": "",
+    "GetPublishParameters": {
+        "AttributeList": null,
+        "Attributes": true,
+        "BatchSize": 50,
+        "ObjectTypes": "sddf",
+        "ProductFieldList": null,
+        "ProductFields": true
+    },
+    "bundleName": "CCI-GetAllInputParams",
+    "contextId": "",
+    "id": "a233h000000DHbcAAG",
+    "layout": "lightning",
+    "prodFieldInput": {
+        "ProductCode": "",
+        "QuantityScheduleType": ""
+    },
+    "timeStamp": "2020-05-06T13:06:43.270Z",
+    "userCurrencyCode": "USD",
+    "userId": "0053h000000qVeTAAU",
+    "userName": "commercecloud-test2@vlocity.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    }
+}

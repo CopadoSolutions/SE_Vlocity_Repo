@@ -1,0 +1,5 @@
+[
+    "IntegrationProcedure/VPL_GetCCISiteIds",
+    "IntegrationProcedure/VPL_GetCustomerBasket",
+    "VlocityUITemplate/VPL-SelectCCSite"
+]

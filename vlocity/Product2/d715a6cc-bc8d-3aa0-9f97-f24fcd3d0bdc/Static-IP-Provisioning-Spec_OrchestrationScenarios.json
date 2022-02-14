@@ -1,0 +1,50 @@
+[
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "52c38dbc-2ef3-643f-9f50-3929cc6c9dee",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "Static IP Provisioning Plan",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Static IP Provisioning Plan",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "d715a6cc-bc8d-3aa0-9f97-f24fcd3d0bdc",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/d715a6cc-bc8d-3aa0-9f97-f24fcd3d0bdc",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "d715a6cc-bc8d-3aa0-9f97-f24fcd3d0bdc",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "Static IP Provisioning Scenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/Static IP Provisioning Scenario/52c38dbc-2ef3-643f-9f50-3929cc6c9dee/Product2/d715a6cc-bc8d-3aa0-9f97-f24fcd3d0bdc"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "ab5b6cf6-57d9-ebf7-44d6-58e219f3e337",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "Static IP Provisioning Plan",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/Static IP Provisioning Plan",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "d715a6cc-bc8d-3aa0-9f97-f24fcd3d0bdc",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/d715a6cc-bc8d-3aa0-9f97-f24fcd3d0bdc",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "d715a6cc-bc8d-3aa0-9f97-f24fcd3d0bdc",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "Provision Static IP Scenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/Provision Static IP Scenario/ab5b6cf6-57d9-ebf7-44d6-58e219f3e337/Product2/d715a6cc-bc8d-3aa0-9f97-f24fcd3d0bdc"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    "DataRaptor/VPL-CatalogProductAssnPayload",
+    "DataRaptor/VPL-CatalogPublishMasterPayload",
+    "DataRaptor/VPL-CatalogPublishPayload",
+    "DataRaptor/VPL-DeleteProductPayload",
+    "DataRaptor/VPL-FormatCatalogForPublish",
+    "DataRaptor/VPL-FormatCatalogProductAssign",
+    "DataRaptor/VPL-FormatCatalogProductMasterAssign",
+    "DataRaptor/VPL-FormatImageSettings",
+    "DataRaptor/VPL-FormatProdCustomAttrForPublish",
+    "DataRaptor/VPL-FormatProductsForPublish",
+    "DataRaptor/VPL-FormatVariationAttributes",
+    "DataRaptor/VPL-GetPricingDetails"
+]

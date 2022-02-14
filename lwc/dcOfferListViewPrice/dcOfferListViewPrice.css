@@ -1,0 +1,48 @@
+.vlocity-dc-product-price-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.vlocity-dc-tile-text-small {
+  color: #556a8c;
+  font-size: 12px;
+}
+.vlocity-dc-price-items .vlocity-dc-offer-name {
+  color: #16325c;
+  font-size: 20px;
+}
+.vlocity-dc-price-items .vlocity-dc-offer-price {
+  color: #16325c;
+  font-size: 27px;
+}
+.vlocity-dc-offer-discount-price {
+  color: #16325c;
+  font-size: 27px;
+}
+.vlocity-dc-offer-detail {
+  color: #556a8c;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 767px) {
+  .slds-grid.listview {
+    display: block;
+  }
+  .listview .slds-size--1-of-2.vlocity-dc-price-items {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    display: block;
+  }
+  .listview .vlocity-dc-price-items div {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    display: block;
+  }
+  .vlocity-dc-offer-detail {
+    display: none;
+  }
+}

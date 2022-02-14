@@ -1,0 +1,33 @@
+{
+    "Cards": [
+        "np-offer-internet-df2018",
+        "np-offer-voice-df2018",
+        "np-offer-television-df2018",
+        "np-offer-bundles-df2018",
+        "np-offer-accessories-df2018",
+        "np-offer-business-df2018",
+        "np-offer-view-more-df2018"
+    ],
+    "componentName": "cfNpSubnavbarShopCmtDf2018",
+    "dataSource": {
+        "type": "Custom",
+        "value": {
+            "body": "{}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "np-subnavbar-shop-canvas"
+        }
+    },
+    "workspace": [
+        "np-offer-internet-df2018/Justin Harris/1/1594301426326",
+        "np-offer-voice-df2018/Justin Harris/1/1594301487226",
+        "np-offer-television-df2018/Justin Harris/1/1594301525050",
+        "np-offer-bundles-df2018/Justin Harris/1/1594301575530",
+        "np-offer-accessories-df2018/Justin Harris/1/1594301601885",
+        "np-offer-business-df2018/Justin Harris/1/1594301623095",
+        "np-offer-view-more-df2018/Justin Harris/1/1594301676692"
+    ]
+}

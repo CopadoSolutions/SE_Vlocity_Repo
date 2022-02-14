@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__Channel__c": "",
+    "%vlocity_namespace%__ContentType__c": "Image",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__DisplayConditionsData__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "c93bba98-ce16-c209-2329-fc307a5757ce",
+    "%vlocity_namespace%__IsDefaultImage__c": true,
+    "%vlocity_namespace%__IsPrivate__c": false,
+    "%vlocity_namespace%__ObjectId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "40e84446-7239-787c-d305-69749c121706",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/40e84446-7239-787c-d305-69749c121706",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__ProductGroupKey__c": "3850249f-e927-fbe8-371f-0d8da6a2e636",
+    "%vlocity_namespace%__SequenceNumber__c": 1,
+    "%vlocity_namespace%__UrlLong__c": "https://vlocitydemodx-cdn.herokuapp.com/content/industry/cmt/VDOProductResources/images/Apple/Apple_iPhone_SE_Black_Front.png",
+    "%vlocity_namespace%__Url__c": "",
+    "Name": "Apple iPhone SE Front",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityAttachment__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityAttachment__c/c93bba98-ce16-c209-2329-fc307a5757ce"
+}

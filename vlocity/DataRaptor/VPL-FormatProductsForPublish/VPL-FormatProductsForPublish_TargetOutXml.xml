@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="http://www.demandware.com/xml/impex/catalog/2006-10-31" catalog-id="QA_Catalog">
+  <product product-id="iPhoneX-Sample">
+      
+      
+      <display-name xml:lang="x-default">iPhone X Test Sample</display-name>
+     
+      <online-flag>true</online-flag>
+      <available-flag>true</available-flag>
+      <searchable-flag>true</searchable-flag>
+     <images>
+            <image-group view-type="large">
+                <image path="images/I/41UAOtS3h2L._SY879_.jpg">
+                    <alt xml:lang="x-default">Test</alt>
+                    <title xml:lang="x-default">test</title>
+                </image>
+            </image-group>
+        </images>
+     
+      
+   </product>
+</catalog>

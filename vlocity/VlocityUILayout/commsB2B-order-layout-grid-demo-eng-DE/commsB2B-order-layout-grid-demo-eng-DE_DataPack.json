@@ -1,0 +1,30 @@
+{
+    "%vlocity_namespace%__Author__c": "CommsB2BFY2021",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+            {
+                "name": "params.Id",
+                "val": "0013600000FBB67AAH"
+            },
+            {
+                "name": "parent.obj.%vlocity_namespace%__LineNumber__c",
+                "val": "0001"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "query": ""
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "commsB2B-order-layout-grid-demo-eng-DE.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "commsB2B-order-layout-grid-demo-eng-DE/1/CommsB2BFY2021/1586818351734",
+    "%vlocity_namespace%__ParentID__c": "commsB2B-quote-layout-grid-demo-eng-DE/1/CommsB2BFY2021/1586811545808",
+    "%vlocity_namespace%__RequiredPermission__c": "",
+    "%vlocity_namespace%__Type__c": "Layout",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "commsB2B-order-layout-grid-demo-eng-DE",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUILayout__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUILayout__c/commsB2B-order-layout-grid-demo-eng-DE"
+}

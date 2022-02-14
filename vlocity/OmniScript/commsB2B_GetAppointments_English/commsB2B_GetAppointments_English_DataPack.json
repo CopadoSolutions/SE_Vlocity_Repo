@@ -1,0 +1,25 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "Reusable OS for appointment booking",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "commsB2B_GetAppointments_English_Element_GetWFM.json",
+        "commsB2B_GetAppointments_English_Element_IntegrationProcedureAction1.json",
+        "commsB2B_GetAppointments_English_Element_SetAppointment.json",
+        "commsB2B_GetAppointments_English_Element_Headline1.json",
+        "commsB2B_GetAppointments_English_Element_SelectAppointment.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": true,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__OmniProcessType__c": "OmniScript",
+    "%vlocity_namespace%__PropertySet__c": "commsB2B_GetAppointments_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "GetAppointments",
+    "%vlocity_namespace%__Type__c": "commsB2B",
+    "Name": "Appoinment Booking",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/commsB2B/GetAppointments/English"
+}

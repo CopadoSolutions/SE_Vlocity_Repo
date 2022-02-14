@@ -1,0 +1,26 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+        },
+        "type": null,
+        "value": {
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "cpqCreateCustomDiscountBasicInfo.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "cpqCreateCustomDiscountBasicInfo/Vlocity/1/1623823630502",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__SampleData__c": "",
+    "%vlocity_namespace%__Styles__c": "{\"customStyles\":\".cpq-create_discount-basic_info{\\n    padding: 0;\\n}\\n.cpq-create_discount-basic_info .field-row{\\n    padding: 0px 20px;\\n}\\n.cpq-create_discount-basic_info .border-bottom{\\n    border-bottom: 1px solid #D9D9D9;\\n    box-sizing: border-box;\\n    margin: 20px 0px;\\n}\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "cpqCreateCustomDiscountBasicInfo",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/cpqCreateCustomDiscountBasicInfo"
+}

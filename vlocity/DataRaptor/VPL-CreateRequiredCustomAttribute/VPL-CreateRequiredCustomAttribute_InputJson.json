@@ -1,0 +1,12 @@
+{
+    "requiredAttributes": [
+        {
+            "attrName": "primaryCatalog",
+            "attrValue": "srr1"
+        },
+        {
+            "attrName": "productHierarchy",
+            "attrValue": "srr2"
+        }
+    ]
+}

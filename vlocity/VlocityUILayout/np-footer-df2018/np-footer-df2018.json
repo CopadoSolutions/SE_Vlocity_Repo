@@ -1,0 +1,14 @@
+{
+    "Cards": [
+    ],
+    "componentName": "cfNpFooterDf2018",
+    "dataSource": {
+        "type": null
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "np-footer-df2018"
+        }
+    }
+}

@@ -1,0 +1,56 @@
+[
+    {
+        "%vlocity_namespace%__BasePriceListId__c": "",
+        "%vlocity_namespace%__DisplayText__c": "iPhone 8 10% discount",
+        "%vlocity_namespace%__EffectiveFromDate__c": "",
+        "%vlocity_namespace%__EffectiveUntilDate__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "99bdc97c-426a-02bb-3627-7ce16f015108",
+        "%vlocity_namespace%__IsActive__c": true,
+        "%vlocity_namespace%__IsBasePrice__c": false,
+        "%vlocity_namespace%__IsOverride__c": false,
+        "%vlocity_namespace%__IsVirtualPrice__c": false,
+        "%vlocity_namespace%__OfferId__c": "",
+        "%vlocity_namespace%__PriceListId__c": {
+            "%vlocity_namespace%__Code__c": "2019",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__PriceList__c/2019",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__PriceList__c"
+        },
+        "%vlocity_namespace%__PriceListName__c": "2019",
+        "%vlocity_namespace%__PricingElementAmount__c": 0,
+        "%vlocity_namespace%__PricingElementGlobalKey__c": "aa3f4647-e607-2f3f-959c-f77bc17da4a5",
+        "%vlocity_namespace%__PricingElementId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "b4a66f33-6ee3-ed31-0a24-f0b5223a7b4f",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__PricingElement__c/b4a66f33-6ee3-ed31-0a24-f0b5223a7b4f",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__PricingElement__c"
+        },
+        "%vlocity_namespace%__PricingMatrixBindingData__c": "",
+        "%vlocity_namespace%__ProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "36643765-b8ca-7d93-7273-fd659ff19d2d",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/36643765-b8ca-7d93-7273-fd659ff19d2d",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__PromotionId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "1d4f5aab-1c09-f937-c08f-85079afe0feb",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Promotion__c/1d4f5aab-1c09-f937-c08f-85079afe0feb",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Promotion__c"
+        },
+        "%vlocity_namespace%__PromotionItemId__c": {
+            "%vlocity_namespace%__ProductId__r.%vlocity_namespace%__GlobalKey__c": "36643765-b8ca-7d93-7273-fd659ff19d2d",
+            "%vlocity_namespace%__PromotionId__r.%vlocity_namespace%__GlobalKey__c": "1d4f5aab-1c09-f937-c08f-85079afe0feb",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__PromotionItem__c/%vlocity_namespace%__Promotion__c/1d4f5aab-1c09-f937-c08f-85079afe0feb/Product2/36643765-b8ca-7d93-7273-fd659ff19d2d",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__PromotionItem__c"
+        },
+        "%vlocity_namespace%__RulesDescription__c": "",
+        "%vlocity_namespace%__TimePlanId__c": "",
+        "%vlocity_namespace%__TimePolicyId__c": "",
+        "Name": "99bdc97c-426a-02bb-3627-7ce16f015108",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__PriceListEntry__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__PriceListEntry__c/99bdc97c-426a-02bb-3627-7ce16f015108"
+    }
+]

@@ -1,0 +1,7 @@
+[
+    "DataRaptor/DRGetBillingAccountDetails",
+    "DataRaptor/DRGetServiceAccountContactDetails",
+    "DataRaptor/DRGetServiceAccountDetails",
+    "DataRaptor/GetTechnicalProductAttributes",
+    "DataRaptor/VDOGetManualTask"
+]

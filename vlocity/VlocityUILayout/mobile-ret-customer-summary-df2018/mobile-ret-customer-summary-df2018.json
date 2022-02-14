@@ -1,0 +1,14 @@
+{
+    "Cards": [
+    ],
+    "componentName": "cfMobileRetCustomerSummaryDf2018",
+    "dataSource": {
+        "type": null
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "mobile-ret-customer-summary-df2018"
+        }
+    }
+}

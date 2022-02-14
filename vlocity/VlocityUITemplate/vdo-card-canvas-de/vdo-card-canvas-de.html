@@ -1,0 +1,20 @@
+<div class="cards-container">
+    <form class="form-inline">
+        <div class="form-group">
+            <div class="slds-grid slds-gutters">
+                <div class="slds-col slds-size_4-of-12">
+                    <button class="btn btn-primary" onclick="window.location.reload()">
+                        Refresh<span class="icon icon-v-refresh" style="color:white"></span>
+                    </button>
+                </div>
+                <div class="slds-col slds-size_8-of-12">
+                    <input type="text" class="form-control" style="text-transform: initial;" ng-model="$parent.searchTerm" placeholder="Search Cards"/>
+                </div>
+            </div>
+        </div>
+    </form>
+    <div>
+        <vloc-card ng-repeat="card in cards |orderBy:order|filter: searchFunc(card)" ctrl="{{ctrl}}" ng-model="card" data="card" records="records" index="{{$index}}" session-id="{{sessionId}}"></vloc-card>
+    </div>
+    <span id="flyout"></span>
+</div>

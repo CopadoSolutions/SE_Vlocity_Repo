@@ -1,0 +1,227 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "VolumeRangeAttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/VolumeRangeAttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "92b72d87-8808-5723-d689-34be3fa800fe",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "3570fa",
+            "dataType": "Text",
+            "displayOrder": 3,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0Sf200000OPFbWEAX",
+            "listValues": null,
+            "name": "Quantity"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "VolumeRangeAttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/VolumeRangeAttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "8ec072bb-24d5-2b03-10ad-4a2fbaaf9d9a",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "ad7034",
+            "dataType": "Text",
+            "displayOrder": 4,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0Sf200000OPFbXEAX",
+            "listValues": null,
+            "name": "MRC"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "VolumeRangeAttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/VolumeRangeAttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "c7732d8d-c65f-eb3a-4a35-2a62dfa95200",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "b55567",
+            "dataType": "Text",
+            "displayOrder": 5,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0Sf200000OPFbYEAX",
+            "listValues": null,
+            "name": "NRC"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "VolumeRangeAttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/VolumeRangeAttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "fb79fae7-0db4-b317-a349-745409bea6bf",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "ed29e0",
+            "dataType": "Text",
+            "displayOrder": 1,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0Sf200000OPFbUEAX",
+            "listValues": null,
+            "name": "Source Product Name"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "VolumeRangeAttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/VolumeRangeAttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "5282c513-63fe-2804-36ea-faa88be68f6e",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "f2191c",
+            "dataType": "Text",
+            "displayOrder": 2,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0Sf200000OPFbVEAX",
+            "listValues": null,
+            "name": "Source Product Code"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "VolumeRangeAttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/VolumeRangeAttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "e72f4f3a-4c3e-ab1b-1083-f1c6fbd19184",
+        "%vlocity_namespace%__InputData__c": {
+            "Quantity": "1-2",
+            "Source Product Code": "Watch",
+            "Source Product Name": "Watch"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "10",
+            "NRC": "10"
+        },
+        "Name": "bbbf81d80654bd96c4a8a86200657808",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "VolumeRangeAttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/VolumeRangeAttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "baf02040-bcae-062d-f1be-02a17d824e44",
+        "%vlocity_namespace%__InputData__c": {
+            "Quantity": "11-14",
+            "Source Product Code": "Watch",
+            "Source Product Name": "Watch"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "4",
+            "NRC": "4"
+        },
+        "Name": "faa54e168ea1de2d56e7420f9441c501",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "VolumeRangeAttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/VolumeRangeAttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "0c458a6b-8d37-32a6-da99-6b910ab5f97f",
+        "%vlocity_namespace%__InputData__c": {
+            "Quantity": "3-4",
+            "Source Product Code": "Watch",
+            "Source Product Name": "Watch"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "9",
+            "NRC": "9"
+        },
+        "Name": "9e4277689461b9b02704a47468e1c057",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "VolumeRangeAttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/VolumeRangeAttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "bb8daf70-9d8a-7da5-b6f0-f872029ddbdd",
+        "%vlocity_namespace%__InputData__c": {
+            "Quantity": "5-7",
+            "Source Product Code": "Watch",
+            "Source Product Name": "Watch"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "8",
+            "NRC": "8"
+        },
+        "Name": "0a2a727182cd9a7def13d3031d1ba9e5",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "VolumeRangeAttributePricingMatrix",
+            "%vlocity_namespace%__VersionNumber__c": 4,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/4/%vlocity_namespace%__CalculationMatrix__c/VolumeRangeAttributePricingMatrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "b935282f-8258-7ceb-d875-440a05b0f910",
+        "%vlocity_namespace%__InputData__c": {
+            "Quantity": "8-10",
+            "Source Product Code": "Watch",
+            "Source Product Name": "Watch"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "MRC": "5",
+            "NRC": "5"
+        },
+        "Name": "615b93d9b3efefa8acddb04da7fff717",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    }
+]

@@ -1,0 +1,8 @@
+[
+    "VlocityAction/Download Bill",
+    "VlocityAction/Modify Bundle",
+    "VlocityAction/Report Outage",
+    "VlocityAction/Service Upgrade",
+    "VlocityAction/Troubleshoot TV",
+    "VlocityUITemplate/vdo-list-card"
+]

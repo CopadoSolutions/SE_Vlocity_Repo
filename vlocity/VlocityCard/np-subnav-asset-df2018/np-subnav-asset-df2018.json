@@ -1,0 +1,577 @@
+{
+    "dataSource": {
+        "type": null
+    },
+    "enableLwc": false,
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "Id",
+            "blankCardState": false,
+            "collapse": true,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['Product2']['Family']",
+                        "logicalOperator": "&&",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "Bundle"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "View Details",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-document1-line",
+                        "id": "Record Details",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "disableAddCondition": false,
+            "editMode": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['SerialNumber']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['SerialNumber']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['Product2']['Family'] == 'Bundle'",
+            "isSmartAction": false,
+            "name": "Bundle",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "NavIcon",
+                    "type": "string",
+                    "value": "'../resource/npResource/bundle.svg'"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "NavTitle",
+                    "type": "string",
+                    "value": "['Name']"
+                }
+            ],
+            "sObjectType": "Asset",
+            "smartAction": {
+            },
+            "templateUrl": "np-subnav-cmt"
+        },
+        {
+            "actionCtxId": "Id",
+            "blankCardState": false,
+            "collapse": true,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['Product2']['Family']",
+                        "logicalOperator": "&&",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "Landline"
+                    },
+                    {
+                        "field": "['Product2']['%vlocity_namespace%__SubType__c']",
+                        "logicalOperator": "&&",
+                        "operator": "!=",
+                        "type": "custom",
+                        "value": "Handset"
+                    },
+                    {
+                        "field": "['Is_Root__c']",
+                        "logicalOperator": "&&",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "false"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "View Details",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-document1-line",
+                        "id": "Record Details",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "disableAddCondition": false,
+            "editMode": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['SerialNumber']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['SerialNumber']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['Product2']['Family'] == 'Landline' && $scope.obj['Product2']['%vlocity_namespace%__SubType__c'] != 'Handset' && $scope.obj['Is_Root__c'] == false",
+            "isSmartAction": false,
+            "name": "Landline",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "NavIcon",
+                    "type": "string",
+                    "value": "'../resource/npResource/voice.svg'"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "NavTitle",
+                    "type": "string",
+                    "value": "['Name']"
+                }
+            ],
+            "sObjectType": "Asset",
+            "smartAction": {
+            },
+            "templateUrl": "np-subnav-cmt"
+        },
+        {
+            "actionCtxId": "Id",
+            "blankCardState": false,
+            "collapse": true,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['Product2']['%vlocity_namespace%__SubType__c']",
+                        "logicalOperator": "&&",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "Handset"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "View Details",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-document1-line",
+                        "id": "Record Details",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "disableAddCondition": false,
+            "editMode": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Mobile_Number__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['Mobile_Number__c']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['Product2']['%vlocity_namespace%__SubType__c'] == 'Handset'",
+            "isSmartAction": false,
+            "name": "Mobile Handset",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "NavIcon",
+                    "type": "string",
+                    "value": "'../resource/npResource/mobile.svg'"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "NavTitle",
+                    "type": "string",
+                    "value": "['Name']"
+                }
+            ],
+            "sObjectType": "Asset",
+            "smartAction": {
+            },
+            "templateUrl": "np-subnav-cmt"
+        },
+        {
+            "actionCtxId": "Id",
+            "blankCardState": false,
+            "collapse": true,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['Product2']['%vlocity_namespace%__SubType__c']",
+                        "logicalOperator": "&&",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "Watch"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "View Details",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-document1-line",
+                        "id": "Record Details",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "disableAddCondition": false,
+            "editMode": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Mobile_Number__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['Mobile_Number__c']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['Product2']['%vlocity_namespace%__SubType__c'] == 'Watch'",
+            "isSmartAction": false,
+            "name": "Watch",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "NavIcon",
+                    "type": "string",
+                    "value": "'../resource/npResource/life-policy.svg'"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "NavTitle",
+                    "type": "string",
+                    "value": "['Name']"
+                }
+            ],
+            "sObjectType": "Asset",
+            "smartAction": {
+            },
+            "templateUrl": "np-subnav-cmt"
+        },
+        {
+            "actionCtxId": "Id",
+            "blankCardState": false,
+            "collapse": true,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['Product2']['Family']",
+                        "logicalOperator": "&&",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "TV"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "View Details",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-document1-line",
+                        "id": "Record Details",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "disableAddCondition": false,
+            "editMode": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['SerialNumber']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['SerialNumber']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['Product2']['Family'] == 'TV'",
+            "isSmartAction": false,
+            "name": "TV",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "NavIcon",
+                    "type": "string",
+                    "value": "'../resource/npResource/television.svg'"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "NavTitle",
+                    "type": "string",
+                    "value": "['Name']"
+                }
+            ],
+            "sObjectType": "Asset",
+            "smartAction": {
+            },
+            "templateUrl": "np-subnav-cmt"
+        },
+        {
+            "actionCtxId": "Id",
+            "blankCardState": false,
+            "collapse": true,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['Product2']['Family']",
+                        "logicalOperator": "&&",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "Internet"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "View Details",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-document1-line",
+                        "id": "Record Details",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "disableAddCondition": false,
+            "editMode": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['SerialNumber']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['SerialNumber']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['Product2']['Family'] == 'Internet'",
+            "isSmartAction": false,
+            "name": "Internet",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "NavIcon",
+                    "type": "string",
+                    "value": "'../resource/npResource/internet.svg'"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "NavTitle",
+                    "type": "string",
+                    "value": "['Name']"
+                }
+            ],
+            "sObjectType": "Asset",
+            "smartAction": {
+            },
+            "templateUrl": "np-subnav-cmt"
+        },
+        {
+            "actionCtxId": "Id",
+            "blankCardState": false,
+            "collapse": true,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['Product2']['Family']",
+                        "logicalOperator": "&&",
+                        "operator": "!=",
+                        "type": "custom",
+                        "value": "Bundle"
+                    },
+                    {
+                        "field": "['Product2']['Family']",
+                        "logicalOperator": "&&",
+                        "operator": "!=",
+                        "type": "custom",
+                        "value": "TV"
+                    },
+                    {
+                        "field": "['Product2']['%vlocity_namespace%__SubType__c']",
+                        "logicalOperator": "&&",
+                        "operator": "!=",
+                        "type": "custom",
+                        "value": "Handset"
+                    },
+                    {
+                        "field": "['Is_Root__c']",
+                        "logicalOperator": "&&",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "false"
+                    },
+                    {
+                        "field": "['Product2']['Family']",
+                        "logicalOperator": "&&",
+                        "operator": "!=",
+                        "type": "custom",
+                        "value": "Internet"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "View Details",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-document1-line",
+                        "id": "Record Details",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "disableAddCondition": false,
+            "editMode": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Product2']['%vlocity_namespace%__SubType__c']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['Product2']['%vlocity_namespace%__SubType__c']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['Product2']['Family'] != 'Bundle' && $scope.obj['Product2']['Family'] != 'TV' && $scope.obj['Product2']['%vlocity_namespace%__SubType__c'] != 'Handset' && $scope.obj['Is_Root__c'] == false && $scope.obj['Product2']['Family'] != 'Internet'",
+            "isSmartAction": false,
+            "name": "General",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "NavIcon",
+                    "type": "string",
+                    "value": "'../resource/npResource/accessories.svg'"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "NavTitle",
+                    "type": "string",
+                    "value": "['Name']"
+                }
+            ],
+            "sObjectType": "Asset",
+            "smartAction": {
+            },
+            "templateUrl": "np-subnav-cmt"
+        }
+    ],
+    "title": "Asset"
+}

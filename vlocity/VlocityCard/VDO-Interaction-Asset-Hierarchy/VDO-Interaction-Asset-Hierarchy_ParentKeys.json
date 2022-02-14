@@ -1,0 +1,16 @@
+[
+    "VlocityAction/Download Bill",
+    "VlocityAction/Interaction-Troubleshoot Mobile",
+    "VlocityAction/Interaction-Troubleshoot TV",
+    "VlocityAction/International Plan",
+    "VlocityAction/Manage Payments",
+    "VlocityAction/Modify Bundle",
+    "VlocityAction/PPV Charges",
+    "VlocityAction/Parental Controls",
+    "VlocityAction/Renew",
+    "VlocityAction/Service Upgrade",
+    "VlocityAction/Voicemail Password",
+    "VlocityAction/Voicemail Setup",
+    "VlocityUILayout/vdo-flyout-list-interaction",
+    "VlocityUITemplate/vdo-card-active-slds-clone"
+]

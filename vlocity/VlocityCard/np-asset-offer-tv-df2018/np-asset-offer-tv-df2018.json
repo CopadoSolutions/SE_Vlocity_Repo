@@ -1,0 +1,74 @@
+{
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "$root.vlocity.userAccountId",
+                "val": "0016g000005qKrHAAU"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"$root.vlocity.userAccountId\":\"{{$root.vlocity.userAccountId}}\"}"
+        }
+    },
+    "enableLwc": false,
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "Purchase Additional Channels",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-tv",
+                        "id": "TV Order",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Buy TV",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "NavIcon",
+                    "type": "string",
+                    "value": "'../resource/npResource/add.svg'"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "NavTitle",
+                    "type": "string",
+                    "value": "'Add TV'"
+                }
+            ],
+            "sObjectType": "Account",
+            "smartAction": {
+            },
+            "templateUrl": "np-subnav-open"
+        }
+    ],
+    "title": "Add TV"
+}

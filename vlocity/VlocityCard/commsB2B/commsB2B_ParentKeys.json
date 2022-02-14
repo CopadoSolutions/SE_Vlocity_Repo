@@ -1,0 +1,8 @@
+[
+    "VlocityAction/Amend Contract",
+    "VlocityAction/Renew Contract",
+    "VlocityAction/Send for eSignature",
+    "VlocityAction/Terminate Contract",
+    "VlocityUILayout/flyout-list",
+    "VlocityUITemplate/vdo-card-active"
+]

@@ -1,0 +1,17 @@
+.via-slds .slds-button--neutral, .via-slds .slds-button_neutral {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: left;
+    //vertical-align: middle;
+    border: 1px solid #dddbda;
+    transition: border .15s linear;
+    border-color: #dddbda;
+    background-color: #fff;
+}
+.via-slds-button:hover {
+    text-decoration: none;
+    color:#FF6E0D;
+    p, .icon {
+        color:#FF6E0D;
+    }
+}

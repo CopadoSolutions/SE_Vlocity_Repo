@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomHelpMenuSection xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customHelpMenuItems>
+        <linkUrl>https://vlocity.quip.com/hl44AgTxRxcF/Demo-EngCommsB2BDedicated-Internet</linkUrl>
+        <masterLabel>B2B Dedicated Internet Demo</masterLabel>
+        <sortOrder>1</sortOrder>
+    </customHelpMenuItems>
+    <customHelpMenuItems>
+        <linkUrl>https://vlocity.quip.com/9yT8A7cSn1Y3/Demo-EngComms5G-B2C</linkUrl>
+        <masterLabel>B2B 5G Demo</masterLabel>
+        <sortOrder>2</sortOrder>
+    </customHelpMenuItems>
+    <customHelpMenuItems>
+        <linkUrl>https://vlocity.quip.com/dgjoAEkey5vD/Demo-EngComms5G-B2C-1</linkUrl>
+        <masterLabel>B2C 5G Demo</masterLabel>
+        <sortOrder>3</sortOrder>
+    </customHelpMenuItems>
+    <customHelpMenuItems>
+        <linkUrl>https://vlocity.quip.com/dJdsAAofiHBq/Demo-EngCommsB2CLWC-DC-Click-Path</linkUrl>
+        <masterLabel>B2C Digital Commerce and LWC Functional Demo</masterLabel>
+        <sortOrder>4</sortOrder>
+    </customHelpMenuItems>
+    <masterLabel>Click Path</masterLabel>
+</CustomHelpMenuSection>

@@ -1,0 +1,52 @@
+.nds-dc-offer-grid-view {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+  align-items: stretch;
+}
+
+article {
+  flex: 1;
+  box-shadow: 0 0 0.25rem 0 rgba(0, 0, 0, 0.15);
+  margin: 0.5rem;
+  padding: 1rem;
+  min-width: 320px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+article > section {
+  flex-grow: 1;
+  margin-bottom: 1rem;
+}
+
+/* @media only screen and (min-width: 601px) {
+  article {
+    min-width: 250px;
+  }
+} */
+
+@media only screen and (max-width: 450px) {
+  article {
+    margin-left: 0;
+    margin-right: 0;
+    min-width: 100%;
+  }
+}
+
+.nds-dc-offer-detail {
+  overflow: auto;
+  color: #556a8c;
+  font-size: 12px;
+}
+
+.nds-dc-offer-grid-view .nds-dc-offer-board .nds-dc-offer-item-tile {
+  border: none;
+  box-shadow: none;
+}
+
+h2 {
+  font-size: 1.25rem;
+}

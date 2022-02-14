@@ -1,0 +1,19 @@
+[
+    "VlocityAction/Assisted Pay Bill",
+    "VlocityAction/B2B Bundle Order",
+    "VlocityAction/B2B Internet Order",
+    "VlocityAction/B2B Landline Order",
+    "VlocityAction/B2B Mobile Order",
+    "VlocityAction/B2C Bundle Order",
+    "VlocityAction/B2C TV Order",
+    "VlocityAction/Billing Dispute",
+    "VlocityAction/Change Address",
+    "VlocityAction/Mobile Order",
+    "VlocityAction/New Opportunity",
+    "VlocityAction/New Order",
+    "VlocityAction/Renew Contract",
+    "VlocityAction/Resume Interaction",
+    "VlocityAction/Service Upgrade",
+    "VlocityAction/Verify Caller",
+    "VlocityUITemplate/vdo-action-grid-card"
+]

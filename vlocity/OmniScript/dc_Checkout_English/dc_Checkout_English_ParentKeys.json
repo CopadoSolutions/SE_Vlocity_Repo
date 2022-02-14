@@ -1,0 +1,6 @@
+[
+    "VlocityUITemplate/dc_authenticate",
+    "VlocityUITemplate/dc_braintree",
+    "VlocityUITemplate/dc_reviewOrder",
+    "VlocityUITemplate/dc_updateBillingAddress"
+]

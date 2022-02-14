@@ -1,0 +1,37 @@
+{
+    "dataSource": {
+        "type": null
+    },
+    "filter": {
+        "['objAPIName']": "Note"
+    },
+    "states": [
+        {
+            "blankStateCheck": false,
+            "collapse": true,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Note",
+            "sObjectType": "Note",
+            "smartAction": {
+            },
+            "templateUrl": "story-card-de"
+        }
+    ],
+    "title": "Notes"
+}

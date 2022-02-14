@@ -1,0 +1,10 @@
+[
+    "DataRaptor/FetchAccountBalance",
+    "DataRaptor/FetchActDetails",
+    "DataRaptor/FetchLastPaymentDetails",
+    "DataRaptor/FetchPaymentMethods",
+    "DataRaptor/MarkSelectedPaymentMethodPrimary",
+    "DataRaptor/SaveEditedCardDetails",
+    "DataRaptor/SaveNewPaymetMethod",
+    "DataRaptor/getCardDetails"
+]

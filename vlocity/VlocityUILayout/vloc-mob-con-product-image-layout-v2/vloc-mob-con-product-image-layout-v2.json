@@ -1,0 +1,32 @@
+{
+    "Cards": [
+        "vloc-mob-con-product-image"
+    ],
+    "componentName": "cfVlocMobConProductImageLayoutV2",
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "attrs.productid",
+                "val": "02i6g000000nziQAAQ"
+            },
+            {
+                "name": "attrs.type",
+                "val": "Small"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"attrs.productid\":\"{{attrs.productid}}\",\"attrs.type\":\"{{attrs.type}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "vloc-mob-con-blank-canvas"
+        }
+    },
+    "workspace": [
+        "vloc-mob-con-product-image/Vlocity Demo Org/1/1535615263315",
+        "vloc-mob-con-product-image-df2018/Vlocity Demo Eng/1/1595889358867"
+    ]
+}

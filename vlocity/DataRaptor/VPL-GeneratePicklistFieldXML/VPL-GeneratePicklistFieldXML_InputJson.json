@@ -1,0 +1,86 @@
+{
+    "picklistValues": [
+        {
+            "@attribute-id": "QuantityScheduleType",
+            "display-name": {
+                "#text": "Quantity Schedule Type",
+                "@xml#lang": "x-default"
+            },
+            "type": {
+                "#text": "enum_of_string"
+            },
+            "value-definitions": {
+                "value-definition": [
+                    {
+                        "display": {
+                            "#text": "Divide Amount into multiple installments",
+                            "@xml#lang": "x-default"
+                        },
+                        "value": {
+                            "#text": "Divide"
+                        }
+                    },
+                    {
+                        "display": {
+                            "#text": "Repeat Amount for each installment",
+                            "@xml#lang": "x-default"
+                        },
+                        "value": {
+                            "#text": "Repeat"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "@attribute-id": "deletethis",
+            "display-name": {
+                "#text": "deletethis",
+                "@xml#lang": "x-default"
+            },
+            "type": {
+                "#text": "enum_of_string"
+            },
+            "value-definitions": {
+                "value-definition": [
+                    {
+                        "display": {
+                            "#text": "opt1",
+                            "@xml#lang": "x-default"
+                        },
+                        "value": {
+                            "#text": "opt1"
+                        }
+                    },
+                    {
+                        "display": {
+                            "#text": "opt2",
+                            "@xml#lang": "x-default"
+                        },
+                        "value": {
+                            "#text": "opt2"
+                        }
+                    },
+                    {
+                        "display": {
+                            "#text": "opt3",
+                            "@xml#lang": "x-default"
+                        },
+                        "value": {
+                            "#text": "opt3"
+                        }
+                    },
+                    {
+                        "display": {
+                            "#text": "opt4",
+                            "@xml#lang": "x-default"
+                        },
+                        "value": {
+                            "#text": "opt4"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

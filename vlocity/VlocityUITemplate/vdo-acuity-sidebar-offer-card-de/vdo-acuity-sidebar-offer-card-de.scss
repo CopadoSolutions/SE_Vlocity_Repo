@@ -1,0 +1,53 @@
+/* mixin for multiline */
+@mixin multiLineEllipsis($lineHeight: 1.2em, $lineCount: 1, $bgColor: white){
+  overflow: hidden;
+  position: relative;
+  line-height: $lineHeight;
+  max-height: $lineHeight * $lineCount;
+  text-align: left;
+  margin-right: 0;
+  padding-right: 1em;
+  &:before {
+    content: '...';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  &:after {
+    background-color: transparent;
+    //background: $bgColor;
+    content: '';
+    height: 1em;
+    margin-top: 0.2em;
+    position: absolute;
+    right: 0;
+    width: 1em;
+  }
+}
+
+
+.via-acuity-sidebar-offer-card {
+
+  .slds-media {
+    padding: 10px 0;
+  }
+
+  &:hover {
+    background-color: #f4f7fa;
+    cursor: pointer;
+  }
+
+  .slds-text-heading--label {
+    color: #1F4482;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+  }
+
+  p {
+    color: #777777;
+    font-size: 12px;
+    @include multiLineEllipsis($lineHeight: 1.2em, $lineCount: 3, $bgColor: white);
+  }
+}

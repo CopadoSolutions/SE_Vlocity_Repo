@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__Channel__c": "",
+    "%vlocity_namespace%__ContentType__c": "Image",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__DisplayConditionsData__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "6c064643-4c59-27c4-231c-7afbe1edbbc4",
+    "%vlocity_namespace%__IsDefaultImage__c": false,
+    "%vlocity_namespace%__IsPrivate__c": false,
+    "%vlocity_namespace%__ObjectId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "67f55ade-de70-3794-7f0a-bb7c051e6025",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/67f55ade-de70-3794-7f0a-bb7c051e6025",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__ProductGroupKey__c": "d9bda539-f982-45e4-d467-8bba7594ae4e",
+    "%vlocity_namespace%__SequenceNumber__c": 3,
+    "%vlocity_namespace%__UrlLong__c": "https://vlocitydemodx-cdn.herokuapp.com/content/industry/cmt/VDOProductResources/images/Samsung/SS_Note10Plus_Black_SideRight.png",
+    "%vlocity_namespace%__Url__c": "",
+    "Name": "Samsung Note 10 Plus Side",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityAttachment__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityAttachment__c/6c064643-4c59-27c4-231c-7afbe1edbbc4"
+}

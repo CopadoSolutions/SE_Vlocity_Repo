@@ -1,0 +1,19 @@
+{
+    "BillDeliveryMethod": "eMail",
+    "SetValues1": {
+        "accountSource": "Customer - Direct",
+        "accountType": "Consumer Account",
+        "fullName": "testFN testLN"
+    },
+    "address1": "first street",
+    "address2": "unit 2",
+    "city": "San Francisco",
+    "customer_id": "1234asdf1234asdf3",
+    "customer_no": "12345678",
+    "email": "test@test.com",
+    "first_name": "testFN",
+    "last_name": "testLN",
+    "phone": "415-555-1212",
+    "postalCode": "94501",
+    "stateCode": "CA"
+}

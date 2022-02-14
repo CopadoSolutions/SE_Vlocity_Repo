@@ -1,0 +1,25 @@
+{
+    "%vlocity_namespace%__CustomJavaScript__c": "{}",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "commsB2B_ServiceQualification_Element_HTTPActionWebHook.json",
+        "commsB2B_ServiceQualification_Element_ResponseActionWebHook.json",
+        "commsB2B_ServiceQualification_Element_HTTPAction-GoogleSheets.json",
+        "commsB2B_ServiceQualification_Element_ResponseAction1.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__OmniProcessType__c": "Integration Procedure",
+    "%vlocity_namespace%__ProcedureKey__c": "commsB2B_ServiceQualification",
+    "%vlocity_namespace%__PropertySet__c": "commsB2B_ServiceQualification_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "ServiceQualification",
+    "%vlocity_namespace%__Type__c": "commsB2B",
+    "Name": "commsB2B Service Qualification",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/commsB2B/ServiceQualification/Procedure"
+}

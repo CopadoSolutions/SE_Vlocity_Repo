@@ -1,0 +1,111 @@
+section.warning {
+	-webkit-box-shadow: 0px 0px 6px 0px rgba(234,197,79,1);
+	-moz-box-shadow: 0px 0px 6px 0px rgba(234,197,79,1);
+	box-shadow: 0px 0px 6px 0px rgba(234,197,79,1);
+}
+
+.slds-card__header {
+	padding: 0;
+
+	header {
+		margin-top: 20px;
+        text-align: center;
+        width: 100%;
+
+		h2 {
+			color: #2C529B;
+			font-size: 14px;
+            margin-top: 10px;
+		}
+		.asset-icon {
+			margin: 0 auto;
+			width: 64px;
+		}
+        .slds-grid {
+            margin: 0 auto;
+        }
+		.slds-text-heading_medium {
+            color: #2C529B;
+            font-weight: 500;
+            font-size: 14px;
+			margin-bottom: 15px;
+			padding: 0 10px;
+		}
+		.slds-card__header-link {
+			font-weight: normal;
+		}
+	}
+}
+
+.slds-card__body {
+	.slds-grid {
+		border-bottom: 1px solid #D8DDE6;
+		padding: 5px;
+	}
+	&.slds-card__body_inner {
+		color: #6A7DA4;
+		font-size: 11px;
+		padding: 0 10px;
+	
+		label {
+			font-size: 11px;
+			color: #7688AF;
+			display: inline-block;
+			font-weight: normal;
+			margin-bottom: 0;
+			margin-top: 0;
+			text-transform: uppercase;
+		}
+		.jeopardy {
+			color: #C23934;
+		}
+		.more-info {
+			margin: 10px;
+		}
+	}
+}
+
+.slds-card__footer {
+	border-top: none !important;
+	padding-bottom: 20px;
+
+	.slds-button {
+		font-size: 11px;
+		margin-bottom: 5px;
+	}
+	.slds-button {
+		width: 100%;
+	}
+	.slds-button_neutral, a.slds-button {
+		justify-content: left;
+		text-align: left;
+	}
+}
+
+.vlocity section.console-card {
+	float: left;
+	margin: 10px;
+	background-color: #ffffff;
+
+	article.slds-card {
+		min-height: 500px;
+	}
+}
+
+/*
+2020-10-22
+Justin Harris.
+This was causing issues when there were lots of DRAFT orders.
+This was after teh 109 upgrade.
+@media only screen and (min-width: 961px) and (min-height: 300px) {
+	.vlocity section.console-card {
+		width: calc(100% / 4 - 20px);
+	}
+}
+@media only screen and (max-width: 960px) and (min-height: 300px) {
+	.vlocity section.console-card {
+		width: calc(100% / 2 - 20px);
+	}
+	
+}
+*/

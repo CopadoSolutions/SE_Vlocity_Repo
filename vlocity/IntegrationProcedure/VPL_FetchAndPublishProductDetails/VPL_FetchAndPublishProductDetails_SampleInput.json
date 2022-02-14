@@ -1,0 +1,29 @@
+{
+    "CatalogFileName": "5431.xml",
+    "OAuthData": {
+        "access_token": "yeahIEf_yBkpGGPeesoX-0UM834",
+        "expires_in": 1799,
+        "scope": "mail",
+        "token_type": "Bearer"
+    },
+    "RootCatalogId": "DND",
+    "VlocityCatalog": "a0G3h000001MPvlEAG",
+    "allProductIds": "01t3h000002StTsAAK",
+    "catalogs": [
+        {
+            "CatalogCode": "root",
+            "Id": "a0G3h000001MPvlEAG",
+            "PriceListId": "a303h000000Rra7AAC",
+            "ProductCodes": [
+                "Business_DND"
+            ],
+            "ProductIds": [
+                "01t3h000002StTsAAK"
+            ]
+        }
+    ],
+    "clientId": "9908fb27-0ef1-4f08-91d0-304cb3665ebe",
+    "tmfInput": {
+        "id": "01t3h000002StTsAAK"
+    }
+}

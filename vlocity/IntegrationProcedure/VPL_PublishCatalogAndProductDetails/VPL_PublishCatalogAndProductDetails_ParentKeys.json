@@ -1,0 +1,9 @@
+[
+    "DataRaptor/VPL-GetAllProductIds",
+    "DataRaptor/VPL-GetDeltaProductCodes",
+    "DataRaptor/VPL-GetDeltaProductIds",
+    "DataRaptor/VPL-GetProductsForCatalog",
+    "DataRaptor/VPL-UpdateDataPublishStatus",
+    "IntegrationProcedure/VPL_FetchAndPublishProductDetails",
+    "IntegrationProcedure/VPL_FormatCatalogDataForCC"
+]

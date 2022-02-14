@@ -1,0 +1,81 @@
+<a class="slds-size--12-of-12 slds-medium-size--12-of-12 slds-large-size--12-of-12 vlc-slds-items--container"
+
+   ng-click="bpTree.response.selectedSlot = p"
+   vlc-slds-prod-desc="{{ p.Product2.Description }}"
+   ng-repeat='p in control.vlcSI[control.itemsKey]'>
+
+    <div class="slds-grid slds-box vlc-slds-selectableItem" 
+         ng-style="bpTree.response.selectedSlot.Slot === p.Slot && {'border-color': 'green'}">
+
+        <div class="slds-size--1-of-12" ng-show="bpTree.response.selectedSlot.Slot !== p.Slot">
+            <slds-svg-icon sprite="'utility'" icon="'event'" size="'large'"></slds-svg-icon>
+
+        </div>
+        
+        <div class="slds-size--1-of-12" ng-show="bpTree.response.selectedSlot.Slot === p.Slot">
+            <slds-svg-icon sprite="'utility'" icon="'check'" size="'large'" style="fill: green !important;"></slds-svg-icon>
+
+        </div>
+
+        <div class="slds-size--6-of-12 vlc-slds-item--details">
+
+            <label class="slds-form__element__label">
+                {{p.Date}}
+            </label>
+
+            <label class="slds-form__element__label">
+                {{p.Slot}}
+            </label>
+
+        </div>
+
+
+        <div class="slds-size--2-of-12 vlc-slds-item--onecost" ng-init="UnitPrice = p.UnitPrice.value ? p.UnitPrice.value : 0.00">
+
+            <label class="slds-form__element__label">
+                {{p.Day}}
+            </label>
+            
+            <label class="slds-form__element__label">Day</label>
+
+        </div>
+
+        <div class="slds-size--2-of-12 vlc-slds-item--cost" ng-init="RecurringPrice__c = p[nsPrefix + 'RecurringPrice__c'].value ? p[nsPrefix + 'RecurringPrice__c'].value : 0.00">
+
+            <label class="slds-form__element__label">
+                {{p.Time | formatDate: 'A' }}
+            </label>
+            
+            <label class="slds-form__element__label">Timeslot</label>
+
+        </div>
+
+
+        <div class="vls-slds-item--action">
+
+            <span class="slds-icon_container slds-icon-action-approval slds-icon_container--circle">
+                <slds-svg-icon aria-hidden="true"
+                               sprite="'action'"
+                               icon="'approval'"
+                               size="'small'"
+                               extra-classes="''">
+                </slds-svg-icon>
+            </span>
+
+        </div>
+
+    </div>
+
+</a>
+<div class='vlc-slds-loadmore-products-btn vlc-slds-remote-action--button' ng-if="control.vlcSI[control.itemsKey][0].actions">
+    <div class="slds-form-element__control">
+        <div class="vlc-control-wrapper">
+            <div id="loadMoreProducts"
+                 class='slds-box'
+                 title="Load More"
+                 ng-click="baseCtrl.loadMoreProducts(control, this)">
+                <p>{{::customLabels.OmniSelItemLoadMore}}</p>
+            </div>
+        </div>
+    </div>
+</div>

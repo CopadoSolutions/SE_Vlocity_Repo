@@ -1,0 +1,24 @@
+{
+    "%vlocity_namespace%__CustomJavaScript__c": "CPQ_IsCartEmpty_SampleInput.json",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "CPQ_IsCartEmpty_Element_GetOrderLineItems.json",
+        "CPQ_IsCartEmpty_Element_GetQuoteLineItemCount.json",
+        "CPQ_IsCartEmpty_Element_Output.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__OmniProcessType__c": "Integration Procedure",
+    "%vlocity_namespace%__ProcedureKey__c": "CPQ_IsCartEmpty",
+    "%vlocity_namespace%__PropertySet__c": "CPQ_IsCartEmpty_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "IsCartEmpty",
+    "%vlocity_namespace%__Type__c": "CPQ",
+    "Name": "IsCartEmpty",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/CPQ/IsCartEmpty/Procedure"
+}

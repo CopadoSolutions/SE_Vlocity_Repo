@@ -1,0 +1,58 @@
+{
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "type": "IntegrationProcedures",
+        "value": {
+            "inputMap": {
+                "AccountId": "{{$root.currentUser.Account.attributes.url.substring(38)}}",
+                "ProductName": "{{params.id}}"
+            },
+            "ipMethod": "VlocityMobileConsumer_GetProductsFromCatalog",
+            "optionsMap": {
+                "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+            },
+            "resultVar": "products[0].Attachments"
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Images",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "ProductImage",
+                    "type": "string",
+                    "value": "['url']"
+                }
+            ],
+            "smartAction": {
+            },
+            "templateUrl": "vloc-mob-con-product-image-df2018"
+        }
+    ],
+    "title": "Product Image"
+}

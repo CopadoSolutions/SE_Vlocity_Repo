@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__Channel__c": "",
+    "%vlocity_namespace%__ContentType__c": "Image",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__DisplayConditionsData__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "51b016cb-f4eb-bf44-d24f-c1422571fa81",
+    "%vlocity_namespace%__IsDefaultImage__c": false,
+    "%vlocity_namespace%__IsPrivate__c": false,
+    "%vlocity_namespace%__ObjectId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "fd9de144-6bb0-249d-a521-b0e35fdcac69",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/fd9de144-6bb0-249d-a521-b0e35fdcac69",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__ProductGroupKey__c": "adee5236-f28b-cf77-6d4f-c2ed0adc46cc",
+    "%vlocity_namespace%__SequenceNumber__c": 3,
+    "%vlocity_namespace%__UrlLong__c": "https://vlocitydemodx-cdn.herokuapp.com/content/industry/cmt/VDOProductResources/images/Apple/Apple_iPhone11_Purple_FrontAngle.jpg",
+    "%vlocity_namespace%__Url__c": "",
+    "Name": "Apple iPhone 11 FrontAngle",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityAttachment__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityAttachment__c/51b016cb-f4eb-bf44-d24f-c1422571fa81"
+}

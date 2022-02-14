@@ -1,0 +1,18 @@
+{
+    "%vlocity_namespace%__Author__c": "CommsB2BFY2021",
+    "%vlocity_namespace%__CustomJavascript__c": "",
+    "%vlocity_namespace%__Definition__c": "",
+    "%vlocity_namespace%__Description__c": "A medium sized square card.",
+    "%vlocity_namespace%__DisplayOn__c": "",
+    "%vlocity_namespace%__ExternalID__c": "commsB2B-vdo-card-warning-de/1/CommsB2BFY2021/1588092120058",
+    "%vlocity_namespace%__HTML__c": "commsB2B-vdo-card-warning-de.html",
+    "%vlocity_namespace%__ParentID__c": "commsB2B-vdo-card-danger-de/1/CommsB2BFY2021/1588091738698",
+    "%vlocity_namespace%__SampleJson__c": "commsB2B-vdo-card-warning-de_Sample.json",
+    "%vlocity_namespace%__Sass__c": "commsB2B-vdo-card-warning-de.scss",
+    "%vlocity_namespace%__Type__c": "Vlocity Demo Org",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "commsB2B-vdo-card-warning-de",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUITemplate__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUITemplate__c/commsB2B-vdo-card-warning-de"
+}

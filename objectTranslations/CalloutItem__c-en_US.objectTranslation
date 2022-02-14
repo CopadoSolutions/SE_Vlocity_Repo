@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Callout Item</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Callout Items</value>
+    </caseValues>
+    <fields>
+        <label><!-- Callout Body --></label>
+        <name>CalloutBody__c</name>
+    </fields>
+    <fields>
+        <label><!-- Callout Context --></label>
+        <name>CalloutContext__c</name>
+    </fields>
+    <fields>
+        <label><!-- Callout Metadata --></label>
+        <name>CalloutMetadataId__c</name>
+        <relationshipLabel><!-- Callout Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- HTTPAction --></label>
+        <name>HTTPAction__c</name>
+    </fields>
+    <fields>
+        <label><!-- HTTP Status Code --></label>
+        <name>HTTPStatusCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- HTTP Status --></label>
+        <name>HTTPStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Integration Processing Class --></label>
+        <name>IntegrationProcessingClass__c</name>
+    </fields>
+    <fields>
+        <label><!-- Outbound DRBundle Name --></label>
+        <name>OutboundDRBundleName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Outbound Headers --></label>
+        <name>OutboundHeaders__c</name>
+    </fields>
+    <fields>
+        <label><!-- Persist Callout Data --></label>
+        <name>PersistCalloutData__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Headers --></label>
+        <name>ResponseHeaders__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Message Raw --></label>
+        <name>ResponseMessageRaw__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Message --></label>
+        <name>ResponseMessage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Result DRBundle Name --></label>
+        <name>ResultDRBundleName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation><!-- Failed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Rows</masterLabel>
+            <translation><!-- No Rows --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation><!-- OK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Queued</masterLabel>
+            <translation><!-- Queued --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Succeeded</masterLabel>
+            <translation><!-- Succeeded --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- System --></label>
+        <name>SystemId__c</name>
+        <relationshipLabel><!-- Callout Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- TransformURL DRBundle --></label>
+        <name>TransformURLDRBundle__c</name>
+    </fields>
+    <fields>
+        <label><!-- URI --></label>
+        <name>URI__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

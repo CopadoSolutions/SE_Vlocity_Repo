@@ -1,0 +1,71 @@
+{
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "$root.vlocity.userAccountId",
+                "val": "0014P0000263kz2QAA"
+            }
+        ],
+        "type": "ApexRest",
+        "value": {
+            "endpoint": "/services/apexrest/%vlocity_namespace%/v1/acuity/nuslice?contextId={{$root.vlocity.userAccountId}}&pageSize=4"
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "",
+            "blankStateCheck": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "displayName": "Purchase A New Phone",
+                        "extraParams": {
+                            "ContextId": "$root.vlocity.userAccountId",
+                            "Id": "$root.vlocity.userAccountId",
+                            "layout": "newport"
+                        },
+                        "hasExtraParams": true,
+                        "iconName": "icon-v-phone-line",
+                        "id": "nuSlice Mobile Order",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['resource']['%vlocity_namespace%__Description__c']",
+                    "group": "Custom Properties",
+                    "label": "resource Description",
+                    "name": "['resource']['%vlocity_namespace%__Description__c']",
+                    "type": "string"
+                }
+            ],
+            "isSmartAction": false,
+            "name": "Active",
+            "sObjectType": "Account",
+            "smartAction": {
+            },
+            "templateUrl": "np-resource-banner-demo-eng"
+        }
+    ],
+    "title": "Banner"
+}

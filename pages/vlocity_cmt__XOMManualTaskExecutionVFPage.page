@@ -1,0 +1,5 @@
+<apex:page controller="vlocity_cmt.ManualTaskExecutionController">
+    <c:XOMIllustration title="We’re sorry, but the page you’re looking for no longer exists. You may configure an Omniscript instead."
+            showReturn="false">
+    </c:XOMIllustration>
+</apex:page>

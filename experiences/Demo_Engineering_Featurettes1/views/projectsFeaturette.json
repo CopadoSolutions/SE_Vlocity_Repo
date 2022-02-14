@@ -1,0 +1,71 @@
+{
+  "appPageId" : "067cb50d-59bf-4755-900f-02d130a9107a",
+  "componentName" : "siteforce:dynamicLayout",
+  "id" : "9cfdf64d-6813-4223-b29e-b1bc8618fc6a",
+  "label" : "Projects Featurette",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "a2779ef6-ce53-43c5-8387-ee028198f1ed",
+          "columns" : [ {
+            "UUID" : "c40361c8-e44d-46a8-87c3-e8b612349572",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "a2779ef6-ce53-43c5-8387-ee028198f1ed",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "bannerstyle" : "",
+            "bannertext" : "Demo Engineering Featurette - Projects",
+            "showcomponent" : true
+          },
+          "componentName" : "c:demo_eng_simple_banner_text",
+          "id" : "dd58ab87-bf1b-46a4-bc9b-f29e4471faf6",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "c40361c8-e44d-46a8-87c3-e8b612349572",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "af0a346a-c555-43a7-b465-8dbd6c1233dd",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Projects Featurette"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "39d0cb82-bd93-4f54-acc0-e231d394fe66",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "bc78e882-b610-4e68-be1c-e452070359fc",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-projects-featurette"
+}

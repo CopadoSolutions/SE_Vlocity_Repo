@@ -1,0 +1,11 @@
+[
+    "DataRaptor/CPQ-Filter-Existing-Groups",
+    "DataRaptor/CPQ-Get-Groups-To-Create-List",
+    "DataRaptor/CPQ-Get-Products-From-Assets",
+    "DataRaptor/ConsolidateProductData",
+    "DataRaptor/CustomizeGroupDetails",
+    "IntegrationProcedure/CPQ_AddToGroupAsync",
+    "IntegrationProcedure/CPQ_GetGroupLevelConsolidatedData",
+    "IntegrationProcedure/CPQ_IsCartEmpty",
+    "IntegrationProcedure/CPQ_StartBulkChange"
+]

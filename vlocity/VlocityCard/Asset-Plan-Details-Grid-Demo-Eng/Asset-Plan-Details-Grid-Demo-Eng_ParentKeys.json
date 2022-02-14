@@ -1,0 +1,18 @@
+[
+    "VlocityAction/Bluetooth Setup",
+    "VlocityAction/Configure Sharing",
+    "VlocityAction/Download Bill",
+    "VlocityAction/International Plan",
+    "VlocityAction/Manage Payments",
+    "VlocityAction/Modify Bundle",
+    "VlocityAction/Parental Controls",
+    "VlocityAction/Renew",
+    "VlocityAction/Renew Burst",
+    "VlocityAction/Service Upgrade",
+    "VlocityAction/Support Center",
+    "VlocityAction/Troubleshoot Mobile",
+    "VlocityAction/Voicemail Password",
+    "VlocityUILayout/flyout-list",
+    "VlocityUILayout/flyout-product",
+    "VlocityUITemplate/asset-detail-card-demo-eng"
+]

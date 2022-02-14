@@ -1,0 +1,12 @@
+[
+    "DataRaptor/GetAssetDetails",
+    "Document/CABJBBAEAb7a9b8019f9e4c1da8849bbed572031e",
+    "Document/CABJBBAIA0d4a310c2d764e47928fca03212e09c4",
+    "IntegrationProcedure/DemoEng_DC_CreateCart",
+    "IntegrationProcedure/Demo_AddProductToCartViaDCApi",
+    "IntegrationProcedure/Demo_GetOffersWrapperByCatalog",
+    "VlocityUITemplate/demo-basket-de",
+    "VlocityUITemplate/demo-offers-tiles",
+    "VlocityUITemplate/demo-offers-tiles-de",
+    "VlocityUITemplate/demoSurveyQuestion"
+]

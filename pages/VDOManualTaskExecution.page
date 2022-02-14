@@ -1,0 +1,9 @@
+<apex:page standardController="vlocity_cmt__OrchestrationItem__c" standardStylesheets="false" showHeader="false">
+  <script>
+      var taskid = '{!vlocity_cmt__OrchestrationItem__c.id}';
+      var taskurl = '{!vlocity_cmt__OrchestrationItem__c.vlocity_cmt__OrchestrationItemDefinitionId__r.vlocity_cmt__CustomTaskExecutionURL__c}';
+      taskurl = taskurl.replace(/\{0\}/g, taskid);      
+      window.location = taskurl;
+      console.log('taskid:' + taskurl + '*' + taskid);
+  </script>
+</apex:page>

@@ -1,0 +1,216 @@
+[
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__GlobalKey__c": "21a3ce7f-f584-93c1-04a7-5ad87be863e2",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "be35ea92-04ff-c89c-91c1-a62872e6643e",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__VlocityAttachment__c/be35ea92-04ff-c89c-91c1-a62872e6643e",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityAttachment__c"
+        },
+        "%vlocity_namespace%__ItemType__c": "Vlocity Attachment",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "a47b8c00-c526-2753-4cf8-d24abfba240b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/a47b8c00-c526-2753-4cf8-d24abfba240b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "f07e7940-2ae3-a238-bc49-fc5f9ea9d0bd",
+            "Name": "Default Comms Project",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/f07e7940-2ae3-a238-bc49-fc5f9ea9d0bd",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "a47b8c00-c526-2753-4cf8-d24abfba240b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/a47b8c00-c526-2753-4cf8-d24abfba240b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "Name": "Apple iPhone X Small",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/21a3ce7f-f584-93c1-04a7-5ad87be863e2"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__GlobalKey__c": "4a5af1d7-c2d5-1a5d-d024-c88970061fe0",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "36f9e62f-0a8c-33c2-d267-cf4d309aae9d",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__VlocityAttachment__c/36f9e62f-0a8c-33c2-d267-cf4d309aae9d",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityAttachment__c"
+        },
+        "%vlocity_namespace%__ItemType__c": "Vlocity Attachment",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "a47b8c00-c526-2753-4cf8-d24abfba240b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/a47b8c00-c526-2753-4cf8-d24abfba240b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "f07e7940-2ae3-a238-bc49-fc5f9ea9d0bd",
+            "Name": "Default Comms Project",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/f07e7940-2ae3-a238-bc49-fc5f9ea9d0bd",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "a47b8c00-c526-2753-4cf8-d24abfba240b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/a47b8c00-c526-2753-4cf8-d24abfba240b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "Name": "Apple iPhone X Large",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/4a5af1d7-c2d5-1a5d-d024-c88970061fe0"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__GlobalKey__c": "9189d4ce-6eba-6367-ec83-5c6f0ad3e29f",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "97e3d995-da41-de76-174f-86f7b6a60f9b",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__Promotion__c/97e3d995-da41-de76-174f-86f7b6a60f9b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Promotion__c"
+        },
+        "%vlocity_namespace%__ItemType__c": "Promotion",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": "",
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "f07e7940-2ae3-a238-bc49-fc5f9ea9d0bd",
+            "Name": "Default Comms Project",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/f07e7940-2ae3-a238-bc49-fc5f9ea9d0bd",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "Name": "Blaze Adjustment Promo",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/9189d4ce-6eba-6367-ec83-5c6f0ad3e29f"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__GlobalKey__c": "b0abf55f-f610-94a0-cce7-0810fb89f372",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "7f3f2c77-b0b5-132e-0c88-5acc0204973f",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__Promotion__c/7f3f2c77-b0b5-132e-0c88-5acc0204973f",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Promotion__c"
+        },
+        "%vlocity_namespace%__ItemType__c": "Promotion",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": "",
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "f07e7940-2ae3-a238-bc49-fc5f9ea9d0bd",
+            "Name": "Default Comms Project",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/f07e7940-2ae3-a238-bc49-fc5f9ea9d0bd",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "Name": "Blaze Promo",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/b0abf55f-f610-94a0-cce7-0810fb89f372"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__GlobalKey__c": "fa30d321-08a6-e861-f091-41cd163c6190",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "87910f87-9f8a-0b26-bab7-e51606895f50",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__VlocityAttachment__c/87910f87-9f8a-0b26-bab7-e51606895f50",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityAttachment__c"
+        },
+        "%vlocity_namespace%__ItemType__c": "Vlocity Attachment",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "a47b8c00-c526-2753-4cf8-d24abfba240b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/a47b8c00-c526-2753-4cf8-d24abfba240b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "f07e7940-2ae3-a238-bc49-fc5f9ea9d0bd",
+            "Name": "Default Comms Project",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/f07e7940-2ae3-a238-bc49-fc5f9ea9d0bd",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "a47b8c00-c526-2753-4cf8-d24abfba240b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/a47b8c00-c526-2753-4cf8-d24abfba240b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "Name": "Apple iPhone X",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/fa30d321-08a6-e861-f091-41cd163c6190"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "Delete",
+        "%vlocity_namespace%__GlobalKey__c": "c54239c6-0cb1-41a0-dede-99176e5eddba",
+        "%vlocity_namespace%__ItemGlobalKey__c": "",
+        "%vlocity_namespace%__ItemId__c": "a228c000000ONdPAAW",
+        "%vlocity_namespace%__ItemType__c": "Vlocity Attachment",
+        "%vlocity_namespace%__ItemVersion__c": "",
+        "%vlocity_namespace%__ParentItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "a47b8c00-c526-2753-4cf8-d24abfba240b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/a47b8c00-c526-2753-4cf8-d24abfba240b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "f07e7940-2ae3-a238-bc49-fc5f9ea9d0bd",
+            "Name": "Default Comms Project",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/f07e7940-2ae3-a238-bc49-fc5f9ea9d0bd",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "%vlocity_namespace%__RootItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "a47b8c00-c526-2753-4cf8-d24abfba240b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/a47b8c00-c526-2753-4cf8-d24abfba240b",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c"
+        },
+        "Name": "iPhone X Product Image",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/c54239c6-0cb1-41a0-dede-99176e5eddba"
+    },
+    {
+        "%vlocity_namespace%__Action__c": "No Change",
+        "%vlocity_namespace%__GlobalKey__c": "a47b8c00-c526-2753-4cf8-d24abfba240b",
+        "%vlocity_namespace%__ItemGlobalKey__c": "cf5caa5f-5474-3cc1-d99a-871e62efd346",
+        "%vlocity_namespace%__ItemId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "cf5caa5f-5474-3cc1-d99a-871e62efd346",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/cf5caa5f-5474-3cc1-d99a-871e62efd346",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__ItemType__c": "Product",
+        "%vlocity_namespace%__ItemVersion__c": "V1",
+        "%vlocity_namespace%__ParentItemId__c": "",
+        "%vlocity_namespace%__ProjectId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "f07e7940-2ae3-a238-bc49-fc5f9ea9d0bd",
+            "Name": "Default Comms Project",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Project__c/f07e7940-2ae3-a238-bc49-fc5f9ea9d0bd",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c"
+        },
+        "Name": "Apple iPhone X",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ProjectItem__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__ProjectItem__c/a47b8c00-c526-2753-4cf8-d24abfba240b"
+    }
+]

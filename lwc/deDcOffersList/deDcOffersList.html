@@ -1,0 +1,26 @@
+<template>
+    <div class="nds-dc-offerlist-container">
+        <div class="nds-dc-filter-wrapper">
+            <slot name="dc-offer-list-switch-wrapper">
+                <img if:true={gridViewActive} src={icons.listBase} onclick={activateList}>
+                <img if:false={gridViewActive} src={icons.listSelected} onclick={activateList}>
+    
+                <img if:true={gridViewActive} src={icons.gridSelected} onclick={activateGrid}>
+                <img if:false={gridViewActive} src={icons.gridBase} onclick={activateGrid}>
+            </slot>
+            <!-- <div>
+                <c-dc-filter></c-dc-filter>
+            </div> -->
+        </div>
+        <div class="nds-dc-spinner slds-spinner_container" if:true={loading}>
+            <lightning-spinner alternative-text="Loading" size="large" variant="brand"></lightning-spinner>
+        </div>
+        <div if:true={offers.length}>
+            <c-de-dc-offer-grid-view offers={offers} if:true={gridViewActive} selected-offer-code={selectedOfferCode}></c-de-dc-offer-grid-view>
+            <!-- <c-dc-offer-list-view offers={offers} if:false={gridViewActive} selected-offer-code={selectedOfferCode}></c-dc-offer-list-view> -->
+            <div if:true={enableNextButton} class="nds-dc-load-more" onclick={loadMore}>
+                <button class="nds-button nds-button_brand">{translatedLabelsObj.CPQLoadMore}</button>
+            </div>
+        </div>
+    </div>
+</template>

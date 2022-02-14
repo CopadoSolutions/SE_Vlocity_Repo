@@ -1,0 +1,62 @@
+<!--  DE-2492.  Changes to css only.  -->
+
+<section class="console-card active" data-card="card-{{cardIndex}}" ng-class="{selected:isSelected(cardIndex)}" hotkey-layout-card>
+
+		<article class="slds-card">
+			<!-- card header -->
+			<div class="slds-card__header slds-grid" ng-click="performFlyout('card-'+cardIndex)">
+				<header class="slds-media slds-media_center">
+					<div class="slds-grid slds-wrap">
+						<div class="slds-col slds-size_1-of-1">
+	
+							<span class="slds-icon_container slds-icon-standard-{{session.type}}" title="{{session.type}}" ng-if="session.type != 'assets'">
+								<img alt="{{session.type}}" class="icon slds-icon slds-icon_medium" data-aura-rendered-by="6:7832;a" src="/img/icon/t4v35/standard/{{session.type}}_120.png" title="{{session.type}}">
+							</span>
+
+							<span ng-if="session.type == 'assets'">
+								<vloc-layout class="asset-icon" layout-name="np-product-image" productid="{{obj.Product2.Id}}" ng-if="!obj.Name.includes('Unlimited')"></vloc-layout>
+							</span>
+
+						</div>
+						<div class="slds-col slds-size_1-of-1">
+							<h2 class="slds-text-heading_medium" tooltip-placement="bottom" tooltip="{{obj.Name}}">
+                                {{obj.Name}}
+								<!--   DE-2497.  -->
+								<!-- 
+								{{obj.Product2.Family}} 
+								{{obj.Product2.%vlocity_namespace%__SubType__c}} 
+								-->
+							</h2>
+						</div>
+					</div>
+				</header>
+			</div>
+
+			<!-- card body -->
+			<div class="slds-card__body slds-card__body_inner">
+				<div class="slds-grid slds-wrap" ng-repeat="field in data.fields" ng-show="key != 'attributes'">
+					<div class="slds-col slds-size_1-of-2"><label>{{field.label}}</label></div>
+					<div class="slds-col slds-size_1-of-2" ng-if="!obj[field.relationshipName]">{{obj | getter: field | picker: field.type}}</div>
+					<div class="slds-col slds-size_1-of-2" ng-if="obj[field.relationshipName]">{{obj[field.relationshipName]['Name']}}</div>
+				</div>
+				<div class="slds-align_absolute-center more-info" ng-show="session.type === 'assets' || session.type === 'orders' || (session.type === 'contract' && obj.Frame )"><a href="#" ng-click="performFlyout('card-'+cardIndex)">More Info</a></div>
+			</div>
+
+			<!-- card footer -->
+			<footer class="slds-card__footer">
+				<div class="slds-grid slds-wrap">
+					<div class="slds-col slds-size_1-of-1" ng-repeat="action in data.actions | limitTo: (data.limitActionLinksTo?data.limitActionLinksTo:5)">
+						<a href="#" class="slds-button slds-button_neutral" ng-click="performAction(action)" hotkey-card-action>
+							<i ng-if="!action.imageRef" class="icon {{action.vlocityIcon}}"></i>
+							<span ng-if="action.imageRef">
+								<img ng-src="{{action.imageRef}}" alt="{{action.displayName}}"/>
+							</span>
+							{{action.displayName}}
+						</a>
+					</div>
+				</div>
+			</footer>
+
+		</article>
+
+</div>

@@ -1,0 +1,46 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+            {
+                "id": 6,
+                "name": "Parent.cartId",
+                "val": "8015g000000byVA"
+            },
+            {
+                "id": 38,
+                "name": "Parent.ObjectType",
+                "val": "Order"
+            }
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "IntegrationProcedures",
+        "value": {
+            "dsDelay": 0,
+            "inputMap": {
+                "ObjectType": "{Parent.ObjectType}",
+                "cartId": "{Parent.cartId}"
+            },
+            "ipMethod": "CPQ_GetGlobalHeaderDetails",
+            "resultVar": "[\"response\"]",
+            "vlocityAsync": false
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "cpqGlobalHeader.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "cpqGlobalHeader/Vlocity/3/1626949070225",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "cpqGlobalHeaderChild/Vlocity/2/1614768405265",
+    "%vlocity_namespace%__SampleData__c": "{\"response\":{\"Id\":null,\"ApprovalRequired\":null}}",
+    "%vlocity_namespace%__Styles__c": "{\"customStyles\":\".values{\\n    font-size: 14px;\\n    line-height: 21px;\\n    color: #080707;\\n    margin: 2px 0px;\\n    text-overflow: ellipsis\\n}\\n\\n.title-text{\\n    font-size: 12px;\\n    line-height: 18px;\\n    color: #3E3E3C;\\n    margin: 2px 0px;\\n}\\n\\n.account-title{\\n    font-size: 12px;\\n    line-height: 18px;\\n    color: #3E3E3C;\\n    margin: 2px 0px;\\n    width: 46px;\\n}\\n\\n.account{\\n    font-size: 14px;\\n    line-height: 21px;\\n    color: #1073D0;\\n    margin: 2px 0px;\\n}\\n\\n\\n.status-approval-box{\\n    width: fit-content;\\n    max-width: 12%;\\n}\\n\\n.account-box{\\n    width: fit-content;\\n    max-width: 25%;\\n}\\n.object-id-text{\\n    max-width: 100%;\\n    display: -webkit-box;\\n    -webkit-line-clamp: 2;\\n    -webkit-box-orient: vertical;\\n    overflow: hidden;\\n}\\n\\n.account-box .slds-action_text{\\n    max-width: 100%;\\n    display: -webkit-box;\\n    -webkit-line-clamp: 2;\\n    -webkit-box-orient: vertical;\\n    overflow: hidden;\\n}\\n\\n.account-box-mobile .slds-action_text{\\n    max-width: 100%;\\n    display: -webkit-box;\\n    -webkit-line-clamp: 2;\\n    -webkit-box-orient: vertical;\\n    overflow: hidden;\\n}\\n\\n.fit-content-style{\\n    width:fit-content;\\n}\\n\\n.custom-btn{\\n    width:fit-content;\\n}\\n\\n.custom-btn .slds-button{\\n    border-radius: 0px;\\n    margin-right: -1px;\\n}\\n\\n.btn-block{\\n    margin-left:auto;\\n    width:fit-content;\\n}\\n\\n.price-field{\\n    margin-left:auto;\\n}\\n\\n.icon-style{\\n    width: fit-content;\\n    padding-right: 10px;\\n}\\n\\n.updateApiCSS{\\n    display: none;\\n}\\n\\n.mobile-state {\\n    display: initial;\\n}\\n\\n.desktop-state {\\n    display: none;\\n}\\n\\n\\n@media (min-width: 1024px) {\\n  .mobile-state {\\n    display: none;\\n  }\\n  .desktop-state {\\n  \\tdisplay: initial;\\n  }\\n}\\n\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "cpqGlobalHeader",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/cpqGlobalHeader"
+}

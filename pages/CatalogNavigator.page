@@ -1,0 +1,795 @@
+<!--
+ - Created by cristianduicu on 2018-10-11.
+ -->
+
+<apex:page showHeader="false" sidebar="false" standardStylesheets="false" controller="ToolingAPICatalogController" docType="html-5.0" id="CatalogNavigator">
+    <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ng="http://angularjs.org" ng-app="ctlgView">
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!-- materialize for styling -->
+        <apex:stylesheet value="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+        <apex:stylesheet value="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <!-- VizJS library (viz-js.com)-->
+        <script type="text/javascript" src="https://unpkg.com/viz.js@1.7.1/viz.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/svg-pan-zoom/dist/svg-pan-zoom.min.js"></script>
+        <!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/2.6.6/svg.min.js"></script>-->
+        <!-- deepmerge utility -->
+        <script type="text/javascript" src="https://unpkg.com/deepmerge@2.2.1/dist/umd.js"></script>
+
+        <script type="text/javascript" src="{!URLFOR($Resource.vlocity_cmt__vlocity_assets, '/javascripts/vlocity.js')}"></script>
+        <script>
+            var app = angular.module('ctlgView', ["vlocity", "ngSanitize"]);
+
+            var calloutStack = 0;
+            var jsonUrl = getJsonFromUrl();
+            console.log('URL: ' + JSON.stringify(jsonUrl));
+            var maxGraphDepth = jsonUrl.depth ? jsonUrl.depth : 1;
+            var prodList = jsonUrl.productId ? jsonUrl.productId.split(",") : '';
+
+            //init materialize stuff
+            document.addEventListener('DOMContentLoaded', function() {
+                var modals = M.Modal.init(document.querySelectorAll('.modal'));
+                var tabs = M.Tabs.init(document.querySelectorAll('.tabs'), {
+                    onShow: function(item) {
+                    // this should not be needed - added as a fix for the fact that the second graph is not shown
+                        if (item.id == 'orchestration') drawOrchGraph();
+                    }
+                });
+                $('#catalog').select();
+
+                initProdSearch();
+            });
+
+            app.controller ('myController', function ($scope, remoteActions) {
+                $scope.init = function () {
+                    if (Array.from(prodList).length > 0) {
+                        loadNodes(prodList);
+                    } else {
+                        // no product provided in URL - remove mask
+                        document.getElementById("output").classList.remove('lmask');
+                    }
+                };
+                $scope.init();
+            });
+
+            function initProdSearch() {
+                // autocomplete
+                var prodNmAc = M.Autocomplete.init(document.querySelector('#prodName'), {
+                    minLength: 3, limit: 20,
+                    onAutocomplete: function(data) {
+                        var id = data.substring(data.indexOf("(") + 1, data.indexOf(")"));
+                        console.log(data + " - " + id);
+                        //document.getElementById("prodNameSelect").href = "/apex/CatalogNavigator?productId=" + id;
+                        window.location = "/apex/CatalogNavigator?productId=" + id;
+                    },
+                });
+                prodNmAc.el.onkeyup = function (e) {
+                    if (e.keyCode === 27) toggleSearch();
+
+                    var val = prodNmAc.el.value.toLowerCase();
+                    if (val.length < prodNmAc.options.minLength) return;
+
+                    Visualforce.remoting.Manager.invokeAction(
+                        '{!$RemoteAction.ToolingAPICatalogController.getProductList}', val, prodNmAc.options.limit,
+                        function(data, event) {
+                            if (event.status) {
+                                prodNmAc.updateData(JSON.parse(data));
+                            } else if (event.type === 'exception') {
+                                console.log("OOPS! " + event.message);
+                            } else {
+                                console.log("OOPS! " + event.message);
+                            }
+                        },
+                        {escape: false});prodNmAc
+                }
+            }
+
+            function loadNodes(nextLevelNodes) {
+                let requests = Array.from(nextLevelNodes).map((prodId) => {
+                    return new Promise((resolve) => {
+                        console.log('Loading graph for: ' + prodId);
+                        calloutStack++;
+                        Visualforce.remoting.Manager.invokeAction(
+                            '{!$RemoteAction.ToolingAPICatalogController.getGraphForProduct}', prodId, maxGraphDepth, processGraphResult,
+                            {escape: false});
+                        resolve();
+                    });
+                });
+                Promise.all(requests).then(() => {
+                    console.log(requests.length + ' completed! calloutStack=' + calloutStack);
+                });
+            }
+
+            function updateJSON(str) {
+                var newJson = JSON.parse(str);
+                if (Object.keys(newJson).length === 0 && newJson.constructor === Object) return;
+                var json = JSON.parse(document.getElementById('graphJson').innerText);
+                var merged = deepmerge(json, newJson);
+                document.getElementById('graphJson').innerText = JSON.stringify(merged);
+            }
+
+            function addScenarios(newScenariosString) {
+                // must use innerText to avoid automatic escaping.
+                var newScenarios = JSON.parse(newScenariosString);
+                if (Object.keys(newScenarios).length === 0 && newScenarios.constructor === Object) return;
+                var scenarios = JSON.parse(document.getElementById('scenariosJSON').innerText);
+                scenarios = Object.assign(scenarios, newScenarios);
+                document.getElementById('scenariosJSON').innerText = JSON.stringify(scenarios);
+            }
+
+            function processGraphResult(result, event) {
+                if (event.status) {
+                    var jsonResult = JSON.parse(result);
+                    //console.log('Scenarios: ' + resultJson.scenarios);
+                    //console.log('Graph: '+resultJson.graph);
+                    //console.log('nextLevelNodes=' + jsonResult.nextLevelNodes);
+                    var nextLevelNodes = JSON.parse(jsonResult.nextLevelNodes);
+                    if (nextLevelNodes.length > 0) {
+                        console.log('More nodes to load: ' + nextLevelNodes + '; calloutStack=' + calloutStack);
+                        loadNodes(nextLevelNodes);
+                    }
+                    updateJSON(jsonResult.graphJson);
+                    addScenarios(jsonResult.scenarios);
+                    calloutStack--;
+                    drawGraph();
+                } else if (event.type === 'exception') {nextLevelNodes
+                    console.log("OOPS! " + event.message);
+                } else {
+                    console.log("OOPS! " + event.message);
+                }
+            }
+
+            function drawGraph() {
+                if (calloutStack > 0) return;
+
+                //update scenarios table
+                var scenarios = new Array();
+                var values = Object.values(JSON.parse(document.getElementById('scenariosJSON').innerText)).sort();
+                values.forEach(function(prop) {
+                    scenarios.push(prop);
+                 });
+                var skipPropsScenario = ["Id", "orchPlanId", "orchPlanDef"];
+                document.getElementById('orchScenarios').innerHTML = json2table('scenarioTable', scenarios, 'compact', skipPropsScenario);
+                $('#scenarioTable tr').on('click', function(el) {
+                    var tr = $(el.currentTarget);
+                    if (tr.hasClass("selected")) {
+                        tr.removeClass("selected");
+                    } else {
+                        tr.addClass("selected");
+                    }
+                });
+                $('#scenarioTable tbody tr').addClass('selected'); // preselect the rows
+                getOrchPlan(); // plan is fetched asynchronously
+
+                // update graph$('#scenarioTable tr.selected')
+                console.log('Updating graph ....');
+                var dot = getDotFormat(document.getElementById('graphJson').innerText);
+                document.getElementById('graphSource').innerText = dot;
+                //console.log(dot);
+                var svgString = Viz(dot);
+                var graph = document.getElementById("output");
+                var oldSvg = document.getElementById("svg_output");
+                if (oldSvg) oldSvg.remove();
+                var parser = new DOMParser();
+                var svg = parser.parseFromString(svgString, "image/svg+xml").documentElement;
+                svg.id = "svg_output";
+                svg.width.baseVal.newValueSpecifiedUnits(5, window.innerWidth - 50); // set in px
+                svg.viewBox = graph.appendChild(svg);
+
+                var panZoom = svgPanZoom(svg, {
+                  zoomEnabled: true,
+                  controlIconsEnabled: true,
+                  fit: true,
+                  center: true,
+                  minZoom: 0.1
+                });
+                svg.addEventListener('paneresize', function(e) {
+                  panZoom.resize();
+                }, false);
+                window.addEventListener('resize', function(e) {
+                  panZoom.resize();
+                });
+                panZoom.resize();
+
+                graph.classList.remove('lmask');
+//                var draw = SVG('svg_output');
+//                console.log('Loaded into SVG.js');
+            }
+
+            function selectNode(selectedProductId) {
+                Visualforce.remoting.Manager.invokeAction(
+                    '{!$RemoteAction.ToolingAPICatalogController.getProductDetails}', selectedProductId, getProductDetails,
+                    {escape: false});
+            }
+
+            function selectDecompRel(decompRelId) {
+                Visualforce.remoting.Manager.invokeAction(
+                    '{!$RemoteAction.ToolingAPICatalogController.getDecompRelDetails}', decompRelId, getDecompRelDetails,
+                    {escape: false});
+            }
+
+            function selectPCI() {
+                // tbd...
+            }
+
+            /** requests the data for selected scenarios and draws the graph */
+            function getOrchPlan() {
+                var selectedScenarios = new Array();
+                $('#scenarioTable tbody tr.selected').each(function(index, value){
+                    selectedScenarios.push(value.id);
+                });
+
+                var scenarioIdLst = '';
+                selectedScenarios.forEach(id => scenarioIdLst += ("," + id));
+                scenarioIdLst = scenarioIdLst.substring(1, scenarioIdLst.length);
+                var promise = new Promise((resolve) => {
+                    console.log('getGraphForOrch for ' + scenarioIdLst);
+                    Visualforce.remoting.Manager.invokeAction(
+                        '{!$RemoteAction.ToolingAPICatalogController.getGraphForOrch}', scenarioIdLst, processOrchGraphResult,
+                        {escape: false});
+                    resolve();
+                });
+            }
+
+            function processOrchGraphResult(result, event) {
+                if (event.status) {
+                    //console.log('Scenarios: ' + result);
+                    document.getElementById("graphOrch").innerText = getOrchDot(result);
+                    drawOrchGraph();
+                } else if (event.type === 'exception') {nextLevelNodes
+                    console.log("OOPS! " + event.message);
+                } else {
+                    console.log("OOPS! " + event.message);
+                }
+            }
+
+            function drawOrchGraph() {
+                console.log('drawing orchestration graph ...');
+                var svgString = Viz(document.getElementById("graphOrch").innerText);
+                var graph = document.getElementById("orchOutput");
+                var oldSvg = document.getElementById("orch_svg_output");
+                if (oldSvg) oldSvg.remove();
+                var parser = new DOMParser();
+                var svg = parser.parseFromString(svgString, "image/svg+xml").documentElement;
+                svg.id = "orch_svg_output";
+                svg.width.baseVal.newValueSpecifiedUnits(5, window.innerWidth - 50); // set in px
+                svg.viewBox = graph.appendChild(svg);
+                var panZoom = svgPanZoom(svg, {
+                  zoomEnabled: true,
+                  controlIconsEnabled: true,
+                  fit: true,
+                  center: true,
+                  minZoom: 0.1
+                });
+                svg.addEventListener('paneresize', function(e) {
+                  panZoom.resize();
+                }, false);
+                window.addEventListener('resize', function(e) {
+                  panZoom.resize();
+                });
+                panZoom.resize();
+            }
+
+            function getProductDetails(result, event) {
+                if (event.status) {
+                    var jsonResult = JSON.parse(result);
+                    document.getElementById('pdId').innerHTML =
+                        '<a href="/apex/CatalogNavigator?productId=' + jsonResult.productId + '">' + jsonResult.productName + '</a>';
+                    document.getElementById('pdBody').innerHTML = json2PropsTable(jsonResult);
+                } else if (event.type === 'exception') {
+                    console.log("OOPS! " + event.message);
+                } else {
+                    console.log("OOPS! " + event.message);
+                }
+             }
+
+            function getDecompRelDetails(result, event) {
+                if (event.status) {
+                    //console.log(result);
+                    var jsonResult = JSON.parse(result);
+                    document.getElementById('pdId').innerHTML = '<a href="#">' + jsonResult.decomrRelName + '</a>';
+                    document.getElementById('pdBody').innerHTML = json2PropsTable(jsonResult);
+                } else if (event.type === 'exception') {
+                    console.log("OOPS! " + event.message);
+                } else {
+                    console.log("OOPS! " + event.message);
+                }
+             }
+
+             function json2PropsTable(json) {
+                 //console.log('json2Props - ' + json);
+                 if (json == null || json === 'undefined') return;
+                 var rows = Object.getOwnPropertyNames(json).sort();
+                 var bodyRows = '';
+                 rows.forEach(function(prop) {
+                     var name = capitalizeFirstLetter(prop);
+                     var value = json[prop];
+                     if (prop.toLowerCase() == "conditiondata") {
+                         if (value) {
+                             value = setConditionData(prop, value);
+                         }
+                     } else if (prop.toLowerCase() == "mappingsdata") {
+                         if (value) {
+                             value = setMappingsData(json["decompRelId"], value);
+                         }
+                     }
+                    bodyRows += '<tr><td>' + name + '</td><td>' + value + '</td></tr>';
+                 });
+                 return bodyRows;
+             }
+
+             function setConditionData(id, jsonData) {
+                 var data = JSON.parse(jsonData);
+                 var childDiv = document.createElement("div");
+                 childDiv.id = "_" + id;
+                 childDiv.innerHTML = JSON.stringify(data);
+                 document.getElementById("dataStore").appendChild(childDiv);
+                 return '<a class="waves-effect waves-light btn-small modal-trigger" href="javascript:showDetails(\'_'
+                    + id + '\')"><i class="material-icons left">description</i>More...</a>';
+             }
+
+             function setMappingsData(id, jsonData) {
+                 if (!document.getElementById(id)) {
+                     var table = json2table('mappingsTable', JSON.parse(jsonData), 'compact');
+                     var data = JSON.parse(jsonData);
+                     var childDiv = document.createElement("div");
+                     childDiv.id = id;
+                     childDiv.innerHTML = table;
+                     document.getElementById("dataStore").appendChild(childDiv);
+                 }
+                 return '<a class="waves-effect waves-light btn-small modal-trigger" href="javascript:showDetails(\''
+                    + id + '\')"><i class="material-icons left">description</i>More...</a>';
+             }
+
+             function showDetails(id) {
+                 //console.log(id);
+                 var text = document.getElementById(id).innerHTML;
+                 document.getElementById("modalDetailsContent").innerHTML = text;
+                 var modal = M.Modal.getInstance(document.getElementById("modalDetails"));
+                 modal.open();
+             }
+
+             function capitalizeFirstLetter(string) {
+                  return string.charAt(0).toUpperCase() + string.slice(1);
+              }
+
+            /** Convert an JSON array into a simple table */
+            function json2table(id, json, classes, skipProps) {
+                if (!skipProps) skipProps = new Array();
+                if (json == null || json === 'undefined' || json.length == 0) return;
+                var cols = Object.keys(json[0]).sort();
+                var headerRow = '';Object.keys(json[0]).sort();
+                var bodyRows = '';
+                classes = classes || '';
+
+                cols.map(function(col) {
+                    if (skipProps.indexOf(col) < 0) { // do not add props in skipProps
+                        headerRow += '<th>' + capitalizeFirstLetter(col) + '</th>';
+                    }
+                });
+
+                json.map(function(row) {
+                    if (row["Id"]) {
+                        bodyRows += '<tr id="' + row["Id"] + '">';
+                    } else {
+                        bodyRows += '<tr>';
+                    }
+                    cols.map(function(colName) {
+                        if (skipProps.indexOf(colName) < 0) {
+                            var value = row[colName];
+                            if (colName.toLowerCase() == "conditiondata") {
+                                if (value) {
+                                    value = setConditionData(row["Id"], value);
+                                }
+                            }
+                            bodyRows += '<td>' + value + '</td>';
+                        }
+                    })
+                    bodyRows += '</tr>';
+                });
+
+                return '<table id="' + id + '" class="' + classes + '"><thead><tr>' + headerRow + '</tr></thead><tbody>' + bodyRows + '</tbody></table>';
+            }
+
+            function getDotFormat(jsonSource) {
+                var json = JSON.parse(jsonSource);
+                var dot = 'strict digraph ProductCatalogue {\ngraph [fontname = "helvetica", fontsize = "9.0"];\n' +
+                    'node [fontname = "helvetica", fontsize = "9.0", shape=box, style="rounded,filled"];\n' +
+                    'edge [fontname = "helvetica", fontsize = "9.0"];\n'
+
+                 Object.getOwnPropertyNames(json.nodes).forEach(prop => dot += json.nodes[prop]);
+                 Object.getOwnPropertyNames(json.pciRels).forEach(prop => dot += json.pciRels[prop]);
+                 Object.getOwnPropertyNames(json.decompRels).forEach(prop => dot += json.decompRels[prop]);
+                 Object.getOwnPropertyNames(json.classRels).forEach(prop => dot += json.classRels[prop]);
+                 var i = 0;
+                 Object.getOwnPropertyNames(json.clusters).forEach(function(clusterNm){
+                     dot += 'subgraph cluster_' + i++ + ' {\ncolor="white"\n';
+                     var pciRels = json.clusters[clusterNm].pciRels;
+                     Object.getOwnPropertyNames(pciRels).forEach(prop => dot += pciRels[prop]);
+                     dot += '}\n';
+                 });
+                 dot += 'subgraph cluster_TechnicalCatalog {\ncolor="white"\n';
+                 Object.getOwnPropertyNames(json.decompNodes).forEach(prop => dot += json.decompNodes[prop]);
+                 dot += '}\n';
+
+                return dot += '\n}';
+            }
+
+            function getJsonFromUrl(hashBased) {
+              var query;
+              if(hashBased) {
+                var pos = location.href.indexOf("?");
+                if(pos==-1) return [];
+                query = location.href.substr(pos+1);
+              } else {
+                query = location.search.substr(1);
+              }
+              var result = {};
+              query.split("&").forEach(function(part) {
+                if(!part) return;
+                part = part.split("+").join(" "); // replace every + with space, regexp-free version
+                var eq = part.indexOf("=");
+                var key = eq>-1 ? part.substr(0,eq) : part;
+                var val = eq>-1 ? decodeURIComponent(part.substr(eq+1)) : "";
+                var from = key.indexOf("[");
+                if(from==-1) result[decodeURIComponent(key)] = val;
+                else {
+                  var to = key.indexOf("]",from);
+                  var index = decodeURIComponent(key.substring(from+1,to));
+                  key = decodeURIComponent(key.substring(0,from));
+                  if(!result[key]) result[key] = [];
+                  if(!index) result[key].push(val);
+                  else result[key][index] = val;
+                }
+              });
+              return result;
+            }
+
+            function getOrchDot(jsonSource) {
+                var json = JSON.parse(jsonSource);
+                json.dependencies = JSON.parse(json.dependencies);
+                json.orchItems = JSON.parse(json.orchItems);
+                json.orchPlans = JSON.parse(json.orchPlans);
+                var dot = 'digraph G {\ngraph [rankdir = "LR"];\nnode [shape=none, margin=0, color="#ddeeff", style="filled", fontname="Helvetica"];\n';
+                //var dot = 'digraph G {\nnode [shape=none, margin=0, color="#ddeeff", style="filled", fontname="Helvetica"];\n';
+                Object.getOwnPropertyNames(json.orchItems).forEach(prop => dot += json.orchItems[prop]);
+                Array.from(json.dependencies).forEach(depy => dot += depy + ';\n');
+                //Object.getOwnPropertyNames(json.orchPlans).forEach(prop => dot += 'rank="same" {' + json.orchPlans[prop] + '}\n');
+                return dot += '\n}';
+            }
+
+            function toggleSearch() {
+                var search = $('#prodName');
+                if (search.hasClass('scale-out')) {
+                    search.removeClass('scale-out'); search.addClass('scale-in');
+                    search.focus();
+                } else {
+                    search.removeClass('scale-in'); search.addClass('scale-out');
+                    M.Autocomplete.getInstance(search).close();
+                }
+            }
+            </script>
+
+        <style>
+                .modal.modal500 {
+                    height: 500px;
+                }
+                .modal.modal300 {
+                    height: 300px;
+                }
+                .svgBox {
+                    margin-left: 5px;
+                    //max-height: 400px;
+                }
+
+                // some additional styling
+                .body {
+                    background-color: whitesmoke;
+                }
+                nav {
+                    background-color: #f0863b;
+                }
+                .btn {
+                    background-color: #00A4B2;
+                }
+                table.compact {
+                    line-height: .4;
+                }
+                thead {
+                    background-color: lightgrey;
+                }
+                tr.selected {
+                    background-color: #f9f0e6;
+                }
+                .tabs.cdtabs {
+                    background-color: bisque;
+                }
+                #prodName {
+                    width: 550px;
+                    height: 3.7rem;
+                    margin-bottom: 0px;
+                }
+                #prodName nav ul li:hover, nav ul li.active {
+                    background-color: none !important;
+                }
+                table.compact {
+                    line-height: .2;
+                    font-size: .8rem;
+                }
+
+                .lmask {
+                      position: absolute;
+                      height: 100%;
+                      width: 100%;
+                      background-color: #000;
+                      bottom: 0;
+                      left: 0;
+                      right: 0;
+                      top: 0;
+                      z-index: 9999;;
+                      opacity: 0.4;
+                    }
+                    .lmask:before {
+                        content: '';
+                        background-color: rgba(0,0,0,0);
+                        border: 5px solid rgba(0,183,229,0.9);
+                        opacity: .9;
+                        border-right: 5px solid rgba(0,0,0,0);
+                        border-left: 5px solid rgba(0,0,0,0);
+                        border-radius: 50px;
+                        box-shadow: 0 0 35px #2187e7;
+                        width: 50px;
+                        height: 50px;
+                        -moz-animation: spinPulse 1s infinite ease-in-out;
+                        -webkit-animation: spinPulse 1s infinite linear;
+
+                        margin: -25px 0 0 -25px;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                      }
+
+                      .lmask:after {
+                        content: '';
+                        background-color: rgba(0,0,0,0);
+                        border: 5px solid rgba(0,183,229,0.9);
+                        opacity: .9;
+                        border-left: 5px solid rgba(0,0,0,0);
+                        border-right: 5px solid rgba(0,0,0,0);
+                        border-radius: 50px;
+                        box-shadow: 0 0 15px #2187e7;
+                        width: 30px;
+                        height: 30px;
+                        -moz-animation: spinoffPulse 1s infinite linear;
+                        -webkit-animation: spinoffPulse 1s infinite linear;
+
+                        margin: -15px 0 0 -15px;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                      }
+
+                    @-moz-keyframes spinPulse {
+                      0% {
+                        -moz-transform:rotate(160deg);
+                        opacity: 0;
+                        box-shadow: 0 0 1px #2187e7;
+                      }
+                      50% {
+                        -moz-transform: rotate(145deg);
+                        opacity: 1;
+                      }
+                      100% {
+                        -moz-transform: rotate(-320deg);
+                        opacity: 0;
+                      }
+                    }
+                    @-moz-keyframes spinoffPulse {
+                      0% {
+                        -moz-transform: rotate(0deg);
+                      }
+                      100% {
+                        -moz-transform: rotate(360deg);
+                      }
+                    }
+                    @-webkit-keyframes spinPulse {
+                      0% {
+                        -webkit-transform: rotate(160deg);
+                        opacity: 0;
+                        box-shadow: 0 0 1px #2187e7;
+                      }
+                      50% {
+                        -webkit-transform: rotate(145deg);
+                        opacity: 1;
+                      }
+                      100% {
+                        -webkit-transform: rotate(-320deg);
+                        opacity: 0;
+                      }
+                    }
+                    @-webkit-keyframes spinoffPulse {
+                      0% {
+                        -webkit-transform: rotate(0deg);
+                      }
+                      100% {
+                        -webkit-transform: rotate(360deg);
+                      }
+                }
+            </style>
+    </head>
+
+    <body ng-controller="myController">
+
+    <nav>
+        <div class="container nav-wrapper">
+
+            <a href="#" class="brand-logo">Catalog Navigator</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><input type="text" placeholder="Search Product" id="prodName" class="autocomplete input-field white-text scale-transition scale-out"/></li>
+                <li><a href="javascript:toggleSearch()"><i class="material-icons left">search</i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul id="tabs-swipe" class="tabs center-align cdtabs">
+        <li class="tab col"><a class="active" href="#catalog">Catalog</a></li>
+        <li class="tab col"><a href="#orchestration">Orchestration</a></li>
+    </ul>
+
+
+    <div id="catalog" class="col">
+        <div class="row">
+            <div id="output" class="col svgBox lmask">
+                <div id="svg_output" class="my-5"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s6 offset-s3" id="productDetails">
+                <a class="waves-effect waves-light modal-trigger btn right" href="#legend">
+                    <i class="material-icons left">dvr</i>Legend</a>
+
+                <a class="waves-effect waves-light btn right" href="javascript:drawGraph()">
+                    <i class="material-icons left">refresh</i>Redraw</a>
+
+                <b>Properties for: <span id="pdId"></span></b>
+                <table class="table compact">
+                    <thead><th>Name</th><th>Value</th></thead>
+                    <tbody id="pdBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="orchestration" class="col">
+        <div class="row">
+            <div id="orchOutput" class="col svgBox">
+                <div id="orch_svg_output" class="my-5"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s10 offset-s1">
+                <b>All related orchestration scenarios:</b>
+                <a href="javascript:getOrchPlan()" class="waves-effect waves-light btn">Redraw Plan</a>
+                <div id="orchScenarios"></div>
+            </div>
+        </div>
+    </div>
+
+    </body>
+
+    <!-- find product -->
+    <div id="findProduct" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <h4>Find Product</h4>
+            <div class="row">
+                <div class="input-field col s8">
+                    <label for="prodName">Type Product Name</label>
+                    <input type="text" id="prodName" class="autocomplete"/>
+                </div>
+                <a id="prodNameSelect" href="#!" class="modal-close waves-effect waves-green btn">Select</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- the legend modal -->
+    <div id="legend" class="modal modal-fixed-footer modal500">
+        <div class="modal-content">
+            <h4>Legend</h4>
+            <svg width="500" height="340">
+                <defs>
+                    <marker id="pciHead" markerWidth="13" markerHeight="13" refX="2" refY="6" orient="auto">
+                        <path d="M2,2 L2,11 L10,6 L2,2" style="fill: #000000;" />
+                    </marker>
+
+                    <marker id="drHead" markerWidth="13" markerHeight="13" refX="2" refY="6" orient="auto">
+                        <path d="M2,2 L2,11 L10,6 L2,2" style="fill: #039CD6;" />
+                    </marker>
+
+                    <marker id="parClassHead" markerWidth="13" markerHeight="13" refX="2" refY="6" orient="auto">
+                        <path d="M2,2 L2,11 L10,6 L2,2" style="stroke: #2f5da8; fill:none" />
+                    </marker>
+                </defs>
+                <rect x="0" y="0" width="190" height="30" style="fill:#9ecae1;stroke-width:1;stroke:rgb(0,0,0)" />
+                <text x="10" y="20">Spec Type = Offer</text>
+
+                <rect x="0" y="30" width="190" height="30" style="fill:#4292c6;stroke-width:1;stroke:rgb(0,0,0)" />
+                <text x="10" y="50">Spec Type = Product</text>
+
+                <rect x="0" y="60" width="190" height="30" style="fill:#41ae76;stroke-width:1;stroke:rgb(0,0,0)" />
+                <text x="10" y="80">Spec Type = Service</text>
+
+                <rect x="0" y="90" width="190" height="30" style="fill:#D95F70;stroke-width:1;stroke:rgb(0,0,0)" />
+                <text x="10" y="110">Spec Type = Resource</text>
+
+                <rect x="0" y="120" width="190" height="30" style="fill:#22DCD9;stroke-width:1;stroke:rgb(0,0,0)" />
+                <text x="10" y="140">Spec Type = Promotion</text>
+
+                <rect x="0" y="150" width="190" height="30" style="fill:#fd8d3c;stroke-width:1;stroke:rgb(0,0,0)" />
+                <text x="10" y="170">Spec Type UNDEFINED</text>
+
+                <rect x="0" y="180" width="190" height="30" style="fill:#99d8c9;stroke-width:1;stroke:rgb(0,0,0)" />
+                <text x="10" y="200">Technical Specification</text>
+
+                <rect x="0" y="210" width="190" height="30" style="fill:#ff0000;stroke-width:1;stroke:rgb(0,0,0)" />
+                <text x="10" y="230">Error in configuration</text>
+
+                <rect x="0" y="241" width="190" height="30" style="fill:#fffeea;stroke-width:1;stroke:rgb(0,0,0);stroke-dasharray:10,3" />
+                <text x="10" y="261">Record Type = Class</text>
+
+                <text x="10" y="300">Note: Orderable Products are displayed with a gradient</text>
+                <text x="10" y="320">Note: NotAssetizable Products have magenta text color</text>
+
+                <path d="M230,30 L400,30" style="stroke: #000000; stroke-width: 1px; marker-end: url(#pciHead);"/>
+                <text x="230" y="25">Parent-Child Item</text>
+                <rect x="0" y="210" width="190" height="30" style="fill:#ff0000;stroke-width:1;stroke:rgb(0,0,0)" />
+                <text x="10" y="230">Error in configuration</text>
+
+                <path d="M230,60 L400,60" style="stroke: #039CD6; stroke-width: 1px; marker-end: url(#drHead);"/>
+                <text x="230" y="55">Decomposition Relationship</text>
+
+                <path d="M230,90 L400,90" style="stroke: #2f5da8; stroke-width: 1px; stroke-dasharray:10,3; marker-end: url(#parClassHead);"/>
+                <text x="230" y="85">Parent Class</text>
+            </svg>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+    </div>
+
+    <!-- the graph source in dot format -->
+    <div id="graphSourceDiv" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <h4>Graph Source</h4>
+            <pre id="graphSource"></pre>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+    </div>
+
+    <!-- the graph source in dot format -->
+    <div id="modalDetails" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <h4>Details</h4>
+            <div id="modalDetailsContent"></div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+    </div>
+
+    <div id="dataStore" hidden="true" aria-hidden="true"></div>
+
+    <!-- graph source in JSON format -->
+    <div id="graphJson" hidden="true" aria-hidden="true">{}</div>
+
+    <!-- orchestration graph source in dot format -->
+    <div id="graphOrch" hidden="true" aria-hidden="true"></div>
+
+    <!-- the scenarios json -->
+    <div id="scenariosJSON" hidden="true" aria-hidden="true">{}</div>
+
+    </html>
+</apex:page>

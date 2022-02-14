@@ -1,0 +1,11 @@
+[
+    "DataRaptor/AppointmentsList",
+    "DataRaptor/ChangeUserStatus",
+    "DataRaptor/ClockOutUser",
+    "DataRaptor/CustomersInqueueDetails",
+    "DataRaptor/UpdateUserStatus",
+    "DataRaptor/getNextWorkingDayUser",
+    "DataRaptor/getOfferDetails",
+    "DataRaptor/getUserBreakDetails",
+    "DataRaptor/getUserDetails"
+]

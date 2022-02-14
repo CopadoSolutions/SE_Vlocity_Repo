@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "9cfdf64d-6813-4223-b29e-b1bc8618fc6a",
+  "appPageId" : "067cb50d-59bf-4755-900f-02d130a9107a",
+  "configurationTags" : [ ],
+  "id" : "476a8e41-1e90-4045-b797-74529765965e",
+  "label" : "Projects Featurette",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-projects-featurette",
+  "type" : "route",
+  "urlPrefix" : "projects-featurette"
+}

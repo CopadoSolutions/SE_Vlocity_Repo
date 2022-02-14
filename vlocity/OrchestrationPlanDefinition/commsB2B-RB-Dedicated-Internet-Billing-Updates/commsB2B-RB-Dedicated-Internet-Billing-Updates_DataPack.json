@@ -1,0 +1,11 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "d16a3509-c5fe-b039-d5be-90632312c4a5",
+    "%vlocity_namespace%__IsSchedulingEnabled__c": false,
+    "%vlocity_namespace%__SchedulingExpirationIntervalSeconds__c": "",
+    "%vlocity_namespace%__Scope__c": "Global",
+    "%vlocity_namespace%__ShowOrder__c": "",
+    "Name": "commsB2B RB Dedicated Internet Billing Updates",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/commsB2B RB Dedicated Internet Billing Updates"
+}

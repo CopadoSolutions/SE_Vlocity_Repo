@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "8218b86c-6edd-4f89-a2b0-e52d8733e695",
+  "appPageId" : "067cb50d-59bf-4755-900f-02d130a9107a",
+  "configurationTags" : [ ],
+  "id" : "4db8a8c9-40b7-4be8-ad22-a258fa5adf91",
+  "label" : "Change of Plan Featurette",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-change-of-plan-featurette",
+  "type" : "route",
+  "urlPrefix" : "change-of-plan-featurette"
+}

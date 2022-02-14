@@ -1,0 +1,35 @@
+{
+    "dataSource": {
+        "type": null
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "Id",
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "B2B Service Table",
+            "sObjectType": "Asset",
+            "smartAction": {
+            },
+            "templateUrl": "commsB2B-multisite-service-table-DE"
+        }
+    ],
+    "title": "Multi Service Table"
+}

@@ -1,0 +1,31 @@
+{
+    "Cards": [
+        "profile-account-slds",
+        "profile-account-info-slds"
+    ],
+    "bypassSave": true,
+    "componentName": "cfConsoleSidebarSldsDe",
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0016g000005qKrIAAU"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.id || params.Id\":\"{{params.id || params.Id}}\"}"
+        }
+    },
+    "enableLwc": false,
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "console-sidebar-slds-de"
+        }
+    },
+    "workspace": [
+        "profile-account-slds/Vlocity Demo Org/1515072669235",
+        "profile-account-info-slds/Vlocity Demo Org/1515072672022"
+    ]
+}

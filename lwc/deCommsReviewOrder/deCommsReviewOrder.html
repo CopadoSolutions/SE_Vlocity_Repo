@@ -1,0 +1,50 @@
+<template>
+    <div class="nds-dc-review-order_container">
+      <div class="nds-step_label nds-dc-step_label">{translatedLabelsObj.DCReviewOrder}</div>
+      <div class="nds-dc-checkout_review-order">
+        <slot name="dc-contact-info">
+          <div class="nds-dc-checkout_details-container">
+            <span class="nds-dc-review_title">{translatedLabelsObj.DCContactInformation}</span>
+            <div class="nds-dc-review_details-body">
+              <p class="nds-dc-review_name">{userInfo.name}</p>
+              <p class="nds-dc-review_name">{userInfo.email}</p>
+            </div>
+          </div>
+        </slot>
+        <slot name="dc-billing-address">
+          <div class="nds-dc-checkout_details-container">
+            <span class="nds-dc-review_title">{translatedLabelsObj.DCBillingAddress}</span>
+            <div class="nds-dc-review_details-body">
+              <p class="nds-dc-review_name">{billingAddress.address}</p>
+              <p class="nds-dc-review_name">{billingAddress.city}, {billingAddress.state} {billingAddress.zip}</p>
+            </div>
+          </div>
+        </slot>
+        <slot name="dc-shipping-address">
+          <div class="nds-dc-checkout_details-container">
+            <span class="nds-dc-review_title">{translatedLabelsObj.DCShippingAddress}</span>
+            <div class="nds-dc-review_details-body">
+              <p class="nds-dc-review_name">{shippingAddress.address}</p>
+              <p class="nds-dc-review_name">{shippingAddress.city}, {shippingAddress.state} {shippingAddress.zip}</p>
+            </div>
+          </div>
+        </slot>
+<!--
+         <slot name="dc-payment-transaction-details">
+          <div class="nds-dc-checkout_details-container">
+            <span class="nds-dc-review_title">{translatedLabelsObj.DCPayment}</span>
+            <div class="nds-dc-review_details-body nds-dc-checkout_payment-review">
+              <p class="nds-dc-review_name">{userInfo.name}</p>
+              <p if:true={transactionDetails.transactionId} class="nds-dc-review_name">
+                      {transactionDetails.cardType} | {transactionDetails.cardNumber}</p>
+              <p if:true={transactionDetails.transactionId} class="nds-dc-review_name">
+                      {transactionDetails.expirationDate}</p>
+              <p if:false={transactionDetails.transactionId} class="nds-dc-review_name">
+                      {translatedLabelsObj.DCPaymentFailed}</p>
+            </div>
+          </div>
+        </slot> 
+    -->
+      </div>
+    </div>
+  </template>

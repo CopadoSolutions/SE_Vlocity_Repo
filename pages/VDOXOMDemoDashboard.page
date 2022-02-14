@@ -1,0 +1,1271 @@
+<apex:page controller="VDOXOMDemoDashboardController" standardStylesheets="false" showHeader="false" cache="false">
+  <script type="text/javascript" src="/resource/VDOXOMDemoDashboard/js/jquery.min.js"></script>
+  <script type="text/javascript" src="/resource/VDOXOMDemoDashboard/js/jsplumb.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+
+        jsPlumb.bind("ready", function() {
+    
+            var currentplanid;
+            var numberOfPlans = 0;
+            var plumbholder = {};
+            var systemholder = {};
+            Visualforce.remoting.timeout = 120000;
+            
+            $('.closebutton').click(function(e){
+                $('#orderlog').hide();
+                $('#responselog').hide();
+                $('#flowlog').hide();
+                $('#orderlog > div').html('');
+                $('#flowlog > div').html('');
+                $('#responselog > div').html('');
+            });
+
+            function getNotifications(itemid) {
+                Visualforce.remoting.Manager.invokeAction(
+                    '{!$RemoteAction.VDOXOMDemoDashboardController.getNotifications}',
+                    itemid,
+                    handleNotificationResult
+                );
+            }
+
+            $('.reset').click(function(e){
+                Visualforce.remoting.Manager.invokeAction(
+                    '{!$RemoteAction.VDOXOMDemoDashboardController.DeleteOrchestrationPlans}',
+                    function(){window.location.reload(true);}
+                );
+            });
+
+            function showOrderModal(order){
+                $('#orderlog').hide();
+                $('#responselog').hide();
+                $('#flowlog').hide();
+                $('#orderlog > div').html('');
+                $('#flowlog > div').html('');
+                $('#responselog > div').html('');
+                $('#orderlog > div').html('');
+                $('#ordername').append('Order ' + order.vlocity_cmt__OrderId__r.OrderNumber + ' Details');
+                $('#orderframe').append('<iframe src="vlocity_cmt__ReviewOrderCart?Id=' + order.vlocity_cmt__OrderId__c +'" width="100%" height="100%" frameborder="0"></iframe>');
+                $('#orderlog').slideDown();
+            }
+
+            function showFlowModal(order){
+                $('#orderlog').hide();
+                $('#responselog').hide();
+                $('#flowlog').hide();
+                $('#orderlog > div').html('');
+                $('#flowlog > div').html('');
+                $('#responselog > div').html('');
+                $('#flowlog > div').html('');
+                $('#flowname').append('Plan ' + order.Name.substring(4) + ' Orchestration Details');
+                $('#flowframe').append('<iframe src="vlocity_cmt__OrchestrationPlanView?Id=' + order.Id +'" width="100%" height="100%" frameborder="0"></iframe>');
+                $('#flowlog').slideDown();
+            }
+            
+            function getOrchestrationPlans() {
+                Visualforce.remoting.Manager.invokeAction(
+                    '{!$RemoteAction.VDOXOMDemoDashboardController.getOrchestrationPlans}', 
+                    handlePlansResult
+                );
+            }
+            
+            function getOrchestrationPlanItems(planid){
+                Visualforce.remoting.Manager.invokeAction(
+                    '{!$RemoteAction.VDOXOMDemoDashboardController.getOrchestrationPlanItems}', 
+                    planid,
+                    function(lstresult, event){
+                        for (var n=0; n<lstresult.length; n++){
+                            //Item does not exist so create it
+                            var result = lstresult[n];
+                            if($("#" + result.Id).length == 0) {
+                                if(result.vlocity_cmt__State__c == 'Pending'){
+                                    $('#' + planid + ' > .lanepaused').append('<div class="orchestrationitem state'+ result.vlocity_cmt__State__c + ' ' + result.vlocity_cmt__OrchestrationItemDefinitionId__r.RecordType.Name + '" id="' + result.Id + '">' + result.Name + '</div>');
+                                }else if(result.vlocity_cmt__State__c == 'Running' || result.vlocity_cmt__State__c == 'Ready' || result.vlocity_cmt__State__c == 'Failed' || result.vlocity_cmt__State__c == 'Fatally Failed' || result.vlocity_cmt__State__c == 'Cancelled'){
+                                    
+                                    lanetoappend = '#working2';
+                                    lane1 = $('#' + planid + ' #working1 > div');
+                                    lane2 = $('#' + planid + ' #working2 > div');
+                                    lane3 = $('#' + planid + ' #working3 > div');
+                                    if(lane2.length <= lane1.length && lane2.length <= lane3.length){
+                                        lanetoappend = '#working2';
+                                    }else if(lane3.length <= lane2.length && lane3.length <= lane1.length){
+                                        lanetoappend = '#working3';
+                                    }else{
+                                        lanetoappend = '#working1';
+                                    }
+
+                                    $('#' + planid + ' > .laneworking > .itemsworking > ' + lanetoappend).append('<div class="orchestrationitem state'+ result.vlocity_cmt__State__c + ' ' + result.vlocity_cmt__OrchestrationItemDefinitionId__r.RecordType.Name + '" id="' + result.Id + '">' + result.Name + '</div>');
+                                    
+
+                                    if(result.vlocity_cmt__SystemInterfaceId__r != null && result.vlocity_cmt__State__c != 'Fatally Failed' && result.vlocity_cmt__State__c != 'Cancelled'){
+                                        plumbholder["" + planid].connect({source:result.Id, target:planid + result.vlocity_cmt__SystemInterfaceId__r.vlocity_cmt__SystemId__r.Id, type:"systems"});
+                                        plumbholder["" + planid].repaintEverything();
+                                    }
+                                    if(result.vlocity_cmt__State__c == 'Failed' || result.vlocity_cmt__State__c == 'Fatally Failed' || result.vlocity_cmt__State__c == 'Cancelled'){
+                                        $("#" + result.Id).click(function(itemid){
+                                            return function(){
+                                                Visualforce.remoting.Manager.invokeAction(
+                                                    '{!$RemoteAction.VDOXOMDemoDashboardController.retryItem}', 
+                                                    itemid,
+                                                    function(){}
+                                                );
+                                            }
+                                        }(result.Id));
+                                    }
+                                    
+                                }else{
+                                    $('#' + planid + ' > .lanecompleted').append('<div class="orchestrationitem state'+ result.vlocity_cmt__State__c + ' ' + result.vlocity_cmt__OrchestrationItemDefinitionId__r.RecordType.Name + '" id="' + result.Id + '">' + result.Name + '</div>');
+                                    $("#" + result.Id).click(function(itemid){
+                                        return function(){
+                                            getNotifications(itemid);
+                                        }
+                                    }(result.Id));
+
+                                    $("#" + result.Id).hover(
+                                        function(itemid) {
+                                            return function(){
+                                                $("#time" + itemid ).css('background', 'rgba(255,255,255,0.9)');
+                                                $("#time" + itemid + '>span' ).css('opacity', '1');
+                                            }
+                                        }(result.Id), 
+                                        function(itemid) {
+                                            return function(){
+                                                $("#time" + itemid ).css('background', 'rgba(255,255,255,0.05)');
+                                                $("#time" + itemid + '>span' ).css('opacity', '0');
+                                            }
+                                        }(result.Id)
+                                    );
+
+                                    var totaltime = result.vlocity_cmt__LeadTimeRunning__c + result.vlocity_cmt__LeadTimeCompleted__c;
+                                    var percentageheight = Math.round((totaltime / 50000)*410);
+                                    if(isNaN(percentageheight)){
+                                        percentageheight = 0;
+                                        totaltime = 0;
+                                    }
+                                    percentageheight += 40;
+                                    if(percentageheight > 450){
+                                        percentageheight = 450;
+                                    }
+                                    var marginheight = 450-percentageheight;
+                                    $('#' + planid + ' .bargraph').prepend('<div class="bartime" id="time' + result.Id + '" style="height:' + percentageheight + 'px; margin-top:' + marginheight + 'px;"><span>' + totaltime + ' ms</span></div>');
+                                }
+
+                            //Item exists so animate the change    
+                            }else if($("#" + result.Id).hasClass('state'+ result.vlocity_cmt__State__c) == false){
+                                var oldClass = $("#" + result.Id).attr('class');
+                                $("#" + result.Id).removeClass();
+                                $("#" + result.Id).addClass('orchestrationitem');
+                                $("#" + result.Id).addClass('state'+ result.vlocity_cmt__State__c);
+                                $("#" + result.Id).addClass(result.vlocity_cmt__OrchestrationItemDefinitionId__r.RecordType.Name);
+
+                                //Animate move to working
+                                if(result.vlocity_cmt__State__c == 'Running' || result.vlocity_cmt__State__c == 'Ready' || result.vlocity_cmt__State__c == 'Failed' || result.vlocity_cmt__State__c == 'Fatally Failed' || result.vlocity_cmt__State__c == 'Cancelled'){
+                                    
+                                    if(oldClass.indexOf('Running') == -1 && oldClass.indexOf('Ready') == -1 && oldClass.indexOf('Failed') == -1 && oldClass.indexOf('Cancelled') == -1){
+                                        oldid = '#old' + result.Id;
+                                        newid = '#' + result.Id;
+                                        $("#" + result.Id).attr('id', 'old' + result.Id);
+
+                                        lanetoappend = '#working2';
+                                        lane1 = $('#' + planid + ' #working1 > div');
+                                        lane2 = $('#' + planid + ' #working2 > div');
+                                        lane3 = $('#' + planid + ' #working3 > div');
+                                        if(lane2.length <= lane1.length && lane2.length <= lane3.length){
+                                            lanetoappend = '#working2';
+                                        }else if(lane3.length <= lane2.length && lane3.length <= lane1.length){
+                                            lanetoappend = '#working3';
+                                        }else{
+                                            lanetoappend = '#working1';
+                                        }
+
+                                        $('#' + planid + ' > .laneworking > .itemsworking > ' + lanetoappend).append('<div style="opacity:0;" class="orchestrationitem state'+ result.vlocity_cmt__State__c + ' ' + result.vlocity_cmt__OrchestrationItemDefinitionId__r.RecordType.Name + '" id="' + result.Id + '">' + result.Name + '</div>');
+                                        /*$("#" + result.Id).click(function(itemid){
+                                            return function(){
+                                                getNotifications(itemid);
+                                            }
+                                        }(result.Id));*/
+                                        plumbholder["" + planid].repaintEverything();
+                                        var system;
+                                        if(result.vlocity_cmt__SystemInterfaceId__r != null){
+                                            system = planid + result.vlocity_cmt__SystemInterfaceId__r.vlocity_cmt__SystemId__r.Id
+                                        }
+                                        plumbholder["" + planid].setIdChanged(result.Id, 'old' + result.Id);
+                                        plumbholder["" + planid].deleteConnectionsForElement('old' + result.Id);
+                                        (function(newid, oldid, system, planid){
+                                            var relativeY = $(newid).offset().top - $(oldid).offset().top;
+                                            var relativeX = $(newid).offset().left - $(oldid).offset().left;
+                                            if(oldClass.indexOf("Completed") != -1){
+                                                setTimeout(function(){$(oldid).css('left', '-250px');}, 0); 
+                                            }
+                                            else{
+                                                setTimeout(function(){$(oldid).css('left', '250px');}, 0);
+                                            }
+                                            setTimeout(function(){$(oldid).css('top', relativeY + 'px');}, 300);
+                                            setTimeout(function(){$(oldid).css('left', relativeX + 'px');}, 600);
+                                            setTimeout(function(){$(oldid).css('opacity', '0');}, 900);
+                                            setTimeout(function(){$(newid).css('opacity', '1');}, 900);
+                                            setTimeout(function(){
+                                                $(oldid).remove();
+                                                if(system != null){
+                                                    plumbholder["" + planid].connect({source:newid.substring(1), target:system, type:"systems"});
+                                                    plumbholder["" + planid].repaintEverything();
+                                                }
+                                            }, 1200);
+                                        })(newid, oldid, system, planid);
+                                    }else{
+                                        plumbholder["" + planid].deleteConnectionsForElement(result.Id);
+                                        if(result.vlocity_cmt__SystemInterfaceId__r != null && result.vlocity_cmt__State__c != 'Fatally Failed' && result.vlocity_cmt__State__c != 'Cancelled'){
+                                                plumbholder["" + planid].connect({source:result.Id, target:planid + result.vlocity_cmt__SystemInterfaceId__r.vlocity_cmt__SystemId__r.Id, type:"systems"});
+                                                plumbholder["" + planid].repaintEverything();
+                                        }
+                                        if(result.vlocity_cmt__State__c == 'Failed' || result.vlocity_cmt__State__c == 'Fatally Failed' || result.vlocity_cmt__State__c == 'Cancelled'){
+                                            $("#" + result.Id).click(function(itemid){
+                                                return function(){
+                                                    Visualforce.remoting.Manager.invokeAction(
+                                                        '{!$RemoteAction.VDOXOMDemoDashboardController.retryItem}', 
+                                                        itemid,
+                                                        function(){}
+                                                    );
+                                                }
+                                            }(result.Id));
+                                        }
+                                    }
+
+                                }
+
+                                //Animate move to pending
+                                else if(result.vlocity_cmt__State__c == 'Pending'){
+                                    oldid = '#old' + result.Id;
+                                    newid = '#' + result.Id;
+                                    $("#" + result.Id).attr('id', 'old' + result.Id);
+                                    $('#' + planid + ' > .lanepaused').append('<div style="opacity:0;" class="orchestrationitem state'+ result.vlocity_cmt__State__c + ' ' + result.vlocity_cmt__OrchestrationItemDefinitionId__r.RecordType.Name + '" id="' + result.Id + '">' + result.Name + '</div>');
+                                    plumbholder["" + planid].setIdChanged(result.Id, 'old' + result.Id);
+                                    plumbholder["" + planid].deleteConnectionsForElement('old' + result.Id);
+                                    (function(newid, oldid, planid){
+                                        var relativeY = $(newid).offset().top - $(oldid).offset().top;
+                                        var relativeX = $(newid).offset().left - $(oldid).offset().left;
+                                        setTimeout(function(){$(oldid).css('left', '-250px');}, 0);
+                                        setTimeout(function(){$(oldid).css('top', relativeY + 'px');}, 300);
+                                        setTimeout(function(){$(oldid).css('left', relativeX + 'px');}, 600);
+                                        setTimeout(function(){$(oldid).css('opacity', '0');}, 900);
+                                        setTimeout(function(){$(newid).css('opacity', '1');}, 900);
+                                        setTimeout(function(){$(oldid).slideUp(300, 'linear');}, 900);
+                                        setTimeout(function(){$(oldid).remove();plumbholder["" + planid].repaintEverything();}, 1200);
+                                    })(newid, oldid, planid);
+
+                                }
+
+                                //Animate move to complete
+                                else if(result.vlocity_cmt__State__c == 'Completed' || result.vlocity_cmt__State__c == 'Skipped'){
+                                    oldid = '#old' + result.Id;
+                                    newid = '#' + result.Id;
+                                    $("#" + result.Id).attr('id', 'old' + result.Id);
+                                    $('#' + planid + ' > .lanecompleted').append('<div style="opacity:0;" class="orchestrationitem state'+ result.vlocity_cmt__State__c + ' ' + result.vlocity_cmt__OrchestrationItemDefinitionId__r.RecordType.Name + '" id="' + result.Id + '">' + result.Name + '</div>');
+                                    $("#" + result.Id).click(function(itemid){
+                                        return function(){
+                                            getNotifications(itemid);
+                                        }
+                                    }(result.Id));
+
+                                    $("#" + result.Id).hover(
+                                        function(itemid) {
+                                            return function(){
+                                                $("#time" + itemid ).css('background', 'rgba(255,255,255,0.9)');
+                                                $("#time" + itemid + '>span' ).css('opacity', '1');
+                                            }
+                                        }(result.Id), 
+                                        function(itemid) {
+                                            return function(){
+                                                $("#time" + itemid ).css('background', 'rgba(255,255,255,0.05)');
+                                                $("#time" + itemid + '>span' ).css('opacity', '0');
+                                            }
+                                        }(result.Id)
+                                    );
+
+                                    plumbholder["" + planid].setIdChanged(result.Id, 'old' + result.Id);
+                                    plumbholder["" + planid].deleteConnectionsForElement('old' + result.Id);
+                                    (function(newid, oldid, planid){
+                                        var relativeY = $(newid).offset().top - $(oldid).offset().top;
+                                        var relativeX = $(newid).offset().left - $(oldid).offset().left;
+                                        setTimeout(function(){$(oldid).css('left', '250px');}, 0);
+                                        setTimeout(function(){$(oldid).css('top', relativeY + 'px');}, 300);
+                                        setTimeout(function(){$(oldid).css('left', relativeX + 'px');}, 600);
+                                        setTimeout(function(){$(oldid).css('opacity', '0');}, 900);
+                                        setTimeout(function(){$(newid).css('opacity', '1');}, 900);
+                                        setTimeout(function(){$(oldid).slideUp(300, 'linear');}, 900);
+                                        setTimeout(function(){$(oldid).remove();plumbholder["" + planid].repaintEverything();}, 1200);
+                                    })(newid, oldid, planid);
+
+                                    var totaltime = result.vlocity_cmt__LeadTimeRunning__c + result.vlocity_cmt__LeadTimeCompleted__c;
+                                    var percentageheight = Math.round((totaltime / 50000)*410);
+                                    if(isNaN(percentageheight)){
+                                        percentageheight = 0;
+                                        totaltime = 0;
+                                    }
+                                    percentageheight += 40;
+                                    if(percentageheight > 450){
+                                        percentageheight = 450;
+                                    }
+                                    var marginheight = 450-percentageheight;
+                                    $('#' + planid + ' .bargraph').prepend('<div class="bartime" id="time' + result.Id + '" style="height:' + percentageheight + 'px; margin-top:' + marginheight + 'px;"><span>' + totaltime + ' ms</span></div>');
+
+                                }                          
+                            }                  
+                        }
+                        if($('#' + planid + ' .stateCompleted').length < lstresult.length){
+                            $('#tab' + planid + ' > span').removeClass();
+                            $('#tab' + planid + ' > span').addClass('tabiconworking');
+                        }else{
+                            $('#tab' + planid + ' > span').removeClass();
+                            $('#tab' + planid + ' > span').addClass('tabiconcompleted');
+                        }
+                        if($('#' + planid + ' .stateFailed').length > 0 || $('#' + planid + ' .stateFatally').length > 0 || $('#' + planid + ' .stateCancelled').length > 0){
+                            $('#tab' + planid + ' > span').removeClass();
+                            $('#tab' + planid + ' > span').addClass('tabiconfailed');
+                        }
+                        setTimeout(function(){
+                            newpercentage = Math.round(($('#' + planid + ' .stateCompleted').length / lstresult.length) * 100);
+                            if(newpercentage > 100){
+                                newpercentage = 100;
+                            }
+                            $('#' + planid + ' .percentcomplete').html(newpercentage + '%');
+                        }, 1000);
+                    }
+
+                );
+            }
+
+            animateConn = function(conn) {
+                var arrow = conn.getOverlay("Arrow");
+                var interval = window.setInterval(function() {
+                    arrow.loc += 0.02;
+                    if (arrow.loc > 1) {arrow.loc = 0;}
+                    try{
+                        conn.repaint();
+                    }catch(e){stop(interval);}
+                }, 100);                 
+            },
+            stop = function(interval) {
+                window.clearInterval(interval);
+            };
+
+
+            function openPlanTab(event){
+                $('.orchestrationplan').css('visibility', 'hidden');
+                $('.tab').removeClass('tabselected');
+                $('#' + event.data.planid).css('visibility', 'visible');
+                $('#tab' + event.data.planid).addClass('tabselected');
+                plumbholder["" + event.data.planid].repaintEverything();
+            }
+            
+            function getSystems(planid) {
+                Visualforce.remoting.Manager.invokeAction(
+                    '{!$RemoteAction.VDOXOMDemoDashboardController.getOrchestrationPlanSystems}', 
+                    planid,
+                    function(lstresult, event){
+                        for (var n=0; n<lstresult.length; n++){
+                            var result = lstresult[n];
+                            systemholder[result.Id] = result.Online__c;
+                            $('#' + planid + ' > .laneworking > .systemsworking').append('<div class="system ' + result.Id + '" id="' + planid + result.Id + '"><img src="' + result.Image__c + '"></img><span>' + result.Name + '<div class="systemstatus ' + result.Online__c + '"></div></div></span></div>');
+                            $("#" + planid + result.Id + ' span').click(function(system){
+                                return function(){
+                                    $("." + system.Id + ' span .systemstatus').removeClass('' + systemholder[system.Id]);
+                                    console.log($("." + system.Id + ' span .systemstatus'));
+                                    console.log(systemholder[system.Id]);
+                                    if(systemholder[system.Id] == true){
+                                        systemholder[system.Id] = false;
+                                    }else{
+                                        systemholder[system.Id] = true;
+                                    }
+                                    $("." + system.Id + ' span .systemstatus').addClass('' + systemholder[system.Id]);
+                                    Visualforce.remoting.Manager.invokeAction(
+                                        '{!$RemoteAction.VDOXOMDemoDashboardController.toggleSystem}', 
+                                        system.Id,
+                                        systemholder[system.Id],
+                                        function(){}
+                                    );
+                                }
+                            }(result));
+                        }
+                    }
+                );
+            }
+        
+            function handleNotificationResult(result, event) { 
+                $('#orderlog').hide();
+                $('#responselog').hide();
+                $('#flowlog').hide();
+                $('#orderlog > div').html('');
+                $('#flowlog > div').html('');
+                $('#responselog > div').html('');
+                if(result.Request__c != null){
+                    $('#responselog > div').html('');
+                    var jstr = $("<div/>").html(result.Request__c).text();
+                    var str = JSON.parse(jstr);
+                    var strf = JSON.stringify(str, undefined, 4);
+
+                    var jstr2 = $("<div/>").html(result.Response__c).text();
+                    var str2 = JSON.parse(jstr2);
+                    var strf2 = JSON.stringify(str2, undefined, 4);
+                    
+                    $('#name').append(result.Name);
+                    $('#fields').append('<div class="fieldslabel">Time Stamp Ready: </div><div class="fieldsvalue">'+timeConverter(result.vlocity_cmt__TimestampReady__c, false)+'</div><div class="fieldslabel">Time Stamp Running: </div><div class="fieldsvalue">'+timeConverter(result.vlocity_cmt__TimestampRunning__c, false)+'</div><div class="fieldslabel">Time Stamp Completed: </div><div class="fieldsvalue">'+timeConverter(result.vlocity_cmt__TimestampCompleted__c, false)+'</div><div class="fieldslabel">Lead Time (Running): </div><div class="fieldsvalue">'+result.vlocity_cmt__LeadTimeRunning__c+'</div><div class="fieldslabel">Lead Time (Completed): </div><div class="fieldsvalue">'+result.vlocity_cmt__LeadTimeCompleted__c+'</div>');
+                    document.getElementById('request').appendChild(document.createElement('pre')).innerHTML = syntaxHighlight(strf);
+                    //$('#request').append('<div class="pre">' + syntaxHighlight(strf) + '</div>')
+                    document.getElementById('response').appendChild(document.createElement('pre')).innerHTML = syntaxHighlight(strf2);
+                    document.getElementById('exec').appendChild(document.createElement('pre')).innerHTML = result.vlocity_cmt__ExecutionLog__c;
+                    $('#responselog').slideDown();
+                }
+                        
+            }
+            
+            //Create new tab for each orchestration plan
+            function handlePlansResult(lstresult, event) { 
+                for (var n=0; n<lstresult.length; n++){
+                    var result = lstresult[n];
+                    if(plumbholder["" + result.Id] == null){
+                        plumbholder["" + result.Id] = jsPlumb.getInstance();
+                        plumbholder["" + result.Id].registerConnectionType("systems", {
+                            paintStyle: { stroke: "rgba(255,255,255,0.5)", strokeWidth: 3, "dashstyle": "3 4"  },
+                            anchors:["BottomCenter","TopCenter"],
+                            endpoint:[ "Dot", {fillStyle:"rgba(140,120,0,0.5)", outlineColor:"rgba(140,120,0,0.5)", outlineWidth:1, "radius": 4}],
+                            overlays:[[ "Label", { label:"•", location:0, id:"Arrow" } ]]
+                        });
+                        plumbholder["" + result.Id].bind("connection", function(ci) {
+                            new animateConn(ci.connection);         
+                        });
+                        setInterval(function(planid){
+                            return function(){
+                                plumbholder["" + planid].repaintEverything();
+                            }
+                        }(result.Id), 350);
+                    }
+                    if($("#" + result.Id).length == 0) {
+                        $('#tabbar').prepend('<div class="tab" id="tab' + result.Id + '"><span class="tabiconcomplete"></span>Order ' + result.vlocity_cmt__OrderId__r.OrderNumber + '</div>');
+                        $('#tab' + result.Id).click({planid: result.Id}, openPlanTab);
+                        $('#plandetails').append('<div class="orchestrationplan" id="' + result.Id + '"><div class="orderheader"><img src="' + result.vlocity_cmt__OrderId__r.Account.PhotoUrl + '"></img><div class="ordersection"><span class="planlabel">Account</span><span class="planvalue">' + result.vlocity_cmt__OrderId__r.Account.Name + '</span></div><div class="ordersection"><span class="planlabel">Order</span><span class="planvalue">' + result.vlocity_cmt__OrderId__r.OrderNumber + '</span></div><div class="ordersection"><span class="planlabel">Effective Date</span><span class="planvalue">' + timeConverter(result.vlocity_cmt__OrderId__r.EffectiveDate, true) + '</span></div><div class="ordersection"><span class="planlabel">One Time Value</span><span class="planvalue">$' + result.vlocity_cmt__OrderId__r.vlocity_cmt__OneTimeTotal__c + '</span></div><div class="ordersection"><span class="planlabel">Recurring Value</span><span class="planvalue">$' + result.vlocity_cmt__OrderId__r.vlocity_cmt__RecurringTotal__c + '</span></div><img src="/resource/VDOXOMDemoDashboard/images/flow.png" class="flowimage" id="flow' + result.Id + '"></img></div><div class="indicatorbar"><div class="barpending">Pending</div><div class="barrunning">Running</div><div class="barcompleted">Completed<span class="percentcomplete">0%</span></div></div><div class="lane lanepaused"></div><div class="lane laneworking"><div class="itemsworking"><div class="itemslaneworking" id="working1"></div><div class="itemslaneworking" id="working2"></div><div class="itemslaneworking" id="working3"></div></div><div class="systemsworking"><div class="systemsworkingtitle">Downstream Systems</div></div></div><div class="lane lanecompleted"></div><div class="bargraph"></div></div>');
+
+
+                        $("#" + result.Id + '> .orderheader .ordersection').click(function(order){
+                            return function(){
+                                showOrderModal(order);
+                            }
+                        }(result));
+                        $("#" + result.Id + '> .orderheader .flowimage').click(function(order){
+                            return function(){
+                                showFlowModal(order);
+                            }
+                        }(result));
+
+                        getSystems(result.Id);
+                        getOrchestrationPlanItems(result.Id);
+                        (function(planid){
+                            setInterval(function(){getOrchestrationPlanItems(planid)}, 3500);
+                        })(result.Id);
+
+                        if((n+1)==lstresult.length && numberOfPlans < lstresult.length){
+                            $('.orchestrationplan').css('visibility', 'hidden');
+                            $('.tab').removeClass('tabselected');
+                            $('#' + result.Id).css('visibility', 'visible');
+                            $('#tab' + result.Id).addClass('tabselected');
+                            setTimeout(function(planid){
+                                return function(){
+                                    plumbholder["" + planid].repaintEverything();
+                                }
+                            }(result.Id), 1000);
+                            numberOfPlans = lstresult.length;
+                        }
+                    }
+                }          
+            }
+
+            function syntaxHighlight(json) {
+                json = json.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+                return json.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, function (match) {
+                    var cls = 'number';
+                    if (/^"/.test(match)) {
+                        if (/:$/.test(match)) {
+                            cls = 'key';
+                        } else {
+                            cls = 'string';
+                        }
+                    } else if (/true|false/.test(match)) {
+                        cls = 'boolean';
+                    } else if (/null/.test(match)) {
+                        cls = 'null';
+                    }
+                    return '<span class="' + cls + '">' + match + '</span>';
+                });
+            } 
+
+            function timeConverter(UNIX_timestamp, dateonly){
+                var a = new Date(UNIX_timestamp);
+                var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+                var year = a.getFullYear();
+                var month = months[a.getMonth()];
+                var date = a.getDate();
+                var hour = a.getHours();
+                var min = a.getMinutes();
+                var sec = a.getSeconds();
+                if(sec < 10){sec= '0' + sec;}
+                if(min < 10){min= '0' + min;}
+                if(hour < 10){hour= '0' + hour;}
+                var time;
+                if(dateonly == true){
+                    time = date + ' ' + month + ' ' + year;
+                }else{
+                    time = date + ' ' + month + ' ' + year + ' ' + hour + ':' + min + ':' + sec ;
+                }
+                return time;
+            }
+          
+            getOrchestrationPlans();
+            setInterval(getOrchestrationPlans, 10000);
+      
+        });
+    });
+</script>
+<div id="pagetitle">
+    <img src="/resource/VDOXOMDemoDashboard/images/appiconlightning.png"></img>Vlocity Order Management Engine Visualization<div class="reset">Reset Demonstration</div>
+</div>
+<div id="wrapper">
+    <div id="responselog">
+        <div class="cornerbanner"></div>
+        <div class="closebutton"></div>
+        <div id="name">
+        </div>
+        <div id="fields">
+        </div>
+        <p>Execution Log</p>
+        <div id="exec">
+        </div>
+        <p>Request</p>
+        <div id="request">
+        </div>
+        <p>Response</p>
+        <div id="response">
+        </div>
+    </div>
+    <div id="orderlog">
+        <div class="cornerbanner"></div>
+        <div class="closebutton"></div>
+        <div id="ordername">
+        </div>
+        <div id="orderframe">
+        </div>
+    </div>
+    <div id="flowlog">
+        <div class="cornerbanner"></div>
+        <div class="closebutton"></div>
+        <div id="flowname">
+        </div>
+        <div id="flowframe">
+        </div>
+    </div>
+    <div id="tabbar">
+    </div>
+    <div id="plandetails">
+    </div>
+</div>
+
+<style>
+    .orderheader > .flowimage{
+        width: 32px;
+        height: 32px;
+        float: left;
+        top: 8px;
+        margin-right: 20px;
+        float: right;
+        opacity: 0.8;
+        border-radius:0px;
+        border:none;
+        cursor:pointer;
+    }
+    .orderheader > .flowimage:hover{
+        opacity:1;
+    }
+    .reset{
+        height: 30px;
+        float: right;
+        background: #f47828;
+        background-size: 100% 100%;
+        background-position: center center;
+        margin-top: 15px;
+        cursor: pointer;
+        color: #fff;
+        font-size: 12px;
+        padding: 5px 10px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        margin-right: 20px;
+        line-height: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        box-shadow: 0px 0px 15px rgba(0,0,0,0.15);
+    }
+    .bargraph {
+        position: absolute;
+        bottom: 0px;
+        width: calc(100% - 680px);
+        left: 340px;
+        z-index: -1;
+        height: 450px;
+        overflow: hidden;
+    }
+    .bartime span {
+        position: absolute;
+        bottom: 45px;
+        -webkit-transform: rotate(270deg);
+        text-align: left;
+        width: 90px;
+        left: -35px;
+        color: #102D4B;
+        font-weight: bold;
+        font-size: 12px;
+        opacity:0;
+    }
+    .bartime {
+        float: left;
+        width: 3.5%;
+        height: 200px;
+        background: rgba(255,255,255,0.05);
+        margin-right: 0.25%;
+        margin-left: 0.25%;
+        position:relative;
+    }
+    @font-face{
+        font-family:vlocity;
+        src: url('/resource/VDOXOMDemoDashboard/fonts/ProximaNova-Regular.otf');
+    }
+    @font-face{
+        font-family:vlocitybold;
+        src: url('/resource/VDOXOMDemoDashboard/fonts/ProximaNova-Extrabold.otf');
+    }
+    #pagetitle{
+        font-size: 20px;
+        height: 60px;
+        margin-bottom: 20px;
+        line-height: 40px;
+        color: #676766 !important;
+        /* opacity: 0.5; */
+        background: #fff;
+        position: relative;
+        margin-top: -20px;
+        /* margin-left: -20px; */
+        /* margin-right: -20px; */
+        padding: 0px;
+        line-height: 60px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        /* margin-bottom: -20px; */
+        z-index: 100;
+        border-bottom: 5px solid #f47828;
+        opacity: 1;
+
+    }
+    .percentcomplete{
+        float: right;
+        margin-right:20px;
+    }
+    #pagetitle img {
+        width: 45px;
+        height: 45px;
+        margin-right: 20px;
+        float: left;
+        margin-top: 5px;
+        margin-left: 20px;
+        /* display: none; */
+    }
+    .tab > span{
+        width: 4px;
+        height: 4px;
+        border-radius: 10px;
+        border: 5px solid;
+        float: left;
+        display: block;
+        margin-top: 12px;
+        margin-left: 20px;
+        opacity:0;
+    }
+    .tab > span.tabiconworking{
+        border-color: #fbd046;
+        opacity:1;
+        //animation: blinker 3s linear infinite;
+
+    }
+    .tab > span.tabiconcompleted{
+        border-color: #4dc612;
+        opacity:1;
+    }
+    .tab > span.tabiconfailed{
+        border-color: #ff533f;
+        opacity:1;
+        //animation: blinker 3s linear infinite;
+    }
+
+    html{
+        height:100vh;
+        width:100%;
+        font-family:vlocity;
+        color:#fff;
+        margin:0px;
+    }
+    body{
+        width: 100%;
+        height: 100%;
+        margin:0px;
+        padding:0px;
+    }
+    .orchestrationitem:hover {
+        background: #fbd046;
+    }
+    .miniarrow{
+        width:5px;
+        height:5px;
+        background:#fff;
+    }
+    html{
+        padding:20px;
+        background: linear-gradient(to bottom, #008AB3 0%,#15395E 50%,#15395E 100%);
+        background: -webkit-linear-gradient(top, #008AB3 0%,#15395E 50%,#15395E 100%);
+        box-sizing:border-box;
+    }
+    #wrapper{
+        overflow:hidden;
+        height: calc(100% - 45px);
+        width:100%;
+        background:rgba(0,0,0,0.2);
+        box-sizing:border-box;
+        position:relative;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-top: 5px solid rgba(255,255,255,0.9);
+    }
+    .jtk-overlay{
+        font-size:33px;
+        font-weight:bold;
+        color:#fbd046;
+    }
+    .closebutton{
+        width:30px;
+        height:30px;
+        background:url('/resource/VDOXOMDemoDashboard/images/close.png') no-repeat;
+        background-size:15px 15px;
+        background-position: center center;
+        position:absolute;
+        right:100px;
+        top:23px;
+        cursor:pointer;
+    }
+    .cornerbanner{
+        width: 100px;
+        height: 100px;
+        background: url('/resource/VDOXOMDemoDashboard/images/flagcomms.png') no-repeat;
+        background-position: center center;
+        position: absolute;
+        right: -1px;
+        top: -4px;
+        cursor: pointer;
+        border-top-right-radius: 15px;
+    }
+    circle{
+        fill: rgba(255,255,255,1);
+    }
+    #tabbar{
+        width:100%;
+        height:62px;
+        padding:20px;
+        padding-bottom:0px;
+        box-sizing: border-box;
+        display: block;
+        overflow: hidden;
+        max-height: 62px;
+    }
+    .tab{
+        width:150px;
+        height:40px;
+        background:#f6f6f6;
+        text-align:center;
+        cursor:pointer;
+        line-height:40px;
+        float:left;
+        color:#333;
+        font-size:13px;
+        border: 1px solid rgba(0,0,0,0.15);
+        position: relative;
+        z-index: 1;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        font-weight:bold;
+    }
+    .tab:hover{
+        background:#fff;
+    }
+    .tabselected{
+        background: rgba(77,93,108,0.8);
+        box-shadow: 0px 0px 25px rgba(0,0,0,0.35);
+        color:#fff;
+        z-index: 2;
+    }
+    .tabselected:hover{
+        background: rgba(77,93,108,0.8);
+    }
+    .itemsworking > .orchestrationitem{
+        float:left;
+        margin:1px;
+    }
+    .itemsworking{
+        max-width:960px;
+        display: table;
+        margin:auto;
+        height: calc(100vh - 542px);
+    }
+    .itemsworking .orchestrationitem{
+        margin-bottom:20px;
+    }
+    .itemslaneworking{
+        width:300px;
+        margin-left:10px;
+        margin-right:10px;
+        height:350px;
+        float:left;
+    }
+    .systemsworking{
+        margin: auto;
+        display: table;
+        max-width: 1000px;
+        min-width: 1000px;
+        min-height: 1000px;
+        background: rgba(0,0,0,0.2);
+        padding: 20px;
+        /* margin-bottom: 20px; */
+        position: relative;
+        bottom: 70px;
+        border-radius: 10px;
+        border-top: 5px solid rgba(255,255,255,0.7);
+        opacity: 0.9;
+    }
+    .systemsworkingtitle {
+        font-size: 12px;
+        opacity: 0.7;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    .system{
+        border-radius:10px;
+        width:240px;
+        text-align:left;
+        margin:5px;
+        left:0px;
+        top:0px;
+        position:relative;
+        color:#fff;
+        float:left;
+        font-size:13px;
+        color:#333329;
+
+
+    }
+    .systemstatus{
+        width: 4px;
+        height: 4px;
+        border-radius: 10px;
+        margin-top: 1px;
+        float: right;
+        //animation: blinker 3s linear infinite;
+    }
+    .true{
+        border: 5px solid #4dc612; 
+    }
+    .false{
+        border: 5px solid #ff533f;
+    }
+    .system span{
+        position: absolute;
+        top: 80px;
+        width: 200px;
+        height: 30px;
+        color: #fff;
+        background: rgba(77,93,108,1);
+        box-shadow: 0px 0px 25px rgba(0,0,0,0.35);
+        border-radius: 2px;
+        z-index: 2;
+        left: 20px;
+        padding: 5px;
+        padding-left:10px;
+        padding-right:10px;
+        box-sizing: border-box;
+        line-height: 20px;
+        border: 1px solid rgba(0,0,0,0.35);
+        cursor:pointer;
+        border-top: 5px solid rgba(255,255,255,0.9);
+        border-radius: 5px;
+        padding-top: 4px;
+    }
+    .system span:hover{
+        background:#fbd046;
+    }
+    .system img{
+        padding: 0px 30px;
+        margin: auto;
+        width: 65%;
+        box-sizing: border-box;
+        margin-bottom:20px;
+        display:block;
+    }
+    .orderheader{
+        width: 100%;
+        height: 50px;
+        background: rgba(77,93,108,0.8);
+        box-shadow: 0px 0px 25px rgba(0,0,0,0.35);
+        float: left;
+        line-height: 70px;
+        font-size:13px;
+        color: #fff;
+        border: 1px solid rgba(0,0,0,0.15);
+        cursor:pointer;
+        border-top-right-radius: 15px;
+    }
+    .name{
+        font-size:14px;
+        color:#fff;
+        width:80%;
+        margin:auto;
+        margin-bottom:10px;
+        margin-top:25px;
+        
+    }
+    pre{
+        font-size:12px;
+        width:100%;
+        background:#f6f6f6;
+        border-radius:5px;
+        padding:20px;
+        box-sizing: border-box;
+        margin:auto;
+    }
+    #responselog, #orderlog, #flowlog{
+        width:1300px;
+        height:830px;
+        position:fixed;
+        bottom:0px;
+        margin-left:50%;
+        left:-650px;
+        background:#FFF;
+        box-shadow: 0px 0px 25px rgba(0,0,0,0.55);
+        overflow-:hidden;
+        z-index:100;
+        display:none;
+        color:#000;
+        padding:30px;
+        padding-top:10px;
+        box-sizing: border-box;
+        opacity:1;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        font-size:13px;
+        border-top:5px solid #f47828;
+
+
+
+    }
+    #responselog p{
+        margin-top:14px;
+        margin-bottom:13px;
+        font-weight: bold;
+    }
+    #fields{
+        height:100px;
+        width:100%;
+    }
+    .fieldslabel,.fieldsvalue{
+        width:50%;
+        float:left;
+        height: 17px;
+        line-height: 17px;
+    }
+    #name, #ordername, #flowname{
+        width:100%;
+        font-size: 20px;
+        height: 60px;
+        line-height: 60px;
+        color: #676766 !important;
+
+    }
+    #response{
+        height:85px;
+        width:100%;
+        overflow-y:scroll;
+        overflow-x:hidden;
+    }
+    #request{
+        height:350px;
+        width:100%;
+        overflow-y:scroll;
+        overflow-x:hidden;
+    }
+    #exec{
+        height:75px;
+        width:100%;
+        overflow-y:scroll;
+        overflow-x:hidden;
+    }
+    #orderframe, #flowframe{
+        height:735px;
+        width:100%;
+    }
+    #plandetails{
+        width:100%;
+        float:left;
+        height: calc(100% - 50px);
+    }
+    svg.jtk-connector {
+    }
+    /*@keyframes blinker {
+        50% {
+            opacity: 0;
+            stroke: red;
+        }
+    }*/
+    .orchestrationplan{
+        visibility:hidden;
+        position:absolute;
+        width: calc(100%);
+        height: calc(100% - 80px);
+        overflow: hidden;
+        padding:20px;
+        padding-top:0px;
+        box-sizing: border-box;
+    }
+    .orchestrationitem{
+        background:rgba(77,93,108,0.8);
+        color:#FFF;
+        border-radius:0px;
+        height:30px;
+        font-size:13px;
+        width:300px;
+        text-align:left;
+        margin-top:2px;
+        margin-bottom:1px;
+        box-sizing:border-box;
+        padding:5px;
+        padding-left:10px;
+        line-height:20px;
+        transition:left 0.3s linear, top 0.3s linear;
+        left:0px;
+        top:0px;
+        border-left:30px solid #fff;
+        position:relative;
+        word-wrap: break-word;
+        text-overflow: ellipsis;
+        /*overflow: hidden;*/
+        box-shadow: 0px 0px 25px rgba(0,0,0,0.35);
+        white-space: nowrap;
+        border-radius: 2px;
+        cursor:pointer;
+        border-radius: 5px;
+    }
+    .Callout:before{
+        width:20px;
+        height:20px;
+        content:' ';
+        background:url('/resource/VDOXOMDemoDashboard/images/rounded-plug.png');
+        background-size:100% 100%;
+        background-position:center center;
+        position:absolute;
+        left:-25px;
+        top:5px;
+    }
+    .Milestone:before{
+        width:20px;
+        height:20px;
+        content:' ';
+        background:url('/resource/VDOXOMDemoDashboard/images/flagfull.png');
+        background-size:100% 100%;
+        background-position:center center;
+        position:absolute;
+        left:-25px;
+        top:5px;
+    }
+    .Manual:before{
+        width:20px;
+        height:20px;
+        content:' ';
+        background:url('/resource/VDOXOMDemoDashboard/images/man-user.png');
+        background-size:100% 100%;
+        background-position:center center;
+        position:absolute;
+        left:-25px;
+        top:5px;
+    }
+    .Auto:before{
+        width:20px;
+        height:20px;
+        content:' ';
+        background:url('/resource/VDOXOMDemoDashboard/images/settings-work-tool.png');
+        background-size:100% 100%;
+        background-position:center center;
+        position:absolute;
+        left:-25px;
+        top:5px;
+    }
+    .stateFatally:before, .stateFailed:before, .stateCancelled:before{
+        width:20px;
+        height:20px;
+        content:' ';
+        background:url('/resource/VDOXOMDemoDashboard/images/undo-arrow.png');
+        background-size:100% 100%;
+        background-position:center center;
+        position:absolute;
+        left:-25px;
+        top:5px;
+    }
+    .lane{
+        float:left;
+        position:relative;
+    }
+    .lanecompleted, .lanepaused{
+        width:300px;
+        height: calc(100% - 60px);
+        background: rgba(255,255,255,0.04);
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    .laneworking{
+        width:calc(100% - 600px);
+        background:url('/resource/VDOXOMDemoDashboard/images/cloudbacklogo.png') no-repeat;
+        background-size:800px;
+        background-position:top center;
+        padding-top:20px;
+    }
+    .barpending, .barcompleted{
+        width: 300px;
+        float: left;
+        text-align: left;
+        padding-left: 35px;
+        box-sizing: border-box;
+        color: #fff;
+        font-size: 12px;
+        height: 30px;
+        line-height: 31px;
+        font-weight: bold;
+        position:relative;
+        text-transform: uppercase;
+        box-shadow:0px 0px 25px rgba(0,0,0,0.35);
+        border: 1px solid rgba(0,0,0,0.15);
+    }
+      .barrunning {
+        width: calc(100% - 600px);
+        float: left;
+        text-align: left;
+        padding-left: 35px;
+        box-sizing: border-box;
+        color: #fff;
+        font-size: 12px;
+        height: 30px;
+        line-height: 31px;
+        font-weight: bold;
+        position:relative;
+        text-transform: uppercase;
+        box-shadow:0px 0px 25px rgba(0,0,0,0.35);
+        border: 1px solid rgba(0,0,0,0.15);
+    }
+    .barcompleted{
+        background: #4dc612;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .barcompleted:before{
+        width: 0;
+        height: 0;
+        content: ' ';
+        position: absolute;
+        border-top: 14px solid transparent;
+        border-bottom: 14px solid transparent;
+        border-left: 20px solid #1498fe;
+        left: 0px;
+    }
+    .barcompleted:after{
+        width: 50px;
+        height: 28px;
+        content: ' ';
+        position: absolute;
+        left: -50px;
+        background: #1498fe;
+    }
+    .barrunning{
+        background: #1498fe;
+    }
+    .barrunning:before{
+        width: 0;
+        height: 0;
+        content: ' ';
+        position: absolute;
+        border-top: 14px solid transparent;
+        border-bottom: 14px solid transparent;
+        border-left: 20px solid #f47828;
+        left: 0px;
+    }
+    .barrunning:after{
+        width: 50px;
+        height: 28px;
+        content: ' ';
+        position: absolute;
+        left: -50px;
+        background: #f47828;
+    }
+    .barpending{
+        background: #f47828;
+        padding-left:20px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    .orderheader > img{
+        width:32px;
+        height:32px;
+        border-radius:50px;
+        margin-left:20px;
+        position: relative;
+        float:left;
+        top: 8px;
+        margin-right: 20px;
+        border: 1px solid rgba(0,0,0,0.35);
+    }
+    .orderheader span {
+        height: 15px;
+        display: block;
+        width: 260px;
+        line-height: 20px;
+        text-align:left;
+        margin-left:10px;
+        width:100%;
+    }
+    .ordersection{
+        float:left;
+        height:30px;
+        width:260px;
+        margin-top:10px;
+    }
+    .planvalue{
+        color:#fbd046;
+    }
+
+
+
+
+
+    .stateCompleted{ border-color:#4dc612; }
+    .statePending{ border-color:#f47828; }
+    .stateReady{ border-color:#1498fe; }
+    .stateRunning{ border-color:#fbd046; }
+    .stateFailed{ border-color:#ff533f; }
+    .stateFatally{ border-color:#ff533f; }
+    .stateCancelled{ border-color:#ff533f; }
+    .string { color:#f47828; }
+    .number { color: darkorange; }
+    .boolean { color: blue; }
+    .null { color: magenta; }
+    .key { color: #1498fe; }
+</style>
+
+</apex:page>

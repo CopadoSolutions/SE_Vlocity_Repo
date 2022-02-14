@@ -1,0 +1,123 @@
+{
+    "GlobalKey__c": "NoteStory LWC/VEX Personal Lines/1/1586171687832",
+    "dataSource": {
+        "type": null
+    },
+    "enableLwc": true,
+    "filter": {
+        "['objAPIName']": "Note"
+    },
+    "states": [
+        {
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['onGoing']",
+                        "logicalOperator": "&&",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "true"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['onGoing'] == true",
+            "flyout": {
+                "lwc": {
+                    "DeveloperName": "storyEditStateFlyout",
+                    "Id": "0Rb4p000000fyEnCAI",
+                    "MasterLabel": "storyEditStateFlyout",
+                    "name": "storyEditStateFlyout"
+                }
+            },
+            "flyoutAttributes": [
+                {
+                    "name": "parent",
+                    "val": "$scope.obj"
+                }
+            ],
+            "isSmartAction": false,
+            "lwc": {
+                "DeveloperName": "storyOngoingStateInteraction",
+                "Id": "0Rb3i000000bx2NCAQ",
+                "MasterLabel": "storyOngoingStateInteraction",
+                "name": "storyOngoingStateInteraction"
+            },
+            "name": "Note Ongoing",
+            "sObjectType": "Note",
+            "smartAction": {
+            },
+            "templateUrl": "story-card"
+        },
+        {
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['onGoing']",
+                        "logicalOperator": "&&",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "false"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['onGoing'] == false",
+            "flyout": {
+                "lwc": {
+                    "DeveloperName": "storyEditStateFlyout",
+                    "Id": "0Rb3i000000btgYCAQ",
+                    "MasterLabel": "storyEditStateFlyout",
+                    "name": "storyEditStateFlyout"
+                }
+            },
+            "flyoutAttributes": [
+                {
+                    "name": "parent",
+                    "val": "$scope.obj"
+                }
+            ],
+            "isSmartAction": false,
+            "lwc": {
+                "DeveloperName": "storyNormalStateInteraction",
+                "Id": "0Rb3i000000bx2SCAQ",
+                "MasterLabel": "storyNormalStateInteraction",
+                "name": "storyNormalStateInteraction"
+            },
+            "name": "Note",
+            "sObjectType": "Note",
+            "smartAction": {
+            },
+            "templateUrl": "story-card"
+        }
+    ],
+    "title": "Notes"
+}

@@ -1,0 +1,22 @@
+{
+    "%vlocity_namespace%__Code__c": "VLO-PL-1007",
+    "%vlocity_namespace%__DataType__c": "Text",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__EffectiveFromDate__c": "",
+    "%vlocity_namespace%__EffectiveUntilDate__c": "",
+    "%vlocity_namespace%__GlobalGroupKey__c": "963b17a1-f331-05f7-fec4-d5f1cc3ccd0b",
+    "%vlocity_namespace%__GlobalId__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "e32b2ba8-0cef-0b83-f7dd-4a3c8ae8359e",
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsPublic__c": false,
+    "%vlocity_namespace%__IsShared__c": false,
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__PicklistValue__c": "Colour-iPhone-11-Pro-Max_Values.json",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__UnitOfMeasureName__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "V1",
+    "Name": "Colour - iPhone 11 Pro Max",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Picklist__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Picklist__c/e32b2ba8-0cef-0b83-f7dd-4a3c8ae8359e"
+}

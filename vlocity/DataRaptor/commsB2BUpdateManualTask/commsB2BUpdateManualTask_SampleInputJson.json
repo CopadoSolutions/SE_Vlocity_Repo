@@ -1,0 +1,80 @@
+{
+    "ContextId": "a2b6g000000cJCoAAM",
+    "CustomerEnrichment": {
+        "PremiseContact": {
+            "BuildingAccess": "12 x 5",
+            "FirstName": null,
+            "LastName": null,
+            "Phone": null,
+            "PremiseAccess": null,
+            "PremiseEmail": null
+        }
+    },
+    "DRId_%vlocity_namespace%__OrchestrationItem__c": "a2b6g000000cJCoAAM",
+    "Enrich": {
+        "DomainNS": "qwer",
+        "IPAddress": "12312333333",
+        "NetworkDiagram": null,
+        "Prefixes": "Default-route only"
+    },
+    "OrchestrationItem": {
+        "%vlocity_namespace%__OrchestrationPlanId__c": "a2d6g000000cPvpAAE",
+        "%vlocity_namespace%__OrderItemId__c": "8026g0000000G4tAAE",
+        "BillingAccountId": "0016g000002u56WAAQ",
+        "Id": "a2b6g000000cJCoAAM",
+        "OrderNumber": "00006737",
+        "ServiceAccountId": "0016g000002u57pAAA",
+        "SourceItemId": "8026g0000000G4tAAE",
+        "SourceOrderItemName": "AT&T Dedicated Internet Offer",
+        "TechnicalProductId": "01t6g0000005eirAAA",
+        "billingAccount": "Hilton - United States",
+        "frlId": "a2N6g000000XwDeEAK",
+        "orderId": "8016g0000004HLmAAM",
+        "productName": "Dedicated Internet Access",
+        "serviceAccount": "Hilton - Mission Point"
+    },
+    "OrderEnrichment": {
+        "Disclosure": true
+    },
+    "Release": {
+        "ManualTaskStatus": "Completed",
+        "Technician Approval": "Approved"
+    },
+    "SetAppointment": {
+        "SelectableItems1": null
+    },
+    "TestOrderItemId": "8026g0000000CSSAA2",
+    "id": "a1I6g000000f6lUEAQ",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "selectedSlot": {
+        "$$hashKey": "object:319",
+        "Date": "26/11/2019",
+        "Day": "Monday",
+        "Slot": "Slot 02",
+        "Time": "1899-12-30T01:00:00.000Z"
+    },
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://att105--vlocity-cmt.na174.visual.force.com",
+    "timeStamp": "2019-12-04T14:46:15.547Z",
+    "userCurrencyCode": "USD",
+    "userId": "0056g000000Mw7oAAC",
+    "userName": "mdahman105@vdo.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": -480,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CustomerEnrichment": 3577,
+        "Enrich": 7281,
+        "Get Task Details": 816,
+        "GetWFM": 1763,
+        "OmniScriptSessionToken": "8ddb95cf-19bb-47c2-ae50-d2c07f6eaaaa",
+        "OrderEnrichment": 3698,
+        "Release": 11191,
+        "Review": 7252,
+        "SetAppointment": 2660,
+        "SetValues1": 16,
+        "Update State": 3066
+    }
+}

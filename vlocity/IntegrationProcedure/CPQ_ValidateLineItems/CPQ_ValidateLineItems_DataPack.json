@@ -1,0 +1,21 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "This IP can be used for validation of quote line items, order products and opportunity products.",
+    "%vlocity_namespace%__CustomJavaScript__c": "{}",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": "CPQ_ValidateLineItems_Element_ValidateLineItemsAction.json",
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__OmniProcessType__c": "Integration Procedure",
+    "%vlocity_namespace%__ProcedureKey__c": "CPQ_ValidateLineItems",
+    "%vlocity_namespace%__PropertySet__c": "CPQ_ValidateLineItems_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "ValidateLineItems",
+    "%vlocity_namespace%__Type__c": "CPQ",
+    "Name": "Validate Line Items",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/CPQ/ValidateLineItems/Procedure"
+}

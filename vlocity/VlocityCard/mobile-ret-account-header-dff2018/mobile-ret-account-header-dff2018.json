@@ -1,0 +1,82 @@
+{
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0016g000005qKrHAAU"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.id\":\"{{params.id}}\"}"
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "['%vlocity_namespace%__AccountId__c']",
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "Pay your Bill",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-payment",
+                        "id": "Pay Bill",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "RI(Mobile)",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-cart",
+                        "id": "Resume Interaction (Mobile)",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['%vlocity_namespace%__CurrentBalance__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Current Balance",
+                    "name": "['%vlocity_namespace%__CurrentBalance__c']",
+                    "type": "currency"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['%vlocity_namespace%__DueDate__c']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Due Date",
+                    "name": "['%vlocity_namespace%__DueDate__c']",
+                    "type": "date"
+                }
+            ],
+            "isSmartAction": false,
+            "name": "Active Account",
+            "sObjectType": "Account",
+            "smartAction": {
+            },
+            "templateUrl": "mobile-ret-account-header-card"
+        }
+    ],
+    "title": "mobile-ret-account-header-df2018"
+}

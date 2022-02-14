@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__Channel__c": "",
+    "%vlocity_namespace%__ContentType__c": "Image",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__DisplayConditionsData__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "c8630ecd-b244-9ea6-cba7-7075ebd9d2d9",
+    "%vlocity_namespace%__IsDefaultImage__c": true,
+    "%vlocity_namespace%__IsPrivate__c": false,
+    "%vlocity_namespace%__ObjectId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "1d3bba99-04a9-9b0b-2361-4789e76ee3f8",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/1d3bba99-04a9-9b0b-2361-4789e76ee3f8",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__ProductGroupKey__c": "1c7e4815-4ba6-149b-473b-5eb9b2432e1e",
+    "%vlocity_namespace%__SequenceNumber__c": 1,
+    "%vlocity_namespace%__UrlLong__c": "https://vlocitydemodx-cdn.herokuapp.com/content/industry/cmt/VDOProductResources/images/Samsung/SS_GalaxyS10_Black_Front.png",
+    "%vlocity_namespace%__Url__c": "",
+    "Name": "Samsung Galaxy S10 Front",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityAttachment__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityAttachment__c/c8630ecd-b244-9ea6-cba7-7075ebd9d2d9"
+}

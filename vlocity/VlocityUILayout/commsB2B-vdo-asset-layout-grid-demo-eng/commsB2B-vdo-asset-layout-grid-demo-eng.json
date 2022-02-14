@@ -1,0 +1,32 @@
+{
+    "Cards": [
+        "commsB2B Asset Grid Demo-Eng"
+    ],
+    "componentName": "cfCommsB2BVdoAssetLayoutGridDemoEng",
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.Id",
+                "val": "0016g000005qKrKAAU"
+            },
+            {
+                "name": "parent.obj.%vlocity_namespace%__LineNumber__c",
+                "val": "0001"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.Id || params.id\":\"{{params.Id || params.id}}\"}"
+        }
+    },
+    "enableLwc": false,
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "commsB2B-vdo-card-canvas-de"
+        }
+    },
+    "workspace": [
+        "commsB2B Asset Grid Demo-Eng/CommsB2BFY2021/1/1586809191258"
+    ]
+}

@@ -1,0 +1,61 @@
+<div class="panel panel-default div-tpl_jw1zr"  ng-controller='siController_jw1zr' ng-show='showList()' >
+    <p><button ng-click="doSelectAll(control, this)">Select All</button>&nbsp;&nbsp;
+    <button ng-click="doDeselectAll(control, this)">Deselect All</button></p>
+    <p>&nbsp;</p>
+    <div class="slds-grid slds-grid--align-end slds-grid--vertical-align-center slds-float--left   nds-grid nds-grid--align-end nds-grid--vertical-align-center nds-float--left">
+        <div class="slds-col nds-col">
+            Page #{{currentStart()}} of {{numPages()}}&nbsp;&nbsp;
+        </div>
+        <div class="slds-col nds-col">
+            <span class="vlc-slds-button--tertiary ng-binding ng-scope"  ng-click="listNextPage()" ng-if="canNextPage()" role="button" >Next Page</span>&nbsp;&nbsp;
+            <span class="vlc-slds-button--tertiary ng-binding ng-scope"  ng-click="listPrevPage()" ng-if="canPrevPage()"  role="button" >Previous Page</span>&nbsp;&nbsp;
+        </div>
+    </div>
+    <div class="slds-grid slds-grid--align-end slds-grid--vertical-align-center slds-float--right  nds-grid nds-grid--align-end nds-grid--vertical-align-center nds-float--right">
+        <div class="slds-col nds-col">
+            Page size&nbsp;
+        </div>
+        <div class="slds-col nds-col">
+            <div class="slds-select_container">
+                <select ng-model="pageSize" ng-options="n for n in availablePaginations" class="slds-select slds-truncate">
+                </select>
+            </div>
+        </div>
+        <div class="slds-col nds-col">
+            &nbsp;rows per page
+        </div>
+    </div>
+    <p>&nbsp;</p>
+    <table class="table slds-table slds-table--bordered slds-table--cell-buffer" style="table-layout: auto;">
+      <thead>
+        <tr class="nds-text-heading_label tpl_jw1zr">
+          <th class="slds-cell-shrink">Select&nbsp;&nbsp;</th>
+            <th>Name&nbsp;&nbsp;</th>
+            <th>Street&nbsp;&nbsp;</th>
+            <th>City&nbsp;&nbsp;</th>
+            <th>State&nbsp;&nbsp;</th>
+            <th>Postal Code&nbsp;&nbsp;</th>
+            <th>Country&nbsp;&nbsp;</th>
+            <th>Phone&nbsp;&nbsp;</th>
+        </tr>
+      </thead>
+    <tbody class="ins">
+       <tr class='nds-border_bottom tpl_jw1zr' ng-repeat='p in control.vlcSI[control.itemsKey] | limitTo:pageSize:pageStart' ng-class="{ 'vlc-selectableitem-selected' : p.vlcSelected }" >
+          <td class="slds-cell-shrink">
+            <label class="slds-checkbox">
+          <input type="checkbox" ng-model='p.vlcSelected' ng-change='onSelectItem(control, p, $index, this)'/>
+          <span class="slds-checkbox--faux"></span>
+        </label>
+      </td>
+      <td>{{p["AccountName"]}}&nbsp;&nbsp;</td>
+      <td>{{p["AccountStreet"]}}&nbsp;&nbsp;</td>
+      <td>{{p["AccountCity"]}}&nbsp;&nbsp;</td>
+      <td>{{p["AccountState"]}}&nbsp;&nbsp;</td>
+      <td>{{p["AccountPostalCode"]}}&nbsp;&nbsp;</td>
+      <td>{{p["AccountCountry"]}}&nbsp;&nbsp;</td>
+      <td>{{p["AccountPhone"]}}&nbsp;&nbsp;</td>
+    </tr>
+   </tbody>
+  </table>
+ </div>
+ <p>&nbsp;</p>

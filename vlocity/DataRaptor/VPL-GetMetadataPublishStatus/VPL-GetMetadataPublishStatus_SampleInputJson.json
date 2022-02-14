@@ -1,0 +1,20 @@
+{
+    "CCPublishDetails": {
+        "_v": "20.4",
+        "fault": {
+            "arguments": {
+                "key": "CatalogMetadataPublish_20200622-1311051",
+                "objectType": "VlocitySystemLog"
+            },
+            "message": "No custom object with key 'CatalogMetadataPublish_20200622-1311051' for object type 'VlocitySystemLog' could be found.",
+            "type": "CustomObjectNotFoundException"
+        }
+    },
+    "VlocityPublishStatus": {
+        "CCJobKey": "CatalogMetadataPublish_20200622-1311051",
+        "CCMetaDataStatus": false,
+        "Id": "a1c3h000000wr00AAA",
+        "isMetaPublishDone": true,
+        "publishStatus": "Failure"
+    }
+}

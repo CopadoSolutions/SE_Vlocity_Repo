@@ -1,0 +1,5 @@
+[
+    "IntegrationProcedure/VPL_FormatCatalogDataForCC",
+    "IntegrationProcedure/VPL_GetProductOffering",
+    "IntegrationProcedure/VPL_PublishProductAndPricing"
+]

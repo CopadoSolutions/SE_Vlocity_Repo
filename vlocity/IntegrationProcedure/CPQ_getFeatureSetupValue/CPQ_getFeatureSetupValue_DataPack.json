@@ -1,0 +1,28 @@
+{
+    "%vlocity_namespace%__CustomJavaScript__c": "{}",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "CPQ_getFeatureSetupValue_Element_GetFeatureSetupValue.json",
+        "CPQ_getFeatureSetupValue_Element_DeserializeResponse.json",
+        "CPQ_getFeatureSetupValue_Element_FeatureSetupList.json",
+        "CPQ_getFeatureSetupValue_Element_CPQFeatureSetupCondition.json",
+        "CPQ_getFeatureSetupValue_Element_CPQFeatureSetupValue.json",
+        "CPQ_getFeatureSetupValue_Element_AssignValue.json",
+        "CPQ_getFeatureSetupValue_Element_CPQFeatureSetupResponse.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__OmniProcessType__c": "Integration Procedure",
+    "%vlocity_namespace%__ProcedureKey__c": "CPQ_getFeatureSetupValue",
+    "%vlocity_namespace%__PropertySet__c": "CPQ_getFeatureSetupValue_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "getFeatureSetupValue",
+    "%vlocity_namespace%__Type__c": "CPQ",
+    "Name": "CPQFeatureSetupCheckIP",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/CPQ/getFeatureSetupValue/Procedure"
+}

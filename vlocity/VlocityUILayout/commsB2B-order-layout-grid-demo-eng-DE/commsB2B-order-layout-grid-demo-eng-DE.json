@@ -1,0 +1,32 @@
+{
+    "Cards": [
+        "commsB2BOrderCard"
+    ],
+    "componentName": "cfCommsB2BOrderLayoutGridDemoEngDE",
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0013h000006GK5iAAG"
+            }
+        ],
+        "type": "DataRaptor",
+        "value": {
+            "bundle": "commsB2BGetAccountOrders",
+            "inputMap": {
+                "ContextId": "{{params.id}}"
+            }
+        }
+    },
+    "previewType": "runTime",
+    "sessionVars": [
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "commsB2B-vdo-card-canvas-de"
+        }
+    },
+    "workspace": [
+        "commsB2BOrderCard/CommsB2BFY2021/1/1586818426854"
+    ]
+}

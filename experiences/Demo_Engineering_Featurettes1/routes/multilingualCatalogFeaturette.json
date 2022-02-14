@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "e073fe55-fca5-490c-b0bf-6b3eea83da7c",
+  "appPageId" : "067cb50d-59bf-4755-900f-02d130a9107a",
+  "configurationTags" : [ ],
+  "id" : "d0fcfee0-0856-4cb2-8522-7060be36fe7e",
+  "label" : "Multilingual Catalog Featurette",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-multilingual-catalog-featurette",
+  "type" : "route",
+  "urlPrefix" : "multilingual-catalog-featurette"
+}

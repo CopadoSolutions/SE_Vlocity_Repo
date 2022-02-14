@@ -1,0 +1,68 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__InternalNotes__c": "https://docs.google.com/spreadsheets/d/1EcC99aysVHyY9swBTAbz6o0O82yLpMMDkbq7Smi0C7Q/edit#gid=1943827074\n\nCheck SetAppt Internal Notes",
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Appoinment Booking",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/commsB2B/GetAppointments/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "enableActionMessage": false,
+        "enableDefaultAbort": false,
+        "errorMessage": {
+            "custom": [
+            ],
+            "default": null
+        },
+        "extraPayload": {
+        },
+        "failureAbortLabel": "Abort",
+        "failureAbortMessage": "Are you sure?",
+        "failureGoBackLabel": "Go Back",
+        "failureNextLabel": "Continue",
+        "inProgressMessage": "In Progress",
+        "label": "HTTPAction1",
+        "message": {
+        },
+        "postMessage": "Done",
+        "pubsub": false,
+        "redirectNextLabel": "Next",
+        "redirectNextWidth": 3,
+        "redirectPreviousLabel": "Previous",
+        "redirectPreviousWidth": 3,
+        "redirectTemplateUrl": "vlcAcknowledge.html",
+        "responseJSONNode": "SelectableItems1",
+        "responseJSONPath": "data:records",
+        "restMethod": "GET",
+        "restOptions": {
+            "URIEncode": false,
+            "cache": false,
+            "headers": {
+            },
+            "params": {
+            },
+            "sendBody": false,
+            "timeout": null,
+            "withCredentials": false
+        },
+        "restPath": "https://webhook.site/15c3047a-66e8-4664-b0f2-e2f94aeb157d",
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "type": "Web",
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Rest Action",
+    "Name": "GetWFM",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/commsB2B/GetAppointments/English/GetWFM"
+}

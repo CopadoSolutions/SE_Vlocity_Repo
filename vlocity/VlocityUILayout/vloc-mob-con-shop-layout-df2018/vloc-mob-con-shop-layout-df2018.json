@@ -1,0 +1,126 @@
+{
+    "Cards": [
+        "de-actions-mob-con-shop-df2018",
+        "de-recommened-product-mob-con-shop-df2018",
+        "de-phones-mob-con-product-card-df2018",
+        "de-top-mob-con-product-card-df2018",
+        "de-equipment-mob-con-product-card-df2018",
+        "de-accessories-mob-con-product-card-df2018"
+    ],
+    "componentName": "cfVlocMobConShopLayoutDf2018",
+    "dataSource": {
+        "type": null
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "vloc-mob-con-shop-df2018"
+        }
+    },
+    "workspace": [
+        "de-actions-mob-con-shop-df2018/Vlocity Demo Eng/1/1595606062867",
+        "de-recommened-product-mob-con-shop-df2018/Vlocity Demo Eng/1/1595606524970",
+        "de-phones-mob-con-product-card-df2018/Vlocity Demo Eng/1/1595615258328",
+        "de-top-mob-con-product-card-df2018/Vlocity Demo Eng/1/1595615709991",
+        "de-equipment-mob-con-product-card-df2018/Vlocity Demo Eng/1/1595616038764",
+        "de-accessories-mob-con-product-card-df2018/Vlocity Demo Eng/1/1595616409219"
+    ],
+    "zones": {
+        "Accessories": {
+            "cardNames": [
+            ],
+            "label": "Accessories",
+            "layouts": [
+            ],
+            "name": "Accessories",
+            "zoneCards": [
+                {
+                    "Author": "Vlocity Demo Eng",
+                    "Name": "de-accessories-mob-con-product-card-df2018",
+                    "Version": 1,
+                    "globalKey": "de-accessories-mob-con-product-card-df2018/Vlocity Demo Eng/1/1595616409219"
+                }
+            ]
+        },
+        "Actions": {
+            "cardNames": [
+            ],
+            "label": "Actions",
+            "layouts": [
+            ],
+            "name": "Actions",
+            "zoneCards": [
+                {
+                    "Author": "Vlocity Demo Eng",
+                    "Name": "de-actions-mob-con-shop-df2018",
+                    "Version": 1,
+                    "globalKey": "de-actions-mob-con-shop-df2018/Vlocity Demo Eng/1/1595606062867"
+                }
+            ]
+        },
+        "Phones": {
+            "cardNames": [
+            ],
+            "label": "Phones",
+            "layouts": [
+            ],
+            "name": "Phones",
+            "zoneCards": [
+                {
+                    "Author": "Vlocity Demo Eng",
+                    "Name": "de-phones-mob-con-product-card-df2018",
+                    "Version": 1,
+                    "globalKey": "de-phones-mob-con-product-card-df2018/Vlocity Demo Eng/1/1595615258328"
+                }
+            ]
+        },
+        "Recommended": {
+            "cardNames": [
+            ],
+            "label": "Recommended",
+            "layouts": [
+            ],
+            "name": "Recommended",
+            "zoneCards": [
+                {
+                    "Author": "Vlocity Demo Eng",
+                    "Name": "de-recommened-product-mob-con-shop-df2018",
+                    "Version": 1,
+                    "globalKey": "de-recommened-product-mob-con-shop-df2018/Vlocity Demo Eng/1/1595606524970"
+                }
+            ]
+        },
+        "Tablets": {
+            "cardNames": [
+            ],
+            "label": "Tablets",
+            "layouts": [
+            ],
+            "name": "Tablets",
+            "zoneCards": [
+                {
+                    "Author": "Vlocity Demo Eng",
+                    "Name": "de-equipment-mob-con-product-card-df2018",
+                    "Version": 1,
+                    "globalKey": "de-equipment-mob-con-product-card-df2018/Vlocity Demo Eng/1/1595616038764"
+                }
+            ]
+        },
+        "Top": {
+            "cardNames": [
+            ],
+            "label": "Top",
+            "layouts": [
+            ],
+            "name": "Top",
+            "zoneCards": [
+                {
+                    "Author": "Vlocity Demo Eng",
+                    "Name": "de-top-mob-con-product-card-df2018",
+                    "Version": 1,
+                    "globalKey": "de-top-mob-con-product-card-df2018/Vlocity Demo Eng/1/1595615709991"
+                }
+            ]
+        }
+    }
+}

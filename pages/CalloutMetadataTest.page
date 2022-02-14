@@ -1,0 +1,122 @@
+<apex:page standardController="CalloutMetadata__c" extensions="CalloutMetadataTestController" showHeader="false">
+<html  >
+    <head>  
+        <apex:stylesheet value="{!URLFOR($Resource.vlocity_cmt__vlocity_assets, '/css/vlocity.css')}"/>
+        <apex:includeScript value="{!URLFOR($Resource.vlocity_cmt__vlocity_assets, '/javascripts/vlocity.js')}"/>
+
+        <apex:includeScript value="{!$Resource.vlocity_cmt__JQUERYJS}"/>
+        <apex:includeScript value="{!$Resource.vlocity_cmt__AngularJS}"/>
+        <apex:includeScript value="{!$Resource.vlocity_cmt__ANGULARBOOT}"/>
+        <apex:includeScript value="{!$Resource.vlocity_cmt__AngularStrapJS}"/>
+        <apex:includeScript value="{!$Resource.vlocity_cmt__AngularStrapTplJS}"/>
+        <apex:includeScript value="{!$Resource.vlocity_cmt__AngularSanitizeJS}" /> 
+       
+
+
+    </head>
+    <body class="vlocity" ng-app="workApp" ng-controller="workController" id="workController">
+        <div id="spinnerDiv" ng-show="Billloading">
+            <img src="{!URLFOR($Resource.vlocity_cmt__vlocity_assets, '/images/loading-spinner.png')}" class="ajax-loader"/>
+        </div>
+        <div class="vlocity">
+
+            <div id="outboundFlow" >
+                Outbound Test
+                <div class="context">
+                    <span>Context</span>
+                    <textarea ng-model="integrationContext"></textarea>
+                    <BUTTON ng-click="runContext()">Run Context</BUTTON>
+                </div>
+                <div class="contextId">
+                    <span>Context</span>
+                    <input ng-model="integrationContextId" />
+                    <BUTTON ng-click="runContextId()">Run Context Id</BUTTON>
+                </div>
+                <div class="calloutItem" ng-show="calloutData != undefined">
+                    <table>
+                        <tr ng-repeat="(key, value) in calloutDescribe">
+                            <td>{{value}}</td>
+                            <td><pre>{{calloutData[key]}}</pre></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script type="text/javascript">
+
+            var remoteActions = {
+                    describeObject: {
+                        action: "{!$RemoteAction.CalloutMetadataTestController.describeObject}",    
+                    },
+                    makeCallout: {
+                        action: "{!$RemoteAction.CalloutMetadataTestController.makeCallout}",               
+                    },              
+            };
+
+            var workApp = angular.module("workApp", ["vlocity","ui.bootstrap"]);
+
+
+            workApp.config(["remoteActionsProvider", function(remoteActionsProvider){
+                remoteActionsProvider.setRemoteActions(window.remoteActions || {});
+            }]);
+            workApp.controller('workController', function ($scope,$timeout,$http,remoteActions) {
+                $scope.Billloading          = false;
+                $scope.callouts             = "";
+                $scope.integeationContext   = '';
+                $scope.integrationContextId = '';
+                $scope.DataRaptors          = [];
+                $scope.CalloutName          = "{!calloutMetadata.Name}";
+
+
+                $scope.describeCallout = function() {
+                    remoteActions.describeObject('CalloutItem__c')
+                        .then(function(result) {
+                            console.log('Describe callout ');
+                            console.log(result);
+                            $scope.calloutDescribe = result;
+                        }, function(error) {
+                            console.log(error);
+                            alert('Error ocurred getting callouts\n' + error.message);
+                        })
+                }
+
+                $scope.runContext = function() {
+                    $scope.makeCallout($scope.CalloutName,$scope.integrationContext);
+                }
+
+                $scope.runContextId = function() {
+                    var idContext = '{"Id" : "' + $scope.integrationContextId + '"}';
+                    $scope.makeCallout($scope.CalloutName,idContext);
+                }
+
+                $scope.makeCallout = function(name,context) {
+                    remoteActions.makeCallout(name,context)
+                        .then(function(result) {
+                            console.log('Make callout ');
+                            console.log(result);
+                            angular.forEach(result, function(value, key) {
+                                var decoded = angular.element('<textarea />').html(value).text();
+                                //if (decoded.indexOf('{') == 0) {
+                                //  decoded = JSON.stringify(decoded);
+                                //}
+                                result[key] = decoded;
+                            });
+                            console.log("After Escape");
+                            console.log(result);
+                            $scope.calloutData = result;
+                        }, function(error) {
+                            console.log(error);
+                            alert('Error ocurred getting callouts\n' + error.message);
+                        })
+                }
+
+                $scope.describeCallout();
+            });
+
+
+    </script>
+
+</html>
+</apex:page>

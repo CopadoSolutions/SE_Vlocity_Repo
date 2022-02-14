@@ -1,0 +1,13 @@
+<apex:page standardController="Contract" standardStylesheets="false" showHeader="false">
+    <apex:includeScript value="/soap/ajax/30.0/connection.js"/>
+    <apex:includeScript value="/soap/ajax/30.0/apex.js"/>
+    <script>
+        sforce.connection.sessionId = '{!$Api.Session_ID}'; 
+        var result = sforce.apex.execute("vlocity_cmt.SimpleDecompositionController","decompose", {orderId: '{!Contract.vlocity_cmt__OrderId__r.Id}'});
+        if(result == 'OK') {
+            window.location.href = '/apex/vlocity_cmt__XOMViewOrderDecomposition?id={!Contract.vlocity_cmt__OrderId__r.Id}';
+        } else {
+            alert(result);
+        }
+    </script>
+</apex:page>

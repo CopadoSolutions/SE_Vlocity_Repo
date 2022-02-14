@@ -1,0 +1,42 @@
+{
+    "Cards": [
+        "mobile-ret-product-card-df2018"
+    ],
+    "componentName": "cfMobileRetProductGridDf2018",
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "8016g0000024TKuAAM"
+            },
+            {
+                "name": "params.catalog_code",
+                "val": "PLANS"
+            }
+        ],
+        "type": "IntegrationProcedures",
+        "value": {
+            "endpoint": "/%vlocity_namespace%/v2/cpq/carts/{{params.id}}/products?category={{params.categoryId}}&pagesize=1000&includeAttachment=true",
+            "inputMap": {
+                "cartId": "{{params.id}}",
+                "catalog": "{{params.catalogCode}}"
+            },
+            "ipMethod": "DemoEng_GetProductsByCatId",
+            "methodType": "GET",
+            "optionsMap": {
+                "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+            },
+            "resultVar": "records"
+        }
+    },
+    "enableLwc": false,
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "mobile-ret-product-grid"
+        }
+    },
+    "workspace": [
+        "mobile-ret-product-card-df2018/Vlocity Demo Eng/1/1597701233660"
+    ]
+}

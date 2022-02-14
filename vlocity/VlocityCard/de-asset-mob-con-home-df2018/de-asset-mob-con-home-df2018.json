@@ -1,0 +1,76 @@
+{
+    "dataSource": {
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"$root.currentUser.Account.attributes.url.substring(38)\":\"{{$root.currentUser.Account.attributes.url.substring(38)}}\"}"
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "Edit device name",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-document1-line",
+                        "id": "Mobile Action Edit Device Name",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Set up call forwarding",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-document1-line",
+                        "id": "Mobile Action Call Forwarding",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Back up to cloud",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-document1-line",
+                        "id": "Mobile Action Cloud Back Up",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Advanced details",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-document1-line",
+                        "id": "Mobile Action Advanced Details",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Asset",
+            "placeholders": [
+            ],
+            "sObjectType": "Asset",
+            "smartAction": {
+            },
+            "templateUrl": "vloc-mob-con-asset-df2018"
+        }
+    ],
+    "title": "Asset"
+}

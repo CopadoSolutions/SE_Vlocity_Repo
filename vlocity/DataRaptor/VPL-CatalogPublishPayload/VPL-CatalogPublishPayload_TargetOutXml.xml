@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="http://www.demandware.com/xml/impex/catalog/2006-10-31" catalog-id="QA_Catalog">
+ <header>
+        <image-settings>
+            <external-location>
+                <http-url>http://images-na.ssl-images-amazon.com/</http-url>
+                <https-url>https://images-na.ssl-images-amazon.com/</https-url>
+            </external-location>
+            <view-types>
+                <view-type>large</view-type>
+                <view-type>medium</view-type>
+                <view-type>small</view-type>
+                <view-type>swatch</view-type>
+            </view-types>
+            <alt-pattern>${productname}</alt-pattern>
+            <title-pattern>${productname}</title-pattern>
+        </image-settings>
+    </header>
+   <category category-id="electronics">
+      <display-name xml:lang="x-default">electronics</display-name>
+      <online-flag>true</online-flag>
+      <parent>root</parent>
+      
+   </category>
+   <product product-id="canon-powershot-s5-isM">
+      <display-name xml:lang="x-default">Canon PowerShot S5 IS Digital Point and Shoot Camera</display-name>
+      <short-description xml:lang="x-default">Desc Sandals</short-description>
+      <online-flag>true</online-flag>
+      <available-flag>true</available-flag>
+      <searchable-flag>true</searchable-flag>
+      <images>
+<image-group view-type="Image">
+<variation attribute-id="ATT_DT_BRD" value="Google"/>
+                <variation attribute-id="ATT_RT_CLR" value="Brown"/><image path="images/I/71iS7jKcpZL._UY695_.jpg"/>
+</image-group>
+</images>
+<custom-attributes>
+            <custom-attribute attribute-id="ATT_DURATION">123</custom-attribute>
+        </custom-attributes>
+<variations>
+	<attributes>
+<shared-variation-attribute attribute-id="ATT_DT_BRD" variation-attribute-id="ATT_DT_BRD"/>
+<shared-variation-attribute attribute-id="ATT_RT_CLR" variation-attribute-id="ATT_RT_CLR"/>
+</attributes>
+<variants>
+<variant product-id="Shoes1"/>
+<variant product-id="Shoes2"/>
+<variant product-id="Shoes3"/>
+<variant product-id="Shoes4"/>
+
+</variants>
+
+</variations>
+   </product>
+   <variation-attribute variation-attribute-id="ATT_RT_CLR" attribute-id="ATT_RT_CLR">
+   <display-name>Color</display-name>
+<variation-attribute-values>
+<variation-attribute-value value="Black">
+<display-value>Black</display-value>
+</variation-attribute-value>
+<variation-attribute-value value="Brown">
+<display-value>Brown</display-value>
+</variation-attribute-value>
+<variation-attribute-value value="Blue">
+<display-value>Blue</display-value>
+</variation-attribute-value>
+<variation-attribute-value value="Purple">
+<display-value>Purple</display-value>
+</variation-attribute-value>
+<variation-attribute-value value="Red">
+<display-value>Red</display-value>
+</variation-attribute-value>
+<variation-attribute-value value="Yellow">
+<display-value>Yellow</display-value>
+</variation-attribute-value>
+<variation-attribute-value value="Green">
+<display-value>Green</display-value>
+</variation-attribute-value>
+<variation-attribute-value value="Gold">
+<display-value>Gold</display-value>
+</variation-attribute-value>
+</variation-attribute-values>
+
+</variation-attribute>
+   <category-assignment category-id="electronics-digital-cameras" product-id="nikon-d60-wlensM" />
+</catalog>

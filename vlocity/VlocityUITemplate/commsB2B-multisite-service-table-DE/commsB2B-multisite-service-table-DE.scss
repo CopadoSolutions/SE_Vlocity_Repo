@@ -1,0 +1,24 @@
+.strong         { font-weight: 700; }
+.icon-color     { fill: #006dcc !important; }
+.level-color    { fill: #706e6b !important; }
+.via-slds td, .via-slds th, .via-slds .slds-text-body_regular {
+    font-family: "Salesforce Sans",Arial,sans-serif;
+    font-size: 12px !important;
+}
+.via-slds .slds-table_cell-buffer tr>th:first-child, .via-slds .slds-table_cell-buffer tr>td:first-child {
+    padding-left: 1rem !important;
+}
+
+.slds-media__figure {
+    margin-right: .25rem !important;
+}
+.children {
+    background-color: #fefefe;
+    td {
+        padding: 0;
+    }
+}
+
+.indented {
+    margin-left: 5%;
+}

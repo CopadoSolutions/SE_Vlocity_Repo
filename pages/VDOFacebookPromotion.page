@@ -1,0 +1,75 @@
+<apex:page showHeader="false" standardStylesheets="false" controller="VDODemoController">
+    <script src="{!LEFT($Site.CurrentSiteUrl, LEN($Site.CurrentSiteUrl)-1)}/resource/VDOInternalResources/js/jquery.js"></script>
+    <script>
+        $( document ).ready(function() {
+            $( ".promotionimage" ).mouseover(function() {
+                $( ".mainimage" ).addClass( "blurred" );
+                $( ".bar" ).addClass( "blurred" );
+            });
+            $( ".promotionimage" ).mouseout(function() {
+                $( ".mainimage" ).removeClass( "blurred" );
+                $( ".bar" ).removeClass( "blurred" );
+            });
+            $( ".promotionimage" ).click(function() {
+                window.location = '/digital/s/';
+            });
+        });
+    </script>
+    <style>
+        body,html{
+            margin:0px;
+            padding:0px;
+            background:#e9ebee;
+        }
+        .mainimage{
+            margin:auto;
+            width:1107px;
+            height:auto;
+            display:block;
+            position:relative;
+            transition:all 0.5s linear;
+            image-rendering: -moz-crisp-edges;
+            image-rendering: -o-crisp-edges;
+            image-rendering: -webkit-optimize-contrast;
+            -ms-interpolation-mode: nearest-neighbor;
+        }
+        .bar{
+            width:100%;
+            height:41px;
+            position:absolute;
+            background-color: #4267b2;
+            border-bottom: 1px solid #29487d;
+            top:0px;
+            left:0px;
+            transition:all 0.5s linear;
+            opacity: 1 !important;
+        }
+        .promotionimage{
+            position:absolute;
+            display:block;
+            margin:auto;
+            left: 468px;
+            top: 820px;
+            cursor: pointer;
+            width: 512px;
+            image-rendering: -moz-crisp-edges;
+            image-rendering: -o-crisp-edges;
+            image-rendering: -webkit-optimize-contrast;
+            -ms-interpolation-mode: nearest-neighbor;
+        }
+        .wrapper{
+            position:relative;
+            width: 1107px;
+            margin: auto;
+        }
+        .blurred{
+            filter: blur(20px);
+            opacity:0.3;
+        }
+    </style>
+    <div class="bar"></div>
+    <div class="wrapper">
+        <img class="mainimage" src="{!LEFT($Site.CurrentSiteUrl, LEN($Site.CurrentSiteUrl)-1)}/resource/VDOCommunityResources/images/facebook1.jpg"/>
+        <img class="promotionimage" src="{!LEFT($Site.CurrentSiteUrl, LEN($Site.CurrentSiteUrl)-1)}/resource/VDOCommunityResources/images/facebook2.png"/>
+    </div>
+</apex:page>

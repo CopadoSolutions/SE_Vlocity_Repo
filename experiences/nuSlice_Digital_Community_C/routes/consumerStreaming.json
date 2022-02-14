@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "98c5328c-bae7-4355-a9b7-eb45200da0f2",
+  "appPageId" : "68d9bf5b-3c63-40b8-98a5-0501c99b9d7b",
+  "configurationTags" : [ ],
+  "id" : "5aeda883-a2a8-4b10-9ff8-8aa55030933d",
+  "label" : "consumer-streaming",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-consumer-streaming",
+  "type" : "route",
+  "urlPrefix" : "consumer-streaming"
+}

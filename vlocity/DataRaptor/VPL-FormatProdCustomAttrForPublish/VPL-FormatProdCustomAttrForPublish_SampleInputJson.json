@@ -1,0 +1,230 @@
+{
+    "XMLConfigData": {
+        "batchBoundary": "--vBatch",
+        "ccFolderName": "VlocityCatalogPublish",
+        "clientId": "9908fb27-0ef1-4f08-91d0-304cb3665ebe",
+        "imageTypes": [
+            {
+                "#text": "swatch"
+            },
+            {
+                "#text": "small"
+            },
+            {
+                "#text": "medium"
+            },
+            {
+                "#text": "large"
+            }
+        ],
+        "imgHttpURL": "http://images-na.ssl-images-amazon.com/images/",
+        "imgHttpsURL": "https://images-na.ssl-images-amazon.com/images/",
+        "metaNamespace": "http://www.demandware.com/xml/impex/metadata/2006-10-31",
+        "namespace": "http://www.demandware.com/xml/impex/catalog/2006-10-31",
+        "ocapiBatchSize": "50",
+        "orgId": "00D3h00000193PuEAI",
+        "priceCurrency": "USD",
+        "priceForQuantity": 1,
+        "priceNamespace": "http://www.demandware.com/xml/impex/pricebook/2006-10-31",
+        "pricebookId": "VlocityPricebook",
+        "queueableBatchSize": "200",
+        "systemAttrOcapi": "/s/-/dw/data/v20_4/system_object_definitions/Product/attribute_definitions/",
+        "titlePattern": "${productname}",
+        "xmlLang": "x-default"
+    },
+    "allProducts": [
+        {
+            "attachment": [
+                {
+                    "attachmentType": "Image",
+                    "description": "medium",
+                    "id": "a1L3h0000040YXkEAM",
+                    "name": "medium",
+                    "url": "G/01/appcore/phone/AMZ_FamiyStripe_iPhone_Xr.png"
+                }
+            ],
+            "bundledProductOffering": [
+                {
+                    "bundledProdOfferOption": {
+                        "numberRelOfferDefault": 1,
+                        "numberRelOfferLowerLimit": 1,
+                        "numberRelOfferUpperLimit": 2
+                    },
+                    "collapseHierarchy": false,
+                    "href": "/services/apexrest/tapash_v105/v1/productopenapi/productOffering/01t3h000001K72OAAS",
+                    "id": "01t3h000001K72OAAS",
+                    "isVirtualItem": false,
+                    "lifecycleStatus": "Active",
+                    "name": "Apple iPad",
+                    "productCode": "AppleIPad",
+                    "relationshipType": "Child"
+                }
+            ],
+            "customAttributes": [
+                {
+                    "id": "VlocityProductHierarchy",
+                    "value": "[{\"bundledProdOfferOption\":{\"numberRelOfferDefault\":1,\"numberRelOfferLowerLimit\":1,\"numberRelOfferUpperLimit\":2},\"relationshipType\":\"Child\",\"collapseHierarchy\":false,\"isVirtualItem\":false,\"lifecycleStatus\":\"Active\",\"href\":\"/services/apexrest/tapash_v105/v1/productopenapi/productOffering/01t3h000001K72OAAS\",\"productCode\":\"AppleIPad\",\"name\":\"Apple iPad\",\"id\":\"01t3h000001K72OAAS\"}]"
+                }
+            ],
+            "description": "The moment you use iPhone 6s, you know you’ve never felt anything like it. With just a single press, 3D Touch lets you do more than ever before. Live Photos bring your memories to life in a powerfully vivid way. And that’s just the beginning. Take a deeper look at iPhone 6s, and you’ll find innovation on every level.",
+            "id": "01t3h000001OvW2AAK",
+            "name": "Apple iPhone 6 Plus",
+            "prodSpecCharValueUse": [
+                {
+                    "AttributeCode": "ATT_DT_BRD",
+                    "AttributeName": "Brand",
+                    "AttributeValueType": "Picklist",
+                    "Value": "LG",
+                    "description": "Brand : ",
+                    "displayName": "Brand",
+                    "productSpecCharacteristicValue": [
+                        {
+                            "isDefault": "false",
+                            "value": "LG",
+                            "valueType": "Text"
+                        }
+                    ],
+                    "valueType": "Text"
+                },
+                {
+                    "AttributeCode": "ATT_RT_CLR",
+                    "AttributeName": "ATT_RT_CLRColor",
+                    "AttributeValueType": "Picklist",
+                    "description": "ATT_RT_CLRColor : ",
+                    "displayName": "ATT_RT_CLRColor",
+                    "productSpecCharacteristicValue": [
+                        {
+                            "isDefault": "false",
+                            "valueType": "Text"
+                        }
+                    ],
+                    "valueType": "Text"
+                },
+                {
+                    "AttributeCode": "ATT_STORAGE",
+                    "AttributeName": "Storage Limit",
+                    "AttributeValueType": "Picklist",
+                    "description": "Storage Limit : ",
+                    "displayName": "Storage Limit",
+                    "productSpecCharacteristicValue": [
+                        {
+                            "isDefault": "false",
+                            "valueType": "Text"
+                        }
+                    ],
+                    "valueType": "Text"
+                }
+            ],
+            "product": {
+                "%vlocity_namespace%__IsOrderable__c": false,
+                "%vlocity_namespace%__SpecificationType__c": "Offer",
+                "CreatedBy": {
+                    "Id": "0053h000000qVeTAAU",
+                    "Name": "Vlocity123 Vlocity123",
+                    "attributes": {
+                        "type": "User",
+                        "url": "/services/data/v48.0/sobjects/User/0053h000000qVeTAAU"
+                    },
+                    "href": "/services/data/v467.0/sobjects/User/0053h000000qVeTAAU"
+                },
+                "CreatedById": "0053h000000qVeTAAU",
+                "Description": "The moment you use iPhone 6s, you know you’ve never felt anything like it. With just a single press, 3D Touch lets you do more than ever before. Live Photos bring your memories to life in a powerfully vivid way. And that’s just the beginning. Take a deeper look at iPhone 6s, and you’ll find innovation on every level.",
+                "Id": "01t3h000001OvW2AAK",
+                "IsActive": true,
+                "LastModifiedDate": "2020-07-04T07:28:03.000+0000",
+                "Name": "Apple iPhone 6 Plus",
+                "ProductCode": "VLO-MOB-0002A",
+                "RecordTypeId": "0123h000000kSVHAA2",
+                "attributes": {
+                    "type": "Product2",
+                    "url": "/services/data/v48.0/sobjects/Product2/01t3h000001OvW2AAK"
+                },
+                "href": "/services/apexrest/tapash_v105/v1/productopenapi/productOffering/01t3h000001OvW2AAK",
+                "lifecycleStatus": "Active"
+            },
+            "productNumber": "VLO-MOB-0002A",
+            "productOfferingPrice": [
+                {
+                    "PriceListId": "a303h000000ckaVAAQ",
+                    "description": "asd",
+                    "id": "a2z3h000001BPU8AAO",
+                    "name": "a2z3h000001BPU8",
+                    "price": {
+                        "amount": "129.00000"
+                    },
+                    "priceType": "One-time"
+                }
+            ],
+            "variationAttributes": [
+                {
+                    "attributeId": "ATT_DT_BRD"
+                }
+            ],
+            "variationProducts": [
+                {
+                    "productNumber": "VLO-MOB-0002A1"
+                },
+                {
+                    "productNumber": "VLO-MOB-0002A2"
+                },
+                {
+                    "productNumber": "VLO-MOB-0002A3"
+                },
+                {
+                    "productNumber": "VLO-MOB-0002A4"
+                },
+                {
+                    "productNumber": "VLO-MOB-0002A5"
+                },
+                {
+                    "productNumber": "VLO-MOB-0002A6"
+                }
+            ]
+        },
+        {
+            "description": "Silver The most popular iPad features a larger 10.2‑inch Retina display,(1) support for Apple Pencil",
+            "id": "01t3h000001K72OAAS",
+            "name": "Apple iPad",
+            "product": {
+                "%vlocity_namespace%__IsOrderable__c": true,
+                "%vlocity_namespace%__SpecificationType__c": "Offer",
+                "CreatedBy": {
+                    "Id": "0053h000000qVeTAAU",
+                    "Name": "Vlocity123 Vlocity123",
+                    "attributes": {
+                        "type": "User",
+                        "url": "/services/data/v48.0/sobjects/User/0053h000000qVeTAAU"
+                    },
+                    "href": "/services/data/v467.0/sobjects/User/0053h000000qVeTAAU"
+                },
+                "CreatedById": "0053h000000qVeTAAU",
+                "Description": "Silver The most popular iPad features a larger 10.2‑inch Retina display,(1) support for Apple Pencil",
+                "Id": "01t3h000001K72OAAS",
+                "IsActive": true,
+                "LastModifiedDate": "2020-07-04T07:33:52.000+0000",
+                "Name": "Apple iPad",
+                "ProductCode": "AppleIPad",
+                "RecordTypeId": "0123h000000kSVHAA2",
+                "attributes": {
+                    "type": "Product2",
+                    "url": "/services/data/v48.0/sobjects/Product2/01t3h000001K72OAAS"
+                },
+                "href": "/services/apexrest/tapash_v105/v1/productopenapi/productOffering/01t3h000001K72OAAS",
+                "lifecycleStatus": "Active"
+            },
+            "productNumber": "AppleIPad",
+            "productOfferingPrice": [
+                {
+                    "PriceListId": "a303h000000ckaVAAQ",
+                    "description": "Default-PriceList",
+                    "id": "a2z3h000000hlilAAA",
+                    "name": "61364db2-050b-9fdc-8cc1-fa6be0648065",
+                    "price": {
+                        "amount": "99.99000"
+                    },
+                    "priceType": "One-time"
+                }
+            ]
+        }
+    ]
+}

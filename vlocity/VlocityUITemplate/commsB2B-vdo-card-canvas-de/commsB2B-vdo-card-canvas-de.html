@@ -1,0 +1,14 @@
+<div class="slds-container_large cards-container">
+
+    <form class="form-inline">
+        <div class="form-group">
+            <input type="text" class="form-control" style="text-transform: initial;" ng-model="searchTerm" placeholder="Search..."/>
+        </div>
+    </form>
+
+    <div>
+        <div ng-repeat="card in cards |orderBy:order|filter: searchFunc(card, searchTerm)">
+            <vloc-card ctrl="{{ctrl}}" ng-model="card" data="card" records="records" index="{{$index}}" session-id="{{sessionId}}"></vloc-card>
+        </div>
+    </div>
+</div>

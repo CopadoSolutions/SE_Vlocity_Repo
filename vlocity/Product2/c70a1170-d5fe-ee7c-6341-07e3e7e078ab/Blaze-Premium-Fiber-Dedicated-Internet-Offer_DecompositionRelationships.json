@@ -1,0 +1,33 @@
+[
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "79cc2df3-9ff9-5915-c7c1-97d98f9f71ba",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/79cc2df3-9ff9-5915-c7c1-97d98f9f71ba",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "67983f36-2ba8-3bb5-e4da-5238cdaa253b",
+        "%vlocity_namespace%__MappingsData__c": "[{\"source_type\":\"Field\",\"source_field_name\":\"%vlocity_namespace%__Product2Id__r.ProductCode\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Billing Code\",\"destination_attr_code\":\"ATTRIBUTE-117\"},{\"source_type\":\"Field\",\"source_field_name\":\"%vlocity_namespace%__ServiceAccountId__r.Name\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Bill Literal\",\"destination_attr_code\":\"ATTRIBUTE-116\"},{\"source_attr_name\":\"OrderManagement\",\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"OrderManagement\",\"destination_attr_code\":\"B2B-ATTR-ORDR-MGMT-OPTIONS\",\"source_attr_code\":\"B2B-ATTR-ORDR-MGMT-OPTIONS\",\"source_type\":\"Attribute\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "c70a1170-d5fe-ee7c-6341-07e3e7e078ab",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/c70a1170-d5fe-ee7c-6341-07e3e7e078ab",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "c70a1170-d5fe-ee7c-6341-07e3e7e078ab",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "Blaze Premium Fiber Dedicated Internet To ADI Billing Spec",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/Blaze Premium Fiber Dedicated Internet To ADI Billing Spec/Product2/c70a1170-d5fe-ee7c-6341-07e3e7e078ab"
+    }
+]

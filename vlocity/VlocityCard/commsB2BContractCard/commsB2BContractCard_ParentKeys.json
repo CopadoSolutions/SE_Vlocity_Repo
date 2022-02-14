@@ -1,0 +1,13 @@
+[
+    "VlocityAction/Amend",
+    "VlocityAction/Amend Contract",
+    "VlocityAction/Cancel Contract",
+    "VlocityAction/Renew Contract",
+    "VlocityAction/Send for eSignature",
+    "VlocityAction/Terminate Contract",
+    "VlocityAction/View Record",
+    "VlocityUILayout/commsB2B-contractdiscount-flyout-list-DE",
+    "VlocityUITemplate/commsB2B-vdo-card-active-de",
+    "VlocityUITemplate/commsB2B-vdo-card-danger-de",
+    "VlocityUITemplate/commsB2B-vdo-card-warning-de"
+]

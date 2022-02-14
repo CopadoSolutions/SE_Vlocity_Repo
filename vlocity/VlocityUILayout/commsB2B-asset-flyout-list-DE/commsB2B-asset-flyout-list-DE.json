@@ -1,0 +1,32 @@
+{
+    "Cards": [
+        "commsB2B-Asset-List"
+    ],
+    "componentName": "cfCommsB2BAssetFlyoutListDE",
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "parent.obj.%vlocity_namespace%__LineNumber__c",
+                "val": "0001"
+            },
+            {
+                "name": "params.Id",
+                "val": "0013h000006GK5gAAG"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"parent.obj.%vlocity_namespace%__LineNumber__c\":\"{{parent.obj.%vlocity_namespace%__LineNumber__c}}\",\"params.Id || params.id\":\"{{params.Id || params.id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "commsB2B-list-card-canvas-DE"
+        }
+    },
+    "workspace": [
+        "commsB2B-Asset-List/CommsB2BFY2021/1/1587566975943",
+        "Asset List/Vlocity Demo Org/null/1516694577099"
+    ]
+}

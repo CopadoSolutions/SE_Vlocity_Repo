@@ -1,0 +1,16 @@
+{
+    "%vlocity_namespace%__Category__c": "Services",
+    "%vlocity_namespace%__ClauseContent__c": "<div class=\"section-content-wrapper\" style=\"font-size: 10pt;\"><p><viawrapper>Percent of Monthly Service Fees Due Upon Termination Prior to Completion of Minimum Payment Period Minimum Payment Period Non-US Local Access, 100% 12 months Switched Ethernet Access Channels (Service Guide), and US Ethernet Access - Non- Standard</viawrapper></p></div>",
+    "%vlocity_namespace%__ContractTypes__c": "",
+    "%vlocity_namespace%__IsArchived__c": false,
+    "%vlocity_namespace%__IsContentFormatted__c": true,
+    "%vlocity_namespace%__IsRestricted__c": false,
+    "%vlocity_namespace%__LocaleCode__c": "en_US",
+    "%vlocity_namespace%__ShortName__c": "CL:SERVICE_COMPONENTS",
+    "%vlocity_namespace%__Tokens__c": "",
+    "%vlocity_namespace%__Type__c": "Generic",
+    "Name": "Service Components",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentClause__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentClause__c/Service Components"
+}

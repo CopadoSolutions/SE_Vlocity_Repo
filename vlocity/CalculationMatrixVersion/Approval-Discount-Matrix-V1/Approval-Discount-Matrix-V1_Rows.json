@@ -1,0 +1,524 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Approval Discount Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Approval Discount Matrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "a600e999-5e95-d5e3-39dd-a169abb9c986",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "5b1250",
+            "dataType": "Text",
+            "displayOrder": 3,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "ChargeType"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Approval Discount Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Approval Discount Matrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "5dddf786-8570-ef78-036a-903df65e1ce5",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "92876b",
+            "dataType": "Text",
+            "displayOrder": 2,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "ProductCode"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Approval Discount Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Approval Discount Matrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "9790de8c-70f3-ea8b-670e-1cdaeac53738",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "a78df3",
+            "dataType": "Text",
+            "displayOrder": 1,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "ProductName"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Approval Discount Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Approval Discount Matrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "22affe66-7db3-40e9-68bf-9b51f58f1778",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "b6430",
+            "dataType": "Number",
+            "displayOrder": 5,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "AtOrBelowValue"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Approval Discount Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Approval Discount Matrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "09c9beef-4354-95a9-dd3e-a38926230148",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "c80eb7",
+            "dataType": "Text",
+            "displayOrder": 6,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "ApprovalLevelRequired"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Approval Discount Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Approval Discount Matrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "704f7e37-67f4-a8d0-a1ca-66fcdb02d3a4",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "d4856d",
+            "dataType": "Number",
+            "displayOrder": 4,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": null,
+            "listValues": null,
+            "name": "AboveValue"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Approval Discount Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Approval Discount Matrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "c8572319-8d81-5719-e1a2-09c558105f61",
+        "%vlocity_namespace%__InputData__c": {
+            "AboveValue": "0",
+            "AtOrBelowValue": "100",
+            "ChargeType": "OneTime",
+            "ProductCode": "B2B-PROINSTALL-001",
+            "ProductName": "Professional Biz Service Install"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ApprovalLevelRequired": "CXO"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-06-12T19:27:25.000Z",
+        "Name": "e63f1b0128c8edb91f6d638f071e7be9",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Approval Discount Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Approval Discount Matrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "54107906-f0ea-908f-1225-266576f489cb",
+        "%vlocity_namespace%__InputData__c": {
+            "AboveValue": "0",
+            "AtOrBelowValue": "100",
+            "ChargeType": "OneTime",
+            "ProductCode": "VLO-CON-0006",
+            "ProductName": "8 Port \u0013 CPE"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ApprovalLevelRequired": "Manager"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-06-12T19:27:25.000Z",
+        "Name": "e528caf411a6ca2c323575a0bbf894c8",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Approval Discount Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Approval Discount Matrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "f84430ca-dc41-171f-d6e9-21fc4c4da8e9",
+        "%vlocity_namespace%__InputData__c": {
+            "AboveValue": "0",
+            "AtOrBelowValue": "100",
+            "ChargeType": "OneTime",
+            "ProductCode": "VLO-CON-0007",
+            "ProductName": "16 Port \u0013 CPE"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ApprovalLevelRequired": "VP"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-06-12T19:27:25.000Z",
+        "Name": "8725999ee629e10bceca6175ca0728d6",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Approval Discount Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Approval Discount Matrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "89305e0f-1729-b3f5-f613-59e73ade1466",
+        "%vlocity_namespace%__InputData__c": {
+            "AboveValue": "0",
+            "AtOrBelowValue": "200",
+            "ChargeType": "OneTime",
+            "ProductCode": "VLO-CON-0008",
+            "ProductName": "32 Port \u0013 CPE"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ApprovalLevelRequired": "CXO"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-06-12T19:27:25.000Z",
+        "Name": "c70f7ac61377625df7c71fd91b1d8a4c",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Approval Discount Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Approval Discount Matrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "65a140b9-1733-3496-eaee-6187c53d456b",
+        "%vlocity_namespace%__InputData__c": {
+            "AboveValue": "0",
+            "AtOrBelowValue": "500",
+            "ChargeType": "OneTime",
+            "ProductCode": "VLO-MOB-0161",
+            "ProductName": "iPhone X"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ApprovalLevelRequired": "VP"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-06-12T19:27:25.000Z",
+        "Name": "9e423d2bdfde38d3f5ceaf6b3c9a7632",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Approval Discount Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Approval Discount Matrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "dc543c6b-d7c4-be3b-c860-baa66a291b18",
+        "%vlocity_namespace%__InputData__c": {
+            "AboveValue": "100",
+            "AtOrBelowValue": "150",
+            "ChargeType": "OneTime",
+            "ProductCode": "B2B-PROINSTALL-001",
+            "ProductName": "Professional Biz Service Install"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ApprovalLevelRequired": "VP"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-06-12T19:27:25.000Z",
+        "Name": "83e60114cd9ce9c7cfa98d4e85e598f0",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Approval Discount Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Approval Discount Matrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "ac3b08bf-ede3-5283-21d1-87239bd89eb9",
+        "%vlocity_namespace%__InputData__c": {
+            "AboveValue": "100",
+            "AtOrBelowValue": "199",
+            "ChargeType": "OneTime",
+            "ProductCode": "VLO-CON-0006",
+            "ProductName": "8 Port \u0013 CPE"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ApprovalLevelRequired": "NONE"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-06-12T19:27:25.000Z",
+        "Name": "44c0d2e3d4f008d38dc753fd4cc86b3b",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Approval Discount Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Approval Discount Matrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "3ff91b9f-68f7-ebb4-cd3f-9a321f788942",
+        "%vlocity_namespace%__InputData__c": {
+            "AboveValue": "100",
+            "AtOrBelowValue": "200",
+            "ChargeType": "OneTime",
+            "ProductCode": "VLO-CON-0007",
+            "ProductName": "16 Port \u0013 CPE"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ApprovalLevelRequired": "Manager"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-06-12T19:27:25.000Z",
+        "Name": "3c566fa68dfa7d41fd35b8b1825e1e6d",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Approval Discount Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Approval Discount Matrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "52852c95-5e43-540d-66f3-4869ab651d3c",
+        "%vlocity_namespace%__InputData__c": {
+            "AboveValue": "150",
+            "AtOrBelowValue": "240",
+            "ChargeType": "OneTime",
+            "ProductCode": "B2B-PROINSTALL-001",
+            "ProductName": "Professional Biz Service Install"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ApprovalLevelRequired": "Manager"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-06-12T19:27:25.000Z",
+        "Name": "dadd392f311bc5c9f00b6d51d6dfe46f",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Approval Discount Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Approval Discount Matrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "4d1f05bb-6666-b4ab-39bd-2f54888257cc",
+        "%vlocity_namespace%__InputData__c": {
+            "AboveValue": "200",
+            "AtOrBelowValue": "400",
+            "ChargeType": "OneTime",
+            "ProductCode": "VLO-CON-0007",
+            "ProductName": "16 Port \u0013 CPE"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ApprovalLevelRequired": "NONE"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-06-12T19:27:25.000Z",
+        "Name": "685be22849954283f0862f80beb3ccbb",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Approval Discount Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Approval Discount Matrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "b0cda40e-3b3c-98a5-64ff-56afc72aef55",
+        "%vlocity_namespace%__InputData__c": {
+            "AboveValue": "200",
+            "AtOrBelowValue": "400",
+            "ChargeType": "OneTime",
+            "ProductCode": "VLO-CON-0008",
+            "ProductName": "32 Port \u0013 CPE"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ApprovalLevelRequired": "VP"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-06-12T19:27:25.000Z",
+        "Name": "e1fc864553edba60926fbd8855634ce0",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Approval Discount Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Approval Discount Matrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "f4eef22b-e91a-35e7-4776-6f31851332b8",
+        "%vlocity_namespace%__InputData__c": {
+            "AboveValue": "240",
+            "AtOrBelowValue": "500",
+            "ChargeType": "OneTime",
+            "ProductCode": "B2B-PROINSTALL-001",
+            "ProductName": "Professional Biz Service Install"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ApprovalLevelRequired": "NONE"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-06-12T19:27:25.000Z",
+        "Name": "7ac7f03df1ef9cdc5858b3b241ce904f",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Approval Discount Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Approval Discount Matrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "6dfe1c6b-441f-8e8c-ad08-1a9a34b29ab5",
+        "%vlocity_namespace%__InputData__c": {
+            "AboveValue": "400",
+            "AtOrBelowValue": "500",
+            "ChargeType": "OneTime",
+            "ProductCode": "VLO-CON-0008",
+            "ProductName": "32 Port \u0013 CPE"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ApprovalLevelRequired": "Manager"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-06-12T19:27:25.000Z",
+        "Name": "6c077a12ef2122ecae1d349f96426201",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Approval Discount Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Approval Discount Matrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "feb52a69-a595-d56a-131c-8359b1cd7855",
+        "%vlocity_namespace%__InputData__c": {
+            "AboveValue": "500",
+            "AtOrBelowValue": "600",
+            "ChargeType": "OneTime",
+            "ProductCode": "VLO-CON-0008",
+            "ProductName": "32 Port \u0013 CPE"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ApprovalLevelRequired": "NONE"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-06-12T19:27:25.000Z",
+        "Name": "8e347fd83c93acac232feb107a16da50",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Approval Discount Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Approval Discount Matrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "dba66779-c467-bf79-1dc1-ca51f9682e9e",
+        "%vlocity_namespace%__InputData__c": {
+            "AboveValue": "500",
+            "AtOrBelowValue": "800",
+            "ChargeType": "OneTime",
+            "ProductCode": "VLO-MOB-0161",
+            "ProductName": "iPhone X"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ApprovalLevelRequired": "Manager"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-06-12T19:27:25.000Z",
+        "Name": "71e4b62db147ebf1d9b438c831ca8bc5",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Approval Discount Matrix",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/1/%vlocity_namespace%__CalculationMatrix__c/Approval Discount Matrix",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "98e38358-8126-f8bc-3c60-638067d68b5e",
+        "%vlocity_namespace%__InputData__c": {
+            "AboveValue": "800",
+            "AtOrBelowValue": "1000",
+            "ChargeType": "OneTime",
+            "ProductCode": "VLO-MOB-0161",
+            "ProductName": "iPhone X"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "ApprovalLevelRequired": "NONE"
+        },
+        "%vlocity_namespace%__StartDateTime__c": "2020-06-12T19:27:25.000Z",
+        "Name": "0869c0bb0b565635ba56f43e2197d944",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    }
+]

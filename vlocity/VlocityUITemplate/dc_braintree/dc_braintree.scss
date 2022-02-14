@@ -1,0 +1,10 @@
+.nds-dc-payment_container {
+    width: 100%;
+    min-height: 26rem;
+    border: none;
+
+    ::-webkit-scrollbar {
+      width: 0px;
+      background: transparent; /* make scrollbar transparent */
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "product_catalog_trimmed": {
+        "offers": [
+            {
+                "IsActive": true,
+                "Name": "Apple iPhone 8",
+                "ProductCode": "VLO-MOB-0156"
+            },
+            {
+                "IsActive": true,
+                "Name": "Individual Mobile Plan Extra Large",
+                "ProductCode": "VLO-MOB-0016"
+            },
+            {
+                "IsActive": true,
+                "Name": "Apple iPhone XS",
+                "ProductCode": "VLO-MOB-0162"
+            }
+        ]
+    }
+}

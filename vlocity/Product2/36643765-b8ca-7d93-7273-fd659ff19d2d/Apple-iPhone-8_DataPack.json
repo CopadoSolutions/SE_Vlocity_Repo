@@ -1,0 +1,647 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "Apple-iPhone-8_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "ATTRIBUTE-016": "Gold",
+        "ATTRIBUTE-017": "32GB",
+        "ATTRIBUTE-064": "Apple",
+        "ATTRIBUTE-065": "iOS",
+        "ATTRIBUTE-066": "4G",
+        "ATTRIBUTE-071": "990000862471854",
+        "ATTRIBUTE-123": null,
+        "ATTRIBUTE-125": null,
+        "ATTRIBUTE-138": null,
+        "ATTRIBUTE-139": null
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "messages": [
+        ],
+        "records": [
+            {
+                "Code__c": "VLO-PRO-0017",
+                "Name": "Mobile Trade In",
+                "displaySequence": 25,
+                "id": "a0I8c00001Tc9BfEAJ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0J8c00000rM6dREAS",
+                            "cloneable": true,
+                            "code": "ATTRIBUTE-138",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Handset Type",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0J8c00000rM6dSEAS",
+                            "cloneable": true,
+                            "code": "ATTRIBUTE-139",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 2,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Handset Condition",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 2
+                }
+            },
+            {
+                "Code__c": "VLO-PRO-0003",
+                "Name": "Mobile Handset",
+                "displaySequence": 11,
+                "id": "a0I8c00001Tc9BREAZ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0J8c00000rM6c1EAC",
+                            "cloneable": false,
+                            "code": "ATTRIBUTE-016",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Device Colour",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "d6ba718d-ee6a-9b8e-e332-24f85e26576d",
+                                    "label": "Silver",
+                                    "readonly": false,
+                                    "value": "Silver"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "id": "431e92ab-672a-e71c-0a23-fc9e4739e9fe",
+                                    "label": "Gold",
+                                    "readonly": false,
+                                    "value": "Gold"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 3,
+                                    "id": "7c44ea97-4b37-5dba-2513-195889519c8b",
+                                    "label": "Space Grey",
+                                    "readonly": false,
+                                    "value": "Space Grey"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0J8c00000rM6c2EAC",
+                            "cloneable": false,
+                            "code": "ATTRIBUTE-017",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 2,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Device Storage",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 1,
+                                    "id": "6f03b453-df1e-084c-b2c9-2f94330f0dfd",
+                                    "label": "16GB",
+                                    "readonly": false,
+                                    "value": "16GB"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 2,
+                                    "id": "133a751c-ddaf-2c10-10f9-b0e29cb86d58",
+                                    "label": "32GB",
+                                    "readonly": false,
+                                    "value": "32GB"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 3,
+                                    "id": "cbf80eae-f13e-54bf-5f3c-49baaa7f9b3a",
+                                    "label": "64GB",
+                                    "readonly": false,
+                                    "value": "64GB"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 4,
+                                    "id": "fa044aee-09a9-04d1-35d7-594bc0ea56aa",
+                                    "label": "128GB",
+                                    "readonly": false,
+                                    "value": "128GB"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0J8c00000rM6cKEAS",
+                            "cloneable": false,
+                            "code": "ATTRIBUTE-064",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 3,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Device Manufacturer",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0J8c00000rM6cLEAS",
+                            "cloneable": false,
+                            "code": "ATTRIBUTE-065",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 4,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Device Operating System",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0J8c00000rM6cMEAS",
+                            "cloneable": false,
+                            "code": "ATTRIBUTE-066",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 5,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Device Network Compatibility",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0J8c00000rM6cNEAS",
+                            "cloneable": false,
+                            "code": "ATTRIBUTE-071",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 6,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Device IMEI",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 6
+                }
+            },
+            {
+                "Code__c": "VLO-PRO-0015",
+                "Name": "Logistics",
+                "displaySequence": 23,
+                "id": "a0I8c00001Tc9BeEAJ",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0J8c00000rM6dHEAS",
+                            "cloneable": false,
+                            "code": "ATTRIBUTE-123",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Part Number",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0J8c00000rM6dJEAS",
+                            "cloneable": false,
+                            "code": "ATTRIBUTE-125",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 3,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Supplier",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 2
+                }
+            }
+        ],
+        "totalSize": 3
+    },
+    "%vlocity_namespace%__AttributeRules__c": "{}",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__CategoryData__c": [
+        {
+            "actions": {
+            },
+            "childCategories": [
+                {
+                    "actions": {
+                    },
+                    "childCategories": [
+                    ],
+                    "displaySequence": -1,
+                    "fields": {
+                    },
+                    "id": "a2H6g000000LwjMEAS",
+                    "messages": [
+                    ],
+                    "name": "Phones",
+                    "nameResult": {
+                    },
+                    "uiStates": {
+                    }
+                }
+            ],
+            "displaySequence": -1,
+            "fields": {
+            },
+            "id": "a2H6g000000LwjKEAS",
+            "messages": [
+            ],
+            "name": "Root",
+            "nameResult": {
+            },
+            "uiStates": {
+            }
+        },
+        {
+            "actions": {
+            },
+            "childCategories": [
+            ],
+            "displaySequence": -1,
+            "fields": {
+            },
+            "id": "a2H6g000000LwjOEAS",
+            "messages": [
+            ],
+            "name": "Mobile Catalog Phones",
+            "nameResult": {
+            },
+            "uiStates": {
+            }
+        },
+        {
+            "actions": {
+            },
+            "childCategories": [
+            ],
+            "displaySequence": -1,
+            "fields": {
+            },
+            "id": "a2H6g000000WLxkEAG",
+            "messages": [
+            ],
+            "name": "Sales Offers",
+            "nameResult": {
+            },
+            "uiStates": {
+            }
+        },
+        {
+            "actions": {
+            },
+            "childCategories": [
+                {
+                    "actions": {
+                    },
+                    "childCategories": [
+                    ],
+                    "displaySequence": -1,
+                    "fields": {
+                    },
+                    "id": "a2H6g00000129FmEAI",
+                    "messages": [
+                    ],
+                    "name": "Apple Products",
+                    "nameResult": {
+                    },
+                    "uiStates": {
+                    }
+                }
+            ],
+            "displaySequence": -1,
+            "fields": {
+            },
+            "id": "a2H6g00000129FlEAI",
+            "messages": [
+            ],
+            "name": "Mobile Catalog",
+            "nameResult": {
+            },
+            "uiStates": {
+            }
+        }
+    ],
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__DecompositionRelationship__c": "Apple-iPhone-8_DecompositionRelationships.json",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "",
+    "%vlocity_namespace%__GlobalGroupKey__c": "18f7a7fa-7c6f-8c29-0317-78cf75c2684f",
+    "%vlocity_namespace%__GlobalKey__c": "36643765-b8ca-7d93-7273-fd659ff19d2d",
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsCustomerSubscription__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__Modification__c": "",
+    "%vlocity_namespace%__ObjectTypeId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "5020eaae41baf0caa37bcb73b4a12934",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/5020eaae41baf0caa37bcb73b4a12934",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
+    },
+    "%vlocity_namespace%__ObjectTypeName__c": "Mobile Phone",
+    "%vlocity_namespace%__OrchestrationScenario__c": "Apple-iPhone-8_OrchestrationScenarios.json",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PriceListEntry__c": "Apple-iPhone-8_PriceListEntries.json",
+    "%vlocity_namespace%__ProductChildItem__c": "Apple-iPhone-8_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__Scope__c": "",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "",
+    "%vlocity_namespace%__SpecificationSubType__c": "",
+    "%vlocity_namespace%__SpecificationType__c": "Product",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "Handset",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "Product",
+    "%vlocity_namespace%__VendorAccountId__c": "",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "V1",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "Antenna_Type__c": "",
+    "Auto_Attendant__c": "",
+    "Automated_Directory__c": "",
+    "Backup_Power__c": "",
+    "Bandwidth__c": "",
+    "Call_Barring__c": "",
+    "Call_Forwarding__c": "",
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
+    "Conferencing__c": "",
+    "Description": "iPhone 8 introduces an all‑new glass design. The world’s most popular camera, now even better. The smartest, most powerful chip ever in an iPhone. Wireless charging that’s truly effortless. And augmented reality experiences never before possible. iPhone 8. A new generation of iPhone.",
+    "Device_Colour__c": "",
+    "Device_IMEI__c": "",
+    "Device_Manufacturer__c": "",
+    "Device_Network_Compatibility__c": "",
+    "Device_Operating_System__c": "",
+    "Device_Storage__c": "",
+    "Direct_Inward_Dialing__c": "",
+    "Discount__c": 17,
+    "DisplayUrl": "",
+    "Ethernet_Ports__c": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Face_Size__c": "",
+    "Family": "Mobile",
+    "Finish__c": "",
+    "Genre__c": "",
+    "ICCID__c": "",
+    "IMSI__c": "",
+    "Interactive_Voice_Response__c": "",
+    "Internet_Data_Usage_Cap__c": "",
+    "Internet_Download_Speed__c": "",
+    "Internet_Upload_Speed__c": "",
+    "IsActive": true,
+    "IsArchived": false,
+    "Line_Type__c": "",
+    "MSISDN__c": "",
+    "Maximum_Speed__c": "",
+    "Music_on_Hold__c": "",
+    "Name": "Apple iPhone 8",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "Number__c": "",
+    "PBX_Type__c": "",
+    "Price__c": "",
+    "PricebookEntry": "Apple-iPhone-8_PricebookEntries.json",
+    "ProductCode": "VLO-MOB-0156",
+    "Product_Channel__c": "All",
+    "Product_Owner__c": {
+        "Email": "jharris@example.com",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "User/Generated2080322678",
+        "VlocityRecordSObjectType": "User"
+    },
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "SIM_Type__c": "",
+    "Simultaneous_Connections__c": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": 0,
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "Apple iPhone 8",
+            "One_Time_Cost__c": "",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "36643765-b8ca-7d93-7273-fd659ff19d2d",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "36643765-b8ca-7d93-7273-fd659ff19d2d",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/36643765-b8ca-7d93-7273-fd659ff19d2d",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "VLO-MOB-0156",
+            "Recurring_Cost__c": "",
+            "SOHO_One_Time_Discount__c": "",
+            "UnitPrice": 800,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Standard Price Book/Product2/36643765-b8ca-7d93-7273-fd659ff19d2d"
+        }
+    ],
+    "StockKeepingUnit": "",
+    "Storage_Space__c": "",
+    "Strap__c": "",
+    "TV_Boxes_Required__c": "",
+    "TV_Connection__c": "",
+    "TV_Content__c": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/36643765-b8ca-7d93-7273-fd659ff19d2d",
+    "Voicemail__c": "",
+    "Wifi_Band__c": "",
+    "Wifi_Standard__c": ""
+}

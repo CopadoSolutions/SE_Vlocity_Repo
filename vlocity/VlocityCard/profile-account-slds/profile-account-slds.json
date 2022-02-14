@@ -1,0 +1,135 @@
+{
+    "Alerts": [
+    ],
+    "dataSource": {
+        "type": null
+    },
+    "definedActions": [
+        {
+            "actionIds": [
+                {
+                    "id": "Add",
+                    "type": "Vlocity Action"
+                }
+            ],
+            "filter": "$scope.data.status == 'active'"
+        }
+    ],
+    "enableLwc": false,
+    "filter": {
+        "attributes": {
+            "type": "Account"
+        }
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "alerts": [
+            ],
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "extraParams": {
+                            "ConstextId": "['Id']"
+                        },
+                        "hasExtraParams": true,
+                        "id": "Relationships",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "displayName": "Resume Interaction",
+                        "extraParams": {
+                            "ContextId": "['Id']"
+                        },
+                        "hasExtraParams": true,
+                        "iconName": "icon-v-right-arrow",
+                        "id": "Resume Interaction (Lightning)",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "extraParams": {
+                            "ContextId": "['Id']"
+                        },
+                        "hasExtraParams": true,
+                        "id": "Upsell Customer",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Name",
+                    "name": "['Vlocity_Demo_Name__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Type",
+                    "name": "['Type']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Industry",
+                    "name": "['Industry']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status == 'active'",
+            "flyout": "",
+            "isSmartAction": false,
+            "name": "active",
+            "sObjectType": "Account",
+            "smartAction": {
+            },
+            "templateUrl": "vdo-left-profile-slds-de"
+        }
+    ],
+    "templates": [
+        {
+            "filter": "$scope.data.status == 'active'",
+            "templateUrl": "left-profile-slds"
+        },
+        {
+            "filter": "$scope.data.status == 'non-existent'",
+            "templateUrl": "left-profile-slds"
+        }
+    ],
+    "title": "Profile"
+}

@@ -1,0 +1,305 @@
+{
+    "dataSource": {
+        "type": null
+    },
+    "filter": {
+    },
+    "sessionVars": [
+        {
+            "name": "type",
+            "val": "\"orders\""
+        }
+    ],
+    "states": [
+        {
+            "actionCtxId": "OrderId",
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['Status']",
+                        "logicalOperator": "&&",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "Activated"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "View Order",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-document1-line",
+                        "id": "View Order",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "displayName": "Configure Order",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-cart-line",
+                        "id": "Configure Order",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Create Order Document",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-document1-line",
+                        "id": "commsB2B Create Order Doc",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "View Provisioning Status",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-setting-line",
+                        "id": "commsB2B Modify Cancel Order",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                                {
+                                    "field": "['OrchestrationPlanId']",
+                                    "operator": "!=",
+                                    "type": "custom",
+                                    "value": "null"
+                                }
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "displayName": "View Provisioning Status",
+                        "extraParams": {
+                            "Id": "['OrchestrationPlanId']"
+                        },
+                        "filter": "$scope.obj['OrchestrationPlanId'] != null",
+                        "hasExtraParams": true,
+                        "iconName": "icon-v-troubleshoot",
+                        "id": "View Provisioning Status",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['OrderNumber']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Order #",
+                    "name": "['OrderNumber']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['DateCreated']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Creation Date",
+                    "name": "['DateCreated']",
+                    "type": "date"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Status']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Status",
+                    "name": "['Status']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['FulfilmentStatus']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Fulfilment Status",
+                    "name": "['FulfilmentStatus']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['OrderNCTotal']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "NC Total",
+                    "name": "['OrderNCTotal']",
+                    "type": "currency"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['OrderRCTotal']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "RC Total",
+                    "name": "['OrderRCTotal']",
+                    "type": "currency"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['Status'] == 'Activated'",
+            "flyout": {
+                "layout": "commsB2B-order-flyout-list-DE"
+            },
+            "isSmartAction": false,
+            "name": "Activated",
+            "sObjectType": "Order",
+            "smartAction": {
+            },
+            "templateUrl": "commsB2B-vdo-card-active-de"
+        },
+        {
+            "actionCtxId": "['OrderId']",
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['Status']",
+                        "logicalOperator": "&&",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "Draft"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "View Order",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-document1-line",
+                        "id": "View Order",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "displayName": "Configure Order",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-cart-line",
+                        "id": "Configure Order",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Create Order Document",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-document1-line",
+                        "id": "commsB2B Create Order Doc",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['OrderNumber']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Order #",
+                    "name": "['OrderNumber']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['DateCreated']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Creation Date",
+                    "name": "['DateCreated']",
+                    "type": "date"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Status']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Status",
+                    "name": "['Status']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['FulfilmentStatus']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Fulfilment Status",
+                    "name": "['FulfilmentStatus']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['OrderNCTotal']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "NC Total",
+                    "name": "['OrderNCTotal']",
+                    "type": "currency"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['OrderRCTotal']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "RC Total",
+                    "name": "['OrderRCTotal']",
+                    "type": "currency"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['Status'] == 'Draft'",
+            "flyout": {
+                "layout": "commsB2B-order-flyout-list-DE"
+            },
+            "isSmartAction": false,
+            "name": "Draft",
+            "sObjectType": "Order",
+            "smartAction": {
+            },
+            "templateUrl": "commsB2B-vdo-card-warning-de"
+        }
+    ],
+    "title": "Orders"
+}

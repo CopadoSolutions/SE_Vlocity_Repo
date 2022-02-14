@@ -1,0 +1,22 @@
+{
+    "%vlocity_namespace%__Code__c": "VLO-PL-1011",
+    "%vlocity_namespace%__DataType__c": "Text",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__EffectiveFromDate__c": "",
+    "%vlocity_namespace%__EffectiveUntilDate__c": "",
+    "%vlocity_namespace%__GlobalGroupKey__c": "7df54d52-9908-9f38-bea7-ab6f27db59f6",
+    "%vlocity_namespace%__GlobalId__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "8ed8d7b7-03df-0d58-f05f-4e6daf2e7366",
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsPublic__c": false,
+    "%vlocity_namespace%__IsShared__c": false,
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__PicklistValue__c": "Memory-iPhone-11-Pro-Max_Values.json",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__UnitOfMeasureName__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "V1",
+    "Name": "Memory - iPhone 11 Pro Max",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Picklist__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Picklist__c/8ed8d7b7-03df-0d58-f05f-4e6daf2e7366"
+}

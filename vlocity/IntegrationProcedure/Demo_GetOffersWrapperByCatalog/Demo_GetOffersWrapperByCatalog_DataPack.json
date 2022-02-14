@@ -1,0 +1,33 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "This IP demonstrates a wrapper to the DC APIs to lookup all the products and promotions inside a catalog and return a contextKey and array of Offer Details. This will take in 2 core parameters 1 the Catalog Code 2 the context e.g. JSON with the accountId",
+    "%vlocity_namespace%__CustomJavaScript__c": "Demo_GetOffersWrapperByCatalog_SampleInput.json",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "Demo_GetOffersWrapperByCatalog_Element_getOffersViaDCAPI.json",
+        "Demo_GetOffersWrapperByCatalog_Element_getUserSessionParameters.json",
+        "Demo_GetOffersWrapperByCatalog_Element_getDCAPIContextKey.json",
+        "Demo_GetOffersWrapperByCatalog_Element_getCatalogItems.json",
+        "Demo_GetOffersWrapperByCatalog_Element_catalogitemsproducts.json",
+        "Demo_GetOffersWrapperByCatalog_Element_getOfferDetailsViaDCAPI.json",
+        "Demo_GetOffersWrapperByCatalog_Element_catalogitemspromotions.json",
+        "Demo_GetOffersWrapperByCatalog_Element_getPromotionDetailsViaDCAPI.json",
+        "Demo_GetOffersWrapperByCatalog_Element_mergeProductsPromotions.json",
+        "Demo_GetOffersWrapperByCatalog_Element_setExtractRespose.json",
+        "Demo_GetOffersWrapperByCatalog_Element_responseData.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__OmniProcessType__c": "Integration Procedure",
+    "%vlocity_namespace%__ProcedureKey__c": "Demo_GetOffersWrapperByCatalog",
+    "%vlocity_namespace%__PropertySet__c": "Demo_GetOffersWrapperByCatalog_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "GetOffersWrapperByCatalog",
+    "%vlocity_namespace%__Type__c": "Demo",
+    "Name": "DEGetOffersWrapperByCatalog",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Demo/GetOffersWrapperByCatalog/Procedure"
+}

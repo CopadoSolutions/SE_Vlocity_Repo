@@ -1,0 +1,25 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "Document generation for DOCX and PPTX template type that has a DataRaptor implementation attached to it.",
+    "%vlocity_namespace%__CustomJavaScript__c": "DocumentServiceGateway_DocGeneration_SampleInput.json",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "DocumentServiceGateway_DocGeneration_Element_setupServiceCallInputParams.json",
+        "DocumentServiceGateway_DocGeneration_Element_generateDocumentService.json",
+        "DocumentServiceGateway_DocGeneration_Element_ipResponse.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__OmniProcessType__c": "Integration Procedure",
+    "%vlocity_namespace%__ProcedureKey__c": "DocumentServiceGateway_DocGeneration",
+    "%vlocity_namespace%__PropertySet__c": "DocumentServiceGateway_DocGeneration_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "DocGeneration",
+    "%vlocity_namespace%__Type__c": "DocumentServiceGateway",
+    "Name": "generateDocument",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/DocumentServiceGateway/DocGeneration/Procedure"
+}

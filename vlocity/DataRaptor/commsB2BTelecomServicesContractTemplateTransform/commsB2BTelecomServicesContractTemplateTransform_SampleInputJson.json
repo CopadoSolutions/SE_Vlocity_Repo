@@ -1,0 +1,82 @@
+{
+    "BillingAccount": [
+        {
+            "City": "New York City",
+            "Name": "Hilton - United States",
+            "PostalCode": "10019",
+            "ServiceLocation": [
+                {
+                    "Name": "Hilton - Miami",
+                    "OneTimeCharge": 0,
+                    "Product": "Blaze Dedicated Internet Offer",
+                    "Qty": 1,
+                    "RecurringCharges": 200
+                },
+                {
+                    "Name": "Hilton - United States",
+                    "OneTimeCharge": 0,
+                    "Product": "Professional Biz Service Install",
+                    "Qty": 1,
+                    "RecurringCharges": 0
+                },
+                {
+                    "Name": "Hilton - United States",
+                    "OneTimeCharge": 250,
+                    "Product": "Professional Biz Service Install",
+                    "Qty": 1,
+                    "RecurringCharges": 0
+                },
+                {
+                    "Name": "Hilton - United States",
+                    "OneTimeCharge": 0,
+                    "Product": "CloudVault Security",
+                    "Qty": 1,
+                    "RecurringCharges": 100
+                },
+                {
+                    "Name": "Hilton - United States",
+                    "OneTimeCharge": 0,
+                    "Product": "Static IP Address",
+                    "Qty": 1,
+                    "RecurringCharges": 5
+                },
+                {
+                    "Name": "Hilton - Dallas",
+                    "OneTimeCharge": 0,
+                    "Product": "Blaze Dedicated Internet Offer",
+                    "Qty": 1,
+                    "RecurringCharges": 200
+                },
+                {
+                    "Name": "Hilton - United States",
+                    "OneTimeCharge": 0,
+                    "Product": "Professional Biz Service Install",
+                    "Qty": 1,
+                    "RecurringCharges": 0
+                }
+            ],
+            "State": "NY",
+            "Street": "3 Church Lane",
+            "TotalOnetime": 250,
+            "TotalQty": 7,
+            "TotalRecurring": 505
+        },
+        {
+            "City": "New York City",
+            "Name": "Hilton - New York City",
+            "PostalCode": "10028",
+            "ServiceLocation": {
+                "Name": "Hilton - United States",
+                "OneTimeCharge": 250,
+                "Product": "Blaze Dedicated Internet + CloudVault Security Offer",
+                "Qty": 1,
+                "RecurringCharges": 465
+            },
+            "State": "NY",
+            "Street": "8 Timsgarry",
+            "TotalOnetime": 250,
+            "TotalQty": 1,
+            "TotalRecurring": 465
+        }
+    ]
+}

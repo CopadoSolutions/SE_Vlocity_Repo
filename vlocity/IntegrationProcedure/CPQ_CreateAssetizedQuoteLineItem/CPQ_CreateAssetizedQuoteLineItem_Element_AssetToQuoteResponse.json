@@ -1,0 +1,39 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "CPQ_CreateAssetizedQuoteLineItem",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/CPQ/CreateAssetizedQuoteLineItem/Procedure",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "additionalOutput": {
+            "Failed": "=IF(ISBLANK(%AssetToQuoteAction:quoteId%),true,false)",
+            "response": "=%AssetToQuoteAction%",
+            "statusCode": "=IF(ISBLANK(%AssetToQuoteAction:quoteId%),500,200)",
+            "statusMessage": "=IF(ISBLANK(%AssetToQuoteAction:quoteId%),IF(ISBLANK(%AssetToQuoteAction:error%),'FAILED',%AssetToQuoteAction:error%),'COMPLETED')"
+        },
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "label": "ResponseAction1",
+        "responseDefaultData": {
+        },
+        "responseFormat": "JSON",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnFullDataJSON": false,
+        "returnOnlyAdditionalOutput": true,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "show": null,
+        "useFormulas": true,
+        "vlcResponseHeaders": {
+        }
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Response Action",
+    "Name": "AssetToQuoteResponse",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/CPQ/CreateAssetizedQuoteLineItem/Procedure/AssetToQuoteResponse"
+}

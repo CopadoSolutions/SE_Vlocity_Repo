@@ -1,0 +1,16 @@
+{
+    "siteArray": [
+        {
+            "_resource_state": "fcf1cedaef33fc5939c83de61b82f78b105a529cab37a207d1a1537cd71c98eb",
+            "_type": "site",
+            "id": "RefArch",
+            "link": "https://bbsv-028.sandbox.us01.dx.commercecloud.salesforce.com/s/-/dw/data/v20_4/sites/RefArch"
+        },
+        {
+            "_resource_state": "e41bbf6f604633f3f83f9a825bea7faccf420af30de5ddc96a7caffbe2c72f50",
+            "_type": "site",
+            "id": "RefArchGlobal",
+            "link": "https://bbsv-028.sandbox.us01.dx.commercecloud.salesforce.com/s/-/dw/data/v20_4/sites/RefArchGlobal"
+        }
+    ]
+}

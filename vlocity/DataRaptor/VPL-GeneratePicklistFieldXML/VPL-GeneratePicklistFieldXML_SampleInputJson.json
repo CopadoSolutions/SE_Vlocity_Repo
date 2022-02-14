@@ -1,0 +1,339 @@
+{
+    "namespace": "http://www.demandware.com/xml/impex/metadata/2006-10-31",
+    "picklistValues": [
+        {
+            "@attribute-id": "deletethis",
+            "display-name": {
+                "#text": "deletethis",
+                "@xml#lang": "x-default"
+            },
+            "select-multiple-flag": true,
+            "type": {
+                "#text": "enum-of-string"
+            },
+            "value-definitions": {
+                "value-definition": [
+                    {
+                        "display": {
+                            "#text": "opt1",
+                            "@xml#lang": "x-default"
+                        },
+                        "value": {
+                            "#text": "opt1"
+                        }
+                    },
+                    {
+                        "display": {
+                            "#text": "opt2",
+                            "@xml#lang": "x-default"
+                        },
+                        "value": {
+                            "#text": "opt2"
+                        }
+                    },
+                    {
+                        "display": {
+                            "#text": "opt3",
+                            "@xml#lang": "x-default"
+                        },
+                        "value": {
+                            "#text": "opt3"
+                        }
+                    },
+                    {
+                        "display": {
+                            "#text": "opt4",
+                            "@xml#lang": "x-default"
+                        },
+                        "value": {
+                            "#text": "opt4"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "@attribute-id": "Family",
+            "display-name": {
+                "#text": "Product Family",
+                "@xml#lang": "x-default"
+            },
+            "type": {
+                "#text": "enum-of-string"
+            },
+            "value-definitions": {
+                "value-definition": [
+                    {
+                        "display": {
+                            "#text": "Landline",
+                            "@xml#lang": "x-default"
+                        },
+                        "value": {
+                            "#text": "Landline"
+                        }
+                    },
+                    {
+                        "display": {
+                            "#text": "Internet",
+                            "@xml#lang": "x-default"
+                        },
+                        "value": {
+                            "#text": "Internet"
+                        }
+                    },
+                    {
+                        "display": {
+                            "#text": "TV",
+                            "@xml#lang": "x-default"
+                        },
+                        "value": {
+                            "#text": "TV"
+                        }
+                    },
+                    {
+                        "display": {
+                            "#text": "Mobile",
+                            "@xml#lang": "x-default"
+                        },
+                        "value": {
+                            "#text": "Mobile"
+                        }
+                    },
+                    {
+                        "display": {
+                            "#text": "Support",
+                            "@xml#lang": "x-default"
+                        },
+                        "value": {
+                            "#text": "Support"
+                        }
+                    },
+                    {
+                        "display": {
+                            "#text": "Internet+TV",
+                            "@xml#lang": "x-default"
+                        },
+                        "value": {
+                            "#text": "Internet+TV"
+                        }
+                    },
+                    {
+                        "display": {
+                            "#text": "Accessories",
+                            "@xml#lang": "x-default"
+                        },
+                        "value": {
+                            "#text": "Accessories"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "@attribute-id": "QuantityInstallmentPeriod",
+            "display-name": {
+                "#text": "Quantity Installment Period",
+                "@xml#lang": "x-default"
+            },
+            "type": {
+                "#text": "enum-of-string"
+            },
+            "value-definitions": {
+                "value-definition": [
+                    {
+                        "display": {
+                            "#text": "Daily",
+                            "@xml#lang": "x-default"
+                        },
+                        "value": {
+                            "#text": "Daily"
+                        }
+                    },
+                    {
+                        "display": {
+                            "#text": "Weekly",
+                            "@xml#lang": "x-default"
+                        },
+                        "value": {
+                            "#text": "Weekly"
+                        }
+                    },
+                    {
+                        "display": {
+                            "#text": "Monthly",
+                            "@xml#lang": "x-default"
+                        },
+                        "value": {
+                            "#text": "Monthly"
+                        }
+                    },
+                    {
+                        "display": {
+                            "#text": "Quarterly",
+                            "@xml#lang": "x-default"
+                        },
+                        "value": {
+                            "#text": "Quarterly"
+                        }
+                    },
+                    {
+                        "display": {
+                            "#text": "Yearly",
+                            "@xml#lang": "x-default"
+                        },
+                        "value": {
+                            "#text": "Yearly"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "@attribute-id": "QuantityScheduleType",
+            "display-name": {
+                "#text": "Quantity Schedule Type",
+                "@xml#lang": "x-default"
+            },
+            "type": {
+                "#text": "enum-of-string"
+            },
+            "value-definitions": {
+                "value-definition": [
+                    {
+                        "display": {
+                            "#text": "Divide Amount into multiple installments",
+                            "@xml#lang": "x-default"
+                        },
+                        "value": {
+                            "#text": "Divide"
+                        }
+                    },
+                    {
+                        "display": {
+                            "#text": "Repeat Amount for each installment",
+                            "@xml#lang": "x-default"
+                        },
+                        "value": {
+                            "#text": "Repeat"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "@attribute-id": "QuantityUnitOfMeasure",
+            "display-name": {
+                "#text": "Quantity Unit Of Measure",
+                "@xml#lang": "x-default"
+            },
+            "type": {
+                "#text": "enum-of-string"
+            },
+            "value-definitions": {
+                "value-definition": [
+                    {
+                        "display": {
+                            "#text": "Each",
+                            "@xml#lang": "x-default"
+                        },
+                        "value": {
+                            "#text": "Each"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "@attribute-id": "RevenueInstallmentPeriod",
+            "display-name": {
+                "#text": "Revenue Installment Period",
+                "@xml#lang": "x-default"
+            },
+            "type": {
+                "#text": "enum-of-string"
+            },
+            "value-definitions": {
+                "value-definition": [
+                    {
+                        "display": {
+                            "#text": "Daily",
+                            "@xml#lang": "x-default"
+                        },
+                        "value": {
+                            "#text": "Daily"
+                        }
+                    },
+                    {
+                        "display": {
+                            "#text": "Weekly",
+                            "@xml#lang": "x-default"
+                        },
+                        "value": {
+                            "#text": "Weekly"
+                        }
+                    },
+                    {
+                        "display": {
+                            "#text": "Monthly",
+                            "@xml#lang": "x-default"
+                        },
+                        "value": {
+                            "#text": "Monthly"
+                        }
+                    },
+                    {
+                        "display": {
+                            "#text": "Quarterly",
+                            "@xml#lang": "x-default"
+                        },
+                        "value": {
+                            "#text": "Quarterly"
+                        }
+                    },
+                    {
+                        "display": {
+                            "#text": "Yearly",
+                            "@xml#lang": "x-default"
+                        },
+                        "value": {
+                            "#text": "Yearly"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "@attribute-id": "RevenueScheduleType",
+            "display-name": {
+                "#text": "Revenue Schedule Type",
+                "@xml#lang": "x-default"
+            },
+            "type": {
+                "#text": "enum-of-string"
+            },
+            "value-definitions": {
+                "value-definition": [
+                    {
+                        "display": {
+                            "#text": "Divide Amount into multiple installments",
+                            "@xml#lang": "x-default"
+                        },
+                        "value": {
+                            "#text": "Divide"
+                        }
+                    },
+                    {
+                        "display": {
+                            "#text": "Repeat Amount for each installment",
+                            "@xml#lang": "x-default"
+                        },
+                        "value": {
+                            "#text": "Repeat"
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "xmllang": "x-default"
+}

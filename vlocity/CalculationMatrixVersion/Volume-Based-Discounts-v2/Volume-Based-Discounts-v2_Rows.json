@@ -1,0 +1,262 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Volume Based Discounts (VDO Deprecated)",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/Volume Based Discounts (VDO Deprecated)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "d3e524ec-5ece-c8b0-7281-58f16dd4ace7",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "60e4be",
+            "dataType": "Percent",
+            "displayOrder": 3,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0L360000023Up6EAE",
+            "listValues": null,
+            "name": "OneTimeDiscountPercent"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Volume Based Discounts (VDO Deprecated)",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/Volume Based Discounts (VDO Deprecated)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "5836be03-8dc9-6b06-c32e-720ac148451b",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "a18aa6",
+            "dataType": "Text",
+            "displayOrder": 1,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0L360000023Up4EAE",
+            "listValues": null,
+            "name": "Product"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Volume Based Discounts (VDO Deprecated)",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/Volume Based Discounts (VDO Deprecated)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "e6e1d432-15d8-975a-b0a5-c561c3af2531",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "bbd6d9",
+            "dataType": "Number Range",
+            "displayOrder": 2,
+            "headerType": "Input",
+            "label": null,
+            "lineItemId": "a0L360000023Up5EAE",
+            "listValues": "9,10,26,100",
+            "name": "Quantity"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Volume Based Discounts (VDO Deprecated)",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/Volume Based Discounts (VDO Deprecated)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "97e10805-b5de-f80d-4cd7-54e5277627dc",
+        "%vlocity_namespace%__InputData__c": {
+            "columnKey": "bf03a1",
+            "dataType": "Percent",
+            "displayOrder": 4,
+            "headerType": "Output",
+            "label": null,
+            "lineItemId": "a0L360000023Up7EAE",
+            "listValues": null,
+            "name": "RecurringDiscountPercent"
+        },
+        "Name": "Header",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Volume Based Discounts (VDO Deprecated)",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/Volume Based Discounts (VDO Deprecated)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "524b4717-b483-4924-750f-0187361c1753",
+        "%vlocity_namespace%__InputData__c": {
+            "Product": "Microsoft Office 365",
+            "Quantity": "10"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "OneTimeDiscountPercent": 10,
+            "RecurringDiscountPercent": 10
+        },
+        "Name": "9e2a5efe37151ae412a83aba41c9e793",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Volume Based Discounts (VDO Deprecated)",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/Volume Based Discounts (VDO Deprecated)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "4d1084d0-d056-18f0-1024-0f7b17e274bb",
+        "%vlocity_namespace%__InputData__c": {
+            "Product": "Microsoft Office 365",
+            "Quantity": "100"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "OneTimeDiscountPercent": 20,
+            "RecurringDiscountPercent": 20
+        },
+        "Name": "3a54bc0e89fac989f3908ac58fed9f1b",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Volume Based Discounts (VDO Deprecated)",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/Volume Based Discounts (VDO Deprecated)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "c25630cd-6264-28bd-2d54-1bc008c52f73",
+        "%vlocity_namespace%__InputData__c": {
+            "Product": "Microsoft Office 365",
+            "Quantity": "26"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "OneTimeDiscountPercent": 15,
+            "RecurringDiscountPercent": 15
+        },
+        "Name": "d0f4fde0ff9ec64caedf36dc6f034059",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Volume Based Discounts (VDO Deprecated)",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/Volume Based Discounts (VDO Deprecated)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "1f118185-da87-af22-71b7-60d25f705320",
+        "%vlocity_namespace%__InputData__c": {
+            "Product": "Microsoft Office 365",
+            "Quantity": "9"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "OneTimeDiscountPercent": 0,
+            "RecurringDiscountPercent": 0
+        },
+        "Name": "fcd1a66570bdf9a4899ea485d41f1eec",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Volume Based Discounts (VDO Deprecated)",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/Volume Based Discounts (VDO Deprecated)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "26961147-21ac-7a0e-f55d-11c4f3c08311",
+        "%vlocity_namespace%__InputData__c": {
+            "Product": "iPhone SE",
+            "Quantity": "10"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "OneTimeDiscountPercent": 10,
+            "RecurringDiscountPercent": 10
+        },
+        "Name": "9fed2e51c7e5be49cbf9953898d30488",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Volume Based Discounts (VDO Deprecated)",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/Volume Based Discounts (VDO Deprecated)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "6d77da15-3373-a3f8-8e81-9dc80906f70e",
+        "%vlocity_namespace%__InputData__c": {
+            "Product": "iPhone SE",
+            "Quantity": "100"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "OneTimeDiscountPercent": 20,
+            "RecurringDiscountPercent": 20
+        },
+        "Name": "dffb9d1339ad3244848713799a250ccb",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Volume Based Discounts (VDO Deprecated)",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/Volume Based Discounts (VDO Deprecated)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "d1a7e009-ee91-09d6-9751-43c57b16ff8c",
+        "%vlocity_namespace%__InputData__c": {
+            "Product": "iPhone SE",
+            "Quantity": "26"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "OneTimeDiscountPercent": 15,
+            "RecurringDiscountPercent": 15
+        },
+        "Name": "162f588e41f4b58da708609d5d1fc3af",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationMatrixVersionId__c": {
+            "%vlocity_namespace%__CalculationMatrixId__r.Name": "Volume Based Discounts (VDO Deprecated)",
+            "%vlocity_namespace%__VersionNumber__c": 2,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationMatrixVersion__c/2/%vlocity_namespace%__CalculationMatrix__c/Volume Based Discounts (VDO Deprecated)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixVersion__c"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "3d57cd15-b7f9-6221-b71a-6bd6e541e4f9",
+        "%vlocity_namespace%__InputData__c": {
+            "Product": "iPhone SE",
+            "Quantity": "9"
+        },
+        "%vlocity_namespace%__OutputData__c": {
+            "OneTimeDiscountPercent": 0,
+            "RecurringDiscountPercent": 0
+        },
+        "Name": "13db71258002c0000abb2e82295d1924",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrixRow__c"
+    }
+]

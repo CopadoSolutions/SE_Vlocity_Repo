@@ -1,0 +1,31 @@
+<apex:page >
+<head>
+    <title>Agent Dashboard</title>
+    <style>
+        /*.container{
+            width:1500px;
+            margin:auto;
+        }
+        #auraErrorMessage{
+            display:none !important;
+        }*/
+    </style>
+    <apex:includeScript value="/support/console/20.0/integration.js"/>
+    <script type="text/javascript">
+        function testSetTabTitle() {
+            sforce.console.setTabTitle('Agent Statistics');
+            console.log('Setting title');
+        }
+        var pageLoad = window.onload;
+        window.onload = function() {
+            if (pageLoad) {
+                    pageLoad();
+            }
+              testSetTabTitle();
+        }
+    </script>
+</head>
+    <div class="container">
+        <wave:dashboard developerName="Contact_Agent_Daily_Report" showTitle="false" height="1060px" openLinksInNewWindow="true"/> 
+    </div>
+</apex:page>

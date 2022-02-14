@@ -1,0 +1,11 @@
+<category category-id="electronics-digital-cameras">
+        <display-name xml:lang="x-default">electronics digital cameras</display-name>
+        <online-flag>true</online-flag>
+        <parent>root</parent>
+        <template/>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+    </category>

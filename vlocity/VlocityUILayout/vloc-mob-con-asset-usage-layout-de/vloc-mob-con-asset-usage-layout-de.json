@@ -1,0 +1,70 @@
+{
+    "Cards": [
+        "mob-con-asset-usage-bar-de",
+        "mob-con-asset-usage-donut-de"
+    ],
+    "componentName": "cfVlocMobConAssetUsageLayoutDe",
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "attrs.statementid",
+                "val": "a1v6g000000KJ4MAAW"
+            }
+        ],
+        "orderBy": {
+            "isReverse": ""
+        },
+        "type": "Query",
+        "value": {
+            "body": "[\n    {\n        \"attributes\": {\n            \"type\": \"AggregateResult\"\n        },\n        \"%vlocity_namespace%__Type__c\": \"Data\",\n        \"%vlocity_namespace%__ServiceEndDate__c\": \"2018-09-30\",\n        \"expr0\": 20.11,\n        \"expr1\": 30\n    },\n    {\n        \"attributes\": {\n            \"type\": \"AggregateResult\"\n        },\n        \"%vlocity_namespace%__Type__c\": \"Talk\",\n        \"%vlocity_namespace%__ServiceEndDate__c\": \"2018-09-30\",\n        \"expr0\": 2807,\n        \"expr1\": 0\n    },\n    {\n        \"attributes\": {\n            \"type\": \"AggregateResult\"\n        },\n        \"%vlocity_namespace%__Type__c\": \"Text\",\n        \"%vlocity_namespace%__ServiceEndDate__c\": \"2018-09-30\",\n        \"expr0\": 370,\n        \"expr1\": 0\n    }\n]",
+            "interval": null,
+            "jsonMap": "{\"attrs.statementid\":\"{{attrs.statementid}}\"}",
+            "resultVar": "",
+            "timeout": null
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "vloc-mob-con-asset-usage"
+        }
+    },
+    "workspace": [
+        "mob-con-asset-usage-bar-de/Vlocity Demo Eng/1/1605208181118",
+        "mob-con-asset-usage-donut-de/Vlocity Demo Eng/1/1605208214010"
+    ],
+    "zones": {
+        "bars": {
+            "cardNames": [
+            ],
+            "label": "bars",
+            "layouts": [
+            ],
+            "name": "bars",
+            "zoneCards": [
+                {
+                    "Author": "Vlocity Demo Eng",
+                    "Name": "mob-con-asset-usage-bar-de",
+                    "Version": 1,
+                    "globalKey": "mob-con-asset-usage-bar-de/Vlocity Demo Eng/1/1605208181118"
+                }
+            ]
+        },
+        "donuts": {
+            "cardNames": [
+            ],
+            "label": "donuts",
+            "layouts": [
+            ],
+            "name": "donuts",
+            "zoneCards": [
+                {
+                    "Author": "Vlocity Demo Eng",
+                    "Name": "mob-con-asset-usage-donut-de",
+                    "Version": 1,
+                    "globalKey": "mob-con-asset-usage-donut-de/Vlocity Demo Eng/1/1605208214010"
+                }
+            ]
+        }
+    }
+}

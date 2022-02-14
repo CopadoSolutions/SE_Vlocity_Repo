@@ -1,0 +1,20 @@
+<div class="via_nds nds-dc-os_authenticate-container" ng-controller="dcAuthenticateController">
+    <div ng-if="this.bpTree.response && this.bpTree.response.Authenticate" class="nds-align_absolute-center">
+        <button class="nds-button nds-dc-button nds-button_brand" ng-click="initLogin()">{{this.bpTree.response.Authenticate.PersonalDetails.signup=="yes"?"Register":"Login"}}</button>
+    </div>
+    <div class="nds-spinner_container" ng-if="showSpinner()">
+        <div class="nds-spinner_brand nds-spinner" aria-hidden="false" role="alert">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+            <circle cx="12.5%" cy="50" r="12.5%" transform="translate(0 2.80974)">
+                <animateTransform attributeName="transform" dur="1s" type="translate" values="0 15 ; 0 -15; 0 15" repeatCount="indefinite" begin="0.1"></animateTransform> 
+            </circle> 
+            <circle cx="50%" cy="50" r="12.5%" transform="translate(0 5.87316)"> 
+                <animateTransform attributeName="transform" dur="1s" type="translate" values="0 10 ; 0 -10; 0 10" repeatCount="indefinite" begin="0.2"></animateTransform> 
+            </circle> 
+            <circle cx="87.5%" cy="50" r="12.5%" transform="translate(0 4.93658)">  
+                <animateTransform attributeName="transform" dur="1s" type="translate" values="0 5 ; 0 -5; 0 5" repeatCount="indefinite" begin="0.3"></animateTransform> 
+            </circle>  
+            </svg>
+        </div>
+    </div>
+  <div>

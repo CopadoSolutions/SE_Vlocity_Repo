@@ -1,0 +1,68 @@
+{
+    "dataSource": {
+        "type": "Custom",
+        "value": {
+            "body": "{}"
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "blankCardState": true,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'non-existent'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "Redeem gift card",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-document1-line",
+                        "id": "Mobile Action Redeem Gift Card",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Send a gift",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-document1-line",
+                        "id": "Mobile Action Send Gift",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Check balance",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-document1-line",
+                        "id": "Mobile Action Check Balance",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+            ],
+            "filter": "$scope.data.status === 'non-existent'",
+            "isSmartAction": false,
+            "name": "Actions",
+            "placeholderExpand": false,
+            "sObjectType": "Account",
+            "smartAction": {
+            },
+            "templateUrl": "vloc-mob-con-actions-df2018"
+        }
+    ],
+    "title": "Actions"
+}

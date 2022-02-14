@@ -1,0 +1,20 @@
+{
+    "CreateSelectQuote": {
+        "AssetIds": [
+            "02i5g0000009YqvAAE"
+        ],
+        "ContextId": "0015g00000OGV5xAAH",
+        "createQuotePriceList": "a3D5g000000kHFoEAM",
+        "isBulk": "bulk",
+        "multipleAssetsSelectedMsg": true,
+        "opportunityCloseDate": "2021-08-19",
+        "opportunityName": "new o",
+        "opportunityStage": "Prospecting",
+        "quoteName": "new q",
+        "selectActionType": "changeAssets",
+        "selectOpportunity": null,
+        "selectQuoteName": null,
+        "selectQuoteType": "createOpportunity",
+        "selectType": "createQuote"
+    }
+}

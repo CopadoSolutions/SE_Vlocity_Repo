@@ -1,0 +1,258 @@
+[
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "GG1 Customer 360 (PPTX)/1/Vlocity Demo Org/1527638748523",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/GG1 Customer 360 (PPTX)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "",
+        "%vlocity_namespace%__TokenSymbol__c": "4c66408b-50ab-636d-791a-d4b74fe884b9",
+        "Name": "Customer_name",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/4c66408b-50ab-636d-791a-d4b74fe884b9"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "GG1 Customer 360 (PPTX)/1/Vlocity Demo Org/1527638748523",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/GG1 Customer 360 (PPTX)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "Cases",
+        "%vlocity_namespace%__TokenSymbol__c": "3a0d817f-e476-a1ba-56a4-6c9694da00dd",
+        "Name": "Case_status",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/3a0d817f-e476-a1ba-56a4-6c9694da00dd"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "GG1 Customer 360 (PPTX)/1/Vlocity Demo Org/1527638748523",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/GG1 Customer 360 (PPTX)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "Cases",
+        "%vlocity_namespace%__TokenSymbol__c": "5b855e78-15a9-eacf-560e-7261362731b4",
+        "Name": "Case_Priority",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/5b855e78-15a9-eacf-560e-7261362731b4"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "GG1 Customer 360 (PPTX)/1/Vlocity Demo Org/1527638748523",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/GG1 Customer 360 (PPTX)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "Cases",
+        "%vlocity_namespace%__TokenSymbol__c": "abab1cdf-4e2c-8e18-496d-ce3dbe901c55",
+        "Name": "Case_number",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/abab1cdf-4e2c-8e18-496d-ce3dbe901c55"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "GG1 Customer 360 (PPTX)/1/Vlocity Demo Org/1527638748523",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/GG1 Customer 360 (PPTX)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "Cases",
+        "%vlocity_namespace%__TokenSymbol__c": "c858ac22-3b43-5abc-9bd2-6394402d2c8e",
+        "Name": "Case_owner",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/c858ac22-3b43-5abc-9bd2-6394402d2c8e"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "GG1 Customer 360 (PPTX)/1/Vlocity Demo Org/1527638748523",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/GG1 Customer 360 (PPTX)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "Cases",
+        "%vlocity_namespace%__TokenSymbol__c": "e84d8063-6174-07e7-e07d-7de8ac1a2ba7",
+        "Name": "Case_Subject",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/e84d8063-6174-07e7-e07d-7de8ac1a2ba7"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "GG1 Customer 360 (PPTX)/1/Vlocity Demo Org/1527638748523",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/GG1 Customer 360 (PPTX)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "Oppys",
+        "%vlocity_namespace%__TokenSymbol__c": "0316dc68-e2eb-4352-58ac-026d1a7f015c",
+        "Name": "Oppy_name",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/0316dc68-e2eb-4352-58ac-026d1a7f015c"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "GG1 Customer 360 (PPTX)/1/Vlocity Demo Org/1527638748523",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/GG1 Customer 360 (PPTX)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "Oppys",
+        "%vlocity_namespace%__TokenSymbol__c": "46c40baa-6107-792f-0586-643557ae32d2",
+        "Name": "Oppy_owner",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/46c40baa-6107-792f-0586-643557ae32d2"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "GG1 Customer 360 (PPTX)/1/Vlocity Demo Org/1527638748523",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/GG1 Customer 360 (PPTX)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "Oppys",
+        "%vlocity_namespace%__TokenSymbol__c": "689ba3a4-e37b-da8e-cff7-c7bbe2af00a9",
+        "Name": "Oppy_stage",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/689ba3a4-e37b-da8e-cff7-c7bbe2af00a9"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "GG1 Customer 360 (PPTX)/1/Vlocity Demo Org/1527638748523",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/GG1 Customer 360 (PPTX)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "Oppys",
+        "%vlocity_namespace%__TokenSymbol__c": "b31428b8-05c6-4c3f-5d95-1db67f79a439",
+        "Name": "Oppy_date",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/b31428b8-05c6-4c3f-5d95-1db67f79a439"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "GG1 Customer 360 (PPTX)/1/Vlocity Demo Org/1527638748523",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/GG1 Customer 360 (PPTX)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "Oppys",
+        "%vlocity_namespace%__TokenSymbol__c": "f87ede30-c4b5-a1df-9998-fc13169b4e21",
+        "Name": "Oppy_amount",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/f87ede30-c4b5-a1df-9998-fc13169b4e21"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "GG1 Customer 360 (PPTX)/1/Vlocity Demo Org/1527638748523",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/GG1 Customer 360 (PPTX)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "orders",
+        "%vlocity_namespace%__TokenSymbol__c": "2595eeac-4c68-b713-cffa-ef1f5d29309a",
+        "Name": "Order_Date",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/2595eeac-4c68-b713-cffa-ef1f5d29309a"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "GG1 Customer 360 (PPTX)/1/Vlocity Demo Org/1527638748523",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/GG1 Customer 360 (PPTX)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "orders",
+        "%vlocity_namespace%__TokenSymbol__c": "5964b75a-af17-6277-0c10-3c3bdbb876d4",
+        "Name": "Order_status",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/5964b75a-af17-6277-0c10-3c3bdbb876d4"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "GG1 Customer 360 (PPTX)/1/Vlocity Demo Org/1527638748523",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/GG1 Customer 360 (PPTX)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "orders",
+        "%vlocity_namespace%__TokenSymbol__c": "967d7acc-99cd-8784-5c21-45100db23eeb",
+        "Name": "Order_number",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/967d7acc-99cd-8784-5c21-45100db23eeb"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "GG1 Customer 360 (PPTX)/1/Vlocity Demo Org/1527638748523",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/GG1 Customer 360 (PPTX)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "orders",
+        "%vlocity_namespace%__TokenSymbol__c": "99122712-cf90-adfd-1e4f-e8cc8aa0aae8",
+        "Name": "Order_amount",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/99122712-cf90-adfd-1e4f-e8cc8aa0aae8"
+    },
+    {
+        "%vlocity_namespace%__Description__c": "",
+        "%vlocity_namespace%__DocumentTemplateId__c": {
+            "%vlocity_namespace%__ExternalID__c": "GG1 Customer 360 (PPTX)/1/Vlocity Demo Org/1527638748523",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__DocumentTemplate__c/GG1 Customer 360 (PPTX)",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentTemplate__c"
+        },
+        "%vlocity_namespace%__TokenDataType__c": "Text",
+        "%vlocity_namespace%__TokenPath__c": "orders",
+        "%vlocity_namespace%__TokenSymbol__c": "c5a64ac0-6bed-7871-ce7e-2b00bafcb757",
+        "Name": "Order_channel",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DocumentToken__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DocumentToken__c/c5a64ac0-6bed-7871-ce7e-2b00bafcb757"
+    }
+]

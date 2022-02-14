@@ -1,0 +1,17 @@
+<div class="slds-grid slds-wrap">
+	<div class="slds-col slds-size_1-of-4 slds-small-size_1-of-4 slds-medium-size_1-of-4 slds-large-size_1-of-4 slds-p-around_xx-small" ng-repeat="action in data.actions">
+		<a class="slds-button via-slds-button slds-button--neutral slds-p-around_small" href="javascript:void(0)" ng-click="performAction(action)" hotkey-card-action style="color: #666666; width: 100%; min-height: 50px;">
+			<div class="slds-grid slds-align_absolute-center">
+				<div class="slds-col slds-size_2-of-12 slds-show_small">
+					<vloc-card-icon data="action" obj="obj" size="'small'" style="font-size: 20px;"></vloc-card-icon>
+				</div>
+				<div class="slds-col slds-size_10-of-12 slds-text-align_left slds-p-horizontal_x-small slds-show_small" style="line-height: 18px">
+					<p>{{action.displayName}}</p>
+				</div>
+				<div class="slds-col slds-size_1-of-1 slds-text-align_center slds-p-horizontal_x-small slds-hide_small" style="line-height: 18px">
+					<p>{{action.displayName}}</p>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>

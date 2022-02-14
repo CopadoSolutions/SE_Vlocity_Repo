@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="http://www.demandware.com/xml/impex/catalog/2006-10-31" catalog-id="QA_Catalog">
+ <header>
+        <image-settings>
+            <external-location>
+                <http-url>http://images-na.ssl-images-amazon.com/</http-url>
+                <https-url>https://images-na.ssl-images-amazon.com/</https-url>
+            </external-location>
+            <view-types>
+                <view-type>large</view-type>
+                <view-type>medium</view-type>
+                <view-type>small</view-type>
+                <view-type>swatch</view-type>
+            </view-types>
+            <alt-pattern>${productname}</alt-pattern>
+            <title-pattern>${productname}</title-pattern>
+        </image-settings>
+    </header>
+   
+  
+   <category-assignment category-id="electronics-digital-cameras" product-id="nikon-d60-wlensM" />
+</catalog>

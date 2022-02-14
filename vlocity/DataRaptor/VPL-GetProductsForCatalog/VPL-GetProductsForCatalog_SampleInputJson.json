@@ -1,0 +1,41 @@
+{
+    "catalogs": [
+        {
+            "CatalogCode": "root",
+            "Id": "a2H6g00000129FlEAI",
+            "Name": "Mobile Catalog",
+            "PriceListId": "a3O6g0000008wIdEAI"
+        },
+        {
+            "CatalogCode": "Apple_Products",
+            "Id": "a2H6g00000129FmEAI",
+            "Name": "Apple Products",
+            "PriceListId": "a3O6g0000008wIdEAI",
+            "parent_catalog_code": "root"
+        },
+        {
+            "CatalogCode": "bundles",
+            "Id": "a2H6g00000129G0EAI",
+            "Name": "Bundles",
+            "PriceListId": "a3O6g0000008wIdEAI",
+            "parent_catalog_code": "root"
+        },
+        {
+            "CatalogCode": "VEPC",
+            "Id": "a2H6g00000129FqEAI",
+            "Name": "Business Internet",
+            "PriceListId": "a3O6g0000008wIdEAI",
+            "parent_catalog_code": "root"
+        },
+        {
+            "CatalogCode": "TV",
+            "Id": "a2H6g00000129G5EAI",
+            "Name": "TV",
+            "PriceListId": "a3O6g0000008wIdEAI",
+            "parent_catalog_code": "root"
+        }
+    ],
+    "error": "OK",
+    "errorCode": "INVOKE-200",
+    "parentCatalog": "Mobile_Catalog"
+}

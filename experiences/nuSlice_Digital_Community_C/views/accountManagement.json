@@ -1,0 +1,104 @@
+{
+  "appPageId" : "68d9bf5b-3c63-40b8-98a5-0501c99b9d7b",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "c7115b29-00f6-4799-a6d2-1dd3494a2590",
+  "label" : "Account Management",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundColor" : "",
+        "customVFPage" : "VDODemoEngineeringCards",
+        "disableCache" : false,
+        "layout" : "np-subnavbar-cmt",
+        "maxHeight" : "",
+        "openInActionsIn" : "/mobile-configuration",
+        "recordId" : "{!recordId}",
+        "vlocitytheme" : ""
+      },
+      "componentName" : "vlocity_cmt:vlocityCommunityCardComponent",
+      "id" : "173b00cb-f00b-4b35-801d-0ec99f48e479",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0c1b4a9a-cb3b-4218-a67a-4807dc5fd339",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundColor" : "",
+        "customVFPage" : "VDONewportCards",
+        "disableCache" : true,
+        "layout" : "df19-account-overview-page",
+        "maxHeight" : "",
+        "openInActionsIn" : "/omniscript",
+        "recordId" : "0014P0000263kz2QAA",
+        "vlocitytheme" : ""
+      },
+      "componentName" : "vlocity_cmt:vlocityCommunityCardComponent",
+      "id" : "e15112ce-2e4b-4cca-92e3-3b939dfe00cf",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "backgroundColor" : "",
+        "customVFPage" : "",
+        "disableCache" : true,
+        "layout" : "vdo-asset-layout-grid-demo-eng",
+        "maxHeight" : "",
+        "openInActionsIn" : "",
+        "recordId" : "{!CurrentUser.accountId}",
+        "vlocitytheme" : ""
+      },
+      "componentName" : "vlocity_cmt:vlocityCommunityCardComponent",
+      "id" : "ad75704f-5c76-48aa-a356-1486e73edba1",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "40ba4492-3bad-4e0a-ad0c-9fdaf0d68baa",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundColor" : "",
+        "customVFPage" : "VDODemoEngineeringCards",
+        "disableCache" : false,
+        "layout" : "np-footer-demo-eng",
+        "maxHeight" : "",
+        "openInActionsIn" : "",
+        "recordId" : "{!recordId}",
+        "vlocitytheme" : ""
+      },
+      "componentName" : "vlocity_cmt:vlocityCommunityCardComponent",
+      "id" : "544f6ea5-ff47-4dc4-b032-ce7de98b4246",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d3e5e1dd-c4bd-40b7-a956-9958fed721dd",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "This page came from the original Salesforce Community page template. It has been edited to look like the account page in the VDO Digital Community. It is not used in this community. ",
+        "title" : "Account Management"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "6a0817cc-57df-49d2-8a17-d0f1aa802151",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ba84b68b-3a54-43d8-89d4-27adefb55a3e",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "account-management"
+}

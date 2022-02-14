@@ -1,0 +1,5 @@
+[
+    "OrchestrationItemDefinition/Provision CloudVault Security_CloudVault Provisioning Plan",
+    "OrchestrationItemDefinition/Start Billing For Site_commsB2B Update Dedicated Internet Billing Plan",
+    "OrchestrationPlanDefinition/CloudVault Provisioning Plan"
+]

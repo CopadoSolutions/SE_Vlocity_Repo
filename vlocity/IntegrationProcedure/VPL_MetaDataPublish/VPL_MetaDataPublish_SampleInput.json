@@ -1,0 +1,24 @@
+{
+    "ContextId": "",
+    "GetPublishParameters": {
+        "AttributeList": null,
+        "Attributes": true,
+        "BatchSize": 30,
+        "DisplayErrorMessage": true,
+        "ObjectTypes": "MUltiPKListOT",
+        "ProductFieldList": null,
+        "ProductFields": false,
+        "ValidatePublishParams": true
+    },
+    "LanguageCode": "en_US",
+    "id": "a233h000000DHbcAAG",
+    "layout": "lightning",
+    "timeStamp": "2020-06-24T20:47:15.569Z",
+    "userCurrencyCode": "USD",
+    "userId": "0053h000000qVeTAAU",
+    "userName": "commercecloud-test2@vlocity.com",
+    "userProfile": "System Administrator",
+    "userTimeZone": 330,
+    "vlcPersistentComponent": {
+    }
+}

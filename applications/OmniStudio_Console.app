@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#31D7E4</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>OmniStudio Console</label>
+    <navType>Console</navType>
+    <tabs>vlocity_cmt__OmniScriptHome</tabs>
+    <tabs>vlocity_cmt__FlexCards</tabs>
+    <tabs>vlocity_cmt__IntegrationProcedureHome</tabs>
+    <tabs>vlocity_cmt__DataRaptor</tabs>
+    <tabs>vlocity_cmt__VlocityDocuSignSetup</tabs>
+    <tabs>vlocity_cmt__OmniScriptWorkbench</tabs>
+    <tabs>vlocity_cmt__DataPacks</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>OmniStudio_Console_UtilityBar</utilityBar>
+    <workspaceConfig>
+        <mappings>
+            <tab>vlocity_cmt__DataPacks</tab>
+        </mappings>
+        <mappings>
+            <tab>vlocity_cmt__DataRaptor</tab>
+        </mappings>
+        <mappings>
+            <tab>vlocity_cmt__FlexCards</tab>
+        </mappings>
+        <mappings>
+            <tab>vlocity_cmt__IntegrationProcedureHome</tab>
+        </mappings>
+        <mappings>
+            <tab>vlocity_cmt__OmniScriptHome</tab>
+        </mappings>
+        <mappings>
+            <tab>vlocity_cmt__OmniScriptWorkbench</tab>
+        </mappings>
+        <mappings>
+            <tab>vlocity_cmt__VlocityDocuSignSetup</tab>
+        </mappings>
+    </workspaceConfig>
+</CustomApplication>

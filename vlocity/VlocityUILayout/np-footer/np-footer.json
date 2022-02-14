@@ -1,0 +1,14 @@
+{
+    "Cards": [
+    ],
+    "componentName": "cfNpFooter",
+    "dataSource": {
+        "type": null
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "np-footer"
+        }
+    }
+}

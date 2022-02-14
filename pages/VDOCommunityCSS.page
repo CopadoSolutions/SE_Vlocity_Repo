@@ -1,0 +1,214 @@
+<apex:page cache="false" showHeader="false" contentType="text/css">
+    
+    /*Napili Community Colours*/
+        .action-item {
+            float: left;
+            width: 120px !important;
+            height: 120px;
+            border: 1px solid #dedede;
+            background:#fff;
+            margin-bottom:18px;
+            margin-right:18px;
+            text-align: center;
+            border-radius: .25em;
+            position:relative;
+        }
+        span.action-label {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            display: block !important;
+            width: 100%;
+            text-align: center;
+            height: 45px;
+            background-color: #f4f6f9;
+            border-bottom: 1px solid #d8dde6;
+            padding: 5px;
+            font-size: 13px !important;
+            margin:0px !important;
+            text-transform:none !important;
+            letter-spacing: 0px !important;
+            line-height: initial !important;
+        }
+        .vlocity .action-item:hover > .action-btn span.action-label, .vlocity .vlocity-actions > .action-container .action-item:hover span.action-label, .vlocity .action-item > .action-btn span.action-label, .vlocity .vlocity-actions > .action-container .action-item span.action-label{
+            color: rgb(22, 50, 92); !important;
+        }
+        .action-item .image-wrapper{
+            padding-top: 48px;
+            font-size: 45px !important;
+        }
+        .vlocity .action-container i.icon{
+            padding-top: 65px;
+        }
+        .vlocity .action-container [class^="icon-"]:before, .vlocity .action-container [class*=" icon-"]:before{
+            font-size:45px !important;
+        }
+        .vlocity .action-container i.icon{
+            float:initial !important;
+        }
+        .vlocity .action-container.action-vertical .action-item:last-of-type{
+            border: 1px solid #dedede !important;
+        }
+        .retail .actioncontainer:hover{
+            background:{!$Setup.VDO_Settings__c.Colour3__c};
+            cursor:pointer;
+        }
+        .retail .actioncontainer{
+            float: left;
+            width: 120px !important;
+            height: 120px;
+            border: 1px solid #dedede;
+            background: #fff;
+            margin-bottom: 18px;
+            margin-right: 18px;
+            text-align: center;
+            border-radius: .25em;
+            position: relative;
+            box-sizing: border-box;
+            position:relative;
+        }
+        .retail .actioncontainer .actionheader{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            display: block !important;
+            width: 100%;
+            text-align: center;
+            height: 45px;
+            background-color: #f4f6f9;
+            border-bottom: 1px solid #d8dde6;
+            padding: 5px;
+            font-size: 13px !important;
+            margin: 0px !important;
+            text-transform: none !important;
+            letter-spacing: 0px !important;
+            line-height: initial !important;
+            box-sizing: border-box;
+        }
+        .retail .actioncontainer .actioncontent{
+            padding-top: 40px;
+            font-size: 60px;
+            color: {!$Setup.VDO_Settings__c.Colour1__c};
+        }
+        .retail .star{
+            color: {!$Setup.VDO_Settings__c.Colour4__c} !important;
+        }
+        button.action-btn.uiButton {
+            position: relative;
+            width: 100%;
+        }
+        .vlocity .action-container .action-item:hover{
+            background: {!$Setup.VDO_Settings__c.Colour3__c} !important;
+            cursor:pointer;
+        }
+        
+        .forceCommunityHomeTabs .forceTopicFeaturedTopics .topicContent:hover{
+            background-color: {!$Setup.VDO_Settings__c.Colour4__c} !important;
+            border: 0px solid {!$Setup.VDO_Settings__c.Colour4__c} !important;
+        }
+        
+        .forceCommunityHomeTabs .forceTopicFeaturedTopics .topicLink:focus .topicContent, .forceCommunityCreateRecordButton button, .forceCommunityCreateRecordButton .triggerLink, .forceCommunityOmniBox.selfServiceSearchWrapper .search-button.uiButton, .forceCommunityOmniBox.selfServiceSearchWrapper .has-input .search-button.uiButton, .forceCommunityOmniBox.selfServiceSearchWrapper .search-button.uiButton.focus, .forceCommunityAskCommunity, .forceChatterChatterFollow, .selfServiceContactSupport.communityBtn, .uiButton--brand, .selfServiceCaseCreate button.buttonStyle {
+            background-color: {!$Setup.VDO_Settings__c.Colour1__c} !important;
+            border: 0px solid {!$Setup.VDO_Settings__c.Colour1__c} !important;
+        }
+        .forceCommunityCreateRecordButton button:hover, .forceCommunityCreateRecordButton .triggerLink:hover, .forceCommunityAskCommunity:hover, .forceChatterChatterFollow:hover, .oneActionsRibbon a:focus, .oneActionsRibbon a:hover, .forceCommunityRecordHeadline .actionsContainer button.uiButton:focus, .forceCommunityRecordHeadline .actionsContainer button.uiButton:hover, .forceChatterChatterFollow:focus, .forceChatterChatterFollow.following:hover, .forceChatterChatterFollow.following:focus, .selfServiceContactSupport button.contactSupport:hover, .selfServiceContactSupport button.contactSupport:focus, .selfServiceContactSupport.communityBtn:hover, .selfServiceContactSupport.communityBtn:focus, .uiButton--brand:hover, .uiButton--brand:focus, .selfServiceCaseCreate button.buttonStyle:hover, .selfServiceCaseCreate button.buttonStyle:focus{
+            background-color: {!$Setup.VDO_Settings__c.Colour3__c} !important;
+            border: 0px solid {!$Setup.VDO_Settings__c.Colour3__c} !important;
+        }
+        .cuf-publisherCancelButton, .forceBaseListView tbody tr:hover td, .forceBaseListView tbody tr:hover th, .forceBaseListView table.resizable-cols:not(.resizing) thead th:hover, .forceListViewPickerAutocompleteOption.highlighted a{
+            background-color: {!$Setup.VDO_Settings__c.Colour3__c} !important;
+        }
+        .option.arrow, .headlineInfo a, .selfServiceBaseSimpleItem .item-title-link:hover, .selfServiceBaseSimpleItem .item-title-link:focus, .selfServiceBaseSimpleItem .item-title-link:active, .forceCommunityHomeTabs .uiTabItem .tabHeader:hover, .forceCommunityHomeTabs .uiTabItem .tabHeader:focus, .forceCommunityHomeTabs .uiTabItem .tabHeader:active, .forceCommunityHomeTabs .uiTabItem.active .tabHeader:focus, .cuf-publisherCancelButton, .forceTopicNavigationTopicsMenu .required-label, .forceListViewPickerAutocompleteOption.slds-dropdown__item.slds-is-selected .slds-icon--selected, .forceListViewPicker:hover .downIcon, .forceListViewPicker:focus .downIcon, .selfServiceArticleListItem .article-head:hover, .forceListViewPicker.triggerLink:hover, .forceListViewPicker.triggerLink:hover .triggerLinkText, .forceListViewPicker.triggerLink:focus .triggerLinkText, .forceListViewPicker.triggerLink:focus, .oneActionsRibbon a, .forceCommunityRecordHeadline .actionsContainer button.uiButton, .selfServiceArticleListItem .article-head:focus, .forceCommunityNavigationMenu .menuItemLink:hover, .forceCommunityNavigationMenu .menuItemLink:focus, .forceCommunityNavigationMenu .menuItemLink.triggerLink:hover, .forceCommunityNavigationMenu .menuItemLink.triggerLink:focus, .forceCommunityNavigationMenu .menuItem.current .menuItemLink, .forceCommunityNavigationMenu .menuItem.current .menuItemLink.triggerLink, .selfServiceProfileMenuTrigger a:hover, .selfServiceProfileMenuTrigger a:focus, .selfServiceProfileMenuTrigger a:active, .forceTopicNavigationTopicsMenu .triggerLabel, .selfServiceCaseCreateAttachments a, .forceRecordLayout a, .viewAllLink a{
+            color: {!$Setup.VDO_Settings__c.Colour1__c} !important;
+        }
+        .forceListViewPicker.triggerLink:hover, .forceListViewPicker.triggerLink:focus{
+            border-bottom-color: {!$Setup.VDO_Settings__c.Colour1__c} !important;
+        }
+        
+       
+        .siteforceNapiliBody .uiTabset--default>.uiTabBar .uiTabItem.active .tabHeader, .siteforceNapiliBody .uiTabset--default>.uiTabBar .uiTabItem .tabHeader:active {
+            border-bottom: 4px solid {!$Setup.VDO_Settings__c.Colour1__c} !important;
+        }
+        .selfServiceBaseSimpleItem .item-title-link:focus{
+            box-shadow:none !important;
+        }
+        .forceSearchInputLookupDesktop .contentWrapper.focused{
+            border-color: {!$Setup.VDO_Settings__c.Colour1__c} !important;
+        }
+        .uiInput--textarea .textarea:focus, .uiInput--textarea.textarea:focus, .uiInput--textarea .textarea:active, .uiInput--textarea.textarea:active, .uiInput--input.input:focus, .uiInput--input .input:focus, .uiInput--input.input:active, .uiInput--input .input:active, .uiInput--select.select:focus, .uiInput--select .select:focus, .uiInput--select.select:active, .uiInput--select .select:active, .uiInput--select .uiPopupTrigger a:focus, .uiInput--select .uiPopupTrigger a:active{
+            border-color: {!$Setup.VDO_Settings__c.Colour1__c} !important;
+            box-shadow: 0 0 3px {!$Setup.VDO_Settings__c.Colour1__c} !important;
+        }
+        .cLiveAgentChatButton .laBtn{
+            background: {!$Setup.VDO_Settings__c.Colour4__c} !important;
+        }
+        .forceChatterChatterFollow .button{
+            background: {!$Setup.VDO_Settings__c.Colour1__c} !important;
+            border: 1px solid {!$Setup.VDO_Settings__c.Colour1__c} !important;
+        }
+        html{
+            padding-top:0px !important;
+        }
+    
+    /*Lightning OmniScript*/
+        .via-slds section.slds-page-header{
+            height:80px;
+            min-height:80px;
+        }
+        .via-slds section.slds-page-header.vlc-slds-page--header{
+            background: linear-gradient(90deg, {!$Setup.VDO_Settings__c.Colour1__c} 0%, #1fc8db 51%, {!$Setup.VDO_Settings__c.Colour3__c} 75%);
+        }
+    
+    /*Community Omniscript CSS*/
+        bptree.ng-scope, .v-col-md-8{
+            width:100% !important;
+        }
+        .cart.ng-scope .panel-heading:nth-child(3), .cart.ng-scope .panel-body:nth-child(4){
+            display:none;
+        }
+        .panel-group > div > child > :not(.active) {
+            display: none;
+        }
+        .vlocity .vlc-omni-step > .step-connector{
+            display:none !important;
+        }
+        .cart.ng-scope, .vlc-sidebar-wrapper, label.vlc-sidebar-label.ng-binding{
+            display:none !important;
+        }
+        .vlocity .steps-chart .steps-container{
+            display:none !important;
+        }
+        .vlocity .horizontal-cart .panel-default > .panel-heading{
+            height:60px;
+        }
+        .vlocity .vlc-omni-step{
+            display:none !important;
+        }
+        .v-col-md-4.vlc-sidebar-instruction{
+            width: 100%;
+            padding: 0px 0px 0px 0px !important;
+            border-top: 0px;
+        }
+        .horizontal-cart.hide-md-screen.ng-scope{
+            display:block;
+        }
+        .vlocity .v-col-md-8{
+            width:100% !important;
+            padding: 0px !important;
+        }  
+        .chatbotbutton{
+            background: {!$Setup.VDO_Settings__c.Colour4__c} !important;
+        }
+        .vlocity_cmtVlocityNewportTheme .vlocityContent{
+            margin-top: 35px;
+            z-index: 1;
+            position: relative;
+        }
+        .vlocity_cmtVlocityNewportTheme .vlocitySubNavBar {
+            position: relative;
+            z-index: 2;
+        }
+        .vlocity_cmtVlocityNewportTheme .vlocitySubNavBar iframe{
+            background:transparent !important;
+        }
+</apex:page>

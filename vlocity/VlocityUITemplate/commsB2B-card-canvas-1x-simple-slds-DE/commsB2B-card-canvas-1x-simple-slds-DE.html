@@ -1,0 +1,14 @@
+<div class="via-slds">
+    <div class="slds-grid slds-wrap cards-container">
+        <div vloc-card 
+            class="slds-size_1-of-1" 
+            ctrl="{{ctrl}}" 
+            data="card" 
+            index="{{$index}}" 
+            ng-model="card" 
+            ng-repeat="card in cards | orderBy:data.dataSource.order" 
+            records="records" 
+            session-id="{{sessionId}}" 
+            use-existing-element-type></div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__Channel__c": "",
+    "%vlocity_namespace%__ContentType__c": "Image",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__DisplayConditionsData__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "903f100f-1722-d5f6-5387-8554651b8d32",
+    "%vlocity_namespace%__IsDefaultImage__c": true,
+    "%vlocity_namespace%__IsPrivate__c": false,
+    "%vlocity_namespace%__ObjectId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "7e1cdc9c-7a15-621e-b63d-550cb599e43d",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/7e1cdc9c-7a15-621e-b63d-550cb599e43d",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__ProductGroupKey__c": "6ecb62fd-a43e-8256-0df4-5c645a1f84f9",
+    "%vlocity_namespace%__SequenceNumber__c": 1,
+    "%vlocity_namespace%__UrlLong__c": "https://vlocitydemodx-cdn.herokuapp.com/content/industry/cmt/VDOProductResources/images/Apple/Apple_iPhoneXsMax_Gold_Front.png",
+    "%vlocity_namespace%__Url__c": "",
+    "Name": "Apple iPhone Xs Max Front",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityAttachment__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityAttachment__c/903f100f-1722-d5f6-5387-8554651b8d32"
+}

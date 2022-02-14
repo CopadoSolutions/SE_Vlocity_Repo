@@ -1,0 +1,77 @@
+{
+  "appPageId" : "68d9bf5b-3c63-40b8-98a5-0501c99b9d7b",
+  "componentName" : "siteforce:dynamicLayout",
+  "id" : "98c5328c-bae7-4355-a9b7-eb45200da0f2",
+  "label" : "consumer-streaming",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgb(255,255,255)",
+        "backgroundOverlay" : "rgba(255,255,255,0.7)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "d334f357-89d3-4af0-bb57-b66f18cd25ed",
+          "columns" : [ {
+            "UUID" : "3a3cbdeb-3ec3-41c5-ac8c-c140ce0078b7",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "d334f357-89d3-4af0-bb57-b66f18cd25ed",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "customVFPage" : "VDOOmniscript",
+            "disableLoadInPage" : false,
+            "height" : "",
+            "language" : "English",
+            "layout" : "lightning",
+            "recordId" : "{!CurrentUser.AccountId}",
+            "scrollOffset" : "90",
+            "subtype" : "Consumer Streaming Configuration",
+            "type" : "Demo"
+          },
+          "componentName" : "vlocity_cmt:OmniScriptCommunity",
+          "id" : "601b299b-9c4c-464a-87da-5ca1e7ae96cb",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "3a3cbdeb-3ec3-41c5-ac8c-c140ce0078b7",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8fcb0a1e-348d-4429-b7ae-4109951ecbeb",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "consumer-streaming"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "edc64f38-7be2-4d94-acbf-a835b9c29040",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "baec956b-e139-480a-ac05-fa94b64cedba",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-consumer-streaming"
+}

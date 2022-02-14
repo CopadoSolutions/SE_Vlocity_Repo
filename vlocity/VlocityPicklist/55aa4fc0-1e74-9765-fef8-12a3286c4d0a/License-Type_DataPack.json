@@ -1,0 +1,22 @@
+{
+    "%vlocity_namespace%__Code__c": "ATT-LCK",
+    "%vlocity_namespace%__DataType__c": "Text",
+    "%vlocity_namespace%__Description__c": "License Type",
+    "%vlocity_namespace%__EffectiveFromDate__c": "2019-11-12",
+    "%vlocity_namespace%__EffectiveUntilDate__c": "",
+    "%vlocity_namespace%__GlobalGroupKey__c": "081e4e01-2fcb-67f5-ad7e-10411d775c5a",
+    "%vlocity_namespace%__GlobalId__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "55aa4fc0-1e74-9765-fef8-12a3286c4d0a",
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsPublic__c": false,
+    "%vlocity_namespace%__IsShared__c": false,
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__PicklistValue__c": "License-Type_Values.json",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__UnitOfMeasureName__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "V1",
+    "Name": "License Type",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Picklist__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Picklist__c/55aa4fc0-1e74-9765-fef8-12a3286c4d0a"
+}

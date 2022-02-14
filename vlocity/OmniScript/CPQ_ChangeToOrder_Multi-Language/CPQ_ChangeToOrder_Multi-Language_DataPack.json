@@ -1,0 +1,29 @@
+{
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "CPQ_ChangeToOrder_Multi-Language_Element_SetGlobalValues.json",
+        "CPQ_ChangeToOrder_Multi-Language_Element_GetAccountId.json",
+        "CPQ_ChangeToOrder_Multi-Language_Element_CanCreate.json",
+        "CPQ_ChangeToOrder_Multi-Language_Element_ErrorStep.json",
+        "CPQ_ChangeToOrder_Multi-Language_Element_RequestDateTimeMissingErrorMessaging.json",
+        "CPQ_ChangeToOrder_Multi-Language_Element_FDOFailedMessaging.json",
+        "CPQ_ChangeToOrder_Multi-Language_Element_FDOFailedDisconnectedAssetsMessaging.json",
+        "CPQ_ChangeToOrder_Multi-Language_Element_AccountNavigateAction.json",
+        "CPQ_ChangeToOrder_Multi-Language_Element_CreateFDO.json",
+        "CPQ_ChangeToOrder_Multi-Language_Element_FDONavigateAction.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": true,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": true,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "Multi-Language",
+    "%vlocity_namespace%__OmniProcessType__c": "OmniScript",
+    "%vlocity_namespace%__PropertySet__c": "CPQ_ChangeToOrder_Multi-Language_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "ChangeToOrder",
+    "%vlocity_namespace%__Type__c": "CPQ",
+    "Name": "Change to Order",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/CPQ/ChangeToOrder/Multi-Language"
+}

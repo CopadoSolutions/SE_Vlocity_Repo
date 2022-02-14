@@ -1,0 +1,21 @@
+{
+    "CreateSelectOrder": {
+        "AssetIds": [
+            "02i5g0000009YqvAAE"
+        ],
+        "ContextId": "0015g00000OGV5xAAH",
+        "createOrderDate": "2021-08-18",
+        "createOrderPriceList": "a3D5g000000kHFoEAM",
+        "createOrderStatus": "Draft",
+        "isBulk": "individual",
+        "isMultipleAssetsSelected": false,
+        "multipleAssetsSelectedMsg": null,
+        "orderName": "neword",
+        "orderStartRequestDateTime": "2021-08-18T19: 00: 00.000Z",
+        "orderStartRequestDateTimeValidate": true,
+        "orderStartRequestDateTimeValidateMsg": true,
+        "selectActionType": "changeAssets",
+        "selectOrderName": null,
+        "selectType": "createOrder"
+    }
+}

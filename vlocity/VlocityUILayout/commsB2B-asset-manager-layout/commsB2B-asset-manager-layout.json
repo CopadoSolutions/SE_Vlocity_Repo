@@ -1,0 +1,98 @@
+{
+    "Cards": [
+        "commsB2B-asset-manager-card"
+    ],
+    "GlobalKey__c": "commsB2B-asset-manager-layout/1/Joe McMaster/1599062548098",
+    "bypassSave": true,
+    "componentName": "cfCommsB2BAssetManagerLayout",
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0016g000005qKrKAAU"
+            }
+        ],
+        "type": "DataRaptor",
+        "value": {
+            "bundle": "CommsB2BGetAssetsAndServiceDetails",
+            "inputMap": {
+                "AccountId": "{{params.id}}"
+            }
+        }
+    },
+    "enableLwc": true,
+    "enableUserInfo": true,
+    "lwc": {
+        "DeveloperName": "cardCanvas1x",
+        "Id": "0Rb3t000000DcnFCAS",
+        "MasterLabel": "cardCanvas1x",
+        "name": "cardCanvas1x"
+    },
+    "previewType": "runTime",
+    "repeatCards": false,
+    "workspace": [
+        "commsB2B-asset-manager-card/Joe McMaster/1/1599062711266"
+    ],
+    "xmlObject": {
+        "apiVersion": 46,
+        "isExplicitImport": false,
+        "isExposed": true,
+        "masterLabel": "commsB2B-asset-manager-layout",
+        "runtimeNamespace": "%vlocity_namespace%",
+        "targetConfig": [
+            {
+                "objects": [
+                ],
+                "property": [
+                    {
+                        "name": "debug",
+                        "value": {
+                            "name": "debug",
+                            "selectedProp": "debug",
+                            "type": "Boolean"
+                        }
+                    },
+                    {
+                        "name": "recordId",
+                        "value": {
+                            "name": "recordId",
+                            "selectedProp": "recordId",
+                            "type": "String"
+                        }
+                    }
+                ],
+                "target": "lightning__AppPage"
+            },
+            {
+                "objects": [
+                ],
+                "property": [
+                    {
+                        "name": "debug",
+                        "value": {
+                            "name": "debug",
+                            "selectedProp": "debug",
+                            "type": "Boolean"
+                        }
+                    }
+                ],
+                "target": "lightning__RecordPage"
+            }
+        ],
+        "targetConfigs": "CiAgICAgICAgICAgICAgICAgICAgICA8dGFyZ2V0Q29uZmlnIHRhcmdldHM9ImxpZ2h0bmluZ19fQXBwUGFnZSI+CiAgICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iZGVidWciIHR5cGU9IkJvb2xlYW4iICAvPgogICAgICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0icmVjb3JkSWQiIHR5cGU9IlN0cmluZyIgIC8+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPgogICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgPHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX1JlY29yZFBhZ2UiPgogICAgICAgICAgICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImRlYnVnIiB0eXBlPSJCb29sZWFuIiAgLz4KICAgICAgICAgICAgICAgICAgICAgICAgPC90YXJnZXRDb25maWc+CiAgICAgICAgICAgICAgICAgICAg",
+        "targets": [
+            {
+                "name": "RecordPage",
+                "target": "lightning__RecordPage"
+            },
+            {
+                "name": "AppPage",
+                "target": "lightning__AppPage"
+            },
+            {
+                "name": "HomePage",
+                "target": "lightning__HomePage"
+            }
+        ]
+    }
+}

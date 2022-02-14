@@ -1,0 +1,8 @@
+[
+    "DataRaptor/AccountGetOIDFromAsset",
+    "DataRaptor/ErrorRecordCallout",
+    "DataRaptor/ErrorRecordUpsert",
+    "DataRaptor/OfferAddResponse_Matrixx",
+    "DataRaptor/OfferCreateBody_Matrixx",
+    "DataRaptor/OfferPrepareUpdate_Matrixx"
+]

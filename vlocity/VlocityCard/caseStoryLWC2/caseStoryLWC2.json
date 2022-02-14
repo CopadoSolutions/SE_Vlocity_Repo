@@ -1,0 +1,160 @@
+{
+    "GlobalKey__c": "caseStoryLWC2/VEX Personal Lines/1/1580282517659",
+    "dataSource": {
+        "type": null
+    },
+    "enableLwc": true,
+    "filter": {
+        "['objAPIName']": "Case"
+    },
+    "sessionVars": [
+    ],
+    "states": [
+        {
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['onGoing']",
+                        "logicalOperator": "&&",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "true"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "standard",
+                    "label": "Status",
+                    "name": "['subtitle']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "standard",
+                    "label": "Case Type",
+                    "name": "['highlight']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['ownerValueMap']['Owner']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "owner",
+                    "name": "['ownerValueMap']['Owner']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['onGoing'] == true",
+            "flyout": {
+                "data": "",
+                "lwc": {
+                    "DeveloperName": "storyEditStateFlyout",
+                    "Id": "0Rb4p000000fyDVCAY",
+                    "MasterLabel": "storyEditStateFlyout",
+                    "name": "storyEditStateFlyout"
+                }
+            },
+            "flyoutAttributes": [
+                {
+                    "name": "parent",
+                    "val": "$scope.obj"
+                }
+            ],
+            "isSmartAction": false,
+            "lwc": {
+                "DeveloperName": "storyOngoingStateInteraction",
+                "Id": "0Rb3i000000bx2NCAQ",
+                "MasterLabel": "storyOngoingStateInteraction",
+                "name": "storyOngoingStateInteraction"
+            },
+            "name": "Case onGoing",
+            "sObjectType": "Case",
+            "smartAction": {
+            },
+            "templateUrl": "story-card"
+        },
+        {
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['onGoing']",
+                        "logicalOperator": "&&",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "false"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "standard",
+                    "label": "Status",
+                    "name": "['subtitle']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['onGoing'] == false",
+            "flyout": {
+                "data": "",
+                "lwc": {
+                    "DeveloperName": "storyEditStateFlyout",
+                    "Id": "0Rb3i000000btgYCAQ",
+                    "MasterLabel": "storyEditStateFlyout",
+                    "name": "storyEditStateFlyout"
+                }
+            },
+            "flyoutAttributes": [
+                {
+                    "name": "parent",
+                    "val": "$scope.obj"
+                }
+            ],
+            "isSmartAction": false,
+            "lwc": {
+                "DeveloperName": "storyNormalStateInteraction",
+                "Id": "0Rb3i000000bx2SCAQ",
+                "MasterLabel": "storyNormalStateInteraction",
+                "name": "storyNormalStateInteraction"
+            },
+            "name": "Case",
+            "sObjectType": "Case",
+            "smartAction": {
+            },
+            "templateUrl": "story-card"
+        }
+    ],
+    "title": "Cases"
+}

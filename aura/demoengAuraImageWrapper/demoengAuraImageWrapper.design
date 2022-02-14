@@ -1,0 +1,5 @@
+<design:component >
+        <design:attribute name="documentname" label="Document Name" description="The document unique name for the image." />
+        <design:attribute name="width" label="Width" description="Width of the image." />
+        <design:attribute name="height" label="Height" description="Height of the image." />
+</design:component>

@@ -1,0 +1,30 @@
+{
+    "%vlocity_namespace%__CachedDataSetId__c": "a5l8c000000CxYqAAK",
+    "%vlocity_namespace%__Classname__c": "",
+    "%vlocity_namespace%__EffectiveEndDateTime__c": "",
+    "%vlocity_namespace%__EffectiveStartDateTime__c": "",
+    "%vlocity_namespace%__Key__c": {
+        "%vlocity_namespace%__GlobalKey__c": "c5d80d49-8d5a-fca1-b143-99639675d935",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/c5d80d49-8d5a-fca1-b143-99639675d935",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__ProductId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "c5d80d49-8d5a-fca1-b143-99639675d935",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/c5d80d49-8d5a-fca1-b143-99639675d935",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__Value__c": "a1b8c000004GeBJAA0,a1b8c000004GeAwAAK,a1b8c000004GeAxAAK,a1b8c000004GeBKAA0,a1b8c000004GeB7AAK,a1b8c000004GeB8AAK,a1b8c000004GeB9AAK,a1b8c000004GeBLAA0,a1b8c000004GeBPAA0,a1b8c000004GeD2AAK,a1b8c000004GeCnAAK,a1b8c000004GeCoAAK,a1b8c000004GeCpAAK,a1b8c000004GeCqAAK,a1b8c000004GeCrAAK,a1b8c000004GeCsAAK,a1b8c000004GeCtAAK,a1b8c000004GeCuAAK,a1b8c000004GeCvAAK,a1b8c000004GeCwAAK,a1b8c000004GeCxAAK,a1b8c000004GeDeAAK,a1b8c000004GeDfAAK,a1b8c000004GeDgAAK,a1b8c000004GeDhAAK,a1b8c000004GeDiAAK",
+    "Name": "Datastore__ca3B8c000000wZMU",
+    "RecordTypeId": {
+        "DeveloperName": "ProductHierarchy",
+        "SobjectType": "%vlocity_namespace%__Datastore__c",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/%vlocity_namespace%__Datastore__c/ProductHierarchy",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Datastore__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Datastore__c/Generated1692914851"
+}

@@ -1,0 +1,31 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "[\n          {\n            \"Name\": \"new test promo\",\n            \"Id\": \"a3T5g000000PKWUEA4\",\n            \"displaySequence\": -1,\n            \"actions\": {\n              \"getpromodetails\": {\n                \"client\": {\n                  \"params\": {}\n                },\n                \"remote\": {\n                  \"params\": {\n                    \"cartId\": \"0015g00000EyHr5AAF\",\n                    \"id\": \"a3T5g000000PKWUEA4\",\n                    \"accountId\": \"0015g00000EyHr5AAF\",\n                    \"methodName\": \"getAppliedPromotionsByAccount\"\n                  }\n                },\n                \"rest\": {\n                  \"link\": null,\n                  \"method\": null,\n                  \"params\": {}\n                }\n              }\n            }\n          }\n        ]",
+            "dsDelay": "",
+            "resultVar": ""
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "cpqCartInlineChildPromoForAssetViewer.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "cpqCartInlineChildPromoForAssetViewer/Vlocity/1/1621245527432",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "cpqCartInlineChildPromoBulkSearch/Vlocity/1/1620621559966",
+    "%vlocity_namespace%__SampleData__c": "[{\"Name\":\"new test promo\",\"Id\":\"a3T5g000000PKWUEA4\",\"displaySequence\":-1,\"actions\":{\"getpromodetails\":{\"client\":{\"params\":{}},\"remote\":{\"params\":{\"cartId\":\"0015g00000EyHr5AAF\",\"id\":\"a3T5g000000PKWUEA4\",\"accountId\":\"0015g00000EyHr5AAF\",\"methodName\":\"getAppliedPromotionsByAccount\"}},\"rest\":{\"link\":null,\"method\":null,\"params\":{}}}}}]",
+    "%vlocity_namespace%__Styles__c": "{\"customStyles\":\"/* .cpq__cart-line-item_promo{\\n     background-color: rgb(216, 237, 255);\\n    border-width: 1px;\\n    border-style: solid;\\n    border-color: rgb(94, 180, 255);\\n} */\\n\\n.cpq__cart-item-border_container{\\n    height:0;\\n    flex: 1 1 auto;\\n}\\n.cpq__cart-line-item-promo_name{\\n    padding-left:1%;\\n    flex: 1 1 auto;\\n}\\n.cpq__cart-item-bottom_border{\\n    padding-left:0;\\n}\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "cpqCartInlineChildPromoForAssetViewer",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/cpqCartInlineChildPromoForAssetViewer"
+}

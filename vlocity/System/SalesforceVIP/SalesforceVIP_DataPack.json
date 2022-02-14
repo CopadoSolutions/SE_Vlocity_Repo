@@ -1,0 +1,11 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "8de1fcf5-ce01-336f-7691-44d11e3b72d4",
+    "%vlocity_namespace%__SystemInterface__c": "SalesforceVIP_SystemInterfaces.json",
+    "%vlocity_namespace%__URL__c": "http://www.dummy.com",
+    "Image__c": "",
+    "Name": "SalesforceVIP",
+    "Online__c": true,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__System__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__System__c/SalesforceVIP"
+}

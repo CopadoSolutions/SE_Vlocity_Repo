@@ -1,0 +1,274 @@
+{
+    "GlobalKey__c": "PolicyActionsLwc/VEX Personal Lines/1/1580713938377",
+    "dataSource": {
+        "type": null
+    },
+    "enableLwc": true,
+    "filter": {
+        "['Type']": "Auto"
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                                {
+                                    "field": "['Type']",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "Auto"
+                                }
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "displayName": "Modify Coverages",
+                        "extraParams": {
+                            "c__ContextId": "['Id']"
+                        },
+                        "filter": "$scope.obj['Type'] == 'Auto'",
+                        "hasExtraParams": true,
+                        "id": "Modify Coverages Auto",
+                        "isCustomAction": true,
+                        "isLwcOS": true,
+                        "layoutType": "lightning",
+                        "omniLang": "",
+                        "omniSubType": "",
+                        "omniType": {
+                            "Id": "a3F3i000000Tt1MEAS",
+                            "Language": "English",
+                            "Name": "autoWC/ModifyCoverages/English",
+                            "SubType": "ModifyCoverages",
+                            "Type": "autoWC",
+                            "isLwc": true
+                        },
+                        "openUrlIn": "New Tab / Window",
+                        "type": "OmniScript",
+                        "vlocityIcon": "icon-v-edit2"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                                {
+                                    "field": "['Type']",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "Auto"
+                                }
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "displayName": "Add Driver",
+                        "extraParams": {
+                            "c__ContextId": "['Id']"
+                        },
+                        "filter": "$scope.obj['Type'] == 'Auto'",
+                        "hasExtraParams": true,
+                        "id": "Add Driver",
+                        "isCustomAction": true,
+                        "isLwcOS": true,
+                        "layoutType": "lightning",
+                        "omniLang": "",
+                        "omniSubType": "",
+                        "omniType": {
+                            "Id": "a3F3i000000Tt1vEAC",
+                            "Language": "English",
+                            "Name": "autoWC/AddDrivers/English",
+                            "SubType": "AddDrivers",
+                            "Type": "autoWC",
+                            "isLwc": true
+                        },
+                        "openUrlIn": "New Tab / Window",
+                        "type": "OmniScript",
+                        "vlocityIcon": "icon-v-plus"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                                {
+                                    "field": "['Type']",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "Auto"
+                                }
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "displayName": "Add Vehicle",
+                        "extraParams": {
+                            "c__ContextId": "['Id']"
+                        },
+                        "filter": "$scope.obj['Type'] == 'Auto'",
+                        "hasExtraParams": true,
+                        "id": "Add Vehicle",
+                        "isCustomAction": true,
+                        "isLwcOS": true,
+                        "layoutType": "lightning",
+                        "omniLang": "",
+                        "omniSubType": "",
+                        "omniType": {
+                            "Id": "a3F3i000000Tt2jEAC",
+                            "Language": "English",
+                            "Name": "autoWC/AddVehicles/English",
+                            "SubType": "AddVehicles",
+                            "Type": "autoWC",
+                            "isLwc": true
+                        },
+                        "openUrlIn": "New Tab / Window",
+                        "type": "OmniScript",
+                        "vlocityIcon": "icon-v-plus"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                                {
+                                    "field": "['Type']",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "Auto"
+                                }
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "displayName": "Remove Driver",
+                        "extraParams": {
+                            "c__ContextId": "['Id']"
+                        },
+                        "filter": "$scope.obj['Type'] == 'Auto'",
+                        "hasExtraParams": true,
+                        "id": "Remove Driver",
+                        "isCustomAction": true,
+                        "isLwcOS": true,
+                        "layoutType": "newport",
+                        "omniLang": "",
+                        "omniSubType": "",
+                        "omniType": {
+                            "Id": "a3F3i000000Tt2oEAC",
+                            "Language": "English",
+                            "Name": "autoWC/RemoveDrivers/English",
+                            "SubType": "RemoveDrivers",
+                            "Type": "autoWC",
+                            "isLwc": true
+                        },
+                        "openUrlIn": "New Tab / Window",
+                        "type": "OmniScript",
+                        "vlocityIcon": "icon-v-minus-line"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                                {
+                                    "field": "['Type']",
+                                    "operator": "==",
+                                    "type": "custom",
+                                    "value": "Auto"
+                                }
+                            ]
+                        },
+                        "disableAddCondition": false,
+                        "displayName": "Remove Vehicles",
+                        "extraParams": {
+                            "c__ContextId": "['Id']"
+                        },
+                        "filter": "$scope.obj['Type'] == 'Auto'",
+                        "hasExtraParams": true,
+                        "id": "Remove Vehicles",
+                        "isCustomAction": true,
+                        "isLwcOS": true,
+                        "layoutType": "lightning",
+                        "omniLang": "",
+                        "omniSubType": "",
+                        "omniType": {
+                            "Id": "a3F3i000000Tt2yEAC",
+                            "Language": "English",
+                            "Name": "autoWC/RemoveVehicles/English",
+                            "SubType": "RemoveVehicles",
+                            "Type": "autoWC",
+                            "isLwc": true
+                        },
+                        "openUrlIn": "New Tab / Window",
+                        "type": "OmniScript",
+                        "vlocityIcon": "icon-v-minus-line"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "displayName": "Cancel Policy",
+                        "extraParams": {
+                            "c__ContextId": "['Id']"
+                        },
+                        "hasExtraParams": true,
+                        "id": "CancelPolicy",
+                        "isCustomAction": true,
+                        "isLwcOS": true,
+                        "layoutType": "lightning",
+                        "omniLang": "",
+                        "omniSubType": "",
+                        "omniType": {
+                            "Id": "a3F3i000000Tt1REAS",
+                            "Language": "English",
+                            "Name": "insWC/PolicyCancellation/English",
+                            "SubType": "PolicyCancellation",
+                            "Type": "insWC",
+                            "isLwc": true
+                        },
+                        "openUrlIn": "New Tab / Window",
+                        "type": "OmniScript",
+                        "vForcewithNsPrefix": "%vlocity_namespace%__OmniScriptUniversalPage",
+                        "vlocityIcon": "icon-v-close"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "File Claim",
+                        "hasExtraParams": false,
+                        "id": "File Claim",
+                        "isCustomAction": true,
+                        "openUrlIn": "New Tab / Window",
+                        "type": "Custom",
+                        "url": "/apex/%vlocity_namespace%__OmniScriptUniversalPage?id={{params.id}}&OmniScriptType=Auto&OmniScriptSubType=ClaimFNOL&OmniScriptLang=English&PrefillDataRaptorBundle=&scriptMode=vertical&layout=newport&ContextId={{params.id}}",
+                        "vlocityIcon": "icon-v-edit2"
+                    }
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+            ],
+            "filter": "$scope.data.status === 'active'",
+            "isSmartAction": false,
+            "lwc": {
+                "DeveloperName": "actionGridCardLwc",
+                "Id": "0Rb3i000000bvROCAY",
+                "MasterLabel": "actionGridCardLwc",
+                "name": "actionGridCardLwc"
+            },
+            "name": "open-actions",
+            "sObjectType": "Asset",
+            "smartAction": {
+            },
+            "templateUrl": "action-grid-card-slds"
+        }
+    ],
+    "title": "Actions"
+}

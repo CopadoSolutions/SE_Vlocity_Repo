@@ -1,0 +1,31 @@
+{
+    "Cards": [
+        "Asset List"
+    ],
+    "componentName": "cfFlyoutList",
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "parent.obj.%vlocity_namespace%__LineNumber__c",
+                "val": "0001.0001"
+            },
+            {
+                "name": "params.Id",
+                "val": "0013600000FBB68"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"parent.obj.%vlocity_namespace%__LineNumber__c\":\"{{parent.obj.%vlocity_namespace%__LineNumber__c}}\",\"params.Id\":\"{{params.Id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "vdo-list-card-canvas"
+        }
+    },
+    "workspace": [
+        "Asset List/Vlocity Demo Org/null/1516694577099"
+    ]
+}

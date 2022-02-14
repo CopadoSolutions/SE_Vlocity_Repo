@@ -1,0 +1,556 @@
+{
+    "dataSource": {
+        "type": null
+    },
+    "filter": {
+    },
+    "sessionVars": [
+        {
+            "name": "type",
+            "val": "\"contract\""
+        }
+    ],
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['Status']",
+                        "logicalOperator": "&&",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "Activated"
+                    },
+                    {
+                        "field": "['Frame']",
+                        "logicalOperator": "&&",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "true"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "View Record",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-document1-line",
+                        "id": "View Record",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Renew Contract",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-renew-contract",
+                        "id": "Renew Contract",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Amend",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-document1-line",
+                        "id": "Amend",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "%vlocity_namespace%__InvokeClassName__c": "StateTransitionVOIService",
+                        "%vlocity_namespace%__InvokeMethodName__c": "updateObjectState",
+                        "collapse": true,
+                        "displayName": "Cancel Contract",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-cancel-contract",
+                        "id": "Cancel Contract",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Frame']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Frame Contract",
+                    "name": "['Frame']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['StartDate']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Start Date",
+                    "name": "['StartDate']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['EndDate']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "End Date",
+                    "name": "['EndDate']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Status']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Status",
+                    "name": "['Status']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['ContractTerm']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Contract Term",
+                    "name": "['ContractTerm']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['Status'] == 'Activated' && $scope.obj['Frame'] == true",
+            "flyout": {
+                "data": "",
+                "layout": "commsB2B-contractdiscount-flyout-list-DE"
+            },
+            "isSmartAction": false,
+            "name": "Frame Contract",
+            "sObjectType": "Contract",
+            "smartAction": {
+            },
+            "templateUrl": "commsB2B-vdo-card-active-de"
+        },
+        {
+            "actionCtxId": "['Id']",
+            "blankStateCheck": false,
+            "collapse": true,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['Status']",
+                        "logicalOperator": "&&",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "Activated"
+                    },
+                    {
+                        "field": "['Status']",
+                        "logicalOperator": "||",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "In Approval Process"
+                    },
+                    {
+                        "field": "['Status']",
+                        "logicalOperator": "||",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "Negotiating"
+                    },
+                    {
+                        "field": "['Status']",
+                        "logicalOperator": "||",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "Signed"
+                    },
+                    {
+                        "field": "['Status']",
+                        "logicalOperator": "||",
+                        "operator": "===",
+                        "type": "custom",
+                        "value": "Draft"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "View Record",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-document1-line",
+                        "id": "View Record",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Renew Contract",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-renew-contract",
+                        "id": "Renew Contract",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Amend Contract",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-modify-contract",
+                        "id": "Amend Contract",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Terminate Contract",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-terminate-contract",
+                        "id": "Terminate Contract",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Send for eSignature",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-send-for-e-signature",
+                        "id": "Send for eSignature",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Type']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Type",
+                    "name": "['Type']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['StartDate']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Start Date",
+                    "name": "['StartDate']",
+                    "type": "date"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Status']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Status",
+                    "name": "['Status']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Renew']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Auto Renew",
+                    "name": "['Renew']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['EndDate']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "End Date",
+                    "name": "['EndDate']",
+                    "type": "date"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['Status'] == 'Activated' || $scope.obj['Status'] == 'In Approval Process' || $scope.obj['Status'] == 'Negotiating' || $scope.obj['Status'] == 'Signed' || $scope.obj['Status'] === 'Draft'",
+            "flyout": {
+                "layout": null
+            },
+            "isSmartAction": false,
+            "name": "Good State",
+            "sObjectType": "Contract",
+            "smartAction": {
+            },
+            "templateUrl": "commsB2B-vdo-card-active-de"
+        },
+        {
+            "actionCtxId": "['Id']",
+            "blankStateCheck": false,
+            "collapse": true,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['Status']",
+                        "logicalOperator": "&&",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "Rejected"
+                    },
+                    {
+                        "field": "['Status']",
+                        "logicalOperator": "||",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "Cancelled"
+                    },
+                    {
+                        "field": "['Status']",
+                        "logicalOperator": "||",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "Awaiting Approval"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "View Record",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-document1-line",
+                        "id": "View Record",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Terminate Contract",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-terminate-contract",
+                        "id": "Terminate Contract",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Type']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Type",
+                    "name": "['Type']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['StartDate']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Start Date",
+                    "name": "['StartDate']",
+                    "type": "date"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Status']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Status",
+                    "name": "['Status']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Renew']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Auto Renew",
+                    "name": "['Renew']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['EndDate']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "End Date",
+                    "name": "['EndDate']",
+                    "type": "date"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['Status'] == 'Rejected' || $scope.obj['Status'] == 'Cancelled' || $scope.obj['Status'] == 'Awaiting Approval'",
+            "flyout": {
+                "layout": null
+            },
+            "isSmartAction": false,
+            "name": "Warning State",
+            "sObjectType": "Contract",
+            "smartAction": {
+            },
+            "templateUrl": "commsB2B-vdo-card-warning-de"
+        },
+        {
+            "actionCtxId": "['Id']",
+            "blankStateCheck": false,
+            "collapse": true,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['Status']",
+                        "logicalOperator": "&&",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "Expired"
+                    },
+                    {
+                        "field": "['Status']",
+                        "logicalOperator": "||",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "Terminated"
+                    },
+                    {
+                        "field": "['Status']",
+                        "logicalOperator": "||",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "Signature Declined"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "View Record",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-document1-line",
+                        "id": "View Record",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Renew Contract",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-renew-contract",
+                        "id": "Renew Contract",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Amend Contract",
+                        "hasExtraParams": false,
+                        "iconName": "icon-v-modify-contract",
+                        "id": "Amend Contract",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Type']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Type",
+                    "name": "['Type']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['StartDate']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Start Date",
+                    "name": "['StartDate']",
+                    "type": "date"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Status']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Status",
+                    "name": "['Status']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Renew']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Auto Renew",
+                    "name": "['Renew']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['EndDate']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "End Date",
+                    "name": "['EndDate']",
+                    "type": "date"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['Status'] == 'Expired' || $scope.obj['Status'] == 'Terminated' || $scope.obj['Status'] == 'Signature Declined'",
+            "flyout": {
+                "layout": null
+            },
+            "isSmartAction": false,
+            "name": "Danger State",
+            "sObjectType": "Contract",
+            "smartAction": {
+            },
+            "templateUrl": "commsB2B-vdo-card-danger-de"
+        }
+    ],
+    "title": "Contracts"
+}

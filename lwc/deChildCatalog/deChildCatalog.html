@@ -1,0 +1,17 @@
+<template>
+    <div class="nds-dc-child-catalog-container">
+        <div class="nds-dc-catalog-title-container">
+            <slot name="dc-title"><h3>{catalogTitle}</h3></slot>
+            <span class="underline-title"></span>
+        </div>
+        <slot name="dc-child-catalog-wrapper">
+            <div class="item-list nds-dc-wrapper" if:true={childCatalogs}>
+                <template for:each={childCatalogs} for:item="category" for:index="index">
+                    <div class="slds-size--1-of-3 nds-dc-child-catalog-item tabMenu" key={category.name} data-catalog={category.catalogCode} onclick={onChildCatalogClick}>
+                        <span class="nds-dc-child-catalog-item">{category.name}</span>
+                    </div>
+                </template>
+            </div>
+        </slot>
+    </div>
+</template>

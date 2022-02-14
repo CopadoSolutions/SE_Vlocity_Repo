@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Callout Metadata</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Callout Metadata</value>
+    </caseValues>
+    <fields>
+        <label><!-- HTTPAction --></label>
+        <name>HTTPAction__c</name>
+        <picklistValues>
+            <masterLabel>DELETE</masterLabel>
+            <translation><!-- DELETE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GET</masterLabel>
+            <translation><!-- GET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POST</masterLabel>
+            <translation><!-- POST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PUT</masterLabel>
+            <translation><!-- PUT --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Integration Processing Class --></label>
+        <name>IntegrationProcessingClass__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Active --></label>
+        <name>IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Outbound DataRaptor Bundle --></label>
+        <name>OutboundDataRaptorBundleId__c</name>
+        <relationshipLabel><!-- Callout Metadata (Outbound DataRaptor Bundle) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Persist Callout Data --></label>
+        <name>PersistCalloutData__c</name>
+    </fields>
+    <fields>
+        <label><!-- Result DataRaptor Bundle --></label>
+        <name>ResultDataRaptorBundleId__c</name>
+        <relationshipLabel><!-- Callout Metadata (Response DataRaptor Bundle) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- System --></label>
+        <name>SystemId__c</name>
+        <relationshipLabel><!-- Callout Metadata --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Transform URL DataRaptor Bundle --></label>
+        <name>TransformURLDataRaptorBundleId__c</name>
+        <relationshipLabel><!-- Callout Metadata (Transform URL DataRaptor Bundle) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- URI --></label>
+        <name>URI__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

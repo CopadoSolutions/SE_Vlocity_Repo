@@ -1,0 +1,18 @@
+{
+    "%vlocity_namespace%__DataSourceType__c": "",
+    "%vlocity_namespace%__DataSource__c": "",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "",
+    "%vlocity_namespace%__ExpirationDate__c": "",
+    "%vlocity_namespace%__Headline__c": "",
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__LinkedProductId__c": "",
+    "%vlocity_namespace%__SubTitle__c": "",
+    "%vlocity_namespace%__TargetObjectKey__c": "nuSlice Mobile Order",
+    "%vlocity_namespace%__TargetObjectType__c": "VlocityAction",
+    "Attachment": "nuSlice-5G-Streaming-Offer_Attachments.json",
+    "Name": "nuSlice-5G-Streaming-Offer",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VqResource__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VqResource__c/nuSlice-5G-Streaming-Offer"
+}
