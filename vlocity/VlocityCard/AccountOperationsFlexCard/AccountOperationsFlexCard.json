@@ -4,7 +4,7 @@
             {
                 "id": 0,
                 "name": "Account Name",
-                "val": "Operations"
+                "val": "Ops"
             }
         ],
         "orderBy": {
@@ -14,7 +14,7 @@
         "type": "Query",
         "value": {
             "dsDelay": "",
-            "query": "SELECT id, name from Account where name = 'Operations'"
+            "query": "SELECT id from Account where name = 'Ops'"
         }
     },
     "enableLwc": true,
