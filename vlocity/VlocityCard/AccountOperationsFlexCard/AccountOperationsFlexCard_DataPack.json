@@ -6,7 +6,7 @@
             {
                 "id": 0,
                 "name": "Account Name",
-                "val": "Operations"
+                "val": "Ops"
             }
         ],
         "orderBy": {
@@ -16,12 +16,12 @@
         "type": "Query",
         "value": {
             "dsDelay": "",
-            "query": "SELECT id, name from Account where name = 'Operations'"
+            "query": "SELECT id from Account where name = 'Ops'"
         }
     },
     "%vlocity_namespace%__Definition__c": "AccountOperationsFlexCard.json",
     "%vlocity_namespace%__Description__c": "FlexCard for Account Operations",
-    "%vlocity_namespace%__GlobalKey__c": "AccountOperationsFlexCard/Salesforce_Industries/1/1654712259532",
+    "%vlocity_namespace%__GlobalKey__c": "AccountOperationsFlexCard/Salesforce_Industries/1/1654712687864",
     "%vlocity_namespace%__IsChildCard__c": false,
     "%vlocity_namespace%__ParentID__c": "",
     "%vlocity_namespace%__SampleData__c": "[]",
